@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "description": "Venue Reduced Record — 20 core fields for high-level filtering and bride-facing comparison.",
+    "schema_version": "v1.1.0",
+    "field_count": 20,
+    "golden_record_ref": "chateau-de-tauzies_full.json"
+  },
+
+  "venue_name": "Chateau de Tauzies",
+  "venue_type": "chateau",
+  "short_description": "Formerly a wine estate reborn in 2018, Chateau de Tauzies is a charming domain on the heights of Gaillac in the Tarn, at the heart of the Gaillac vineyard, offering full privatisation for weddings of up to 200 guests with 56 sleeping on-site.",
+  "region": "Occitanie",
+  "department": "Tarn",
+  "nearest_city": "Albi (22 minutes)",
+  "max_guests": 200,
+  "min_guests": null,
+  "max_sleeping_guests": 56,
+  "total_bedrooms": 15,
+  "starting_price_eur": 6860,
+  "exclusivity_model": "full_exclusivity",
+  "catering_model": "free_choice",
+  "on_site_accommodation": true,
+  "swimming_pool": true,
+  "chapel_on_site": false,
+  "curfew": null,
+  "child_friendly": true,
+  "google_rating": 4.8,
+  "website_url": "https://www.chateaudetauzies.com/"
+}

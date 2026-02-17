@@ -1,0 +1,501 @@
+{
+  "overview": {
+    "min_price_eur": 11500,
+    "max_guests": 450,
+    "min_guests": null,
+    "max_sleeping_guests": null,
+    "total_bedrooms": null,
+    "estate_size_hectares": null
+  },
+
+  "identity": {
+    "venue_name": "Chateau de La Napoule",
+    "venue_type": "chateau",
+    "venue_subtype": "neo-medieval fortress",
+    "tagline": null,
+    "short_description": "A neo-medieval seaside fortress on the bay of Cannes, transformed by American artists Henry and Marie Clews into a cultural sanctuary. Now operated by La Napoule Art Foundation, the chateau offers indoor and outdoor event spaces with Mediterranean views for weddings of up to 450 guests.",
+    "exclusivity_model": "full_exclusivity",
+    "owner_names": null,
+    "management_company": "La Napoule Art Foundation",
+    "network_membership": null,
+    "media_features": null,
+    "filming_credits": null,
+    "certifications": null,
+    "google_rating": null,
+    "google_review_count": null,
+    "languages_spoken": null
+  },
+
+  "location": {
+    "address": {
+      "street": "Avenue Henry Clews",
+      "city": "Mandelieu-la-Napoule",
+      "postal_code": "06210",
+      "department": "Alpes-Maritimes",
+      "country": "France"
+    },
+    "gps_coordinates": null,
+    "region": "Provence-Alpes-Cote d'Azur",
+    "sub_region": "French Riviera",
+    "natural_park": null,
+    "nearest_city": {
+      "name": "Cannes",
+      "distance_text": "7 kilometres west"
+    },
+    "nearest_cities": [
+      { "name": "Cannes", "distance_text": "7 kilometres" },
+      { "name": "Nice", "distance_text": "30 minutes by car" }
+    ],
+    "nearest_airports": [
+      { "name": "Nice-Cote d'Azur Airport", "distance_text": "30 minutes on the highway" }
+    ],
+    "nearest_train_stations": [
+      { "name": "La Napoule TER stop", "distance_text": "directly facing the chateau" },
+      { "name": "Cannes Train Station", "distance_text": "7 kilometres" }
+    ],
+    "motorway_access": "A8, exit 40 'Mandelieu Centre'",
+    "distance_to_paris": "approximately 5 hours by TGV via Cannes, approximately 9 hours by car",
+    "distance_to_coast": "seafront location",
+    "nearby_villages": null,
+    "nearby_attractions": null,
+    "landscape_description": "Seafront location on the bay of Cannes with views of the Mediterranean, the bay of Theoule, and the Lerins Islands, with Mont San Peyre as a scenic backdrop",
+    "shuttle_service_available": null
+  },
+
+  "history": {
+    "construction_period": "over 2,000 years ago (Roman origins)",
+    "construction_year": null,
+    "architectural_style": "neo-medieval",
+    "architect": "Marie Clews (architect and landscape designer)",
+    "listed_monument_status": null,
+    "historical_families": ["Villeneuve family", "Henry and Marie Clews"],
+    "notable_historical_guests": ["Winston Churchill", "the composer Delius"],
+    "historical_narrative": "After its original discovery by the Romans over 2,000 years ago, this site hosted the construction of a fortress by the Villeneuve family during the medieval period. It was destroyed and rebuilt several times throughout history, most notably as a glass factory and as a large coastal mansion. Henry and Marie Clews, an eccentric American couple, fell in love with the Chateau in 1918 and for 20 years invested their shared creativity into fully restoring it. Marie served as architect and landscape designer while Henry worked as sculptor, transforming the fortress ruins into a neo-medieval seaside artistic retreat surrounded by magnificent gardens. The couple organized extravagant parties for European aristocracy and American expats. Following Henry's death in 1937, Marie founded La Napoule Art Foundation in 1951 to honor his memory.",
+    "notable_architectural_features": [
+      "cloister with columns adorned with Henry Clews' fantastic animals",
+      "Tour de la Mancha with inaccessible room at the top",
+      "stained-glass windows in Gothic Dining Room",
+      "large ribbed ceilings in Gothic Dining Room",
+      "walnut doors covered with Henry's fantastical creatures in Salon de Marie",
+      "God of Humour Mystics bronze sculpture by Henry Clews in courtyard",
+      "crenellated wall with three arches overlooking gardens"
+    ],
+    "renovation_history": "Fully restored by Henry and Marie Clews from 1918 over 20 years, transforming fortress ruins into a neo-medieval artistic retreat",
+    "literary_cultural_associations": null
+  },
+
+  "spaces": [
+    {
+      "name": "Grand Walkway",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": 350,
+      "rental_fee_eur": null,
+      "suitable_for": ["guest arrivals", "ceremony"],
+      "notable_features": ["60 metres long", "Mont San Peyre scenic backdrop", "archway opening onto courtyard"],
+      "description": "An ideal passageway for the arrival of guests, leading to an archway opening onto the courtyard. The central aisle can accommodate up to 350 guests for ceremonies.",
+      "soundproofed": null,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "The Gardens",
+      "setting": "outdoor",
+      "area_sqm": 10000,
+      "capacity_seated": null,
+      "capacity_cocktail": 450,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["cocktail"],
+      "notable_features": ["over one hectare", "French-style gardens with clipped hedges and tall cypress trees", "English-style gardens with century-old trees", "large rectangular pond"],
+      "description": "Gardens designed by Marie Clews laid out on either side of the grand walkway. Half are French-style gardens characterized by clipped hedges and tall cypress trees, set off by a large rectangular pond. The other side features English-style gardens with century-old trees and an undergrowth feel.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "The Lovers' Garden",
+      "setting": "outdoor",
+      "area_sqm": 450,
+      "capacity_seated": null,
+      "capacity_cocktail": 220,
+      "capacity_ceremony": 200,
+      "rental_fee_eur": null,
+      "suitable_for": ["ceremony", "cocktail"],
+      "notable_features": ["view of the chateau's towers and battlements", "overlooked by the Tour de la Mancha", "situated opposite the sea"],
+      "description": "The Lovers' Garden offers a unique view of the chateau's towers and battlements, situated opposite the sea. It lends itself perfectly to wedding ceremonies or cocktail parties.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Seafront Terraces",
+      "setting": "outdoor",
+      "area_sqm": 130,
+      "capacity_seated": null,
+      "capacity_cocktail": 150,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["cocktail"],
+      "notable_features": ["overlook the Mediterranean", "spectacular view of the bay of Theoule and the Lerins Islands"],
+      "description": "The chateau's ramparts transformed into magnificent seafront terraces by the Clews couple. They run alongside the Salon de Marie and the Gothic Dining Room, offering an idyllic setting to enjoy the fading light of the sun at cocktail hour.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Salon de Marie",
+      "setting": "indoor",
+      "area_sqm": 70,
+      "capacity_seated": 50,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["cocktail", "dinner"],
+      "notable_features": ["high French windows with direct access to ramparts facing the sea", "walnut doors covered with Henry's fantastical creatures", "intricate architectural details"],
+      "description": "A drawing room featuring high French windows giving direct access to the ramparts facing the sea. The room is brimming with unusual architectural details, and its walnut doors open into the majestic Gothic Dining Room. Can be used as an access point to other parts of the chateau or fitted out for cocktails or dinner.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "The Courtyard",
+      "setting": "outdoor",
+      "area_sqm": 550,
+      "capacity_seated": 450,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dinner"],
+      "notable_features": ["cloister with columns adorned with Henry Clews' fantastic animals", "crenellated wall with three arches overlooking gardens", "God of Humour Mystics bronze sculpture by Henry Clews"],
+      "description": "Despite its large surface area, the courtyard offers an intimate setting with ample seating capacity. It is the ideal location for a dinner party. Bounded by a crenellated wall opening into three arches overlooking the gardens and the grand walkway.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Gothic Dining Room",
+      "setting": "indoor",
+      "area_sqm": 120,
+      "capacity_seated": 80,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dancing", "dinner", "rain_backup"],
+      "notable_features": ["large ribbed ceilings", "stained-glass windows overlooking the ramparts and the sea", "round granite table adorned with carved daisy petals", "Gothic and Romanesque blend"],
+      "description": "Restored to resemble a church nave with a blend of Gothic and Romanesque styles. Its thick walls make it the perfect dance space to keep the party going well into the night. Can accommodate up to 200 for dancing and 80 seated for dinner. Serves as a fallback solution for bad weather.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Spencer Gallery",
+      "setting": "indoor",
+      "area_sqm": 150,
+      "capacity_seated": 150,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dinner", "dancing"],
+      "notable_features": ["once the chateau's ballroom", "historical guests including the composer Delius and Winston Churchill"],
+      "description": "Once the chateau's ballroom, the Spencer Gallery has seen many distinguished guests pass through during the Clews' social events. At 150 square metres, it is particularly well suited to its original function as a dance space and can accommodate up to 150 seated guests for dinner.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    }
+  ],
+
+  "accommodation": {
+    "on_site_accommodation": false,
+    "total_bedrooms": null,
+    "total_sleeping_capacity": null,
+    "mandatory_accommodation_purchase": null,
+    "mandatory_accommodation_details": null,
+    "bridal_suite": null,
+    "bridal_suite_description": null,
+    "preparation_rooms": null,
+    "buildings": null,
+    "room_amenities_common": null,
+    "air_conditioning": null,
+    "breakfast_included": null,
+    "breakfast_details": null,
+    "breakfast_price_per_person_eur": null,
+    "dormitory_available": null,
+    "dormitory_beds": null,
+    "nearby_accommodation": [
+      "BW Premier Collection Ilot du Golf (4-star, Mandelieu)",
+      "Pullman Cannes Mandelieu Royal Casino (4-star, Mandelieu)",
+      "Hotel Casarose (4-star, Mandelieu)",
+      "Ermitage de l'Oasis & Spa (4-star, Mandelieu)",
+      "Hotel Martinez (5-star, Cannes)",
+      "Carlton Cannes (5-star, Cannes)",
+      "Five Seas Hotel Cannes (5-star, Cannes)",
+      "Hotel Barriere Le Majestic (5-star, Cannes)"
+    ],
+    "partner_hotel": null
+  },
+
+  "pricing": {
+    "pricing_model": "dry_hire",
+    "starting_price_eur": 11500,
+    "starting_price_description": "Partial day rental (7PM to 3AM), excluding VAT. Includes access to courtyard, seafront terraces, gardens, three interior lounges (Gothic Dining Room, Salon de Marie, Spencer Gallery), and caterer facilities.",
+    "prices_include_tax": false,
+    "vat_rate_percentage": 20,
+    "tourist_tax_note": null,
+    "pricing_year": null,
+    "seasonal_pricing": [
+      {
+        "season_name": "partial_day",
+        "months": null,
+        "day_of_week": null,
+        "price_eur": 11500,
+        "price_description": "Partial day rental, 7PM to 3AM, excluding VAT"
+      },
+      {
+        "season_name": "full_day",
+        "months": null,
+        "day_of_week": null,
+        "price_eur": 21000,
+        "price_description": "Full day rental, from 6AM until 3AM, excluding VAT"
+      }
+    ],
+    "packages": null,
+    "catering_cost_per_person_eur": null,
+    "children_catering_price_eur": null,
+    "children_pricing_age_range": null,
+    "drinks_cost_per_person_eur": null,
+    "brunch_cost_per_person_eur": null,
+    "brunch_venue_fee_eur": null,
+    "welcome_dinner_cost_eur": null,
+    "minimum_nights": null,
+    "additional_night_rate_eur": null,
+    "extended_hour_rate_eur": 600,
+    "rental_period_description": "Partial day: 7PM to 3AM. Full day: 6AM to 3AM.",
+    "deposit_percentage": null,
+    "deposit_amount_eur": null,
+    "deposit_refundable": null,
+    "security_deposit_eur": null,
+    "security_deposit_return_days": null,
+    "payment_schedule": null,
+    "payment_methods": null,
+    "cancellation_policy": null,
+    "cleaning_fee_eur": null,
+    "security_guard_cost_eur": null,
+    "coordinator_cost_eur": null,
+    "price_includes": [
+      "Exclusive use of courtyard, seafront terraces, gardens, and three interior lounges",
+      "Access to caterer facilities and equipment storage",
+      "2 foundation staff on-site during the event",
+      "Cleaning before and after the event",
+      "Management of guest flow"
+    ],
+    "price_excludes": [
+      "Catering",
+      "Lighting",
+      "Sound",
+      "Marquees",
+      "Furniture",
+      "VAT (20%)"
+    ],
+    "price_extras": [
+      "Security, cleaning and insurance package (€800 for <200 guests or €1,200 for 200+ guests per rental)",
+      "Additional hours at €600/hour",
+      "Organizer liability insurance (€100)",
+      "Marquee (mandatory for 200+ guests)"
+    ]
+  },
+
+  "catering": {
+    "catering_model": "recommended_list",
+    "in_house_chef": null,
+    "recommended_caterers": [
+      "GIRY TRAITEUR",
+      "PAVILLON TRAITEUR",
+      "HELEN TRAITEUR",
+      "PAVILLON DES CHEFS",
+      "LENOTRE TRAITEUR",
+      "POTEL ET CHABOT MEDITERRANEE",
+      "DANY'S TRAITEUR",
+      "JARDIN DES CHEFS"
+    ],
+    "cuisine_style": null,
+    "dietary_accommodations": null,
+    "professional_kitchen": null,
+    "kitchen_size_sqm": null,
+    "on_site_restaurant": null,
+    "brunch_available": null,
+    "brunch_description": null,
+    "late_night_food_available": null,
+    "pre_wedding_dinner": null,
+    "tasting_meal_included": null,
+    "wedding_cake": null
+  },
+
+  "drinks": {
+    "corkage_fee": null,
+    "corkage_fee_amount_eur": null,
+    "byo_wine_allowed": null,
+    "mandatory_venue_drinks": null,
+    "venue_wine_requirement": null,
+    "on_site_wine_production": null,
+    "wine_appellation": null,
+    "bar_service_description": null,
+    "wine_cellar": null
+  },
+
+  "vendor_rules": {
+    "vendor_freedom": "restricted",
+    "preferred_vendor_list_available": true,
+    "vendor_categories_recommended": ["catering", "lighting", "sound", "furniture", "marquees"],
+    "in_house_services": ["on-site coordination by 2 foundation staff"],
+    "wedding_planner_available": null,
+    "wedding_planner_mandatory": null,
+    "wedding_planner_name": null,
+    "non_approved_vendor_fee": null,
+    "day_of_coordinator_provided": true,
+    "dedicated_project_manager": null
+  },
+
+  "ceremony": {
+    "ceremony_types": null,
+    "licensed_for_civil_marriage": null,
+    "chapel_on_site": false,
+    "chapel_details": null,
+    "nearby_church": null,
+    "outdoor_ceremony_locations": ["Grand Walkway", "Lovers' Garden"],
+    "rain_backup_plan": "In case of bad weather, dinner can be held inside the chateau (Gothic Dining Room or Spencer Gallery) with no additional cost for groups of fewer than 200",
+    "celebrant_available": null,
+    "elopement_option": null
+  },
+
+  "amenities": {
+    "swimming_pool": null,
+    "pool_count": null,
+    "pool_details": null,
+    "hot_tub_jacuzzi": null,
+    "spa": null,
+    "spa_details": null,
+    "tennis_court": null,
+    "petanque_court": null,
+    "gym_fitness": null,
+    "games_room": null,
+    "library": null,
+    "cinema_room": null,
+    "grand_piano": null,
+    "children_playground": null,
+    "helipad": null,
+    "gardens_description": "Gardens designed by Marie Clews spanning over one hectare, with French-style gardens featuring clipped hedges, tall cypress trees, and a large rectangular pond on one side, and English-style gardens with century-old trees on the other.",
+    "garden_style": "French formal and English landscape",
+    "vineyard_on_site": null,
+    "olive_groves": null,
+    "lake_pond": null,
+    "forest_woodland": null,
+    "notable_trees": ["century-old trees in the English-style gardens", "tall cypress trees in the French-style gardens"],
+    "fountain_water_feature": true,
+    "orangery": null,
+    "dovecote": null,
+    "greenhouse": null
+  },
+
+  "activities": {
+    "on_site_activities": null,
+    "nearby_activities": null,
+    "wine_tasting_on_site": null,
+    "cooking_workshops": null,
+    "excursions_organized": null,
+    "excursion_destinations": null,
+    "fireworks_available": null,
+    "fireworks_details": null
+  },
+
+  "technical": {
+    "wifi_available": null,
+    "sound_system_provided": null,
+    "av_equipment": null,
+    "furniture_provided": false,
+    "furniture_details": "Furniture must be contracted through approved vendor list",
+    "decoration_services": null,
+    "marquee_tent_available": null,
+    "marquee_size_sqm": null,
+    "backup_generator": null,
+    "ev_charging_stations": null,
+    "climate_control": null
+  },
+
+  "accessibility": {
+    "wheelchair_accessible": null,
+    "accessible_rooms_count": null,
+    "elevator": null,
+    "pmr_parking": null,
+    "accessibility_details": null
+  },
+
+  "sustainability": {
+    "eco_certifications": null,
+    "eco_practices": null
+  },
+
+  "parking": {
+    "parking_available": false,
+    "parking_spaces": null,
+    "parking_type": "No allocated parking at the chateau. Nearby options: Parking St Faineant (50 places), Parking Soustelle (40 places), some spots on Avenue Henry Clews.",
+    "vendor_parking_separate": null
+  },
+
+  "policies": {
+    "curfew_time": "3:00 AM indoors",
+    "outdoor_music_curfew": "11:00 PM (after which only lounge music at lower volume permitted outdoors)",
+    "indoor_music_curfew": "3:00 AM",
+    "no_curfew": false,
+    "noise_restrictions": "Before 11:00 PM, outdoor music limited to 80dB for orchestras and 90dB for speakers. After 11:00 PM, only lounge music at lower volume permitted outdoors. Dance reception must be held indoors in the Gothic Hall or Spencer Gallery until 3:00 AM.",
+    "setup_access_time": "Partial day: 6AM to 10AM and 5PM to 7PM. Full day: from 6AM until guest arrival.",
+    "teardown_deadline": "3AM to 6AM",
+    "tent_marquee_policy": "Mandatory for groups of more than 200 guests to cover the courtyard. Must be arranged through approved vendor list at client's cost.",
+    "confetti_policy": null,
+    "candle_policy": null,
+    "event_insurance_required": true,
+    "event_insurance_cost_eur": 100,
+    "portable_toilets_policy": null,
+    "lifeguard_required": null,
+    "babysitter_mandatory": null,
+    "pet_policy": null,
+    "child_friendly": null,
+    "baby_facilities": null,
+    "children_area": null,
+    "babysitter_available": null,
+    "lgbtq_friendly": null,
+    "all_faiths_welcome": null,
+    "security_guard_policy": null,
+    "events_per_year_limit": null,
+    "check_in_time": null,
+    "check_out_time": null
+  },
+
+  "contact": {
+    "phone_primary": "+33 4 93 49 95 05",
+    "phone_secondary": "+33 6 29 59 97 51",
+    "email_primary": "event@chateau-lanapoule.com",
+    "email_secondary": "jsterre@chateau-lanapoule.com",
+    "website_url": "https://www.lnaf.org",
+    "instagram": "@la_napoule_artfoundation",
+    "facebook": null,
+    "other_social_media": null,
+    "whatsapp": null,
+    "contact_person": "Jennifer Sterre, Events manager - Interior design coordinator",
+    "phone_hours": null,
+    "brochure_url": null,
+    "virtual_tour_url": null
+  },
+
+  "event_types": ["weddings", "private events", "corporate events", "seminars", "gala dinners", "exhibitions", "cocktail parties", "anniversaries"],
+
+  "wedding_day_details": {
+    "typical_timeline": null,
+    "typical_weekend_flow": null,
+    "multi_day_event": null,
+    "cultural_ceremony_experience": null,
+    "destination_wedding_speciality": null
+  }
+}

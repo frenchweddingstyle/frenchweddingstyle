@@ -1,0 +1,600 @@
+{
+  "overview": {
+    "min_price_eur": 2850,
+    "max_guests": 270,
+    "min_guests": 20,
+    "max_sleeping_guests": 52,
+    "total_bedrooms": null,
+    "estate_size_hectares": 11
+  },
+
+  "identity": {
+    "venue_name": "Chateau de la Rode",
+    "venue_type": "chateau",
+    "venue_subtype": "cistercian abbey",
+    "tagline": null,
+    "short_description": "A former 16th-century Royal Abbey with Cistercian origins dating to the 12th century, set in 11 hectares of private parkland in the Tarn department. The estate is fully privatised for weddings of 20 to 270 guests, with on-site accommodation for up to 52 in 7 renovated gites.",
+    "exclusivity_model": "full_exclusivity",
+    "owner_names": ["Violaine Geli"],
+    "management_company": null,
+    "network_membership": null,
+    "media_features": null,
+    "filming_credits": null,
+    "certifications": null,
+    "google_rating": 5.0,
+    "google_review_count": null,
+    "languages_spoken": ["French", "English", "Spanish"]
+  },
+
+  "location": {
+    "address": {
+      "street": "Lieu dit, La Rode",
+      "city": "Lempaut",
+      "postal_code": "81700",
+      "department": "Tarn",
+      "country": "France"
+    },
+    "gps_coordinates": null,
+    "region": "Occitanie",
+    "sub_region": null,
+    "natural_park": null,
+    "nearest_city": {
+      "name": "Castres",
+      "distance_text": "20 minutes"
+    },
+    "nearest_cities": [
+      { "name": "Castres", "distance_text": "20 minutes" },
+      { "name": "Castelnaudary", "distance_text": "30 minutes" },
+      { "name": "Toulouse", "distance_text": "50 minutes" },
+      { "name": "Carcassonne", "distance_text": "1 hour" }
+    ],
+    "nearest_airports": [
+      { "name": "Castres Airport", "distance_text": "20 minutes (18 km)" },
+      { "name": "Toulouse-Blagnac Airport", "distance_text": "50 minutes (78 km)" },
+      { "name": "Carcassonne Airport", "distance_text": "1 hour 2 minutes (74 km)" }
+    ],
+    "nearest_train_stations": null,
+    "motorway_access": "A61 motorway, 35 minutes",
+    "distance_to_paris": null,
+    "distance_to_coast": null,
+    "nearby_villages": ["Revel"],
+    "nearby_attractions": [
+      "Canal du Midi",
+      "Medieval City of Carcassonne (UNESCO World Heritage)",
+      "Toulouse - Place du Capitole, Basilica of Saint-Sernin, Cite de l'Espace",
+      "Castres - Goya Museum, Bishop's Garden",
+      "Lake Saint-Ferreol",
+      "Cathar Castles (Lastours, Saissac)",
+      "Castelnaudary"
+    ],
+    "landscape_description": "In the heart of the Toulouse-Castres-Castelnaudary triangle, in the Tarn department",
+    "shuttle_service_available": true
+  },
+
+  "history": {
+    "construction_period": "12th century (origins), 16th century (abbey)",
+    "construction_year": null,
+    "architectural_style": "cistercian abbey with 16th-century and 19th-century refinements",
+    "architect": null,
+    "listed_monument_status": null,
+    "historical_families": null,
+    "notable_historical_guests": null,
+    "historical_narrative": "Chateau de la Rode is a former 16th-century Royal Abbey (Cistercian abbey) whose origins date back to the 12th century. Originally, La Rode was a grange — a small monastic outpost where monks lived and managed local farmworkers — under the jurisdiction of the Abbey of Ardorel. It served as a Cistercian abbey until the French Revolution.",
+    "notable_architectural_features": [
+      "16th-century cloister",
+      "19th-century summer lounge with painted cement tiles and wrought iron gates",
+      "Grand 19th-century staircase with elaborate banister"
+    ],
+    "renovation_history": "Recent interior restoration",
+    "literary_cultural_associations": null
+  },
+
+  "spaces": [
+    {
+      "name": "La Tente (The Tent / Marquee)",
+      "setting": "covered_outdoor",
+      "area_sqm": 300,
+      "capacity_seated": 270,
+      "capacity_cocktail": 450,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dinner", "dancing"],
+      "notable_features": ["chandeliers", "draped ceiling", "starry ceiling for dancing", "view of the chateau"],
+      "description": "A 300m2 marquee set in the middle of the park with a view of the chateau. Features chandeliers, draped ceiling, and a dedicated catering tent for service. Transforms into a ballroom with a starry ceiling.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Le Salon d'ete (The Summer Lounge)",
+      "setting": "indoor",
+      "area_sqm": 100,
+      "capacity_seated": 270,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["ceremony", "rain_backup", "dinner", "brunch"],
+      "notable_features": ["ornate wrought iron gates", "overlooks park and French-style gardens"],
+      "description": "100m2 room overlooking the park and French-style gardens, with ornate wrought iron gates. Suitable for ceremonies, a weather fallback, more intimate receptions, or Sunday brunch.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Le Cloitre (The Cloister)",
+      "setting": "covered_outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["cocktail"],
+      "notable_features": ["16th-century historic cloister", "shaded and refreshing"],
+      "description": "A 16th-century shaded and refreshing historic setting, ideal for cocktails. Provides shelter during heat or bad weather.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Le Chateau",
+      "setting": "indoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["photos", "bridal_preparation"],
+      "notable_features": ["grand 19th-century staircase with elaborate banister", "exceptional bridal suite"],
+      "description": "The chateau itself features a grand 19th-century staircase ideal for photographs and an exceptional bridal suite.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "The Protected Park",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["ceremony", "cocktail", "photos"],
+      "notable_features": ["centuries-old trees", "majestic plane trees", "avenue of plane trees for ceremonies"],
+      "description": "11 hectares of private park with centuries-old trees and majestic plane trees providing welcome shade in summer. An avenue of plane trees can serve for secular ceremonies.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Green Space (Chateau Facade)",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["cocktail", "dinner"],
+      "notable_features": ["in front of the chateau facade"],
+      "description": "A green space in front of the chateau facade for cocktail parties or dinner.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    }
+  ],
+
+  "accommodation": {
+    "on_site_accommodation": true,
+    "total_bedrooms": null,
+    "total_sleeping_capacity": 52,
+    "mandatory_accommodation_purchase": null,
+    "mandatory_accommodation_details": null,
+    "bridal_suite": true,
+    "bridal_suite_description": "Located in the chateau itself. Described as sumptuous, with an elegant, authentic, refined, unique, and warm design. Features a welcome breakfast.",
+    "preparation_rooms": null,
+    "buildings": [
+      {
+        "name": "Bridal Suite (Exceptional Suite)",
+        "building_type": "chateau",
+        "bedrooms": 1,
+        "sleeping_capacity": 2,
+        "price_per_night_eur": null,
+        "description": "Located in the chateau itself. Sumptuous, elegant, authentic, refined, unique, and warm design. Includes a welcome breakfast.",
+        "has_kitchen": null,
+        "has_living_area": null,
+        "has_private_garden": null,
+        "rooms": null
+      },
+      {
+        "name": "La Maison de Pierre (The Stone House)",
+        "building_type": "gite",
+        "bedrooms": 2,
+        "sleeping_capacity": 6,
+        "price_per_night_eur": null,
+        "description": "Single-level gite of 100m2 with 2 bedrooms, 1 living room with 2 sofa beds, equipped kitchen, and bathroom with bathtub.",
+        "has_kitchen": true,
+        "has_living_area": true,
+        "has_private_garden": null,
+        "rooms": [
+          {
+            "name": "Bedroom 1",
+            "room_type": "double",
+            "capacity_persons": 2,
+            "bed_configuration": "1 bed (140x200 cm)",
+            "area_sqm": null,
+            "en_suite": false,
+            "bathroom_type": "shared bathroom with bathtub",
+            "view": null,
+            "has_terrace": null,
+            "air_conditioned": null,
+            "accessible": null,
+            "price_per_night_eur": null
+          },
+          {
+            "name": "Bedroom 2",
+            "room_type": "double",
+            "capacity_persons": 2,
+            "bed_configuration": "1 bed (160x200 cm)",
+            "area_sqm": null,
+            "en_suite": false,
+            "bathroom_type": "shared bathroom with bathtub",
+            "view": null,
+            "has_terrace": null,
+            "air_conditioned": null,
+            "accessible": null,
+            "price_per_night_eur": null
+          }
+        ]
+      },
+      {
+        "name": "L'Orangerie",
+        "building_type": "gite",
+        "bedrooms": 3,
+        "sleeping_capacity": 10,
+        "price_per_night_eur": null,
+        "description": "Two-level gite of 130m2. Ground floor has equipped kitchen, living room with sofa bed, and WC. Upper floor has 3 bedrooms and WC.",
+        "has_kitchen": true,
+        "has_living_area": true,
+        "has_private_garden": null,
+        "rooms": [
+          {
+            "name": "Bedroom 1 (Upper Floor)",
+            "room_type": "double",
+            "capacity_persons": 2,
+            "bed_configuration": "1 bed (160x200 cm)",
+            "area_sqm": null,
+            "en_suite": false,
+            "bathroom_type": null,
+            "view": null,
+            "has_terrace": null,
+            "air_conditioned": null,
+            "accessible": null,
+            "price_per_night_eur": null
+          },
+          {
+            "name": "Bedroom 2 (Upper Floor)",
+            "room_type": "twin",
+            "capacity_persons": 2,
+            "bed_configuration": "2 beds (90x200 cm)",
+            "area_sqm": null,
+            "en_suite": false,
+            "bathroom_type": null,
+            "view": null,
+            "has_terrace": null,
+            "air_conditioned": null,
+            "accessible": null,
+            "price_per_night_eur": null
+          },
+          {
+            "name": "Bedroom 3 (Upper Floor)",
+            "room_type": "dormitory",
+            "capacity_persons": 4,
+            "bed_configuration": "4 bunk beds (90x200 cm)",
+            "area_sqm": null,
+            "en_suite": false,
+            "bathroom_type": null,
+            "view": null,
+            "has_terrace": null,
+            "air_conditioned": null,
+            "accessible": null,
+            "price_per_night_eur": null
+          }
+        ]
+      },
+      {
+        "name": "Gite de l'Abbe",
+        "building_type": "gite",
+        "bedrooms": null,
+        "sleeping_capacity": null,
+        "price_per_night_eur": null,
+        "description": "One of the 4 cottages on the estate.",
+        "has_kitchen": true,
+        "has_living_area": null,
+        "has_private_garden": null,
+        "rooms": null
+      },
+      {
+        "name": "Gite de la Cases",
+        "building_type": "gite",
+        "bedrooms": null,
+        "sleeping_capacity": null,
+        "price_per_night_eur": null,
+        "description": "One of the 4 cottages on the estate.",
+        "has_kitchen": true,
+        "has_living_area": null,
+        "has_private_garden": null,
+        "rooms": null
+      },
+      {
+        "name": "Gite des Cisterciens",
+        "building_type": "gite",
+        "bedrooms": null,
+        "sleeping_capacity": null,
+        "price_per_night_eur": null,
+        "description": "One of the 4 cottages on the estate.",
+        "has_kitchen": true,
+        "has_living_area": null,
+        "has_private_garden": null,
+        "rooms": null
+      },
+      {
+        "name": "Gite des Cathares",
+        "building_type": "gite",
+        "bedrooms": null,
+        "sleeping_capacity": null,
+        "price_per_night_eur": null,
+        "description": "One of the 4 cottages on the estate.",
+        "has_kitchen": true,
+        "has_living_area": null,
+        "has_private_garden": null,
+        "rooms": null
+      }
+    ],
+    "room_amenities_common": ["private bathrooms", "equipped kitchens", "comfortable bedding", "high-speed internet"],
+    "air_conditioning": null,
+    "breakfast_included": null,
+    "breakfast_details": "Welcome breakfast included with bridal suite.",
+    "breakfast_price_per_person_eur": null,
+    "dormitory_available": null,
+    "dormitory_beds": null,
+    "nearby_accommodation": null,
+    "partner_hotel": null
+  },
+
+  "pricing": {
+    "pricing_model": "hybrid",
+    "starting_price_eur": 2850,
+    "starting_price_description": null,
+    "prices_include_tax": null,
+    "vat_rate_percentage": null,
+    "tourist_tax_note": null,
+    "pricing_year": null,
+    "seasonal_pricing": null,
+    "packages": null,
+    "catering_cost_per_person_eur": null,
+    "children_catering_price_eur": null,
+    "children_pricing_age_range": null,
+    "drinks_cost_per_person_eur": null,
+    "brunch_cost_per_person_eur": null,
+    "brunch_venue_fee_eur": null,
+    "welcome_dinner_cost_eur": null,
+    "minimum_nights": null,
+    "additional_night_rate_eur": null,
+    "extended_hour_rate_eur": null,
+    "rental_period_description": "Friday to Sunday afternoon",
+    "deposit_percentage": null,
+    "deposit_amount_eur": null,
+    "deposit_refundable": null,
+    "security_deposit_eur": null,
+    "security_deposit_return_days": null,
+    "payment_schedule": null,
+    "payment_methods": null,
+    "cancellation_policy": null,
+    "cleaning_fee_eur": null,
+    "security_guard_cost_eur": null,
+    "coordinator_cost_eur": null,
+    "price_includes": [
+      "Exclusive use of the chateau (park, cloister, barnum tent, summer lounge)",
+      "Tables and chairs for dinner",
+      "Accommodation for up to 52 guests in 7 renovated gites",
+      "Access to the swimming pool"
+    ],
+    "price_excludes": null,
+    "price_extras": [
+      "Light canopy (guinguette-style) for the tent",
+      "Romantic decoration elements",
+      "Chair sashes, outdoor lounges, lighting",
+      "Babysitter contacts",
+      "Local food tastings, wine pairings",
+      "Essential wedding planning guidance (450 EUR)",
+      "Full wedding coordination (2,000 EUR)"
+    ]
+  },
+
+  "catering": {
+    "catering_model": "free_choice",
+    "in_house_chef": null,
+    "recommended_caterers": null,
+    "cuisine_style": null,
+    "dietary_accommodations": null,
+    "professional_kitchen": true,
+    "kitchen_size_sqm": null,
+    "on_site_restaurant": null,
+    "brunch_available": true,
+    "brunch_description": "Sunday brunch available by the pool or in the summer lounge.",
+    "late_night_food_available": null,
+    "pre_wedding_dinner": null,
+    "tasting_meal_included": null,
+    "wedding_cake": null
+  },
+
+  "drinks": {
+    "corkage_fee": false,
+    "corkage_fee_amount_eur": null,
+    "byo_wine_allowed": true,
+    "mandatory_venue_drinks": false,
+    "venue_wine_requirement": null,
+    "on_site_wine_production": null,
+    "wine_appellation": null,
+    "bar_service_description": "Couples can choose their own wines, champagne and spirits at no additional cost. No corkage fee — this is part of the venue's agreement with partner caterers.",
+    "wine_cellar": null
+  },
+
+  "vendor_rules": {
+    "vendor_freedom": "full_freedom",
+    "preferred_vendor_list_available": true,
+    "vendor_categories_recommended": ["caterers", "photographers", "DJs", "florists", "wedding planners", "decoration partners"],
+    "in_house_services": ["wedding planning"],
+    "wedding_planner_available": "in_house",
+    "wedding_planner_mandatory": false,
+    "wedding_planner_name": "Violaine Geli",
+    "non_approved_vendor_fee": null,
+    "day_of_coordinator_provided": null,
+    "dedicated_project_manager": null
+  },
+
+  "ceremony": {
+    "ceremony_types": ["secular"],
+    "licensed_for_civil_marriage": null,
+    "chapel_on_site": false,
+    "chapel_details": null,
+    "nearby_church": null,
+    "outdoor_ceremony_locations": ["Avenue of plane trees in the park"],
+    "rain_backup_plan": "Le Salon d'ete (The Summer Lounge)",
+    "celebrant_available": null,
+    "elopement_option": null
+  },
+
+  "amenities": {
+    "swimming_pool": true,
+    "pool_count": 1,
+    "pool_details": "5x12 metres, with sun loungers, nestled in the park. Available during fine weather.",
+    "hot_tub_jacuzzi": null,
+    "spa": null,
+    "spa_details": null,
+    "tennis_court": null,
+    "petanque_court": true,
+    "gym_fitness": null,
+    "games_room": null,
+    "library": null,
+    "cinema_room": null,
+    "grand_piano": null,
+    "children_playground": null,
+    "helipad": null,
+    "gardens_description": "11 hectares of private grounds with centuries-old trees, including majestic plane trees providing shade. French-style gardens visible from the summer lounge.",
+    "garden_style": "French",
+    "vineyard_on_site": null,
+    "olive_groves": null,
+    "lake_pond": null,
+    "forest_woodland": null,
+    "notable_trees": ["Majestic plane trees (centuries-old)"],
+    "fountain_water_feature": null,
+    "orangery": null,
+    "dovecote": null,
+    "greenhouse": null
+  },
+
+  "activities": {
+    "on_site_activities": ["swimming", "petanque"],
+    "nearby_activities": [
+      "Canal du Midi cycling and boating",
+      "Golf course nearby",
+      "Lake Saint-Ferreol swimming and hiking",
+      "Cathar Castles visits"
+    ],
+    "wine_tasting_on_site": null,
+    "cooking_workshops": null,
+    "excursions_organized": null,
+    "excursion_destinations": null,
+    "fireworks_available": null,
+    "fireworks_details": null
+  },
+
+  "technical": {
+    "wifi_available": true,
+    "sound_system_provided": null,
+    "av_equipment": null,
+    "furniture_provided": true,
+    "furniture_details": "Tables, chairs, and decorative elements for receptions.",
+    "decoration_services": true,
+    "marquee_tent_available": true,
+    "marquee_size_sqm": 300,
+    "backup_generator": null,
+    "ev_charging_stations": null,
+    "climate_control": null
+  },
+
+  "accessibility": {
+    "wheelchair_accessible": true,
+    "accessible_rooms_count": null,
+    "elevator": null,
+    "pmr_parking": null,
+    "accessibility_details": "Disabled access available. Facilities for guests with mobility needs."
+  },
+
+  "sustainability": {
+    "eco_certifications": null,
+    "eco_practices": null
+  },
+
+  "parking": {
+    "parking_available": true,
+    "parking_spaces": 250,
+    "parking_type": "On-site parking with motorcycle shelter available",
+    "vendor_parking_separate": null
+  },
+
+  "policies": {
+    "curfew_time": null,
+    "outdoor_music_curfew": null,
+    "indoor_music_curfew": null,
+    "no_curfew": null,
+    "noise_restrictions": null,
+    "setup_access_time": null,
+    "teardown_deadline": null,
+    "tent_marquee_policy": null,
+    "confetti_policy": null,
+    "candle_policy": null,
+    "event_insurance_required": null,
+    "event_insurance_cost_eur": null,
+    "portable_toilets_policy": null,
+    "lifeguard_required": null,
+    "babysitter_mandatory": null,
+    "pet_policy": null,
+    "child_friendly": true,
+    "baby_facilities": ["cots", "changing facilities"],
+    "children_area": null,
+    "babysitter_available": true,
+    "lgbtq_friendly": null,
+    "all_faiths_welcome": null,
+    "security_guard_policy": null,
+    "events_per_year_limit": null,
+    "check_in_time": null,
+    "check_out_time": null
+  },
+
+  "contact": {
+    "phone_primary": null,
+    "phone_secondary": null,
+    "email_primary": "didier.tournot@orange.fr",
+    "email_secondary": null,
+    "website_url": "https://chateau-de-la-rode.com/",
+    "instagram": null,
+    "facebook": null,
+    "other_social_media": null,
+    "whatsapp": null,
+    "contact_person": "Violaine Geli",
+    "phone_hours": null,
+    "brochure_url": null,
+    "virtual_tour_url": null
+  },
+
+  "event_types": ["weddings", "corporate events", "seminars", "incentive trips", "birthdays", "private celebrations"],
+
+  "wedding_day_details": {
+    "typical_timeline": null,
+    "typical_weekend_flow": "Friday to Sunday: estate opens Friday, wedding on Saturday, Sunday brunch by the pool.",
+    "multi_day_event": true,
+    "cultural_ceremony_experience": null,
+    "destination_wedding_speciality": true
+  }
+}

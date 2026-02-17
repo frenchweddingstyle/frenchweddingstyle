@@ -1,0 +1,854 @@
+{
+  "overview": {
+    "min_price_eur": 9000,
+    "max_guests": 350,
+    "min_guests": null,
+    "max_sleeping_guests": 48,
+    "total_bedrooms": 17,
+    "estate_size_hectares": 250
+  },
+
+  "identity": {
+    "venue_name": "Domaine du Reveillon",
+    "venue_type": "domaine",
+    "venue_subtype": "chateau",
+    "tagline": "Un cadre de prestige en Bourgogne",
+    "short_description": "A prestigious 19th-century chateau estate set in 250 hectares of Burgundy parkland, offering exclusive privatisation for weddings of up to 350 guests with a 384m2 glass-fronted orangery and on-site accommodation for 48.",
+    "exclusivity_model": "full_exclusivity",
+    "owner_names": null,
+    "management_company": "Montespan Events",
+    "network_membership": null,
+    "media_features": null,
+    "filming_credits": null,
+    "certifications": null,
+    "google_rating": null,
+    "google_review_count": null,
+    "languages_spoken": null
+  },
+
+  "location": {
+    "address": {
+      "street": "2 Route de Clamecy",
+      "city": "Entrains-sur-Nohain",
+      "postal_code": "58410",
+      "department": "Nievre",
+      "country": "France"
+    },
+    "gps_coordinates": null,
+    "region": "Bourgogne-Franche-Comte",
+    "sub_region": "Puisaye",
+    "natural_park": null,
+    "nearest_city": null,
+    "nearest_cities": null,
+    "nearest_airports": [
+      {
+        "name": "Paris Orly Airport",
+        "distance_text": "1 hour 30 minutes by car"
+      },
+      {
+        "name": "Nevers Airport",
+        "distance_text": "1 hour by road"
+      }
+    ],
+    "nearest_train_stations": [
+      {
+        "name": "Gare de Clamecy",
+        "distance_text": "25 minutes"
+      },
+      {
+        "name": "Gare de Cosne",
+        "distance_text": "25 minutes"
+      }
+    ],
+    "motorway_access": "A6 towards Lyon, then A77 towards Nevers, exit 21 towards Auxerre",
+    "distance_to_paris": "2 hours 15 minutes by car via A6 and D965",
+    "distance_to_coast": null,
+    "nearby_villages": [
+      "Entrains-sur-Nohain"
+    ],
+    "nearby_attractions": [
+      "Loire vineyards",
+      "Vezelay",
+      "Chateau de Guedelon"
+    ],
+    "landscape_description": "Verdant countryside of the Puisaye region in Burgundy, with wide agricultural plateaus and beautiful wooded hillsides, crossed by the Nohain river",
+    "shuttle_service_available": null
+  },
+
+  "history": {
+    "construction_period": "19th century",
+    "construction_year": 1875,
+    "architectural_style": null,
+    "architect": null,
+    "listed_monument_status": null,
+    "historical_families": [
+      "Rochechouart de Mortemart family",
+      "Comte Roy (Antoine Comte Roy)",
+      "Vicomte Leopold d'Hunolstein"
+    ],
+    "notable_historical_guests": null,
+    "historical_narrative": "The Chateau du Reveillon was built in 1875 on the foundations of the manor of the chatellenie d'Entrains, a former property of the Duke of Nevers. The first stones were laid in 1810 by Antoine Comte Roy, deputy, Peer of France, and several times Minister of Finance under Louis XVIII and Charles X. Its construction was completed in 1875 by Vicomte Leopold d'Hunolstein, married to Laure de Crussol d'Uzes, who died on May 4, 1897 during the fire at the Bazar de la Charite. The union of their descendant, Helene d'Hunolstein, to Arthur, Duke of Mortemart, brought the Chateau into the Rochechouart de Mortemart family, an illustrious French family that remains the owner. The Rochechouart de Mortemart family is one of the oldest families of French nobility, able to prove its origins before the year 1000. The family counts among its members Athenais de Mortemart (1640-1707), Marquise de Montespan, patron of the decorative arts and favorite of Louis XIV.",
+    "notable_architectural_features": null,
+    "renovation_history": "Two years of renovation before opening its doors for the first time",
+    "literary_cultural_associations": [
+      "Athenais de Mortemart, Marquise de Montespan, favorite of Louis XIV"
+    ]
+  },
+
+  "spaces": [
+    {
+      "name": "Orangery",
+      "setting": "indoor",
+      "area_sqm": 384,
+      "capacity_seated": 250,
+      "capacity_cocktail": 300,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dinner", "dancing", "cocktail"],
+      "notable_features": ["glass-fronted", "384m2", "located between the Castle and the swimming pool", "adjoining 50m2 catering office"],
+      "description": "Elegant and majestic orangery adorned with light, enjoying an ideal location between the Castle and the swimming pool. Offers all the modularity needed for receptions. Can seat 250 for dinner including dancefloor space, or 300 without dancefloor. For more than 280 seated guests, an additional structure can be added for the dancefloor or to expand the reception areas.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Chateau Courtyard",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["cocktail", "photos"],
+      "notable_features": ["gravel courtyards", "stunning view of the sunset"],
+      "description": "Large gravel courtyards around the Castle opening onto the Park. The cocktail space is located in the chateau courtyard, with a stunning view of the sunset. All necessary furniture for cocktails is provided: standing tables, buffet, wrought iron tables under the trees.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Gardens",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": 150,
+      "rental_fee_eur": null,
+      "suitable_for": ["ceremony", "cocktail", "photos"],
+      "notable_features": ["English-style park", "century-old trees"],
+      "description": "Gardens for the organization of cocktail parties or outdoor ceremonies. Secular ceremony furniture provided for up to 150 guests including arch, benches, and lecterns.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Pool House & Terrace",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["brunch", "cocktail"],
+      "notable_features": ["heated swimming pool", "relaxation furniture"],
+      "description": "Heated swimming pool area with pool house, ideal for relaxing moments or brunch by the water.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Silhouette Tent",
+      "setting": "covered_outdoor",
+      "area_sqm": 450,
+      "capacity_seated": 350,
+      "capacity_cocktail": 450,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dinner", "dancing", "cocktail"],
+      "notable_features": ["Chateau as backdrop", "Park in perspective", "modular spaces"],
+      "description": "With the Chateau as a backdrop and the Park in perspective, a 450m2 silhouette tent hosts receptions with elegance and modularity. Capacity of up to 350 guests for a seated dinner and 450 for a cocktail. Divides into distinct spaces including dining space, dance floor, and lounge area opening onto the cocktail space on the chateau forecourt.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    }
+  ],
+
+  "accommodation": {
+    "on_site_accommodation": true,
+    "total_bedrooms": 17,
+    "total_sleeping_capacity": 48,
+    "mandatory_accommodation_purchase": true,
+    "mandatory_accommodation_details": "Accommodation mandatory on Saturday night for 48 persons (weekend bookings) or on the night of the event (midweek bookings).",
+    "bridal_suite": null,
+    "bridal_suite_description": null,
+    "preparation_rooms": null,
+    "buildings": [
+      {
+        "name": "Le Chateau",
+        "building_type": "chateau",
+        "bedrooms": 8,
+        "sleeping_capacity": 15,
+        "price_per_night_eur": 2100,
+        "description": "In the chateau, 15 guests can stay in luxurious rooms that have been completely renovated. The decor, inspired by the past, transports you back in time with high ceilings, moldings, woodwork, fireplaces, and parquet floors. Across the two main floors, 8 rooms each with private bathrooms.",
+        "has_kitchen": false,
+        "has_living_area": true,
+        "has_private_garden": false,
+        "rooms": [
+          {
+            "name": "La Chambre Or (Gold Room)",
+            "room_type": "double",
+            "capacity_persons": 2,
+            "bed_configuration": "1 King bed",
+            "area_sqm": 57,
+            "en_suite": true,
+            "bathroom_type": "en-suite shower and bathtub",
+            "view": "Garden view (park and pool)",
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": null,
+            "price_per_night_eur": 265
+          },
+          {
+            "name": "La Chambre Azure (Azure Room)",
+            "room_type": "double",
+            "capacity_persons": 2,
+            "bed_configuration": "1 King bed",
+            "area_sqm": 57,
+            "en_suite": true,
+            "bathroom_type": "en-suite freestanding bathtub",
+            "view": "Park and pond view (southwest)",
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": null,
+            "price_per_night_eur": 265
+          },
+          {
+            "name": "La Chambre du Levant (Levant Room)",
+            "room_type": "double",
+            "capacity_persons": 2,
+            "bed_configuration": "1 King bed",
+            "area_sqm": 60,
+            "en_suite": true,
+            "bathroom_type": "en-suite bathtub",
+            "view": "Park view",
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": null,
+            "price_per_night_eur": 265
+          },
+          {
+            "name": "La Suite Occident (Occident Suite)",
+            "room_type": "suite",
+            "capacity_persons": 4,
+            "bed_configuration": "2 Queen beds",
+            "area_sqm": 80,
+            "en_suite": true,
+            "bathroom_type": "en-suite shower and bathtub",
+            "view": "Garden view",
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": null,
+            "price_per_night_eur": 245
+          },
+          {
+            "name": "La Suite des Miroirs (Mirror Suite)",
+            "room_type": "family_suite",
+            "capacity_persons": 6,
+            "bed_configuration": "1 Super King bed, 1 Twin/Double bed, 1 sofa bed",
+            "area_sqm": 145,
+            "en_suite": true,
+            "bathroom_type": "2 bathrooms with showers and bathtubs",
+            "view": "Garden view",
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": null,
+            "price_per_night_eur": 305
+          },
+          {
+            "name": "La Chambre Turquoise (Turquoise Room)",
+            "room_type": "double",
+            "capacity_persons": 2,
+            "bed_configuration": "1 Twin bed",
+            "area_sqm": null,
+            "en_suite": true,
+            "bathroom_type": "en-suite shower and bathtub",
+            "view": null,
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": null,
+            "price_per_night_eur": 245
+          },
+          {
+            "name": "La Chambre Sable (Sand Room)",
+            "room_type": "double",
+            "capacity_persons": 2,
+            "bed_configuration": "1 Queen bed",
+            "area_sqm": null,
+            "en_suite": true,
+            "bathroom_type": "en-suite bathtub",
+            "view": null,
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": null,
+            "price_per_night_eur": 245
+          },
+          {
+            "name": "La Chambre de la Tour (Tower Room)",
+            "room_type": "double",
+            "capacity_persons": 2,
+            "bed_configuration": "1 King bed",
+            "area_sqm": null,
+            "en_suite": true,
+            "bathroom_type": "en-suite bathtub",
+            "view": null,
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": null,
+            "price_per_night_eur": 265
+          }
+        ]
+      },
+      {
+        "name": "La Maison du Puits (Well House)",
+        "building_type": "gite",
+        "bedrooms": 5,
+        "sleeping_capacity": 12,
+        "price_per_night_eur": 600,
+        "description": "A 19th-century longere that combines elegance, refinement, and comfort. Features 5 bedrooms, 3 bathrooms, 2 lounges with fireplace or wood stove, and a landscaped garden with covered terrace and barbecue.",
+        "has_kitchen": true,
+        "has_living_area": true,
+        "has_private_garden": true,
+        "rooms": [
+          {
+            "name": "Bedroom 1 (Master Suite)",
+            "room_type": "double",
+            "capacity_persons": 4,
+            "bed_configuration": "2 King beds (180x200)",
+            "area_sqm": null,
+            "en_suite": false,
+            "bathroom_type": "shared bathroom with bathtub",
+            "view": null,
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": null,
+            "price_per_night_eur": null
+          },
+          {
+            "name": "Bedroom 2",
+            "room_type": "double",
+            "capacity_persons": 2,
+            "bed_configuration": "1 King bed",
+            "area_sqm": null,
+            "en_suite": true,
+            "bathroom_type": "en-suite shower",
+            "view": null,
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": null,
+            "price_per_night_eur": null
+          },
+          {
+            "name": "Bedroom 3 (Suite)",
+            "room_type": "suite",
+            "capacity_persons": 2,
+            "bed_configuration": "1 King bed (180x200)",
+            "area_sqm": null,
+            "en_suite": true,
+            "bathroom_type": "en-suite shower and bathtub",
+            "view": null,
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": null,
+            "price_per_night_eur": null
+          },
+          {
+            "name": "Bedroom 4",
+            "room_type": "twin",
+            "capacity_persons": 2,
+            "bed_configuration": "2 Single beds (90x200)",
+            "area_sqm": null,
+            "en_suite": false,
+            "bathroom_type": "shared bathroom with bathtub",
+            "view": null,
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": null,
+            "price_per_night_eur": null
+          },
+          {
+            "name": "Bedroom 5",
+            "room_type": "twin",
+            "capacity_persons": 2,
+            "bed_configuration": "2 Single beds (90x200)",
+            "area_sqm": null,
+            "en_suite": false,
+            "bathroom_type": "shared bathroom with bathtub",
+            "view": null,
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": null,
+            "price_per_night_eur": null
+          }
+        ]
+      },
+      {
+        "name": "La Maison des Tilleuls (Linden House)",
+        "building_type": "gite",
+        "bedrooms": 2,
+        "sleeping_capacity": 6,
+        "price_per_night_eur": 300,
+        "description": "A former octagonal entrance pavilion located near the pool and tennis court in the middle of the park. Two bedrooms plus lounge with sofa bed. Open year-round.",
+        "has_kitchen": true,
+        "has_living_area": true,
+        "has_private_garden": true,
+        "rooms": [
+          {
+            "name": "Bedroom 1",
+            "room_type": "double",
+            "capacity_persons": 2,
+            "bed_configuration": "1 King bed (180x200)",
+            "area_sqm": null,
+            "en_suite": false,
+            "bathroom_type": "shared bathroom with shower",
+            "view": null,
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": null,
+            "price_per_night_eur": null
+          },
+          {
+            "name": "Bedroom 2",
+            "room_type": "twin",
+            "capacity_persons": 2,
+            "bed_configuration": "2 Single beds (90x200)",
+            "area_sqm": null,
+            "en_suite": false,
+            "bathroom_type": "shared bathroom with shower",
+            "view": null,
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": null,
+            "price_per_night_eur": null
+          }
+        ]
+      },
+      {
+        "name": "La Maison des Chaumes (Thatched House)",
+        "building_type": "gite",
+        "bedrooms": 2,
+        "sleeping_capacity": 7,
+        "price_per_night_eur": 350,
+        "description": "A former gamekeeper's house, completely refurbished. Two bedrooms plus lounge with sofa bed. Open year-round.",
+        "has_kitchen": true,
+        "has_living_area": true,
+        "has_private_garden": true,
+        "rooms": [
+          {
+            "name": "Bedroom 1",
+            "room_type": "double",
+            "capacity_persons": 2,
+            "bed_configuration": "1 King bed (180x200)",
+            "area_sqm": null,
+            "en_suite": false,
+            "bathroom_type": "shared bathroom",
+            "view": null,
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": null,
+            "price_per_night_eur": null
+          },
+          {
+            "name": "Bedroom 2",
+            "room_type": "triple",
+            "capacity_persons": 3,
+            "bed_configuration": "1 Queen bed + 1 Single bed",
+            "area_sqm": null,
+            "en_suite": false,
+            "bathroom_type": "shared bathroom",
+            "view": null,
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": null,
+            "price_per_night_eur": null
+          }
+        ]
+      },
+      {
+        "name": "La Maison de l'Etang (Pond House)",
+        "building_type": "gite",
+        "bedrooms": 2,
+        "sleeping_capacity": 8,
+        "price_per_night_eur": 400,
+        "description": "A former gatekeeper's house with octagonal floor plan, located at one of the entrances to the estate. Two bedrooms plus lounge with sofa bed. Open from March/April to November.",
+        "has_kitchen": true,
+        "has_living_area": true,
+        "has_private_garden": true,
+        "rooms": [
+          {
+            "name": "Bedroom 1",
+            "room_type": "double",
+            "capacity_persons": 2,
+            "bed_configuration": "1 Twin bed",
+            "area_sqm": null,
+            "en_suite": false,
+            "bathroom_type": "shared bathroom",
+            "view": null,
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": null,
+            "price_per_night_eur": null
+          },
+          {
+            "name": "Bedroom 2",
+            "room_type": "family",
+            "capacity_persons": 4,
+            "bed_configuration": "1 Queen bed + 2 sofa beds (90cm)",
+            "area_sqm": null,
+            "en_suite": false,
+            "bathroom_type": "shared bathroom",
+            "view": null,
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": null,
+            "price_per_night_eur": null
+          }
+        ]
+      }
+    ],
+    "room_amenities_common": [
+      "WiFi",
+      "wardrobe",
+      "hairdryer",
+      "slippers",
+      "welcome products (shampoo/soap)",
+      "towels and sheets provided"
+    ],
+    "air_conditioning": null,
+    "breakfast_included": null,
+    "breakfast_details": null,
+    "breakfast_price_per_person_eur": null,
+    "dormitory_available": false,
+    "dormitory_beds": null,
+    "nearby_accommodation": null,
+    "partner_hotel": null
+  },
+
+  "pricing": {
+    "pricing_model": "hybrid",
+    "starting_price_eur": 9000,
+    "starting_price_description": "Midweek venue hire (Tuesday 2:00 PM to Thursday 4:00 PM), VAT included, excluding accommodation and catering.",
+    "prices_include_tax": true,
+    "vat_rate_percentage": null,
+    "tourist_tax_note": "Tourist taxes not included in accommodation pricing.",
+    "pricing_year": "2026",
+    "seasonal_pricing": [
+      {
+        "season_name": "high",
+        "months": "June to September",
+        "day_of_week": "weekend",
+        "price_eur": 12000,
+        "price_description": "Weekend venue hire, Friday 12:00 PM to Sunday 6:00 PM"
+      },
+      {
+        "season_name": "low",
+        "months": "April, October, November",
+        "day_of_week": "weekend",
+        "price_eur": 11500,
+        "price_description": "Weekend venue hire, Friday 12:00 PM to Sunday 6:00 PM"
+      },
+      {
+        "season_name": "low",
+        "months": null,
+        "day_of_week": "weekday",
+        "price_eur": 9000,
+        "price_description": "Midweek hire, Tuesday 2:00 PM to Thursday 4:00 PM"
+      }
+    ],
+    "packages": null,
+    "catering_cost_per_person_eur": null,
+    "children_catering_price_eur": null,
+    "children_pricing_age_range": null,
+    "drinks_cost_per_person_eur": null,
+    "brunch_cost_per_person_eur": null,
+    "brunch_venue_fee_eur": null,
+    "welcome_dinner_cost_eur": null,
+    "minimum_nights": null,
+    "additional_night_rate_eur": 1500,
+    "extended_hour_rate_eur": 300,
+    "rental_period_description": "Weekend: Friday 12:00 PM to Sunday 6:00 PM; Midweek: Tuesday 2:00 PM to Thursday 4:00 PM",
+    "deposit_percentage": null,
+    "deposit_amount_eur": null,
+    "deposit_refundable": null,
+    "security_deposit_eur": null,
+    "security_deposit_return_days": null,
+    "payment_schedule": null,
+    "payment_methods": null,
+    "cancellation_policy": null,
+    "cleaning_fee_eur": null,
+    "security_guard_cost_eur": null,
+    "coordinator_cost_eur": null,
+    "price_includes": [
+      "Private use of the 384m2 orangery + 50m2 catering office",
+      "Outdoor spaces: courtyards, lawn and 250 hectares of park",
+      "Indoor reception furniture for dinner and brunch: buffets, round tables for 8 and 11 people, chairs, luminous bar, decorative trees",
+      "Outdoor furniture: sideboards, wrought iron tables and chairs, wood tables and benches, standing tables",
+      "Parking in the courtyard of the outbuildings",
+      "Heated swimming pool (not supervised), relaxation furniture and pool house",
+      "Coordination by a project manager",
+      "Stage manager during the event",
+      "Night security agent from 11:30 PM to 5:00 AM",
+      "Cleaning before and after the event",
+      "Sound system for reception rooms",
+      "Secular ceremony furniture: arch, benches, lecterns for up to 150 guests",
+      "Orangery and castle lighting (dancefloor lighting via DJ not included)"
+    ],
+    "price_excludes": [
+      "Catering and additional services",
+      "Accommodation (mandatory, priced separately at 3750 EUR per night for 48 persons)",
+      "Dancefloor lighting (via DJ)",
+      "Heating if necessary (500 EUR supplement)"
+    ],
+    "price_extras": [
+      "External tent hire for large guest numbers or rain contingency",
+      "Catering services",
+      "DJ, musicians, jazz band, lyrical singers",
+      "Decoration and floral decoration",
+      "Interior and exterior lighting",
+      "Ball opening on the Castle's porch",
+      "Fireworks",
+      "Cocktail bar, spritz bar",
+      "Outdoor dance floor",
+      "Beauty, facial care and make-up, manicure, hairdressing, massage",
+      "Equipment, screens and video projectors, sound system",
+      "Additional tent for cocktail in case of rain",
+      "Heating of the tent if necessary",
+      "Additional furniture: illuminated bar, decorations"
+    ]
+  },
+
+  "catering": {
+    "catering_model": "free_choice",
+    "in_house_chef": null,
+    "recommended_caterers": [
+      "MG Reception"
+    ],
+    "cuisine_style": null,
+    "dietary_accommodations": null,
+    "professional_kitchen": true,
+    "kitchen_size_sqm": 50,
+    "on_site_restaurant": null,
+    "brunch_available": true,
+    "brunch_description": "Brunch by the pool is available as part of the wedding weekend.",
+    "late_night_food_available": null,
+    "pre_wedding_dinner": null,
+    "tasting_meal_included": null,
+    "wedding_cake": null
+  },
+
+  "drinks": {
+    "corkage_fee": null,
+    "corkage_fee_amount_eur": null,
+    "byo_wine_allowed": null,
+    "mandatory_venue_drinks": null,
+    "venue_wine_requirement": null,
+    "on_site_wine_production": false,
+    "wine_appellation": null,
+    "bar_service_description": "Bar service available until end of evening at 5:00 AM. Luminous bar provided as part of venue furniture.",
+    "wine_cellar": null
+  },
+
+  "vendor_rules": {
+    "vendor_freedom": "free_choice",
+    "preferred_vendor_list_available": true,
+    "vendor_categories_recommended": [
+      "caterers",
+      "DJs",
+      "musicians",
+      "photographers",
+      "videographers",
+      "floral decorators",
+      "lighting designers"
+    ],
+    "in_house_services": [
+      "event coordination",
+      "stage management",
+      "night security"
+    ],
+    "wedding_planner_available": "in_house",
+    "wedding_planner_mandatory": null,
+    "wedding_planner_name": null,
+    "non_approved_vendor_fee": null,
+    "day_of_coordinator_provided": true,
+    "dedicated_project_manager": true
+  },
+
+  "ceremony": {
+    "ceremony_types": [
+      "secular"
+    ],
+    "licensed_for_civil_marriage": null,
+    "chapel_on_site": false,
+    "chapel_details": null,
+    "nearby_church": null,
+    "outdoor_ceremony_locations": [
+      "Gardens"
+    ],
+    "rain_backup_plan": "Additional tent for cocktail in case of rain available at extra cost",
+    "celebrant_available": null,
+    "elopement_option": null
+  },
+
+  "amenities": {
+    "swimming_pool": true,
+    "pool_count": 1,
+    "pool_details": "Heated swimming pool, open seasonally, with pool house and relaxation furniture. Not supervised.",
+    "hot_tub_jacuzzi": null,
+    "spa": null,
+    "spa_details": null,
+    "tennis_court": true,
+    "petanque_court": null,
+    "gym_fitness": null,
+    "games_room": null,
+    "library": null,
+    "cinema_room": null,
+    "grand_piano": null,
+    "children_playground": null,
+    "helipad": null,
+    "gardens_description": "English-style park of over 250 hectares with century-old trees, various perspectives, gardens, a large pond (refuge for thousands of ducks and wild birds), and surrounding forest and ponds extending over 1,000 hectares.",
+    "garden_style": "English landscape",
+    "vineyard_on_site": false,
+    "olive_groves": false,
+    "lake_pond": true,
+    "forest_woodland": true,
+    "notable_trees": [
+      "Century-old trees throughout the English-style park"
+    ],
+    "fountain_water_feature": false,
+    "orangery": true,
+    "dovecote": null,
+    "greenhouse": null
+  },
+
+  "activities": {
+    "on_site_activities": [
+      "swimming",
+      "tennis",
+      "walks",
+      "fishing",
+      "vegetable garden visits"
+    ],
+    "nearby_activities": [
+      "Loire vineyards visits",
+      "Vezelay visit",
+      "pottery workshops",
+      "Chateau de Guedelon visit"
+    ],
+    "wine_tasting_on_site": null,
+    "cooking_workshops": null,
+    "excursions_organized": null,
+    "excursion_destinations": null,
+    "fireworks_available": true,
+    "fireworks_details": null
+  },
+
+  "technical": {
+    "wifi_available": true,
+    "sound_system_provided": true,
+    "av_equipment": [
+      "sound system for reception rooms"
+    ],
+    "furniture_provided": true,
+    "furniture_details": "Round tables for 8 and 11 people, Napoleon chairs, buffets, standing tables (mange-debout), wrought iron tables and chairs, wood tables and benches, luminous bar, decorative trees. Above 280 people: furniture rental at additional cost.",
+    "decoration_services": null,
+    "marquee_tent_available": true,
+    "marquee_size_sqm": 450,
+    "backup_generator": null,
+    "ev_charging_stations": null,
+    "climate_control": "Heating available if necessary at supplement of 500 EUR"
+  },
+
+  "accessibility": {
+    "wheelchair_accessible": null,
+    "accessible_rooms_count": null,
+    "elevator": null,
+    "pmr_parking": null,
+    "accessibility_details": null
+  },
+
+  "sustainability": {
+    "eco_certifications": null,
+    "eco_practices": [
+      "Vegetable garden with seasonal produce harvested for guest meals"
+    ]
+  },
+
+  "parking": {
+    "parking_available": true,
+    "parking_spaces": null,
+    "parking_type": "Free parking in the courtyard of the former stables of the Castle",
+    "vendor_parking_separate": null
+  },
+
+  "policies": {
+    "curfew_time": "5:00 AM",
+    "outdoor_music_curfew": null,
+    "indoor_music_curfew": null,
+    "no_curfew": false,
+    "noise_restrictions": "End of the evening at 5:00 AM (music and bar service)",
+    "setup_access_time": null,
+    "teardown_deadline": null,
+    "tent_marquee_policy": "External tent hire available for large guest numbers or rain contingency at additional cost",
+    "confetti_policy": null,
+    "candle_policy": null,
+    "event_insurance_required": null,
+    "event_insurance_cost_eur": null,
+    "portable_toilets_policy": null,
+    "lifeguard_required": false,
+    "babysitter_mandatory": null,
+    "pet_policy": null,
+    "child_friendly": null,
+    "baby_facilities": null,
+    "children_area": null,
+    "babysitter_available": null,
+    "lgbtq_friendly": null,
+    "all_faiths_welcome": null,
+    "security_guard_policy": "Night security agent included from 11:30 PM to 5:00 AM",
+    "events_per_year_limit": null,
+    "check_in_time": "Friday 12:00 PM (weekends) or Tuesday 2:00 PM (midweek)",
+    "check_out_time": "Sunday 6:00 PM (weekends) or Thursday 12:00 PM for accommodation / Thursday 4:00 PM for venue (midweek)"
+  },
+
+  "contact": {
+    "phone_primary": "+33 6 23 51 87 66",
+    "phone_secondary": null,
+    "email_primary": "info@domainedureveillon.com",
+    "email_secondary": null,
+    "website_url": "https://www.domainedureveillon.com",
+    "instagram": "@domaine_du_reveillon",
+    "facebook": "Domaine du Reveillon",
+    "other_social_media": null,
+    "whatsapp": null,
+    "contact_person": null,
+    "phone_hours": null,
+    "brochure_url": null,
+    "virtual_tour_url": null
+  },
+
+  "event_types": [
+    "weddings",
+    "birthdays",
+    "family celebrations",
+    "baptisms",
+    "corporate events",
+    "seminars",
+    "wellness retreats"
+  ],
+
+  "wedding_day_details": {
+    "typical_timeline": null,
+    "typical_weekend_flow": "Friday: arrival from 12:00 PM, cocktail in the chateau courtyard. Saturday: ceremony in the gardens, cocktail, dinner in the orangery, party until 5:00 AM. Sunday: brunch by the pool, departure by 6:00 PM.",
+    "multi_day_event": true,
+    "cultural_ceremony_experience": null,
+    "destination_wedding_speciality": null
+  }
+}

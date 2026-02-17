@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "description": "Venue Reduced Record — 20 core fields for high-level filtering and bride-facing comparison.",
+    "schema_version": "v1.1.0",
+    "field_count": 20,
+    "golden_record_ref": "chateau-de-la-rode_full.json"
+  },
+
+  "venue_name": "Chateau de la Rode",
+  "venue_type": "chateau",
+  "short_description": "A former 16th-century Royal Abbey with Cistercian origins dating to the 12th century, set in 11 hectares of private parkland in the Tarn department. The estate is fully privatised for weddings of 20 to 270 guests, with on-site accommodation for up to 52 in 7 renovated gites.",
+  "region": "Occitanie",
+  "department": "Tarn",
+  "nearest_city": "Castres (20 minutes)",
+  "max_guests": 270,
+  "min_guests": 20,
+  "max_sleeping_guests": 52,
+  "total_bedrooms": null,
+  "starting_price_eur": 2850,
+  "exclusivity_model": "full_exclusivity",
+  "catering_model": "free_choice",
+  "on_site_accommodation": true,
+  "swimming_pool": true,
+  "chapel_on_site": false,
+  "curfew": null,
+  "child_friendly": true,
+  "google_rating": 5.0,
+  "website_url": "https://chateau-de-la-rode.com/"
+}

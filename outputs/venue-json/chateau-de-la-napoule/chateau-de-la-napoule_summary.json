@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "description": "Venue Reduced Record — 20 core fields for high-level filtering and bride-facing comparison.",
+    "schema_version": "v1.1.0",
+    "field_count": 20,
+    "golden_record_ref": "chateau-de-la-napoule_full.json"
+  },
+  "venue_name": "Chateau de La Napoule",
+  "venue_type": "chateau",
+  "short_description": "A neo-medieval seaside fortress on the bay of Cannes, transformed by American artists Henry and Marie Clews into a cultural sanctuary. Now operated by La Napoule Art Foundation, the chateau offers indoor and outdoor event spaces with Mediterranean views for weddings of up to 450 guests.",
+  "region": "Provence-Alpes-Cote d'Azur",
+  "department": "Alpes-Maritimes",
+  "nearest_city": "Cannes (7 km)",
+  "max_guests": 450,
+  "min_guests": null,
+  "max_sleeping_guests": null,
+  "total_bedrooms": null,
+  "starting_price_eur": 11500,
+  "exclusivity_model": "full_exclusivity",
+  "catering_model": "recommended_list",
+  "on_site_accommodation": false,
+  "swimming_pool": null,
+  "chapel_on_site": false,
+  "curfew": "11:00 PM outdoors (lounge music only) / 3:00 AM indoors",
+  "child_friendly": null,
+  "google_rating": null,
+  "website_url": "https://www.lnaf.org"
+}

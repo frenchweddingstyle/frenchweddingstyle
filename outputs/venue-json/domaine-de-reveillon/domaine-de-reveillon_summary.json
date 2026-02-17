@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "description": "Venue Reduced Record — 20 core fields for high-level filtering and bride-facing comparison.",
+    "schema_version": "v1.1.0",
+    "field_count": 20,
+    "golden_record_ref": "domaine-de-reveillon_full.json"
+  },
+  "venue_name": "Domaine du Reveillon",
+  "venue_type": "domaine",
+  "short_description": "A prestigious 19th-century chateau estate set in 250 hectares of Burgundy parkland, offering exclusive privatisation for weddings of up to 350 guests with a 384m2 glass-fronted orangery and on-site accommodation for 48.",
+  "region": "Bourgogne-Franche-Comte",
+  "department": "Nievre",
+  "nearest_city": null,
+  "max_guests": 350,
+  "min_guests": null,
+  "max_sleeping_guests": 48,
+  "total_bedrooms": 17,
+  "starting_price_eur": 9000,
+  "exclusivity_model": "full_exclusivity",
+  "catering_model": "free_choice",
+  "on_site_accommodation": true,
+  "swimming_pool": true,
+  "chapel_on_site": false,
+  "curfew": "5:00 AM",
+  "child_friendly": null,
+  "google_rating": null,
+  "website_url": "https://www.domainedureveillon.com"
+}

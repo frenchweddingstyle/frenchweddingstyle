@@ -1,0 +1,508 @@
+{
+  "overview": {
+    "min_price_eur": 7000,
+    "max_guests": 200,
+    "min_guests": null,
+    "max_sleeping_guests": 14,
+    "total_bedrooms": 7,
+    "estate_size_hectares": 5
+  },
+
+  "identity": {
+    "venue_name": "Chateau du Jonquier",
+    "venue_type": "chateau",
+    "venue_subtype": "baroque bijou",
+    "tagline": null,
+    "short_description": "An exquisitely restored baroque chateau at the foot of Mont Ventoux, set amidst 5 hectares of private park and forest in Provence. Built in 1725, the chateau offers 7 air-conditioned bedrooms sleeping 12-14 guests, with indoor and outdoor celebration spaces for up to 200 guests.",
+    "exclusivity_model": "full_exclusivity",
+    "owner_names": ["Ellen Alpsten", "Tobias Alpsten"],
+    "management_company": null,
+    "network_membership": null,
+    "media_features": null,
+    "filming_credits": null,
+    "certifications": null,
+    "google_rating": null,
+    "google_review_count": null,
+    "languages_spoken": ["English", "German", "French"]
+  },
+
+  "location": {
+    "address": {
+      "street": "Chateau du Jonquier",
+      "city": "Mazan",
+      "postal_code": "84380",
+      "department": "Vaucluse",
+      "country": "France"
+    },
+    "gps_coordinates": null,
+    "region": "Provence-Alpes-Cote d'Azur",
+    "sub_region": null,
+    "natural_park": null,
+    "nearest_city": {
+      "name": "Avignon",
+      "distance_text": "25 minutes by car"
+    },
+    "nearest_cities": [
+      { "name": "Avignon", "distance_text": "25 min drive" },
+      { "name": "Marseille", "distance_text": "60 min drive" }
+    ],
+    "nearest_airports": [
+      { "name": "Marseille Provence Airport", "distance_text": "60 min drive" }
+    ],
+    "nearest_train_stations": [
+      { "name": "Gare TGV Avignon", "distance_text": "25 min drive" }
+    ],
+    "motorway_access": null,
+    "distance_to_paris": null,
+    "distance_to_coast": "Under 1 hour to sandy Mediterranean beaches",
+    "nearby_villages": ["Venasque", "Pernes-Les-Fontaines", "Gordes", "Roussillon", "Menerbes", "L'Isle-sur-la-Sorgue", "Orange"],
+    "nearby_attractions": [
+      "Avignon - Palais des Papes",
+      "L'Isle-sur-la-Sorgue - French antiques centre",
+      "Chateauneuf-du-Pape vineyards",
+      "Gordes hilltop village",
+      "Roussillon - the 'Colorado of Europe'",
+      "Menerbes - setting of 'A Year in Provence'",
+      "La Gorges des Toulouranc",
+      "La Gorge de Nesque",
+      "Orange - famous amphitheatre",
+      "Wave Island water park"
+    ],
+    "landscape_description": "At the foot of Mont Ventoux, at the edge of the medieval market town of Mazan, with rolling vineyards surrounding the property",
+    "shuttle_service_available": null
+  },
+
+  "history": {
+    "construction_period": "1725-1744",
+    "construction_year": 1725,
+    "architectural_style": "baroque",
+    "architect": null,
+    "listed_monument_status": null,
+    "historical_families": [
+      "Bernard de Saint-Andeol family",
+      "Count Francois Marie-Joseph de Paule de Sobirats and Emilienne de Damas du Rousset",
+      "Ripert-Barret family",
+      "Westphal family"
+    ],
+    "notable_historical_guests": null,
+    "historical_narrative": "Built between 1725 and 1744 by Francois II Bernard de Saint-Andeol and his wife Marie Roman. The Romans were wealthy landowners who also launched the famous 'Carri' of Mazan, a folkloric event continuing in a 10-yearly cycle. In 1808, Count Francois Marie-Joseph de Paule de Sobirats and his wife Emilienne de Damas du Rousset became proprietors. They built the intimate chapel dedicated to Saint Andiol, consecrated by the Archbishop of Avignon on May 3, 1836. Count Francois died childless in 1859 and left the house to his great-nephew Gustave de Ripert-Barret. In 1929, the three daughters sold the property in a deplorable state. During WWII, the chateau became a home for deaf-mute and blind girls, subsequently sold to Mr. Rollin-Pinin and then the Westphal family. In 2025 — 300 years after construction began — Ellen and Tobias Alpsten acquired the Chateau du Jonquier and 4.5 ha of surrounding land.",
+    "notable_architectural_features": [
+      "Coat of arms on castle facade: unicorn and lion with motto 'Robur (Strength): Make way, make way for Madame'",
+      "Classic South of France tomettes floors",
+      "Big open fireplace in Salle de Reception",
+      "Ancient double doorway in courtyard",
+      "Indigo and star-spangled arch above chapel altar"
+    ],
+    "renovation_history": "Careful and extensive renovations after 2025 acquisition by Ellen and Tobias Alpsten, transforming it into a 550 sq.m property with 5-star contemporary comfort. Ancient oil heating shut down and replaced with 100% green electricity.",
+    "literary_cultural_associations": ["Ellen Alpsten, bestselling author of the 'TSARINA' series published in 23 languages"]
+  },
+
+  "spaces": [
+    {
+      "name": "Chapelle de St. Andiol",
+      "setting": "indoor",
+      "area_sqm": null,
+      "capacity_seated": 30,
+      "capacity_cocktail": null,
+      "capacity_ceremony": 30,
+      "rental_fee_eur": null,
+      "suitable_for": ["ceremony"],
+      "notable_features": ["Victorian pews", "Provencal 'canne' chairing", "candy-coloured silk cushions", "Persian rugs", "heavy cast iron candle holders", "indigo and star-spangled arch above altar"],
+      "description": "The chateau's own chapel consecrated by the Archbishop of Avignon in 1837, devoted to the local Provencal St. Andiol. Ideal for an intimate wedding.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Courtyard",
+      "setting": "outdoor",
+      "area_sqm": 100,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dinner", "cocktail"],
+      "notable_features": ["huge ancient double doorway", "Western tower", "Provencal paving"],
+      "description": "An enclosed courtyard of 100m2 with a nod to the agricultural heritage of the chateau. Allows for al fresco dinner under the Provence skies.",
+      "soundproofed": null,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "The Southern Terrace",
+      "setting": "outdoor",
+      "area_sqm": 600,
+      "capacity_seated": 200,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dinner", "cocktail", "brunch", "lunch"],
+      "notable_features": ["two centennial Plane trees", "Provencal 'Pierre Rose' paving"],
+      "description": "Elegant and opulent 600m2 terrace providing endless possibilities — from bucolic brunches through to divine dinners. Seats up to 200 people.",
+      "soundproofed": null,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "The Vintage Greenhouse",
+      "setting": "covered_outdoor",
+      "area_sqm": null,
+      "capacity_seated": 20,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dinner", "brunch", "rehearsal_dinner"],
+      "notable_features": ["vintage Japanese rice-paper parasols", "located in revived potager"],
+      "description": "Located in the revived 'potager' of the chateau, the vintage Greenhouse creates a bucolic and authentic ambience, perfect for informal get-togethers. Available from 2027.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Salle de Reception",
+      "setting": "indoor",
+      "area_sqm": 180,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dinner", "cocktail", "dancing", "rain_backup"],
+      "notable_features": ["big open fireplace"],
+      "description": "180m2 indoor space that triples as a stylish hide-away from bad weather, an outdoor/indoor cocktail and reception space, and a club for dancing. No curfew applies indoors.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "The Southern Lawn",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["ceremony"],
+      "notable_features": ["groups of fruit trees — quince, pomegranate, cherries and apples", "hedges of cypress and oleander", "view of vitality pool and chateau"],
+      "description": "A vast lawn with groups of fruit trees, a dream-like location for a ceremony with larger seating needs. Exchange vows with the 12x6m vitality pool and the chateau as a backdrop.",
+      "soundproofed": null,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Wedding Island / Petanque Piste",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["ceremony"],
+      "notable_features": ["wedding island walkway", "romantic wedding pavilion on Love Island", "petanque piste"],
+      "description": "A wedding island walkway via the petanque piste area, with a romantic wedding pavilion on Love Island.",
+      "soundproofed": null,
+      "air_conditioned": false,
+      "av_equipment": null
+    }
+  ],
+
+  "accommodation": {
+    "on_site_accommodation": true,
+    "total_bedrooms": 7,
+    "total_sleeping_capacity": 14,
+    "mandatory_accommodation_purchase": null,
+    "mandatory_accommodation_details": null,
+    "bridal_suite": null,
+    "bridal_suite_description": null,
+    "preparation_rooms": null,
+    "buildings": [
+      {
+        "name": "Le Chateau",
+        "building_type": "chateau",
+        "bedrooms": 7,
+        "sleeping_capacity": 14,
+        "price_per_night_eur": null,
+        "description": "An elegant and meticulously restored 550 sq.m property featuring 5-star contemporary comfort. Each room features classic South of France tomettes floors and an elegant mix of modern design, vintage Provencal pieces, and luxurious fabrics from Pierre Frey, Zoffany, and Lelievre. Every bathroom is fully modernised.",
+        "has_kitchen": false,
+        "has_living_area": true,
+        "has_private_garden": false,
+        "rooms": null
+      }
+    ],
+    "room_amenities_common": ["air conditioning", "luxury 'And So To Bed' beds", "en-suite modern bathrooms"],
+    "air_conditioning": true,
+    "breakfast_included": null,
+    "breakfast_details": null,
+    "breakfast_price_per_person_eur": null,
+    "dormitory_available": null,
+    "dormitory_beds": null,
+    "nearby_accommodation": ["Charming B&Bs in medieval market town of Mazan", "5-star hotels in Mazan"],
+    "partner_hotel": null
+  },
+
+  "pricing": {
+    "pricing_model": "dry_hire",
+    "starting_price_eur": 7000,
+    "starting_price_description": "Midweek wedding April-October to privatise the entire property for 2 nights and 3 days with accommodation for 12-14 guests",
+    "prices_include_tax": true,
+    "vat_rate_percentage": null,
+    "tourist_tax_note": null,
+    "pricing_year": "2026-2027",
+    "seasonal_pricing": [
+      {
+        "season_name": "shoulder",
+        "months": "April, October",
+        "day_of_week": "weekend",
+        "price_eur": 8000,
+        "price_description": "2 nights and 3 days"
+      },
+      {
+        "season_name": "medium",
+        "months": "May, June, September",
+        "day_of_week": "weekend",
+        "price_eur": 10000,
+        "price_description": "2 nights and 3 days"
+      },
+      {
+        "season_name": "high",
+        "months": "July, August",
+        "day_of_week": "weekend",
+        "price_eur": 12000,
+        "price_description": "2 nights and 3 days"
+      },
+      {
+        "season_name": "shoulder",
+        "months": "April, October",
+        "day_of_week": "weekday",
+        "price_eur": 7000,
+        "price_description": "Midweek wedding, 2 nights and 3 days"
+      },
+      {
+        "season_name": "medium",
+        "months": "May, June, September",
+        "day_of_week": "weekday",
+        "price_eur": 8000,
+        "price_description": "Midweek wedding, 2 nights and 3 days"
+      }
+    ],
+    "packages": null,
+    "catering_cost_per_person_eur": null,
+    "children_catering_price_eur": null,
+    "children_pricing_age_range": null,
+    "drinks_cost_per_person_eur": null,
+    "brunch_cost_per_person_eur": null,
+    "brunch_venue_fee_eur": null,
+    "welcome_dinner_cost_eur": null,
+    "minimum_nights": 2,
+    "additional_night_rate_eur": null,
+    "extended_hour_rate_eur": null,
+    "rental_period_description": "2 nights and 3 days",
+    "deposit_percentage": null,
+    "deposit_amount_eur": null,
+    "deposit_refundable": null,
+    "security_deposit_eur": null,
+    "security_deposit_return_days": null,
+    "payment_schedule": null,
+    "payment_methods": null,
+    "cancellation_policy": null,
+    "cleaning_fee_eur": null,
+    "security_guard_cost_eur": null,
+    "coordinator_cost_eur": null,
+    "price_includes": [
+      "Exclusive use / privatisation of entire property",
+      "Accommodation for 12-14 guests across 7 bedrooms"
+    ],
+    "price_excludes": null,
+    "price_extras": null
+  },
+
+  "catering": {
+    "catering_model": "recommended_list",
+    "in_house_chef": null,
+    "recommended_caterers": ["Mi Candela"],
+    "cuisine_style": null,
+    "dietary_accommodations": null,
+    "professional_kitchen": true,
+    "kitchen_size_sqm": null,
+    "on_site_restaurant": null,
+    "brunch_available": true,
+    "brunch_description": "Leisurely brunch by the pool bar on Sunday morning",
+    "late_night_food_available": null,
+    "pre_wedding_dinner": true,
+    "tasting_meal_included": null,
+    "wedding_cake": null
+  },
+
+  "drinks": {
+    "corkage_fee": false,
+    "corkage_fee_amount_eur": null,
+    "byo_wine_allowed": true,
+    "mandatory_venue_drinks": false,
+    "venue_wine_requirement": null,
+    "on_site_wine_production": false,
+    "wine_appellation": null,
+    "bar_service_description": "No corkage fees, giving complete freedom to curate your celebration. Recommended wines from local AOC Ventoux suppliers.",
+    "wine_cellar": true
+  },
+
+  "vendor_rules": {
+    "vendor_freedom": "recommended_list",
+    "preferred_vendor_list_available": true,
+    "vendor_categories_recommended": ["caterers", "florists", "makeup artists", "photographers", "wedding planners"],
+    "in_house_services": ["wedding planning"],
+    "wedding_planner_available": "in_house",
+    "wedding_planner_mandatory": null,
+    "wedding_planner_name": null,
+    "non_approved_vendor_fee": null,
+    "day_of_coordinator_provided": null,
+    "dedicated_project_manager": null
+  },
+
+  "ceremony": {
+    "ceremony_types": ["religious", "secular", "symbolic", "jewish"],
+    "licensed_for_civil_marriage": null,
+    "chapel_on_site": true,
+    "chapel_details": "Chapelle de St. Andiol, consecrated by the Archbishop of Avignon in 1837, seating 30 guests. Features Victorian pews, Provencal 'canne' chairing, candy-coloured silk cushions, Persian rugs, heavy cast iron candle holders, and indigo star-spangled arch above altar.",
+    "nearby_church": "Beautiful, large church in the medieval market town of Mazan; France's oldest and most famous Synagogue in nearby Carpentras available for Jewish ceremonies",
+    "outdoor_ceremony_locations": ["The Southern Lawn", "The Southern Terrace", "Wedding Island / Love Island pavilion"],
+    "rain_backup_plan": "Salle de Reception (180m2 indoor space)",
+    "celebrant_available": null,
+    "elopement_option": null
+  },
+
+  "amenities": {
+    "swimming_pool": true,
+    "pool_count": 1,
+    "pool_details": "12 x 6m vitality pool with water from natural spring, with pool bar",
+    "hot_tub_jacuzzi": null,
+    "spa": null,
+    "spa_details": null,
+    "tennis_court": null,
+    "petanque_court": true,
+    "gym_fitness": null,
+    "games_room": null,
+    "library": null,
+    "cinema_room": null,
+    "grand_piano": true,
+    "children_playground": null,
+    "helipad": true,
+    "gardens_description": "5 hectares of walled English garden, historic enclosed park and forest. Enchanted forest dominated by ancient oaks, cypresses and giant plane trees, bordering the river Auzon. Natural spring that feeds a stream and two ponds (one with its own island). Groups of fruit trees: quince, pomegranate, cherries, apples. Hedges of cypress and oleander.",
+    "garden_style": "English",
+    "vineyard_on_site": false,
+    "olive_groves": null,
+    "lake_pond": true,
+    "forest_woodland": true,
+    "notable_trees": ["Ancient oaks", "Giant plane trees", "Centennial Plane trees", "Cypresses"],
+    "fountain_water_feature": true,
+    "orangery": null,
+    "dovecote": null,
+    "greenhouse": true
+  },
+
+  "activities": {
+    "on_site_activities": ["swimming", "petanque", "garden games", "garden walks"],
+    "nearby_activities": [
+      "Wine tasting at Chateauneuf-du-Pape",
+      "Golf",
+      "Antiques shopping in L'Isle-sur-la-Sorgue",
+      "Visiting Gordes, Roussillon, Menerbes hilltop villages",
+      "Swimming at La Gorges des Toulouranc",
+      "Wave Island water park",
+      "Paintball at Ventoux Paintball Club"
+    ],
+    "wine_tasting_on_site": true,
+    "cooking_workshops": null,
+    "excursions_organized": null,
+    "excursion_destinations": null,
+    "fireworks_available": null,
+    "fireworks_details": null
+  },
+
+  "technical": {
+    "wifi_available": true,
+    "sound_system_provided": null,
+    "av_equipment": null,
+    "furniture_provided": null,
+    "furniture_details": null,
+    "decoration_services": null,
+    "marquee_tent_available": null,
+    "marquee_size_sqm": null,
+    "backup_generator": null,
+    "ev_charging_stations": null,
+    "climate_control": null
+  },
+
+  "accessibility": {
+    "wheelchair_accessible": true,
+    "accessible_rooms_count": null,
+    "elevator": null,
+    "pmr_parking": null,
+    "accessibility_details": "Disabled access available"
+  },
+
+  "sustainability": {
+    "eco_certifications": null,
+    "eco_practices": ["100% solar energy", "100% green electricity", "Waste management programme", "Shut down ancient oil heating"]
+  },
+
+  "parking": {
+    "parking_available": null,
+    "parking_spaces": null,
+    "parking_type": null,
+    "vendor_parking_separate": null
+  },
+
+  "policies": {
+    "curfew_time": "1:00 AM outdoors; no curfew indoors",
+    "outdoor_music_curfew": "1:00 AM",
+    "indoor_music_curfew": null,
+    "no_curfew": false,
+    "noise_restrictions": "Curfew at 1am outdoors; no curfew in Salle de Reception indoors",
+    "setup_access_time": null,
+    "teardown_deadline": null,
+    "tent_marquee_policy": null,
+    "confetti_policy": null,
+    "candle_policy": null,
+    "event_insurance_required": null,
+    "event_insurance_cost_eur": null,
+    "portable_toilets_policy": null,
+    "lifeguard_required": null,
+    "babysitter_mandatory": null,
+    "pet_policy": "allowed",
+    "child_friendly": true,
+    "baby_facilities": ["cots", "changing facilities"],
+    "children_area": null,
+    "babysitter_available": null,
+    "lgbtq_friendly": true,
+    "all_faiths_welcome": true,
+    "security_guard_policy": null,
+    "events_per_year_limit": null,
+    "check_in_time": null,
+    "check_out_time": null
+  },
+
+  "contact": {
+    "phone_primary": null,
+    "phone_secondary": null,
+    "email_primary": "charlotte@chateau-jonquieres.com",
+    "email_secondary": null,
+    "website_url": "https://www.chateaudujonquier.com",
+    "instagram": "@chateau_du_jonquier",
+    "facebook": null,
+    "other_social_media": null,
+    "whatsapp": "http://wa.link/539kla",
+    "contact_person": "Ellen Alpsten",
+    "phone_hours": null,
+    "brochure_url": null,
+    "virtual_tour_url": null
+  },
+
+  "event_types": ["weddings", "corporate events", "retreats", "anniversaries", "celebrations"],
+
+  "wedding_day_details": {
+    "typical_timeline": null,
+    "typical_weekend_flow": "Friday evening: Welcome guests with a relaxed rehearsal dinner in the vintage greenhouse. Saturday: Exchange vows in the chapel, on the shaded terrace, or on the lush southern lawn. Cocktails in the flower-filled gardens or on lavender-scented terraces. Dine al fresco beneath the plane trees on the 600m2 Southern Terrace, or host a courtyard banquet under twinkling fairy lights. End the evening in the Salle de Reception, dancing the night away. Sunday morning: Leisurely brunch by the pool bar.",
+    "multi_day_event": true,
+    "cultural_ceremony_experience": ["Jewish", "same-sex"],
+    "destination_wedding_speciality": true
+  }
+}

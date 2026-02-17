@@ -1,0 +1,483 @@
+{
+  "overview": {
+    "min_price_eur": 6860,
+    "max_guests": 200,
+    "min_guests": null,
+    "max_sleeping_guests": 56,
+    "total_bedrooms": 15,
+    "estate_size_hectares": null
+  },
+
+  "identity": {
+    "venue_name": "Chateau de Tauzies",
+    "venue_type": "chateau",
+    "venue_subtype": "wine estate",
+    "tagline": null,
+    "short_description": "Formerly a wine estate reborn in 2018, Chateau de Tauzies is a charming domain on the heights of Gaillac in the Tarn, at the heart of the Gaillac vineyard, offering full privatisation for weddings of up to 200 guests with 56 sleeping on-site.",
+    "exclusivity_model": "full_exclusivity",
+    "owner_names": ["Nathalie Deschamps", "Jacques Tranier"],
+    "management_company": null,
+    "network_membership": "The Originals Hotels",
+    "media_features": null,
+    "filming_credits": null,
+    "certifications": ["Cle Verte (Green Key)"],
+    "google_rating": 4.8,
+    "google_review_count": 206,
+    "languages_spoken": ["French", "English", "Spanish"]
+  },
+
+  "location": {
+    "address": {
+      "street": "1850 Route de Cordes",
+      "city": "Gaillac",
+      "postal_code": "81600",
+      "department": "Tarn",
+      "country": "France"
+    },
+    "gps_coordinates": {
+      "latitude": 43.946030,
+      "longitude": 1.917103
+    },
+    "region": "Occitanie",
+    "sub_region": "Gaillac vineyard",
+    "natural_park": null,
+    "nearest_city": {
+      "name": "Albi",
+      "distance_text": "22 minutes"
+    },
+    "nearest_cities": [
+      { "name": "Albi", "distance_text": "22 minutes" },
+      { "name": "Gaillac", "distance_text": "7 minutes" },
+      { "name": "Toulouse", "distance_text": "50 minutes" }
+    ],
+    "nearest_airports": [
+      { "name": "Toulouse-Blagnac Airport", "distance_text": "50 minutes" }
+    ],
+    "nearest_train_stations": [
+      { "name": "Gare de Tessonieres-Gaillac", "distance_text": "5 minutes by car" }
+    ],
+    "motorway_access": null,
+    "distance_to_paris": "6h30 via A20",
+    "distance_to_coast": null,
+    "nearby_villages": ["Cordes-sur-Ciel"],
+    "nearby_attractions": ["Cathedrale Sainte-Cecile in Albi"],
+    "landscape_description": "On the heights of Gaillac, overlooking the plain of Gaillac, situated between Gaillac, Cordes-sur-Ciel, and Albi, at the heart of the Gaillac vineyard",
+    "shuttle_service_available": null
+  },
+
+  "history": {
+    "construction_period": "19th century (residence built 1851)",
+    "construction_year": 1851,
+    "architectural_style": null,
+    "architect": null,
+    "listed_monument_status": null,
+    "historical_families": ["Barrau family", "Thomas family"],
+    "notable_historical_guests": null,
+    "historical_narrative": "The site has known continuous human occupation from the Neolithic period to the present day. Originally an agricultural domain, it bore the name 'Besinie' around 1828-1830 and belonged to Michel Barrau. When Augustin Louis Barrau, a Gaillac lawyer, acquired the property in 1851, he had a new residence built on a rectangular plan, inscribing his initials 'AB' on the doors. The principal buildings (chai, stables, agricultural shed, cowsheds, barn, dovecote, and housing) were constructed between 1851 and 1867, when his daughter married Philadelphe Thomas. Philadelphe Thomas was a physician, archaeologist, paleontologist, and mycology enthusiast who conducted archaeological research on the domain while managing the wine estate. After the death of Marie Barrau in 1899, the estate passed through numerous hands throughout the 20th century. Formerly a wine estate with up to 40 hectares of vines on 56 hectares, the Chateau was reborn in 2018 as an event venue and accommodation run by Nathalie Deschamps and Jacques Tranier.",
+    "notable_architectural_features": ["exposed wooden beams in Salle du Chai", "gun slit dating from 17th century reused in dovecote", "semi-underground chai beneath the residence", "terrace arrangement honouring reception rooms opening south onto the park"],
+    "renovation_history": "Reborn in 2018 with a new vision to become an exceptional event venue, transformed from a wine estate into an event venue and accommodation",
+    "literary_cultural_associations": null
+  },
+
+  "spaces": [
+    {
+      "name": "Salle du Chai",
+      "setting": "indoor",
+      "area_sqm": 200,
+      "capacity_seated": 176,
+      "capacity_cocktail": 200,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dinner", "dancing", "ceremony"],
+      "notable_features": ["exposed wooden beams", "stone building", "underfloor heating/cooling"],
+      "description": "Superb stone building with exposed wooden beams, perfectly blending modern elegance with historic authenticity. Fully equipped with round tables, chairs, and essential amenities. The space is divisible to adapt to different event types.",
+      "soundproofed": null,
+      "air_conditioned": true,
+      "av_equipment": ["sound system", "WiFi", "screen", "projector"]
+    },
+    {
+      "name": "Covered Terrace",
+      "setting": "covered_outdoor",
+      "area_sqm": 200,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["cocktail"],
+      "notable_features": ["breathtaking views of the Chateau and surrounding vineyards"],
+      "description": "Adjacent to the reception hall, offering breathtaking views of the Chateau and the surrounding vineyards. Ideal for cocktail receptions, particularly when outdoor conditions make the gardens less accessible.",
+      "soundproofed": null,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "The Gardens",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["ceremony", "photos"],
+      "notable_features": ["2 hectares of green spaces", "swimming pool", "relaxation area", "vineyard walks"],
+      "description": "Spanning 2 hectares with green spaces, swimming pool, relaxation area, and walks through the vineyard. Ideal for photos and/or outdoor ceremonies. Ceremony setup is not provided by the Chateau's teams.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "L'Annexe (The Annex / Settler's House)",
+      "setting": "indoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["preparation", "children_area", "dining"],
+      "notable_features": ["preparation area", "children's area", "sanitary facilities", "cozy dormitory with 10 beds"],
+      "description": "Located in immediate proximity to the main hall. Dedicated space for event preparation and meals. Includes a preparation area, children's area, sanitary facilities, and a cozy dormitory with 10 beds. Perfect as a preparation space for hair and makeup, or as a dining area or play area for children.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    }
+  ],
+
+  "accommodation": {
+    "on_site_accommodation": true,
+    "total_bedrooms": 15,
+    "total_sleeping_capacity": 56,
+    "mandatory_accommodation_purchase": false,
+    "mandatory_accommodation_details": "Rooms included in the package that are not used will not be refunded or compensated.",
+    "bridal_suite": null,
+    "bridal_suite_description": null,
+    "preparation_rooms": "L'Annexe serves as a preparation space for hair and makeup",
+    "buildings": [
+      {
+        "name": "Le Chateau",
+        "building_type": "chateau",
+        "bedrooms": 15,
+        "sleeping_capacity": 46,
+        "price_per_night_eur": null,
+        "description": "15 elegantly decorated suites with all modern amenities: 7 Comfort double rooms and 8 quadruple suites (4 with terrace).",
+        "has_kitchen": false,
+        "has_living_area": null,
+        "has_private_garden": null,
+        "rooms": [
+          {
+            "name": "Chambre Confort",
+            "room_type": "double",
+            "capacity_persons": 2,
+            "bed_configuration": "1 King bed (180x200) or 2 Single beds (90 cm) - fully modular",
+            "area_sqm": null,
+            "en_suite": true,
+            "bathroom_type": "en-suite walk-in Italian shower",
+            "view": "Views over the vineyards",
+            "has_terrace": false,
+            "air_conditioned": true,
+            "accessible": false,
+            "price_per_night_eur": null
+          },
+          {
+            "name": "Junior Suite (Suite Superieure)",
+            "room_type": "suite",
+            "capacity_persons": 4,
+            "bed_configuration": "1 King bed (180x200) and a convertible sofa bed (2x90 cm)",
+            "area_sqm": 40,
+            "en_suite": true,
+            "bathroom_type": "en-suite walk-in Italian shower",
+            "view": "Views over the vineyards",
+            "has_terrace": false,
+            "air_conditioned": true,
+            "accessible": false,
+            "price_per_night_eur": null
+          },
+          {
+            "name": "Suite Familiale avec Terrasse",
+            "room_type": "family_suite",
+            "capacity_persons": 4,
+            "bed_configuration": "1 King bed (180x200) and a convertible sofa bed (2x90 cm)",
+            "area_sqm": 40,
+            "en_suite": true,
+            "bathroom_type": "en-suite walk-in Italian shower",
+            "view": "Views over the vineyards",
+            "has_terrace": true,
+            "air_conditioned": true,
+            "accessible": false,
+            "price_per_night_eur": null
+          }
+        ]
+      },
+      {
+        "name": "L'Annexe (Settler's House)",
+        "building_type": "annexe",
+        "bedrooms": null,
+        "sleeping_capacity": 10,
+        "price_per_night_eur": null,
+        "description": "Cozy dormitory with 10 beds, also includes preparation area, children's area, and sanitary facilities.",
+        "has_kitchen": false,
+        "has_living_area": false,
+        "has_private_garden": false,
+        "rooms": null
+      }
+    ],
+    "room_amenities_common": ["WiFi", "air conditioning", "heating", "en-suite bathroom with walk-in Italian shower", "hairdryer", "safe", "kitchenette (fridge, microwave, dishware set, ceramic hob)", "courtesy tray (kettle, Nespresso coffee machine)", "connected TV with satellite channels", "blackout curtains"],
+    "air_conditioning": true,
+    "breakfast_included": null,
+    "breakfast_details": "Gourmet breakfast boxes/trays available in-room or on the terrace",
+    "breakfast_price_per_person_eur": null,
+    "dormitory_available": true,
+    "dormitory_beds": 10,
+    "nearby_accommodation": null,
+    "partner_hotel": null
+  },
+
+  "pricing": {
+    "pricing_model": "dry_hire",
+    "starting_price_eur": 6860,
+    "starting_price_description": "Low season (November to April) full privatization of the estate including reception room, covered terrace, accommodations, and gardens.",
+    "prices_include_tax": true,
+    "vat_rate_percentage": null,
+    "tourist_tax_note": null,
+    "pricing_year": "2025",
+    "seasonal_pricing": [
+      {
+        "season_name": "low",
+        "months": "November, December, January, February, March, April",
+        "day_of_week": null,
+        "price_eur": 6860,
+        "price_description": "Full privatization of estate"
+      },
+      {
+        "season_name": "medium",
+        "months": "October, May",
+        "day_of_week": null,
+        "price_eur": 8330,
+        "price_description": "Full privatization of estate"
+      },
+      {
+        "season_name": "high",
+        "months": "June, July, August, September",
+        "day_of_week": null,
+        "price_eur": 9800,
+        "price_description": "Full privatization of estate"
+      }
+    ],
+    "packages": null,
+    "catering_cost_per_person_eur": null,
+    "children_catering_price_eur": null,
+    "children_pricing_age_range": null,
+    "drinks_cost_per_person_eur": null,
+    "brunch_cost_per_person_eur": null,
+    "brunch_venue_fee_eur": null,
+    "welcome_dinner_cost_eur": null,
+    "minimum_nights": null,
+    "additional_night_rate_eur": null,
+    "extended_hour_rate_eur": null,
+    "rental_period_description": "Friday at 2:00 PM for setup and decoration, until Monday at 12:00 PM (2025 package)",
+    "deposit_percentage": null,
+    "deposit_amount_eur": null,
+    "deposit_refundable": null,
+    "security_deposit_eur": null,
+    "security_deposit_return_days": null,
+    "payment_schedule": null,
+    "payment_methods": ["credit card", "American Express", "Cheque Vacances"],
+    "cancellation_policy": null,
+    "cleaning_fee_eur": null,
+    "security_guard_cost_eur": null,
+    "coordinator_cost_eur": null,
+    "price_includes": [
+      "Full privatization of the estate",
+      "Reception room (Salle du Chai)",
+      "Covered terrace",
+      "Accommodation for Saturday night (up to 56 beds)",
+      "Gardens and swimming pool access",
+      "Round tables, chairs, and essential amenities",
+      "Sound system, WiFi, screen, and projector"
+    ],
+    "price_excludes": null,
+    "price_extras": null
+  },
+
+  "catering": {
+    "catering_model": "free_choice",
+    "in_house_chef": null,
+    "recommended_caterers": null,
+    "cuisine_style": null,
+    "dietary_accommodations": null,
+    "professional_kitchen": true,
+    "kitchen_size_sqm": 30,
+    "on_site_restaurant": null,
+    "brunch_available": null,
+    "brunch_description": null,
+    "late_night_food_available": null,
+    "pre_wedding_dinner": null,
+    "tasting_meal_included": null,
+    "wedding_cake": null
+  },
+
+  "drinks": {
+    "corkage_fee": null,
+    "corkage_fee_amount_eur": null,
+    "byo_wine_allowed": null,
+    "mandatory_venue_drinks": false,
+    "venue_wine_requirement": "At least one of the estate's own wines must be featured on the menu, selected during a tasting session",
+    "on_site_wine_production": true,
+    "wine_appellation": "Gaillac AOC",
+    "bar_service_description": null,
+    "wine_cellar": true
+  },
+
+  "vendor_rules": {
+    "vendor_freedom": "full_freedom",
+    "preferred_vendor_list_available": true,
+    "vendor_categories_recommended": ["wedding planner", "caterer", "DJ"],
+    "in_house_services": null,
+    "wedding_planner_available": "recommended",
+    "wedding_planner_mandatory": false,
+    "wedding_planner_name": null,
+    "non_approved_vendor_fee": null,
+    "day_of_coordinator_provided": null,
+    "dedicated_project_manager": null
+  },
+
+  "ceremony": {
+    "ceremony_types": null,
+    "licensed_for_civil_marriage": null,
+    "chapel_on_site": false,
+    "chapel_details": null,
+    "nearby_church": null,
+    "outdoor_ceremony_locations": ["The Gardens"],
+    "rain_backup_plan": null,
+    "celebrant_available": null,
+    "elopement_option": null
+  },
+
+  "amenities": {
+    "swimming_pool": true,
+    "pool_count": 1,
+    "pool_details": "Outdoor pool set among the vineyards",
+    "hot_tub_jacuzzi": null,
+    "spa": null,
+    "spa_details": null,
+    "tennis_court": null,
+    "petanque_court": true,
+    "gym_fitness": null,
+    "games_room": null,
+    "library": null,
+    "cinema_room": null,
+    "grand_piano": null,
+    "children_playground": null,
+    "helipad": null,
+    "gardens_description": "2-hectare park with green spaces, swimming pool, relaxation area under cedar trees, vineyard walks, and petanque",
+    "garden_style": null,
+    "vineyard_on_site": true,
+    "olive_groves": null,
+    "lake_pond": null,
+    "forest_woodland": null,
+    "notable_trees": ["Hundred-year-old cedar trees"],
+    "fountain_water_feature": null,
+    "orangery": null,
+    "dovecote": true,
+    "greenhouse": null
+  },
+
+  "activities": {
+    "on_site_activities": ["swimming", "petanque", "wine tasting", "vineyard walks", "relaxation"],
+    "nearby_activities": ["hot air balloon rides", "cycling", "mountain biking", "visits to Cathedrale Sainte-Cecile in Albi", "vineyard discovery tours"],
+    "wine_tasting_on_site": true,
+    "cooking_workshops": null,
+    "excursions_organized": null,
+    "excursion_destinations": null,
+    "fireworks_available": null,
+    "fireworks_details": null
+  },
+
+  "technical": {
+    "wifi_available": true,
+    "sound_system_provided": true,
+    "av_equipment": ["sound system", "screen", "projector"],
+    "furniture_provided": true,
+    "furniture_details": "Round tables, chairs, and essential amenities provided in the Salle du Chai",
+    "decoration_services": null,
+    "marquee_tent_available": null,
+    "marquee_size_sqm": null,
+    "backup_generator": null,
+    "ev_charging_stations": true,
+    "climate_control": "Underfloor heating/cooling system in the Salle du Chai for year-round comfort"
+  },
+
+  "accessibility": {
+    "wheelchair_accessible": false,
+    "accessible_rooms_count": 0,
+    "elevator": null,
+    "pmr_parking": null,
+    "accessibility_details": "The establishment is not accessible to persons with reduced mobility. However, there is 1 restroom adapted for guests with reduced mobility."
+  },
+
+  "sustainability": {
+    "eco_certifications": ["Cle Verte (Green Key)"],
+    "eco_practices": ["Hotel Engage sanitary charter"]
+  },
+
+  "parking": {
+    "parking_available": true,
+    "parking_spaces": null,
+    "parking_type": "Private, free parking with EV charging station available",
+    "vendor_parking_separate": null
+  },
+
+  "policies": {
+    "curfew_time": null,
+    "outdoor_music_curfew": null,
+    "indoor_music_curfew": null,
+    "no_curfew": null,
+    "noise_restrictions": null,
+    "setup_access_time": "Friday at 2:00 PM for setup and decoration (2025 package)",
+    "teardown_deadline": "Monday at 12:00 PM (2025 package)",
+    "tent_marquee_policy": null,
+    "confetti_policy": null,
+    "candle_policy": null,
+    "event_insurance_required": null,
+    "event_insurance_cost_eur": null,
+    "portable_toilets_policy": null,
+    "lifeguard_required": null,
+    "babysitter_mandatory": null,
+    "pet_policy": "not_allowed",
+    "child_friendly": true,
+    "baby_facilities": ["cots", "changing facilities"],
+    "children_area": true,
+    "babysitter_available": null,
+    "lgbtq_friendly": null,
+    "all_faiths_welcome": null,
+    "security_guard_policy": null,
+    "events_per_year_limit": null,
+    "check_in_time": null,
+    "check_out_time": "Sunday before 11:00 AM"
+  },
+
+  "contact": {
+    "phone_primary": "+33 5 63 41 26 80",
+    "phone_secondary": null,
+    "email_primary": "contact@chateaudetauzies.com",
+    "email_secondary": null,
+    "website_url": "https://www.chateaudetauzies.com/",
+    "instagram": "@chateaudetauzies",
+    "facebook": "@chateaudetauzies",
+    "other_social_media": null,
+    "whatsapp": null,
+    "contact_person": null,
+    "phone_hours": null,
+    "brochure_url": null,
+    "virtual_tour_url": null
+  },
+
+  "event_types": ["weddings", "seminars", "corporate events", "gala evenings", "family gatherings"],
+
+  "wedding_day_details": {
+    "typical_timeline": null,
+    "typical_weekend_flow": null,
+    "multi_day_event": true,
+    "cultural_ceremony_experience": null,
+    "destination_wedding_speciality": null
+  }
+}
