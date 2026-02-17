@@ -1,0 +1,225 @@
+# Venue Listing Generator Workflow
+# French Wedding Style — Hermetic Source of Truth
+#
+# This is the SINGLE source of truth for the venue listing workflow.
+# Source of Truth Hierarchy:
+#   1. workflow.yml (this file) — logic, routing, and processing rules
+#   2. template.md — the venue data entry template (output skeleton)
+#
+# Before generating any content, also load:
+#   - ../../context/tone-of-voice.md (brand voice rules)
+#   - ../../reference/location-pages.json (internal linking URLs)
+
+name: venue-listing-gen
+description: >
+  Transforms raw venue brochure text dumps into structured, on-brand
+  venue listing pages for French Wedding Style. One venue per run.
+  Applies the Supplier/Venue Listing Pages tone of voice, fills data
+  gaps with web research (flagged for review), and inserts optimized
+  internal links to FWS location pages.
+root_path: ./
+
+# ─── Configuration ───────────────────────────────────────────────
+config:
+  communication_language: en
+  document_output_language: en
+  output_format: markdown
+  date: system-generated
+  current_year: system-generated
+
+# ─── Input ───────────────────────────────────────────────────────
+input:
+  method: paste          # User pastes raw brochure text into chat
+  batch_size: 1          # One venue per run
+
+# ─── Output ──────────────────────────────────────────────────────
+output:
+  format: markdown
+  filename_pattern: "output/{venue-name-slug}.md"
+  checkpoint_review: false   # Direct output, no step-by-step approval
+
+# ─── File References (all relative to root_path) ────────────────
+files:
+  template: instructions/template.md
+  output_dir: output/
+  working_dir: working/
+
+# ─── Brand Context (loaded from workspace) ──────────────────────
+# Claude must read these before generating any output.
+brand_context:
+  tone_of_voice: "../../context/tone-of-voice.md"
+  business_info: "../../context/business-info.md"
+
+# ─── SEO & Linking Context ──────────────────────────────────────
+seo_context:
+  location_pages: "../../reference/location-pages.json"
+
+# ─── Execution Rules ────────────────────────────────────────────
+execution:
+  read_order:
+    - workflow.yml
+    - instructions/template.md
+  output_target: output/
+  template_source: instructions/template.md
+
+standalone: true
+
+# ═════════════════════════════════════════════════════════════════
+# PROCESSING STEPS
+# ═════════════════════════════════════════════════════════════════
+
+# ─── Tone of Voice ──────────────────────────────────────────────
+# All content must follow the Supplier/Venue Listing Pages tone
+# from tone-of-voice.md:
+#
+#   - Professional, informative, credible, decision-focused
+#   - More formal than blog posts — couples are evaluating and deciding
+#   - Lead with factual information: location, capacity, services
+#   - Use specific details that help couples visualize their wedding
+#   - Build trust through clear, honest information
+#   - Avoid sales language — let facts and descriptions speak
+#   - Professional without being cold — still welcoming and accessible
+#
+# FORBIDDEN WORDS (AI clichés — never use):
+#   timeless, sophisticated, nestled, opulent, meticulous, effortless,
+#   curated, boasts, stunning, breathtaking, exquisite, impeccable,
+#   ethereal, whimsical, enchanting, magical, captivating, mesmerizing,
+#   luxe, luxury, elegant, elegance, glamorous, lavish, sumptuous,
+#   decadent, extravagant, beautiful, gorgeous, lovely, amazing,
+#   incredible, perfect, flawless, unique, special, memorable, dream,
+#   dreamy, unforgettable, ultimate
+#
+# See tone-of-voice.md for the complete list and preferred alternatives.
+
+# ─── Step 1: Receive & Parse Input ──────────────────────────────
+# - Accept the pasted brochure text
+# - Read through the entire dump and identify all available data points
+# - Map each piece of information to the corresponding template section
+# - Note which sections have data and which are missing
+
+# ─── Step 2: Categorize & Tag ───────────────────────────────────
+# - Determine the venue's location from the brochure text
+# - Select the correct Official French Region Tag (1 only)
+# - Build the Venue Location Hierarchy:
+#     1 Primary Region → 1 Sub-Region → relevant City tags
+# - If location is ambiguous, use web search. Flag as [AI-generated — verify]
+
+# ─── Step 3: Write Content Sections ─────────────────────────────
+#
+# What We Love (3 bullets from brochure details):
+#   - Highlight (18 words max): specific scene with numbers/measurements
+#     and distinctive features (e.g. rotunda, six-metre ceilings, 42 hectares)
+#   - Vibe (18 words max): sensory and concrete — what you'd see, feel, hear
+#     (sunlit windows, candlelit stone gallery, private terrace)
+#   - Practical Advantage (18 words max): hard logistics — guest counts,
+#     exclusivity, on-site rooms, transfer times, parking, step-free access
+#
+# About the Venue (max 150 words):
+#   - Factual overview: location, history, wedding offerings
+#   - Include concrete data: dates, distances, capacity, distinctive features
+#   - Reference nearby towns or landmarks for geographic context
+#   - Include 1 optimized internal link (see Internal Linking below)
+#
+# Accommodation & Amenities:
+#   - Accommodation (100 words max): on-site lodging overview
+#   - Amenities (100 words max): specific facilities for guests
+#
+# Getting There:
+#   - From Paris: train, drive, flight options with approximate times
+#   - From London: Eurostar + onward, flights to nearest airport
+#   - If not in brochure, use web search. Flag as [AI-generated — verify]
+#
+# Additional Offerings (100 words max):
+#   - Highlight versatility: retreats, seminars, spa, celebrations
+#   - Do NOT start with "Beyond weddings"
+#   - Include 1 optimized internal link (see Internal Linking below)
+
+# ─── Step 4: Business & Technical Details ────────────────────────
+# Extract from brochure:
+#   - Contact info: name, email, website, address
+#   - Specs: pricing (euros), max guest capacity, max accommodation
+#     capacity, catering type (Self-catering | In-house Chef |
+#     Preferred Caterer | Free Choice)
+#   - Facilities checklist: Pool, Golf Course, Gym, Chapel, Yoga,
+#     LGBT Friendly, Pet Friendly, Disabled Facilities, Air Conditioning, Wifi
+#   - Curfew time
+#
+# If not found in brochure: leave blank or mark [Not provided — check with venue]
+
+# ─── Step 5: Generate SEO & FAQs ────────────────────────────────
+#
+# Pricing & Packages:
+#   - Brief overview of pricing structure from brochure
+#   - List packages/seasons with "From €" pricing where available
+#
+# FAQs (6 questions):
+#   - Generate 6 "People Also Ask" style Q&As from venue info
+#   - Address: capacity, availability, what's included, logistics,
+#     accommodation, restrictions
+#   - Do NOT include a price question
+#   - Flag entire section as [AI-generated — verify]
+#
+# Reviews:
+#   - Extract one-sentence highlight from brochure if available
+#   - Include names or mark Anonymous
+#   - If no review in brochure, leave blank
+#
+# Yoast SEO:
+#   - SEO Title: {Venue Name} | 2026/27 Wedding Brochure & Pricing
+#   - Permalink: /{venue-name-slug}/
+#   - Meta Description: venue name + compelling summary with USPs
+#     and location (max 155 characters)
+#   - Flag entire section as [AI-generated — verify]
+
+# ─── Step 6: Internal Linking ────────────────────────────────────
+internal_linking:
+  enabled: true
+  total_links: 2
+  placement:
+    - section: "About the Venue"
+      count: 1
+    - section: "Additional Offerings"
+      count: 1
+  data_source: "../../reference/location-pages.json"
+
+# How to build anchor text:
+#   Combine a venue characteristic (capacity, catering, accommodation,
+#   setting) with the venue's geographic location. The link URL comes
+#   from the matching entry in location-pages.json.
+#
+# Anchor text examples:
+#   - "wedding venues with large guest accommodation in Nouvelle-Aquitaine"
+#   - "luxury châteaux with rooms for over 50 guests in Avignon"
+#   - "all-inclusive packages in the French Riviera"
+#   - "Provence wedding venues with on-site accommodation"
+#
+# Rules:
+#   - Target different hierarchy levels across the 2 links
+#     (e.g. one region-level, one city-level)
+#   - Anchor text must feel natural — not forced or keyword-stuffed
+#   - Use markdown link format: [anchor text](url)
+
+# ─── Step 7: Tone of Voice Compliance Check ─────────────────────
+# Before saving, scan the entire output:
+#   [ ] Zero AI clichés (check forbidden words list above)
+#   [ ] Specific details — no vague adjectives, use concrete nouns/numbers
+#   [ ] Active voice throughout
+#   [ ] Professional listing tone — not blog-style or sales copy
+#   [ ] Human-sounding — could a knowledgeable person have written this?
+#   [ ] Exactly 2 internal links present, anchor text natural and descriptive
+#   [ ] All AI-generated sections flagged with [AI-generated — verify]
+#
+# If any check fails, rewrite the offending section before proceeding.
+
+# ─── Step 8: Output ─────────────────────────────────────────────
+# - Save to output/{venue-name-slug}.md
+#     venue-name-slug = lowercase, hyphens for spaces, no special chars
+#     Example: chateau-la-tour-vaucros.md
+# - Display the completed listing to the user
+
+# ─── Quick Reference: What Gets Flagged ─────────────────────────
+# Getting There (if not in brochure)    → [AI-generated — verify]
+# FAQs (always generated)               → [AI-generated — verify]
+# Yoast SEO (always generated)          → [AI-generated — verify]
+# Location tags (if inferred)           → [AI-generated — verify]
+# Any missing data                      → [Not provided — check with venue]

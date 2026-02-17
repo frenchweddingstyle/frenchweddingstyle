@@ -1,0 +1,25 @@
+# Claude Code settings (local/private)
+.claude/settings.local.json
+
+# MCP config (contains API keys)
+.mcp.json
+
+# Environment files
+.env
+nul
+
+# Python
+__pycache__/
+*.pyc
+
+# Personal context (contains business/personal info)
+context/personal-info.md
+context/business-info.md
+
+# Workflow working directories (drafts, intermediate files)
+workflows/*/working/
+
+# OS files
+Thumbs.db
+desktop.ini
+.DS_Store

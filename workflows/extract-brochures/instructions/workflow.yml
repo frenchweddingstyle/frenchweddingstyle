@@ -1,0 +1,227 @@
+# Brochure Link Extraction Workflow
+# French Wedding Style — Hermetic Source of Truth
+#
+# This is the SINGLE source of truth for the brochure extraction workflow.
+# Source of Truth Hierarchy:
+#   1. workflow.yml (this file) — logic, URL classification, execution phases
+#   2. instructions.md — per-type extraction details, cleaning rules, error handling
+#
+# Credentials are loaded from: ../../.env
+
+name: extract-brochures
+description: >
+  Extracts text from brochure links in Airtable (Google Drive files/folders,
+  Google Docs, Calameo flipbooks, Canva designs, etc.), converts them to
+  clean Markdown, and writes the content back to the brochure_text field.
+  Processes in batches of 5 with user confirmation between batches.
+  Claude orchestrates directly via MCP tools (no Python script needed).
+root_path: ./
+
+# ─── Configuration ───────────────────────────────────────────────
+config:
+  communication_language: en
+  batch_size: 5
+  max_content_length: 95000        # Airtable long text field character limit
+  consecutive_failure_threshold: 2  # Pause and ask user after N consecutive failures
+  rate_limit_delay: 2               # Seconds between Firecrawl API calls
+
+# ─── Credentials ─────────────────────────────────────────────────
+credentials:
+  env_file: ../../.env
+  required_keys:
+    - AIRTABLE_API_KEY
+    - AIRTABLE_BASE_ID
+    - FIRECRAWL_API_KEY
+
+# ─── Airtable Schema ────────────────────────────────────────────
+schema:
+  base_id: appFQYNRTuooIRZZz
+  table_name: Venues
+  table_id: tblIEJQNynXIsD8GL
+  source_field:
+    name: brochure_link
+    id: fldVwTdlM6xykr7VG
+    type: url
+  target_field:
+    name: brochure_text
+    id: fldwitXHAFuCt2r8U
+    type: multilineText
+  context_field:
+    name: venue_name
+    id: fldaylT3LCKJYZnDS
+
+# ─── URL Classification ─────────────────────────────────────────
+# Applied to brochure_link value to determine extraction method.
+url_classification:
+  rules:
+    - name: SKIP_EMAIL
+      description: "Email addresses — not a URL"
+      match: "contains '@' AND does NOT contain '/'"
+      action: skip_silently
+
+    - name: SKIP_NOTE
+      description: "Text notes (sent, No Weddings, etc.) — not a URL"
+      match: "does NOT start with 'http'"
+      action: skip_silently
+
+    - name: GDRIVE_FILE
+      description: "Google Drive single file (usually PDF)"
+      match: "contains 'drive.google.com/file/d/'"
+      id_extraction: "extract ID between /file/d/ and next /"
+      action: firecrawl_scrape_with_pdf_parser
+      fallback: "convert to drive.google.com/uc?export=download&id={ID}"
+
+    - name: GDRIVE_FOLDER
+      description: "Google Drive folder containing multiple files"
+      match: "contains 'drive.google.com/drive/folders/'"
+      id_extraction: "extract ID between /folders/ and next ? or end"
+      action: gdrive_mcp_list_then_extract_each
+
+    - name: GDOCS
+      description: "Google Docs document"
+      match: "contains 'docs.google.com/document/d/'"
+      id_extraction: "extract ID between /document/d/ and next /"
+      action: gdrive_mcp_get_doc_content
+
+    - name: WEB_SCRAPE
+      description: "Calameo, Canva, Heyzine, or any other web URL"
+      match: "starts with 'http' (catch-all after above rules)"
+      action: firecrawl_scrape_markdown
+
+# ─── Extraction Methods ─────────────────────────────────────────
+extraction:
+  firecrawl_scrape_with_pdf_parser:
+    tool: mcp__firecrawl__firecrawl_scrape
+    params:
+      url: "{brochure_link}"
+      formats: ["markdown"]
+      parsers: ["pdf"]
+      onlyMainContent: true
+      waitFor: 8000
+
+  firecrawl_scrape_markdown:
+    tool: mcp__firecrawl__firecrawl_scrape
+    params:
+      url: "{brochure_link}"
+      formats: ["markdown"]
+      onlyMainContent: true
+      waitFor: 8000
+
+  gdrive_mcp_list_then_extract_each:
+    tool: mcp__google-drive__listFolder
+    params:
+      folderId: "{extracted_folder_id}"
+    per_file:
+      google_doc: mcp__google-drive__getGoogleDocContent
+      pdf_or_other: firecrawl_scrape_with_pdf_parser
+    relevance_check:
+      description: >
+        After listing folder contents and before/after extraction, validate
+        that files actually belong to this venue. Shared Drive folders sometimes
+        contain brochures from multiple unrelated venues.
+      filename_check: >
+        For each file, check if the filename references a DIFFERENT venue name
+        (e.g., "Château Comtesse Lafond" in a folder for "Domaine de La Leotardie").
+        If the filename clearly names another venue, SKIP that file.
+      content_check: >
+        After extracting content from each file, verify the venue_name (or its
+        core identifying word) appears at least once in the extracted text.
+        If ZERO mentions of the venue are found AND the content prominently
+        references a different venue name, discard that file's content.
+      on_all_irrelevant: >
+        If ALL files in the folder fail relevance checks, write:
+        "[ERROR]: Folder contains brochures from other venues. Needs manual review."
+
+  gdrive_mcp_get_doc_content:
+    tool: mcp__google-drive__getGoogleDocContent
+    params:
+      documentId: "{extracted_doc_id}"
+
+# ─── Output Format ──────────────────────────────────────────────
+output_format:
+  single_file: |
+    {extracted_content}
+
+  multi_file: |
+    ### Source: {filename_1}
+
+    {content_1}
+
+    ---
+
+    ### Source: {filename_2}
+
+    {content_2}
+
+  deduplication: >
+    If identical "Terms & Conditions" blocks appear across multiple files
+    in the same folder, keep only the most complete version.
+
+# ─── Error Handling ──────────────────────────────────────────────
+error_handling:
+  broken_link:
+    condition: "HTTP 404, DNS failure, unreachable"
+    write_to_target: "[ERROR]: Link unreachable."
+
+  no_text_found:
+    condition: "Scrape succeeds but returns empty/no readable text"
+    write_to_target: "[ERROR]: Files are images without readable text."
+
+  unsupported_format:
+    condition: "Files are .zip, .exe, or other non-extractable formats"
+    write_to_target: "[ERROR]: Unsupported file types found."
+
+  partial_success:
+    condition: "Some files in folder extracted, others failed"
+    write_to_target: "[WARNING]: Some files in folder were unreadable.\n\n{extracted_text}"
+
+  non_url:
+    condition: "Value is email address or text note"
+    action: "Skip silently — leave brochure_text empty"
+
+# ─── File References ─────────────────────────────────────────────
+files:
+  instructions: instructions/instructions.md
+  working_log: working/workings_temp.md
+  output_dir: output/
+
+# ─── Execution ──────────────────────────────────────────────────
+execution:
+  read_order:
+    - ../../.env
+
+  phases:
+    - name: "Phase A: Discovery"
+      steps:
+        - "Read .env from workspace root — extract API credentials"
+        - "Query Airtable via MCP: filterByFormula=AND(NOT({brochure_link}=''),{brochure_text}='')"
+        - "Handle pagination: if response returns 200 records, there may be more"
+        - "Classify each record's brochure_link URL and separate into actionable vs skip"
+        - "Report breakdown to user: X Google Drive files, Y folders, Z web links, W skipped"
+        - "Create/append session header to working/workings_temp.md"
+
+    - name: "Phase B: Extract Batch (5 records)"
+      steps:
+        - "Select next batch_size records from actionable list"
+        - "For each record:"
+        - "  1. Classify URL type using url_classification rules"
+        - "  2. Extract content using the corresponding extraction method"
+        - "  3. For GDRIVE_FOLDER: list folder contents, run relevance pre-filter on filenames, extract each relevant file, run content post-check, consolidate with headers+dividers"
+        - "  4. For GDRIVE_FILE: scrape with PDF parser; on failure try download URL fallback"
+        - "  5. For GDOCS: read via getGoogleDocContent"
+        - "  6. For WEB_SCRAPE: scrape via Firecrawl"
+        - "  7. Clean extracted content (strip nav/footer noise, preserve tables/pricing)"
+        - "  8. Truncate if >95,000 chars"
+        - "  9. Write to brochure_text via mcp__airtable__update_records"
+        - "  10. On error, write appropriate error marker"
+        - "  11. Log result to working/workings_temp.md"
+        - "  Track consecutive failures — if >= threshold, AskUserQuestion"
+
+    - name: "Phase C: Reporting"
+      steps:
+        - "Summarize batch: successful, failed, skipped, error counts"
+        - "Save batch report to output/batch-report-{timestamp}.md"
+        - "Display summary to user"
+        - "Ask user: proceed with next batch of 5?"
+
+standalone: true

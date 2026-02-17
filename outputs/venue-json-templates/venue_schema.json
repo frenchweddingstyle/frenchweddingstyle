@@ -1,0 +1,1530 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://frenchweddingstyle.com/schemas/venue/v1.1.0",
+  "title": "French Wedding Venue Extraction Schema",
+  "description": "The definitive JSON Schema for extracting structured data from French wedding venue content. All fields are optional and nullable. Only extract information explicitly stated in the source text — never guess or infer. Return null for any field where the information is not present.",
+  "type": "object",
+  "properties": {
+
+    "overview": {
+      "type": "object",
+      "description": "Top-level numeric summary fields for filtering and sorting. These are the high-level numbers a couple searches by. Extract the single best number for each — do not put ranges here.",
+      "properties": {
+        "min_price_eur": {
+          "type": ["integer", "null"],
+          "minimum": 0,
+          "description": "The lowest advertised starting price for wedding venue hire in EUR. If the venue quotes seasonal pricing, use the cheapest season. Exclude per-person catering costs — this is venue hire only unless the venue only offers all-inclusive packages."
+        },
+        "max_guests": {
+          "type": ["integer", "null"],
+          "minimum": 1,
+          "description": "The maximum total number of wedding guests the venue can accommodate for a seated dinner. If only a general 'up to X guests' is stated without specifying seated vs standing, use that number."
+        },
+        "min_guests": {
+          "type": ["integer", "null"],
+          "minimum": 1,
+          "description": "The minimum number of guests required for a standard wedding booking. E.g. some venues require a minimum of 50 or 80 guests. Only extract if explicitly stated."
+        },
+        "max_sleeping_guests": {
+          "type": ["integer", "null"],
+          "minimum": 1,
+          "description": "The maximum number of guests who can sleep on-site across all accommodation (chateau rooms, gites, cottages, dormitories). Do NOT include nearby off-site hotels."
+        },
+        "total_bedrooms": {
+          "type": ["integer", "null"],
+          "minimum": 1,
+          "description": "Total number of bedrooms across all on-site accommodation buildings. Mirrors accommodation.total_bedrooms for top-level filtering convenience."
+        },
+        "estate_size_hectares": {
+          "type": ["number", "null"],
+          "minimum": 0,
+          "description": "Total estate/property size in hectares. Convert from acres if necessary (1 acre = 0.4047 hectares)."
+        }
+      }
+    },
+
+    "identity": {
+      "type": "object",
+      "description": "Core identifying information about the venue — who it is, what it is, and how it presents itself.",
+      "properties": {
+        "venue_name": {
+          "type": ["string", "null"],
+          "description": "The official name of the venue as it appears on its own website. E.g. 'Chateau de Pondres', 'Domaine de Lamanon'."
+        },
+        "venue_type": {
+          "type": ["string", "null"],
+          "description": "Primary property classification. E.g. 'chateau', 'domaine', 'bastide', 'mas', 'manoir', 'abbaye', 'hotel'. Use lowercase."
+        },
+        "venue_subtype": {
+          "type": ["string", "null"],
+          "description": "More specific architectural or historical sub-classification if stated. E.g. 'cistercian abbey', 'neo-gothic castle', 'baroque bijou', 'boutique hotel', 'chambres d'hotes'."
+        },
+        "tagline": {
+          "type": ["string", "null"],
+          "description": "Short marketing tagline or strapline used by the venue. E.g. 'Un Ecrin d'emotions en Provence'."
+        },
+        "short_description": {
+          "type": ["string", "null"],
+          "description": "A 1-3 sentence marketing summary of the venue as found on the website or listings."
+        },
+        "exclusivity_model": {
+          "type": ["string", "null"],
+          "enum": ["full_exclusivity", "optional_exclusivity", "shared", null],
+          "description": "Whether the venue is rented exclusively (privatised) for the event or shared with other guests/events. 'full_exclusivity' = always privatised, 'optional_exclusivity' = exclusivity available as an upgrade, 'shared' = shared with other guests/events."
+        },
+        "owner_names": {
+          "type": ["array", "null"],
+          "items": { "type": "string" },
+          "description": "Names of the venue owners or primary operators. E.g. ['Coen Stork', 'Catherine Stork']."
+        },
+        "management_company": {
+          "type": ["string", "null"],
+          "description": "Parent company, management entity, or foundation operating the venue. E.g. 'Domaines & evenements SAS', 'La Napoule Art Foundation'."
+        },
+        "network_membership": {
+          "type": ["string", "null"],
+          "description": "Hotel network or brand collection the venue belongs to. E.g. 'The Originals Hotels', 'Homanie', 'Home Sweet Event'."
+        },
+        "media_features": {
+          "type": ["array", "null"],
+          "items": { "type": "string" },
+          "description": "Publications, TV shows, or media where the venue has been featured. E.g. ['Conde Nast Brides', 'Vogue', 'Channel 4 Escape to the Chateau DIY', 'Style Me Pretty']."
+        },
+        "filming_credits": {
+          "type": ["array", "null"],
+          "items": { "type": "string" },
+          "description": "Films or productions shot at the venue. E.g. ['Le Comte de Monte Cristo (2024)']."
+        },
+        "certifications": {
+          "type": ["array", "null"],
+          "items": { "type": "string" },
+          "description": "Environmental, quality, or safety certifications. E.g. ['Green Key', 'Cle Verte', 'Jardins Remarquables', 'Monument Historique']."
+        },
+        "google_rating": {
+          "type": ["number", "null"],
+          "minimum": 0,
+          "maximum": 5,
+          "description": "Google review score (0-5 scale) if explicitly stated."
+        },
+        "google_review_count": {
+          "type": ["integer", "null"],
+          "description": "Number of Google reviews if explicitly stated."
+        },
+        "languages_spoken": {
+          "type": ["array", "null"],
+          "items": { "type": "string" },
+          "description": "Languages the venue staff can communicate in. E.g. ['French', 'English', 'Spanish', 'German']."
+        }
+      }
+    },
+
+    "location": {
+      "type": "object",
+      "description": "Geographic and address information. Extract exactly as stated — do not geocode or calculate distances yourself.",
+      "properties": {
+        "address": {
+          "$ref": "#/$defs/address",
+          "description": "Full postal address of the venue."
+        },
+        "gps_coordinates": {
+          "$ref": "#/$defs/gps_coordinates",
+          "description": "GPS coordinates if explicitly stated on the venue website or listing."
+        },
+        "region": {
+          "type": ["string", "null"],
+          "description": "Broad French region. E.g. 'Provence-Alpes-Cote d'Azur', 'Occitanie', 'Ile-de-France', 'Nouvelle-Aquitaine'."
+        },
+        "sub_region": {
+          "type": ["string", "null"],
+          "description": "Specific sub-region, terroir, or area. E.g. 'Luberon', 'Alpilles', 'Bordeaux & Gironde', 'Pays Cathar', 'Vexin'."
+        },
+        "natural_park": {
+          "type": ["string", "null"],
+          "description": "Named natural or regional park the venue is within or adjacent to. E.g. 'Alpilles Regional Park', 'Parc Naturel Regional du Luberon'."
+        },
+        "nearest_city": {
+          "$ref": "#/$defs/named_distance",
+          "description": "Closest major city with distance or drive time. E.g. {name: 'Montpellier', distance_text: '35 minutes'}."
+        },
+        "nearest_cities": {
+          "type": ["array", "null"],
+          "items": { "$ref": "#/$defs/named_distance" },
+          "description": "Multiple nearby cities with distances if several are mentioned."
+        },
+        "nearest_airports": {
+          "type": ["array", "null"],
+          "items": { "$ref": "#/$defs/named_distance" },
+          "description": "Nearest airports with distance/drive time. E.g. [{name: 'Marseille Airport', distance_text: '1 hour'}]."
+        },
+        "nearest_train_stations": {
+          "type": ["array", "null"],
+          "items": { "$ref": "#/$defs/named_distance" },
+          "description": "Nearest train/TGV stations with distance/drive time."
+        },
+        "motorway_access": {
+          "type": ["string", "null"],
+          "description": "Nearest motorway and exit details. E.g. 'A9, exit no. 34', 'A7 Avignon Nord Exit, 15 min'."
+        },
+        "distance_to_paris": {
+          "type": ["string", "null"],
+          "description": "Travel time/distance from Paris if stated. E.g. '2h40 by TGV', '1 hour by car'."
+        },
+        "distance_to_coast": {
+          "type": ["string", "null"],
+          "description": "Distance to the nearest beach or coastline if stated. E.g. '10 km to Cap d'Agde', '40 minutes to Mediterranean'."
+        },
+        "nearby_villages": {
+          "type": ["array", "null"],
+          "items": { "type": "string" },
+          "description": "Names of nearby charming or notable villages. E.g. ['Gordes', 'Lourmarin', 'Eygalieres']."
+        },
+        "nearby_attractions": {
+          "type": ["array", "null"],
+          "items": { "type": "string" },
+          "description": "Notable tourist sites or landmarks nearby. E.g. ['Pont du Gard', 'Monet house in Giverny', 'Cite de Carcassonne']."
+        },
+        "landscape_description": {
+          "type": ["string", "null"],
+          "description": "Prose description of the geographic/landscape setting. E.g. 'between the Mediterranean and the Cevennes'."
+        },
+        "shuttle_service_available": {
+          "type": ["boolean", "null"],
+          "description": "Whether the venue can arrange shuttle or taxi transfers for guests."
+        }
+      }
+    },
+
+    "history": {
+      "type": "object",
+      "description": "Historical background of the property — construction, ownership, architecture, heritage status.",
+      "properties": {
+        "construction_period": {
+          "type": ["string", "null"],
+          "description": "Century or date range of original construction. E.g. '16th century', '1854', '1770-1775'."
+        },
+        "construction_year": {
+          "type": ["integer", "null"],
+          "description": "Specific year of construction if known. E.g. 1855."
+        },
+        "architectural_style": {
+          "type": ["string", "null"],
+          "description": "Dominant architectural style. E.g. 'neo-gothic', 'neo-renaissance', 'baroque', 'provencal'."
+        },
+        "architect": {
+          "type": ["string", "null"],
+          "description": "Name of the architect if stated. E.g. 'Joseph Paxton'."
+        },
+        "listed_monument_status": {
+          "type": ["string", "null"],
+          "description": "Official heritage classification if stated. E.g. 'Monument Historique', 'Inscrit aux Monuments Historiques'."
+        },
+        "historical_families": {
+          "type": ["array", "null"],
+          "items": { "type": "string" },
+          "description": "Notable families historically associated with the property. E.g. ['Rothschild family', 'La Rochefoucauld family', 'Saint-Exupery family']."
+        },
+        "notable_historical_guests": {
+          "type": ["array", "null"],
+          "items": { "type": "string" },
+          "description": "Famous historical visitors. E.g. ['Napoleon III', 'Nostradamus']."
+        },
+        "historical_narrative": {
+          "type": ["string", "null"],
+          "description": "Full historical account of the property as described in the source text. Retain key facts, dates, and figures."
+        },
+        "notable_architectural_features": {
+          "type": ["array", "null"],
+          "items": { "type": "string" },
+          "description": "Specific standout architectural elements. E.g. ['glass ceiling by Joseph Paxton', '4 towers, 12 turrets, 26 spiral staircases', 'Corinthian columns', 'sculpted stone fireplace']."
+        },
+        "renovation_history": {
+          "type": ["string", "null"],
+          "description": "Details about renovation or restoration work. E.g. 'Full renovation 2014-2019 using authentic materials'."
+        },
+        "literary_cultural_associations": {
+          "type": ["array", "null"],
+          "items": { "type": "string" },
+          "description": "Connections to literature, art, or culture. E.g. ['Marcel Pagnol', 'Moliere performed here']."
+        }
+      }
+    },
+
+    "spaces": {
+      "type": ["array", "null"],
+      "description": "Array of named event/reception spaces at the venue. Each space is a distinct area that can be used for ceremonies, cocktails, dinners, or dancing. Include both indoor and outdoor spaces.",
+      "items": { "$ref": "#/$defs/event_space" }
+    },
+
+    "accommodation": {
+      "type": "object",
+      "description": "On-site sleeping accommodation details. This covers the chateau rooms, gites, cottages, and any other buildings where guests can stay overnight.",
+      "properties": {
+        "on_site_accommodation": {
+          "type": ["boolean", "null"],
+          "description": "Whether overnight accommodation is available on-site."
+        },
+        "total_bedrooms": {
+          "type": ["integer", "null"],
+          "description": "Total number of bedrooms across all on-site buildings."
+        },
+        "total_sleeping_capacity": {
+          "type": ["integer", "null"],
+          "description": "Maximum number of guests who can sleep on-site."
+        },
+        "mandatory_accommodation_purchase": {
+          "type": ["boolean", "null"],
+          "description": "Whether guests are required to purchase on-site accommodation as part of the booking. E.g. some venues mandate Saturday night accommodation for all guests."
+        },
+        "mandatory_accommodation_details": {
+          "type": ["string", "null"],
+          "description": "Details about mandatory accommodation rules. E.g. 'Accommodation mandatory on Saturday night for 48 persons', 'All guests must stay on-site'."
+        },
+        "bridal_suite": {
+          "type": ["boolean", "null"],
+          "description": "Whether a dedicated bridal suite exists."
+        },
+        "bridal_suite_description": {
+          "type": ["string", "null"],
+          "description": "Description of the bridal suite if one exists."
+        },
+        "preparation_rooms": {
+          "type": ["string", "null"],
+          "description": "Details about dedicated getting-ready rooms for bride and/or groom."
+        },
+        "buildings": {
+          "type": ["array", "null"],
+          "description": "Array of separate accommodation buildings on the estate. E.g. the main chateau, individual gites, cottages, annexes.",
+          "items": { "$ref": "#/$defs/accommodation_building" }
+        },
+        "room_amenities_common": {
+          "type": ["array", "null"],
+          "items": { "type": "string" },
+          "description": "Amenities common across most rooms. E.g. ['WiFi', 'air conditioning', 'en-suite bathroom', 'hairdryer', 'towels and linens']."
+        },
+        "air_conditioning": {
+          "type": ["boolean", "null"],
+          "description": "Whether accommodation has air conditioning."
+        },
+        "breakfast_included": {
+          "type": ["boolean", "null"],
+          "description": "Whether breakfast is included in the room rate or venue hire."
+        },
+        "breakfast_details": {
+          "type": ["string", "null"],
+          "description": "Description of breakfast service. E.g. 'gourmet breakfast trays served in-room or on terrace'."
+        },
+        "breakfast_price_per_person_eur": {
+          "type": ["number", "null"],
+          "description": "Per-person breakfast cost in EUR when not included in the price. E.g. 17. If multiple tiers exist (standard vs VIP), use the lowest."
+        },
+        "dormitory_available": {
+          "type": ["boolean", "null"],
+          "description": "Whether a dormitory or shared sleeping space is available."
+        },
+        "dormitory_beds": {
+          "type": ["integer", "null"],
+          "description": "Number of beds in the dormitory if one exists."
+        },
+        "nearby_accommodation": {
+          "type": ["array", "null"],
+          "items": { "type": "string" },
+          "description": "Names or descriptions of nearby off-site accommodation options for overflow guests. E.g. ['IBIS Avignon', 'Paxton Paris Marne-la-Vallee (4-star partner hotel)']."
+        },
+        "partner_hotel": {
+          "type": ["string", "null"],
+          "description": "Named partner hotel for guest overflow if the venue has a formal partnership."
+        }
+      }
+    },
+
+    "pricing": {
+      "type": "object",
+      "description": "All pricing information. Extract exact figures as stated. Use EUR as currency. Note whether prices include tax (TTC) or exclude it (HT).",
+      "properties": {
+        "pricing_model": {
+          "type": ["string", "null"],
+          "enum": ["dry_hire", "all_inclusive", "packages", "hybrid", null],
+          "description": "How the venue structures its pricing: 'dry_hire' = venue rental only, 'all_inclusive' = everything bundled, 'packages' = tiered named packages, 'hybrid' = base hire + optional add-ons."
+        },
+        "starting_price_eur": {
+          "type": ["integer", "null"],
+          "description": "Lowest advertised starting price in EUR."
+        },
+        "starting_price_description": {
+          "type": ["string", "null"],
+          "description": "What the starting price includes. E.g. 'venue hire for 2 nights with accommodation for 43 guests'."
+        },
+        "prices_include_tax": {
+          "type": ["boolean", "null"],
+          "description": "Whether stated prices include VAT/tax (TTC = true, HT = false)."
+        },
+        "vat_rate_percentage": {
+          "type": ["number", "null"],
+          "minimum": 0,
+          "maximum": 100,
+          "description": "The applicable VAT rate as stated in the brochure. E.g. 20. If different rates apply (10% food, 20% services), use the primary rate and note the split in starting_price_description."
+        },
+        "tourist_tax_note": {
+          "type": ["string", "null"],
+          "description": "Details about tourist tax (taxe de sejour) if mentioned. E.g. '4.88 EUR per person per night, applies from age 18', 'tourist taxes not included'."
+        },
+        "pricing_year": {
+          "type": ["string", "null"],
+          "description": "Which year(s) the pricing applies to. E.g. '2026-2027'."
+        },
+        "seasonal_pricing": {
+          "type": ["array", "null"],
+          "description": "Pricing broken down by season and/or day of week.",
+          "items": { "$ref": "#/$defs/seasonal_price" }
+        },
+        "packages": {
+          "type": ["array", "null"],
+          "description": "Named pricing packages with inclusions.",
+          "items": { "$ref": "#/$defs/pricing_package" }
+        },
+        "catering_cost_per_person_eur": {
+          "type": ["integer", "null"],
+          "description": "Starting per-person catering cost in EUR if quoted separately from venue hire."
+        },
+        "children_catering_price_eur": {
+          "type": ["integer", "null"],
+          "description": "Per-child catering cost in EUR if stated. E.g. 25 for ages 3-12."
+        },
+        "children_pricing_age_range": {
+          "type": ["string", "null"],
+          "description": "Age range for children's pricing. E.g. '3-12 years, free under 3'."
+        },
+        "drinks_cost_per_person_eur": {
+          "type": ["integer", "null"],
+          "description": "Starting per-person drinks/bar package cost in EUR if quoted separately."
+        },
+        "brunch_cost_per_person_eur": {
+          "type": ["integer", "null"],
+          "description": "Per-person brunch cost in EUR if quoted separately. E.g. 39."
+        },
+        "brunch_venue_fee_eur": {
+          "type": ["integer", "null"],
+          "description": "Flat venue fee for hosting a brunch event if quoted as a lump sum. E.g. 5200."
+        },
+        "welcome_dinner_cost_eur": {
+          "type": ["integer", "null"],
+          "description": "Supplement or fee for a pre-wedding welcome dinner if quoted separately. E.g. 2400."
+        },
+        "minimum_nights": {
+          "type": ["integer", "null"],
+          "minimum": 1,
+          "description": "Minimum number of nights required for a wedding booking."
+        },
+        "additional_night_rate_eur": {
+          "type": ["integer", "null"],
+          "description": "Cost per additional night beyond the standard rental period. E.g. 1500, 2200, 5000."
+        },
+        "extended_hour_rate_eur": {
+          "type": ["integer", "null"],
+          "description": "Cost per additional hour beyond the standard end time. E.g. 300, 600, 800."
+        },
+        "rental_period_description": {
+          "type": ["string", "null"],
+          "description": "Standard rental period. E.g. 'Friday 2PM to Monday 12PM', 'Saturday to Sunday'."
+        },
+        "deposit_percentage": {
+          "type": ["integer", "null"],
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Required booking deposit as a percentage of total cost."
+        },
+        "deposit_amount_eur": {
+          "type": ["integer", "null"],
+          "description": "Required booking deposit as a fixed EUR amount if not expressed as a percentage."
+        },
+        "deposit_refundable": {
+          "type": ["boolean", "null"],
+          "description": "Whether the booking deposit is refundable upon cancellation."
+        },
+        "security_deposit_eur": {
+          "type": ["integer", "null"],
+          "description": "Refundable damage/security deposit amount in EUR, separate from the booking deposit. E.g. 2500, 10000."
+        },
+        "security_deposit_return_days": {
+          "type": ["integer", "null"],
+          "description": "Number of days after the event for security deposit return. E.g. 14, 30."
+        },
+        "payment_schedule": {
+          "type": ["array", "null"],
+          "description": "Multi-stage payment milestones beyond the initial deposit. Extract each stage as stated.",
+          "items": { "$ref": "#/$defs/payment_milestone" }
+        },
+        "payment_methods": {
+          "type": ["array", "null"],
+          "items": { "type": "string" },
+          "description": "Accepted payment methods. E.g. ['bank transfer', 'credit card', 'American Express']."
+        },
+        "cancellation_policy": {
+          "type": ["string", "null"],
+          "description": "Summary of cancellation terms and penalties."
+        },
+        "cleaning_fee_eur": {
+          "type": ["integer", "null"],
+          "description": "Post-event cleaning fee in EUR if charged separately. E.g. 150, 300, 2150."
+        },
+        "security_guard_cost_eur": {
+          "type": ["integer", "null"],
+          "description": "Cost for mandatory or optional security guard service in EUR. E.g. 350, 800."
+        },
+        "coordinator_cost_eur": {
+          "type": ["integer", "null"],
+          "description": "Cost for day-of coordinator or event management service in EUR if charged separately. E.g. 900, 4390."
+        },
+        "price_includes": {
+          "type": ["array", "null"],
+          "items": { "type": "string" },
+          "description": "List of items included in the base price. E.g. ['exclusive use', 'tables and chairs', 'accommodation for 52', 'swimming pool access']."
+        },
+        "price_excludes": {
+          "type": ["array", "null"],
+          "items": { "type": "string" },
+          "description": "Items explicitly NOT included in the base price. E.g. ['chateau access', 'pool area', 'catering', 'decoration', 'tourist tax']."
+        },
+        "price_extras": {
+          "type": ["array", "null"],
+          "items": { "type": "string" },
+          "description": "Services available at additional cost. E.g. ['security guards', 'decoration', 'sound system', 'babysitter']."
+        }
+      }
+    },
+
+    "catering": {
+      "type": "object",
+      "description": "Food and beverage information — how catering works at this venue.",
+      "properties": {
+        "catering_model": {
+          "type": ["string", "null"],
+          "enum": ["in_house_only", "recommended_list", "free_choice", "imposed_caterer", "hybrid", null],
+          "description": "How catering is handled: 'in_house_only' = venue's own chef exclusively, 'recommended_list' = must choose from approved caterers, 'free_choice' = couples choose any caterer, 'imposed_caterer' = one specific external caterer is mandatory, 'hybrid' = seasonal or mixed rules."
+        },
+        "in_house_chef": {
+          "type": ["string", "null"],
+          "description": "Name and title of in-house chef if one exists. E.g. 'Patrick Juhel, Meilleur Ouvrier de France 2000'."
+        },
+        "recommended_caterers": {
+          "type": ["array", "null"],
+          "items": { "type": "string" },
+          "description": "Names of approved/recommended caterers. E.g. ['BRUNET Traiteur', 'FLEUR DE SEL', 'Aynel Traiteur']."
+        },
+        "cuisine_style": {
+          "type": ["string", "null"],
+          "description": "Description of cuisine style. E.g. 'gastronomic French Mediterranean', 'bistronomic', 'seasonal and locally sourced'."
+        },
+        "dietary_accommodations": {
+          "type": ["boolean", "null"],
+          "description": "Whether dietary requirements (vegetarian, vegan, allergies, religious) are accommodated."
+        },
+        "professional_kitchen": {
+          "type": ["boolean", "null"],
+          "description": "Whether a professional/commercial kitchen is available for caterers to use."
+        },
+        "kitchen_size_sqm": {
+          "type": ["number", "null"],
+          "description": "Size of the catering kitchen in square metres if stated."
+        },
+        "on_site_restaurant": {
+          "type": ["string", "null"],
+          "description": "Name of on-site restaurant if one exists. E.g. 'Restaurant La Canopee', 'Le Baron'."
+        },
+        "brunch_available": {
+          "type": ["boolean", "null"],
+          "description": "Whether a day-after brunch option is available."
+        },
+        "brunch_description": {
+          "type": ["string", "null"],
+          "description": "Details about the brunch offering. E.g. 'brunch by the pool', 'choice of homemade, caterer, or food truck'."
+        },
+        "late_night_food_available": {
+          "type": ["boolean", "null"],
+          "description": "Whether late-night snack service is available after the main dinner. E.g. bacon brioche, charcuterie boards, croque monsieur."
+        },
+        "pre_wedding_dinner": {
+          "type": ["boolean", "null"],
+          "description": "Whether a welcome/rehearsal dinner option is available the evening before."
+        },
+        "tasting_meal_included": {
+          "type": ["boolean", "null"],
+          "description": "Whether a pre-event tasting meal is included for the couple."
+        },
+        "wedding_cake": {
+          "type": ["string", "null"],
+          "description": "Whether wedding cake is available (in-house, included in package, or external). E.g. 'included in package', 'can be made on-site', 'external'."
+        }
+      }
+    },
+
+    "drinks": {
+      "type": "object",
+      "description": "Bar and drinks policy.",
+      "properties": {
+        "corkage_fee": {
+          "type": ["boolean", "null"],
+          "description": "Whether a corkage fee is charged for BYO drinks. false = no corkage."
+        },
+        "corkage_fee_amount_eur": {
+          "type": ["number", "null"],
+          "description": "Corkage fee amount per bottle in EUR if charged. E.g. 5."
+        },
+        "byo_wine_allowed": {
+          "type": ["boolean", "null"],
+          "description": "Whether couples can bring their own wine/champagne."
+        },
+        "mandatory_venue_drinks": {
+          "type": ["boolean", "null"],
+          "description": "Whether all drinks must be purchased from the venue (no BYO allowed at all). Common at brewery or vineyard venues."
+        },
+        "venue_wine_requirement": {
+          "type": ["string", "null"],
+          "description": "Any requirement to feature venue wines on the menu. E.g. 'at least one estate wine must be featured', '1 bottle per 2 guests minimum from cellar'."
+        },
+        "on_site_wine_production": {
+          "type": ["boolean", "null"],
+          "description": "Whether the venue produces its own wine."
+        },
+        "wine_appellation": {
+          "type": ["string", "null"],
+          "description": "Wine appellation/AOC if the venue is a wine estate. E.g. 'AOC Cotes de Provence', 'Gaillac AOC'."
+        },
+        "bar_service_description": {
+          "type": ["string", "null"],
+          "description": "Description of bar/drinks arrangements. E.g. 'open bar included for 3 hours', 'self-service bar in Orangerie', 'bar team available all day for cocktails'."
+        },
+        "wine_cellar": {
+          "type": ["boolean", "null"],
+          "description": "Whether the venue has a wine cellar."
+        }
+      }
+    },
+
+    "vendor_rules": {
+      "type": "object",
+      "description": "Rules and flexibility around external vendors and suppliers.",
+      "properties": {
+        "vendor_freedom": {
+          "type": ["string", "null"],
+          "enum": ["full_freedom", "recommended_list", "restricted", "in_house_only", null],
+          "description": "Overall vendor policy: 'full_freedom' = couples choose any vendor, 'recommended_list' = preferred suppliers available, 'restricted' = must use specific vendors for some categories, 'in_house_only' = all services provided by venue."
+        },
+        "preferred_vendor_list_available": {
+          "type": ["boolean", "null"],
+          "description": "Whether the venue provides a recommended suppliers list."
+        },
+        "vendor_categories_recommended": {
+          "type": ["array", "null"],
+          "items": { "type": "string" },
+          "description": "Types of vendors the venue can recommend. E.g. ['caterers', 'photographers', 'DJs', 'florists', 'wedding planners', 'makeup artists']."
+        },
+        "in_house_services": {
+          "type": ["array", "null"],
+          "items": { "type": "string" },
+          "description": "Services provided in-house by the venue. E.g. ['catering', 'wedding planning', 'photography', 'florals']."
+        },
+        "wedding_planner_available": {
+          "type": ["string", "null"],
+          "enum": ["in_house", "recommended", "included_in_price", "not_available", null],
+          "description": "Whether wedding planning services are available: 'in_house' = venue has own planner, 'recommended' = they suggest external planners, 'included_in_price' = complimentary coordination included."
+        },
+        "wedding_planner_mandatory": {
+          "type": ["boolean", "null"],
+          "description": "Whether hiring a wedding planner is mandatory (not just recommended). Common at luxury venues and large estates."
+        },
+        "wedding_planner_name": {
+          "type": ["string", "null"],
+          "description": "Name of the in-house or principal wedding planner. E.g. 'Cynthia Nicholson'."
+        },
+        "non_approved_vendor_fee": {
+          "type": ["string", "null"],
+          "description": "Fee or surcharge for using vendors not on the venue's approved list. E.g. '15% surcharge on caterer invoice', '100 EUR site visit fee for non-listed providers'."
+        },
+        "day_of_coordinator_provided": {
+          "type": ["boolean", "null"],
+          "description": "Whether a day-of coordinator is provided by the venue."
+        },
+        "dedicated_project_manager": {
+          "type": ["boolean", "null"],
+          "description": "Whether a dedicated project manager is assigned to each event."
+        }
+      }
+    },
+
+    "ceremony": {
+      "type": "object",
+      "description": "Ceremony options and capabilities.",
+      "properties": {
+        "ceremony_types": {
+          "type": ["array", "null"],
+          "items": { "type": "string" },
+          "description": "Types of ceremonies the venue can host. E.g. ['secular', 'symbolic', 'religious', 'civil', 'jewish', 'catholic', 'protestant']. Use lowercase."
+        },
+        "licensed_for_civil_marriage": {
+          "type": ["boolean", "null"],
+          "description": "Whether the venue is legally licensed for civil marriages."
+        },
+        "chapel_on_site": {
+          "type": ["boolean", "null"],
+          "description": "Whether there is an on-site chapel or church."
+        },
+        "chapel_details": {
+          "type": ["string", "null"],
+          "description": "Details about the on-site chapel. E.g. 'Consecrated chapel seating 30, restored with original paintings and altar'."
+        },
+        "nearby_church": {
+          "type": ["string", "null"],
+          "description": "Details about nearby churches for religious ceremonies. E.g. '18th century church directly opposite, few minutes walk'."
+        },
+        "outdoor_ceremony_locations": {
+          "type": ["array", "null"],
+          "items": { "type": "string" },
+          "description": "Named outdoor ceremony spots. E.g. ['rose garden', 'avenue of plane trees', 'Southern Terrace', 'Dome Gazebo']."
+        },
+        "rain_backup_plan": {
+          "type": ["string", "null"],
+          "description": "Indoor backup option for outdoor ceremonies. E.g. 'Orangery with adjacent garden', 'Salon d Ete'."
+        },
+        "celebrant_available": {
+          "type": ["boolean", "null"],
+          "description": "Whether a celebrant/officiant is available or can be recommended."
+        },
+        "elopement_option": {
+          "type": ["boolean", "null"],
+          "description": "Whether the venue supports elopements or micro-weddings."
+        }
+      }
+    },
+
+    "amenities": {
+      "type": "object",
+      "description": "On-site facilities and amenities available to guests.",
+      "properties": {
+        "swimming_pool": {
+          "type": ["boolean", "null"],
+          "description": "Whether a swimming pool exists on-site."
+        },
+        "pool_count": {
+          "type": ["integer", "null"],
+          "description": "Number of pools."
+        },
+        "pool_details": {
+          "type": ["string", "null"],
+          "description": "Pool specifics — dimensions, heated/unheated, type (saltwater, vitality, natural spring). E.g. '2 heated pools', '12x6m saltwater pool'."
+        },
+        "hot_tub_jacuzzi": {
+          "type": ["boolean", "null"],
+          "description": "Whether a hot tub or jacuzzi exists."
+        },
+        "spa": {
+          "type": ["boolean", "null"],
+          "description": "Whether spa/wellness facilities exist."
+        },
+        "spa_details": {
+          "type": ["string", "null"],
+          "description": "Spa specifics. E.g. 'Spa THEMAE with massage room, sauna, steam room', '90m2 spa with swim spa, salt stone sauna, jacuzzi'."
+        },
+        "tennis_court": {
+          "type": ["boolean", "null"],
+          "description": "Whether a tennis court is available."
+        },
+        "petanque_court": {
+          "type": ["boolean", "null"],
+          "description": "Whether a petanque/boules court exists."
+        },
+        "gym_fitness": {
+          "type": ["boolean", "null"],
+          "description": "Whether a gym or fitness room exists."
+        },
+        "games_room": {
+          "type": ["boolean", "null"],
+          "description": "Whether a games room (billiards, foosball, etc.) exists."
+        },
+        "library": {
+          "type": ["boolean", "null"],
+          "description": "Whether a library is available."
+        },
+        "cinema_room": {
+          "type": ["boolean", "null"],
+          "description": "Whether a cinema or screening room exists."
+        },
+        "grand_piano": {
+          "type": ["boolean", "null"],
+          "description": "Whether a grand piano is available."
+        },
+        "children_playground": {
+          "type": ["boolean", "null"],
+          "description": "Whether a children's play area exists."
+        },
+        "helipad": {
+          "type": ["boolean", "null"],
+          "description": "Whether a helicopter landing pad is available."
+        },
+        "gardens_description": {
+          "type": ["string", "null"],
+          "description": "Description of gardens and grounds. E.g. 'French parterre gardens, 5 hectares of parkland with centuries-old plane trees'."
+        },
+        "garden_style": {
+          "type": ["string", "null"],
+          "description": "Style of gardens. E.g. 'French formal', 'English landscape', 'provencal'."
+        },
+        "vineyard_on_site": {
+          "type": ["boolean", "null"],
+          "description": "Whether an active vineyard is on the property."
+        },
+        "olive_groves": {
+          "type": ["boolean", "null"],
+          "description": "Whether olive groves are on the estate."
+        },
+        "lake_pond": {
+          "type": ["boolean", "null"],
+          "description": "Whether a lake, pond, or significant water feature exists on the property."
+        },
+        "forest_woodland": {
+          "type": ["boolean", "null"],
+          "description": "Whether private forest or woodland is on the property."
+        },
+        "notable_trees": {
+          "type": ["array", "null"],
+          "items": { "type": "string" },
+          "description": "Significant or historic trees on the property. E.g. ['260-year-old Lebanese Cedar', '365 olive trees', 'centuries-old plane trees']."
+        },
+        "fountain_water_feature": {
+          "type": ["boolean", "null"],
+          "description": "Whether fountains, cascades, or ornamental water features exist."
+        },
+        "orangery": {
+          "type": ["boolean", "null"],
+          "description": "Whether an orangery exists."
+        },
+        "dovecote": {
+          "type": ["boolean", "null"],
+          "description": "Whether a dovecote/pigeon tower exists."
+        },
+        "greenhouse": {
+          "type": ["boolean", "null"],
+          "description": "Whether a greenhouse exists."
+        }
+      }
+    },
+
+    "activities": {
+      "type": "object",
+      "description": "Activities and experiences available for wedding guests.",
+      "properties": {
+        "on_site_activities": {
+          "type": ["array", "null"],
+          "items": { "type": "string" },
+          "description": "Activities available on the property. E.g. ['swimming', 'petanque', 'wine tasting', 'yoga', 'tennis', 'cycling', 'fishing', 'garden games']."
+        },
+        "nearby_activities": {
+          "type": ["array", "null"],
+          "items": { "type": "string" },
+          "description": "Activities available near the venue. E.g. ['horse riding', 'canoeing', 'golf', 'hiking', 'boat trips on Canal du Midi']."
+        },
+        "wine_tasting_on_site": {
+          "type": ["boolean", "null"],
+          "description": "Whether wine tasting experiences are available at the venue."
+        },
+        "cooking_workshops": {
+          "type": ["boolean", "null"],
+          "description": "Whether cooking classes or culinary workshops can be arranged."
+        },
+        "excursions_organized": {
+          "type": ["boolean", "null"],
+          "description": "Whether the venue organizes day trips or excursions."
+        },
+        "excursion_destinations": {
+          "type": ["array", "null"],
+          "items": { "type": "string" },
+          "description": "Named excursion destinations. E.g. ['Saint-Emilion', 'Giverny', 'Bassin d Arcachon']."
+        },
+        "fireworks_available": {
+          "type": ["boolean", "null"],
+          "description": "Whether fireworks displays can be arranged."
+        },
+        "fireworks_details": {
+          "type": ["string", "null"],
+          "description": "Details about fireworks policy. E.g. 'in-house fireworks expert on staff', 'not permitted due to wooded surroundings', 'pyrotechnic shows with reduced noise system'."
+        }
+      }
+    },
+
+    "technical": {
+      "type": "object",
+      "description": "Technical infrastructure, AV equipment, and practical facilities.",
+      "properties": {
+        "wifi_available": {
+          "type": ["boolean", "null"],
+          "description": "Whether WiFi/internet is available."
+        },
+        "sound_system_provided": {
+          "type": ["boolean", "null"],
+          "description": "Whether a PA/sound system is included."
+        },
+        "av_equipment": {
+          "type": ["array", "null"],
+          "items": { "type": "string" },
+          "description": "Audio-visual equipment available. E.g. ['video projector', 'screen', 'wireless microphone', 'Bose sound system']."
+        },
+        "furniture_provided": {
+          "type": ["boolean", "null"],
+          "description": "Whether event furniture (tables, chairs) is provided."
+        },
+        "furniture_details": {
+          "type": ["string", "null"],
+          "description": "Specifics about provided furniture. E.g. 'round tables, Napoleon chairs, standing tables', 'reception furniture for up to 100 guests'."
+        },
+        "decoration_services": {
+          "type": ["boolean", "null"],
+          "description": "Whether the venue offers decoration or lighting design services."
+        },
+        "marquee_tent_available": {
+          "type": ["boolean", "null"],
+          "description": "Whether an on-site marquee or tent is available."
+        },
+        "marquee_size_sqm": {
+          "type": ["number", "null"],
+          "description": "Size of the on-site marquee in square metres."
+        },
+        "backup_generator": {
+          "type": ["boolean", "null"],
+          "description": "Whether a backup power generator exists."
+        },
+        "ev_charging_stations": {
+          "type": ["boolean", "null"],
+          "description": "Whether electric vehicle charging points are available."
+        },
+        "climate_control": {
+          "type": ["string", "null"],
+          "description": "Description of heating/cooling capabilities for event spaces. E.g. 'air-conditioned Grand Gallery', 'radiant heating ceiling', 'underfloor heating/cooling'."
+        }
+      }
+    },
+
+    "accessibility": {
+      "type": "object",
+      "description": "Accessibility and disabled access information.",
+      "properties": {
+        "wheelchair_accessible": {
+          "type": ["boolean", "null"],
+          "description": "Whether the venue is wheelchair/PMR accessible."
+        },
+        "accessible_rooms_count": {
+          "type": ["integer", "null"],
+          "description": "Number of rooms specifically designed for reduced mobility."
+        },
+        "elevator": {
+          "type": ["boolean", "null"],
+          "description": "Whether an elevator/lift is available."
+        },
+        "pmr_parking": {
+          "type": ["boolean", "null"],
+          "description": "Whether dedicated disabled parking exists."
+        },
+        "accessibility_details": {
+          "type": ["string", "null"],
+          "description": "Additional accessibility information. E.g. 'Full PMR accessibility throughout', '5 PMR parking spaces near gala hall'."
+        }
+      }
+    },
+
+    "sustainability": {
+      "type": "object",
+      "description": "Environmental and sustainability practices.",
+      "properties": {
+        "eco_certifications": {
+          "type": ["array", "null"],
+          "items": { "type": "string" },
+          "description": "Environmental certifications. E.g. ['Green Key', 'Cle Verte']."
+        },
+        "eco_practices": {
+          "type": ["array", "null"],
+          "items": { "type": "string" },
+          "description": "Specific sustainability initiatives. E.g. ['100% solar energy', 'local sourcing', 'beehives on site', 'organic gardens', 'EV charging stations']."
+        }
+      }
+    },
+
+    "parking": {
+      "type": "object",
+      "description": "Parking and vehicle access.",
+      "properties": {
+        "parking_available": {
+          "type": ["boolean", "null"],
+          "description": "Whether on-site parking exists."
+        },
+        "parking_spaces": {
+          "type": ["integer", "null"],
+          "description": "Number of parking spaces if stated."
+        },
+        "parking_type": {
+          "type": ["string", "null"],
+          "description": "Type of parking. E.g. 'free private parking', 'behind the chateau', 'multiple named areas'."
+        },
+        "vendor_parking_separate": {
+          "type": ["boolean", "null"],
+          "description": "Whether vendors have a dedicated parking area separate from guests."
+        }
+      }
+    },
+
+    "policies": {
+      "type": "object",
+      "description": "Venue rules, restrictions, and general policies.",
+      "properties": {
+        "curfew_time": {
+          "type": ["string", "null"],
+          "description": "Latest time for music/events as a general statement. E.g. '4:00 AM', '2:00 AM', 'no curfew'. If indoor and outdoor differ, state both here and use the split fields below."
+        },
+        "outdoor_music_curfew": {
+          "type": ["string", "null"],
+          "description": "Latest time for outdoor music specifically, if different from indoor. E.g. 'midnight', '11:00 PM'."
+        },
+        "indoor_music_curfew": {
+          "type": ["string", "null"],
+          "description": "Latest time for indoor music specifically, if different from outdoor. E.g. '3:00 AM', '4:00 AM', 'no limit'."
+        },
+        "no_curfew": {
+          "type": ["boolean", "null"],
+          "description": "Whether there is explicitly no curfew."
+        },
+        "noise_restrictions": {
+          "type": ["string", "null"],
+          "description": "Any sound or noise policies. E.g. 'indoor dancing only from 11:30 PM', 'outdoor music until 1am, no curfew indoors'."
+        },
+        "setup_access_time": {
+          "type": ["string", "null"],
+          "description": "When setup and decoration access begins. E.g. 'day before from 2PM', 'Friday 8AM', '6AM on wedding day'."
+        },
+        "teardown_deadline": {
+          "type": ["string", "null"],
+          "description": "Deadline for dismantling and clearing. E.g. 'Sunday 6PM', '6AM morning after', 'by checkout time'."
+        },
+        "tent_marquee_policy": {
+          "type": ["string", "null"],
+          "description": "Rules about tents and marquees. E.g. 'mandatory for groups over 200', 'no tents allowed in garden', 'marquee required in summer', 'all lawn installations must be pre-approved'."
+        },
+        "confetti_policy": {
+          "type": ["string", "null"],
+          "description": "Rules about confetti. E.g. 'prohibited', 'biodegradable only', 'natural petals and lavender only', 'allowed'."
+        },
+        "candle_policy": {
+          "type": ["string", "null"],
+          "description": "Rules about candles. E.g. 'wax candles forbidden', 'must be in holders and extinguished after dinner', 'LED candles only'."
+        },
+        "event_insurance_required": {
+          "type": ["boolean", "null"],
+          "description": "Whether the venue requires couples to hold event liability or cancellation insurance."
+        },
+        "event_insurance_cost_eur": {
+          "type": ["integer", "null"],
+          "description": "Cost of mandatory event insurance if the venue provides/arranges it. E.g. 100, 150."
+        },
+        "portable_toilets_policy": {
+          "type": ["string", "null"],
+          "description": "Rules about portable toilet rental. E.g. 'mandatory for over 90 guests', 'required for outdoor events', 'included'."
+        },
+        "lifeguard_required": {
+          "type": ["boolean", "null"],
+          "description": "Whether a lifeguard is required for pool access during events."
+        },
+        "babysitter_mandatory": {
+          "type": ["boolean", "null"],
+          "description": "Whether hiring a babysitter is mandatory when children are present, not just available. E.g. some venues require 1 babysitter per 5 children under 10."
+        },
+        "pet_policy": {
+          "type": ["string", "null"],
+          "enum": ["allowed", "allowed_on_request", "not_allowed", "bride_groom_pet_only", null],
+          "description": "Whether pets are permitted."
+        },
+        "child_friendly": {
+          "type": ["boolean", "null"],
+          "description": "Whether the venue is explicitly child-friendly."
+        },
+        "baby_facilities": {
+          "type": ["array", "null"],
+          "items": { "type": "string" },
+          "description": "Baby amenities available. E.g. ['cots', 'changing facilities', 'high chairs']."
+        },
+        "children_area": {
+          "type": ["boolean", "null"],
+          "description": "Whether a dedicated children's area or supervised space is available during events."
+        },
+        "babysitter_available": {
+          "type": ["boolean", "null"],
+          "description": "Whether babysitting can be arranged."
+        },
+        "lgbtq_friendly": {
+          "type": ["boolean", "null"],
+          "description": "Whether the venue is explicitly LGBTQ+ friendly."
+        },
+        "all_faiths_welcome": {
+          "type": ["boolean", "null"],
+          "description": "Whether the venue explicitly welcomes all faiths and religions."
+        },
+        "security_guard_policy": {
+          "type": ["string", "null"],
+          "description": "Whether security is mandatory, optional, or included. E.g. 'mandatory for events running until 4 AM', 'mandatory above 150 guests', 'available upon request'."
+        },
+        "events_per_year_limit": {
+          "type": ["string", "null"],
+          "description": "Whether the venue limits the number of events per year. E.g. 'only a few exclusive weddings per year', 'one wedding per day'."
+        },
+        "check_in_time": {
+          "type": ["string", "null"],
+          "description": "Earliest arrival/check-in time. E.g. '2pm on check-in day', '10am on wedding day'."
+        },
+        "check_out_time": {
+          "type": ["string", "null"],
+          "description": "Departure/check-out time. E.g. '12 noon', 'Monday at 12:00 PM'."
+        }
+      }
+    },
+
+    "contact": {
+      "type": "object",
+      "description": "Contact information for inquiries and bookings.",
+      "properties": {
+        "phone_primary": {
+          "type": ["string", "null"],
+          "description": "Main phone number in international format. E.g. '+33 4 90 02 04 91'."
+        },
+        "phone_secondary": {
+          "type": ["string", "null"],
+          "description": "Additional phone number (mobile, WhatsApp, international office)."
+        },
+        "email_primary": {
+          "type": ["string", "null"],
+          "format": "email",
+          "description": "Main contact email address."
+        },
+        "email_secondary": {
+          "type": ["string", "null"],
+          "format": "email",
+          "description": "Secondary email if available."
+        },
+        "website_url": {
+          "type": ["string", "null"],
+          "format": "uri",
+          "description": "Primary website URL."
+        },
+        "instagram": {
+          "type": ["string", "null"],
+          "description": "Instagram handle or URL. E.g. '@chateaudepondres'."
+        },
+        "facebook": {
+          "type": ["string", "null"],
+          "description": "Facebook page name or URL."
+        },
+        "other_social_media": {
+          "type": ["array", "null"],
+          "items": {
+            "type": "object",
+            "properties": {
+              "platform": { "type": "string" },
+              "handle_or_url": { "type": "string" }
+            }
+          },
+          "description": "Other social media platforms (YouTube, LinkedIn, Pinterest, TikTok, Vimeo)."
+        },
+        "whatsapp": {
+          "type": ["string", "null"],
+          "description": "WhatsApp contact number or link if available."
+        },
+        "contact_person": {
+          "type": ["string", "null"],
+          "description": "Named contact person for wedding inquiries."
+        },
+        "phone_hours": {
+          "type": ["string", "null"],
+          "description": "Hours when phone lines are staffed. E.g. 'Monday to Saturday, 9am to 5pm'."
+        },
+        "brochure_url": {
+          "type": ["string", "null"],
+          "format": "uri",
+          "description": "URL to downloadable brochure/PDF."
+        },
+        "virtual_tour_url": {
+          "type": ["string", "null"],
+          "format": "uri",
+          "description": "URL to 360-degree virtual tour if available."
+        }
+      }
+    },
+
+    "event_types": {
+      "type": ["array", "null"],
+      "items": { "type": "string" },
+      "description": "All event types the venue hosts. E.g. ['weddings', 'corporate events', 'seminars', 'birthdays', 'baptisms', 'film shoots', 'product launches']. Use lowercase."
+    },
+
+    "wedding_day_details": {
+      "type": "object",
+      "description": "Specific details about the wedding day experience and flow.",
+      "properties": {
+        "typical_timeline": {
+          "type": ["string", "null"],
+          "description": "Typical wedding day schedule if described. E.g. 'Ceremony ~5pm, cocktail 6pm, dinner 8pm, party 11pm'."
+        },
+        "typical_weekend_flow": {
+          "type": ["string", "null"],
+          "description": "Multi-day wedding weekend flow. E.g. 'Friday: welcome dinner; Saturday: ceremony, reception, party; Sunday: brunch by the pool'."
+        },
+        "multi_day_event": {
+          "type": ["boolean", "null"],
+          "description": "Whether multi-day wedding celebrations are supported."
+        },
+        "cultural_ceremony_experience": {
+          "type": ["array", "null"],
+          "items": { "type": "string" },
+          "description": "Specific cultural or religious wedding traditions the venue has experience with. E.g. ['Jewish', 'Hindu', 'Chinese', 'same-sex']."
+        },
+        "destination_wedding_speciality": {
+          "type": ["boolean", "null"],
+          "description": "Whether the venue specializes in international destination weddings."
+        }
+      }
+    }
+
+  },
+
+  "$defs": {
+
+    "address": {
+      "type": "object",
+      "description": "Structured postal address.",
+      "properties": {
+        "street": {
+          "type": ["string", "null"],
+          "description": "Street address or lieu-dit. E.g. '1850 Route de Cordes', 'Lieu dit La Rode'."
+        },
+        "city": {
+          "type": ["string", "null"],
+          "description": "City, town, or commune. E.g. 'Villevieille', 'Antibes'."
+        },
+        "postal_code": {
+          "type": ["string", "null"],
+          "description": "French postal code. E.g. '30250', '06600'."
+        },
+        "department": {
+          "type": ["string", "null"],
+          "description": "French department. E.g. 'Gard', 'Tarn', 'Vaucluse'."
+        },
+        "country": {
+          "type": "string",
+          "const": "France",
+          "description": "Always 'France' for this schema."
+        }
+      }
+    },
+
+    "gps_coordinates": {
+      "type": ["object", "null"],
+      "description": "GPS latitude and longitude.",
+      "properties": {
+        "latitude": {
+          "type": ["number", "null"],
+          "minimum": -90,
+          "maximum": 90
+        },
+        "longitude": {
+          "type": ["number", "null"],
+          "minimum": -180,
+          "maximum": 180
+        }
+      }
+    },
+
+    "named_distance": {
+      "type": "object",
+      "description": "A named place with its distance or travel time from the venue.",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Name of the place. E.g. 'Marseille Airport', 'Avignon TGV station'."
+        },
+        "distance_text": {
+          "type": ["string", "null"],
+          "description": "Distance or travel time as stated in the source. E.g. '35 minutes', '80 km', '1 hour by car'. Keep the original phrasing."
+        }
+      },
+      "required": ["name"]
+    },
+
+    "event_space": {
+      "type": "object",
+      "description": "A named event space at the venue.",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Name of the space. E.g. 'Grand Salon', 'Cour d Honneur', 'Southern Terrace'."
+        },
+        "setting": {
+          "type": ["string", "null"],
+          "enum": ["indoor", "outdoor", "covered_outdoor", null],
+          "description": "Whether the space is indoor, outdoor, or covered outdoor (e.g. terrace with roof, courtyard with retractable cover)."
+        },
+        "area_sqm": {
+          "type": ["number", "null"],
+          "description": "Area in square metres."
+        },
+        "capacity_seated": {
+          "type": ["integer", "null"],
+          "description": "Maximum seated/banquet capacity."
+        },
+        "capacity_cocktail": {
+          "type": ["integer", "null"],
+          "description": "Maximum standing/cocktail capacity."
+        },
+        "capacity_ceremony": {
+          "type": ["integer", "null"],
+          "description": "Maximum ceremony capacity if different from seated."
+        },
+        "rental_fee_eur": {
+          "type": ["integer", "null"],
+          "description": "Separate rental fee for this space in EUR if priced individually. E.g. 1000 for the Chai add-on, 700 for full-day Taproom hire."
+        },
+        "suitable_for": {
+          "type": ["array", "null"],
+          "items": { "type": "string" },
+          "description": "What the space can be used for. E.g. ['ceremony', 'cocktail', 'dinner', 'dancing', 'brunch', 'rain_backup']."
+        },
+        "notable_features": {
+          "type": ["array", "null"],
+          "items": { "type": "string" },
+          "description": "Architectural or design highlights of this space. E.g. ['glass ceiling by Joseph Paxton', 'crystal chandeliers', 'exposed stone walls']."
+        },
+        "description": {
+          "type": ["string", "null"],
+          "description": "Prose description of the space's character."
+        },
+        "soundproofed": {
+          "type": ["boolean", "null"],
+          "description": "Whether this specific space is soundproofed."
+        },
+        "air_conditioned": {
+          "type": ["boolean", "null"],
+          "description": "Whether this space has air conditioning."
+        },
+        "av_equipment": {
+          "type": ["array", "null"],
+          "items": { "type": "string" },
+          "description": "AV equipment specific to this space. E.g. ['overhead projector', 'Bose sound system']."
+        }
+      },
+      "required": ["name"]
+    },
+
+    "accommodation_building": {
+      "type": "object",
+      "description": "A separate accommodation building on the estate (chateau, gite, cottage, annexe).",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Name of the building. E.g. 'Le Chateau', 'La Chapelle', 'Gite de l Abbe', 'Maison des Fleurs'."
+        },
+        "building_type": {
+          "type": ["string", "null"],
+          "description": "Type of building. E.g. 'chateau', 'gite', 'cottage', 'maison', 'annexe', 'orangery'."
+        },
+        "bedrooms": {
+          "type": ["integer", "null"],
+          "description": "Number of bedrooms in this building."
+        },
+        "sleeping_capacity": {
+          "type": ["integer", "null"],
+          "description": "Maximum number of guests who can sleep in this building."
+        },
+        "price_per_night_eur": {
+          "type": ["number", "null"],
+          "description": "Nightly rate for the entire building in EUR if quoted at building level. E.g. 2100 for the whole castle, 475 for a gite."
+        },
+        "description": {
+          "type": ["string", "null"],
+          "description": "Description of the building."
+        },
+        "has_kitchen": {
+          "type": ["boolean", "null"],
+          "description": "Whether this building has its own kitchen (relevant for gites)."
+        },
+        "has_living_area": {
+          "type": ["boolean", "null"],
+          "description": "Whether this building has a separate living/dining area."
+        },
+        "has_private_garden": {
+          "type": ["boolean", "null"],
+          "description": "Whether this building has its own private garden or terrace."
+        },
+        "rooms": {
+          "type": ["array", "null"],
+          "description": "Individual rooms within this building if detailed.",
+          "items": { "$ref": "#/$defs/guest_room" }
+        }
+      },
+      "required": ["name"]
+    },
+
+    "guest_room": {
+      "type": "object",
+      "description": "An individual guest room.",
+      "properties": {
+        "name": {
+          "type": ["string", "null"],
+          "description": "Name of the room. E.g. 'La Chambre Tosca', 'The Empress Suite', 'Room Iode'."
+        },
+        "room_type": {
+          "type": ["string", "null"],
+          "description": "Room classification. E.g. 'double', 'suite', 'family_suite', 'bridal_suite', 'standard', 'comfort', 'deluxe'."
+        },
+        "capacity_persons": {
+          "type": ["integer", "null"],
+          "description": "Maximum number of persons this room accommodates."
+        },
+        "bed_configuration": {
+          "type": ["string", "null"],
+          "description": "Bed types and sizes. E.g. '1 King bed (180x200)', '1 Double + 2 Singles', 'King bed + sofa bed'."
+        },
+        "area_sqm": {
+          "type": ["number", "null"],
+          "description": "Room size in square metres."
+        },
+        "en_suite": {
+          "type": ["boolean", "null"],
+          "description": "Whether the room has a private en-suite bathroom."
+        },
+        "bathroom_type": {
+          "type": ["string", "null"],
+          "description": "Type of bathroom facilities. E.g. 'en-suite shower', 'en-suite bath and shower', 'shared bathroom on corridor', 'private bathroom across hall'."
+        },
+        "view": {
+          "type": ["string", "null"],
+          "description": "View from the room. E.g. 'Garden view', 'Vineyard view', 'Pool view'."
+        },
+        "has_terrace": {
+          "type": ["boolean", "null"],
+          "description": "Whether the room has a private terrace or balcony."
+        },
+        "air_conditioned": {
+          "type": ["boolean", "null"],
+          "description": "Whether this room has air conditioning."
+        },
+        "accessible": {
+          "type": ["boolean", "null"],
+          "description": "Whether this room is designed for reduced mobility/wheelchair access."
+        },
+        "price_per_night_eur": {
+          "type": ["number", "null"],
+          "description": "Nightly rate in EUR if quoted individually."
+        }
+      }
+    },
+
+    "seasonal_price": {
+      "type": "object",
+      "description": "A pricing tier for a specific season and/or day-of-week combination.",
+      "properties": {
+        "season_name": {
+          "type": "string",
+          "description": "Name of the season. E.g. 'high', 'medium', 'low', 'shoulder'."
+        },
+        "months": {
+          "type": ["string", "null"],
+          "description": "Which months this season covers. E.g. 'June to September', 'November to March'."
+        },
+        "day_of_week": {
+          "type": ["string", "null"],
+          "description": "Day-of-week qualifier if pricing differs between weekday and weekend within the same season. E.g. 'weekend', 'weekday', 'friday', 'saturday', 'sunday'. Null if no day-of-week distinction."
+        },
+        "price_eur": {
+          "type": ["integer", "null"],
+          "description": "Venue hire price for this season/day combination in EUR."
+        },
+        "price_description": {
+          "type": ["string", "null"],
+          "description": "What the price covers. E.g. '2 days / 1 night', 'full weekend Friday to Monday'."
+        }
+      },
+      "required": ["season_name"]
+    },
+
+    "pricing_package": {
+      "type": "object",
+      "description": "A named pricing package offered by the venue.",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Package name. E.g. 'Gold', 'Platinum', 'Prestige', 'Bronze 2025'."
+        },
+        "price_eur": {
+          "type": ["integer", "null"],
+          "description": "Starting price for this package in EUR."
+        },
+        "price_per_person_eur": {
+          "type": ["integer", "null"],
+          "description": "Per-person price if the package is quoted per head."
+        },
+        "min_guests": {
+          "type": ["integer", "null"],
+          "description": "Minimum number of guests for this package."
+        },
+        "max_guests": {
+          "type": ["integer", "null"],
+          "description": "Maximum number of guests for this package."
+        },
+        "includes": {
+          "type": ["array", "null"],
+          "items": { "type": "string" },
+          "description": "Detailed list of what is included. E.g. ['4-course menu', '3 glasses of wine', 'brut champagne', 'DJ for 4 hours', 'bridal bouquet']."
+        },
+        "excludes": {
+          "type": ["array", "null"],
+          "items": { "type": "string" },
+          "description": "Items explicitly excluded from this package. E.g. ['chateau access', 'pool area', 'decoration']."
+        },
+        "seasonal_validity": {
+          "type": ["string", "null"],
+          "description": "When this package is available. E.g. '1st October to 30th May & weekdays'."
+        },
+        "tiered_pricing": {
+          "type": ["array", "null"],
+          "description": "Price tiers that scale by guest count.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "guests_up_to": { "type": "integer" },
+              "price_eur": { "type": "integer" }
+            }
+          }
+        }
+      },
+      "required": ["name"]
+    },
+
+    "payment_milestone": {
+      "type": "object",
+      "description": "A single payment stage in a multi-instalment payment schedule.",
+      "properties": {
+        "stage": {
+          "type": "string",
+          "description": "Name or description of this payment stage. E.g. 'deposit', '2nd instalment', 'final balance'."
+        },
+        "percentage": {
+          "type": ["integer", "null"],
+          "description": "Percentage of total due at this stage. E.g. 30, 35, 40."
+        },
+        "amount_eur": {
+          "type": ["integer", "null"],
+          "description": "Fixed EUR amount due at this stage if not expressed as a percentage."
+        },
+        "timing": {
+          "type": ["string", "null"],
+          "description": "When this payment is due. E.g. 'at booking', '6 months before', '8 days before event', '30 days before'."
+        }
+      },
+      "required": ["stage"]
+    }
+
+  }
+}

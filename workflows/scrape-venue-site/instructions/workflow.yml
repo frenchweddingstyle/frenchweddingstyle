@@ -1,0 +1,213 @@
+# Venue Website Scraper Workflow
+# French Wedding Style — Hermetic Source of Truth
+#
+# This is the SINGLE source of truth for the venue scraping workflow.
+# Source of Truth Hierarchy:
+#   1. workflow.yml (this file) — logic, API config, execution phases
+#   2. instructions.md — error handling, content cleaning, safety rules
+#
+# Credentials are loaded from: ../../.env
+
+name: scrape-venue-site
+description: >
+  Scrapes venue websites from Airtable using Firecrawl, converts them to
+  clean Markdown, and writes the content back to the venue_url_scraped
+  field in Airtable. Processes in batches of 5 with user confirmation
+  between batches. Claude orchestrates directly via curl.
+root_path: ./
+
+# ─── Configuration ───────────────────────────────────────────────
+config:
+  communication_language: en
+  batch_size: 5
+  max_content_length: 95000        # Airtable long text field character limit
+  consecutive_failure_threshold: 2  # Pause and ask user after N consecutive failures
+  rate_limit_delay: 2               # Seconds between Firecrawl API calls
+  manual_check_marker: "MANUAL_CHECK"
+
+# ─── Credentials ─────────────────────────────────────────────────
+credentials:
+  env_file: ../../.env
+  required_keys:
+    - AIRTABLE_API_KEY
+    - AIRTABLE_BASE_ID
+    - FIRECRAWL_API_KEY
+
+# ─── Source Columns ─────────────────────────────────────────────
+# venue_url is MANDATORY — if empty, skip the record entirely.
+# The 3 listing-site columns are OPTIONAL — scrape only if populated.
+# All scraped content is combined into venue_url_scraped with bold
+# headings to label each source.
+source_columns:
+  primary:
+    field: venue_url
+    label: "**Venue Website**"
+    required: true               # Record is skipped if this is empty
+  listing_sites:
+    - field: chateaubee_url
+      label: "**ChateauBee**"
+      required: false            # Scrape only if cell has a URL
+    - field: wedinspire_url
+      label: "**WedInspire**"
+      required: false
+    - field: fwv_url
+      label: "**French Wedding Venues**"
+      required: false
+
+# ─── API Configuration ──────────────────────────────────────────
+apis:
+  firecrawl:
+    auth_header: "Authorization: Bearer {FIRECRAWL_API_KEY}"
+    content_type: "application/json"
+
+    # Step 1: Discover all pages on the venue domain
+    map:
+      endpoint: "https://api.firecrawl.dev/v2/map"
+      method: POST
+      request_body:
+        url: "{source_url}"
+      response_path: "links"
+      success_check: "success == true"
+
+    # Step 2: Scrape each discovered page individually
+    # NOTE: onlyMainContent is FALSE — JS-heavy sites lose actual content with true.
+    # Extra nav/footer noise is handled by clean_markdown() in the script.
+    scrape:
+      endpoint: "https://api.firecrawl.dev/v2/scrape"
+      method: POST
+      request_body:
+        url: "{page_url}"
+        formats: ["markdown"]
+        onlyMainContent: false
+        timeout: 120000
+        waitFor: 8000
+      response_path: "data.markdown"
+      success_check: "success == true"
+
+    # Page filtering rules (applied to map results)
+    # NOTE: Map + multi-page scrape applies ONLY to venue_url (primary).
+    # Listing-site URLs are single-page scrapes (no map step needed).
+    page_filter:
+      max_pages: 20                    # Cap pages per venue to control credits
+      exclude_patterns:
+        - "sitemap.xml"
+        - "/blog/"
+        - "/news/"
+        - "/press"
+        - "/presse"
+        - "/tag/"
+        - "/category/"
+        - "/author/"
+        - "/cart"
+        - "/checkout"
+        - "/login"
+        - "/account"
+        - "/privacy"
+        - "/terms"
+        - "/legal"
+        - "/cookie"
+      # When both French and English pages exist, prefer English
+      prefer_english: false
+      # Always include the venue_url itself as the first page
+      always_include_source: true
+
+  airtable:
+    base_url: "https://api.airtable.com/v0"
+    auth_header: "Authorization: Bearer {AIRTABLE_API_KEY}"
+    content_type: "application/json"
+
+    list_records:
+      method: GET
+      url: "{base_url}/{AIRTABLE_BASE_ID}/Venues"
+      params:
+        # Eligible = venue_url is populated AND target field is empty
+        filterByFormula: "AND(NOT({venue_url}=''),{venue_url_scraped}='')"
+        fields: ["venue_url", "chateaubee_url", "wedinspire_url", "fwv_url"]
+        pageSize: 100
+
+    update_record:
+      method: PATCH
+      url: "{base_url}/{AIRTABLE_BASE_ID}/Venues/{record_id}"
+      body:
+        fields:
+          venue_url_scraped: "{combined_markdown}"
+
+# ─── Airtable Schema ────────────────────────────────────────────
+schema:
+  table_name: Venues
+  source_fields:
+    primary: venue_url                 # Read-only — never modify. MUST have a URL.
+    listing_sites:                     # Read-only — never modify. Scraped only if populated.
+      - chateaubee_url
+      - wedinspire_url
+      - fwv_url
+  target: venue_url_scraped            # Write target — only write if empty
+
+# ─── File References ─────────────────────────────────────────────
+files:
+  instructions: instructions/instructions.md
+  script: scripts/process_venue.py       # Unified orchestrator — handles scrape/clean/categorize/write
+  working_log: working/workings_temp.md
+  payload_temp: working/payload.json
+  output_dir: output/
+
+# ─── Execution ──────────────────────────────────────────────────
+# Two-stage pipeline:
+#   Stage 1 (script): process_venue.py --scrape-only handles map/scrape/basic-clean
+#                      and saves raw files to working/
+#   Stage 2 (Claude): reads raw files, strips remaining noise semantically,
+#                      organizes into structured sections, writes to Airtable via MCP
+execution:
+  read_order:
+    - ../../.env
+
+  phases:
+    - name: "Phase A: Discovery"
+      steps:
+        - "Read .env from workspace root — extract API credentials"
+        - "curl Airtable list endpoint with filterByFormula to find eligible records"
+        - "Handle pagination: if response contains 'offset', fetch next page"
+        - "Build array of {record_id, venue_url, chateaubee_url, wedinspire_url, fwv_url} tuples"
+        - "Report total eligible records to user (and how many have listing-site URLs)"
+        - "Create/append session header to working/workings_temp.md"
+
+    - name: "Phase B: Scrape Loop (batch of 5)"
+      steps:
+        - "Select next batch_size records from eligible list"
+        - "For each record, run:"
+        - '  python scripts/process_venue.py --scrape-only "{record_id}" "{venue_url}" "{chateaubee_url}" "{wedinspire_url}" "{fwv_url}" "{FIRECRAWL_KEY}" "{AIRTABLE_KEY}" "{BASE_ID}"'
+        - "  Pass empty string for any unpopulated listing-site URL"
+        - "  Script handles: map → filter → scrape pages (onlyMainContent:false, waitFor:8000) → basic clean → save to working/"
+        - "  Script stdout (one line): SCRAPED|venue_chars|pages+listings|sources|listing_chars  or  MANUAL_CHECK|reason|0"
+        - "  Parse stdout and log result to working/workings_temp.md"
+        - "  Track consecutive failures — if >= threshold, AskUserQuestion"
+
+    - name: "Phase B.5: Intelligent Structuring (Delegated Task Agents)"
+      # CONTEXT MANAGEMENT: Each venue's raw content is 50-150k chars.
+      # Delegating to Task agents keeps full content out of the orchestrator's
+      # context window, allowing batches of 5-10 venues per session.
+      steps:
+        - "For each SCRAPED record from Phase B, launch a Task agent (subagent_type: general-purpose)"
+        - "  Up to 2 agents may run in parallel"
+        - "  Agent reads working/raw_{record_id}.md and any working/listing_{record_id}_*.md files"
+        - "  Agent strips remaining noise semantically (related venues, cookie tables, duplicate reviews, language duplicates)"
+        - "  Agent organizes venue content into 5 sections: Overview & History, Event Logistics, Accommodation Breakdown, Amenities & Facilities, Travel & Contact"
+        - "  No-deletion policy: ALL factual venue info retained, moved to correct section"
+        - "  Listing site content: clean noise but keep original structure"
+        - "  Agent assembles final document under bold source headings (**Venue Website**, **ChateauBee**, etc.)"
+        - "  Agent truncates if >95,000 chars"
+        - "  Agent saves to working/structured_{record_id}.md and returns ONLY a one-line summary"
+        - "After agent returns, orchestrator runs:"
+        - '  python scripts/process_venue.py --write-file "{record_id}" "working/structured_{record_id}.md" "{AIRTABLE_KEY}" "{BASE_ID}"'
+        - "  Script reads file, PATCHes to Airtable, deletes all temp files"
+        - "  Script stdout: WRITTEN|{chars} or AIRTABLE_ERROR|reason|{chars}"
+        - "  Log result to working/workings_temp.md"
+
+    - name: "Phase C: Reporting"
+      steps:
+        - "Summarize batch: successful, failed, manual_check counts"
+        - "Save batch report to output/batch-report-{timestamp}.md"
+        - "Display summary to user"
+        - "Ask user: proceed with next batch of 5?"
+
+standalone: true

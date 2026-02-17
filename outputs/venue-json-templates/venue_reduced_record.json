@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "description": "Venue Reduced Record — 20 core fields for high-level filtering and bride-facing comparison. Each venue's reduced record links to its comprehensive golden record for full details.",
+    "schema_version": "v1.1.0",
+    "field_count": 20,
+    "golden_record_ref": "venue_golden_record.json"
+  },
+
+  "venue_name": "Chateau de Pondres",
+  "venue_type": "chateau",
+  "short_description": "A magnificent 12th century castle in the South of France, classified as a Monument Historique, offering exclusive privatisation for weddings of up to 220 guests with 55 sleeping on-site.",
+  "region": "Occitanie",
+  "department": "Gard",
+  "nearest_city": "Montpellier (35 minutes)",
+  "max_guests": 220,
+  "min_guests": 80,
+  "max_sleeping_guests": 55,
+  "total_bedrooms": 24,
+  "starting_price_eur": 7500,
+  "exclusivity_model": "full_exclusivity",
+  "catering_model": "recommended_list",
+  "on_site_accommodation": true,
+  "swimming_pool": true,
+  "chapel_on_site": true,
+  "curfew": "Midnight outdoors / 3:00 AM indoors",
+  "child_friendly": true,
+  "google_rating": 4.8,
+  "website_url": "https://www.chateaudepondres.fr"
+}

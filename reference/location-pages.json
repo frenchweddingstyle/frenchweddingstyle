@@ -1,0 +1,74 @@
+{
+  "South of France": {
+    "url": "https://www.frenchweddingstyle.com/locations/south-of-france",
+    "sub_regions": {
+      "Provence": {
+        "url": "https://www.frenchweddingstyle.com/locations/south-of-france/provence/",
+        "cities": {
+          "Aix-en-Provence": "https://www.frenchweddingstyle.com/locations/south-of-france/provence/aix-en-provence/",
+          "Marseille": "https://www.frenchweddingstyle.com/locations/south-of-france/provence/marseille/",
+          "Avignon": "https://www.frenchweddingstyle.com/locations/south-of-france/provence/riviera/avignon/",
+          "French Riviera / Cote d'Azur": {
+            "url": "https://www.frenchweddingstyle.com/locations/south-of-france/provence/riviera/",
+            "cities": {
+              "Nice": "https://www.frenchweddingstyle.com/locations/south-of-france/provence/riviera/nice/",
+              "Cannes": "https://www.frenchweddingstyle.com/locations/south-of-france/provence/riviera/cannes/",
+              "Saint Tropez": "https://www.frenchweddingstyle.com/locations/south-of-france/provence/riviera/saint-tropez/",
+              "Antibes": "https://www.frenchweddingstyle.com/locations/south-of-france/provence/riviera/antibes/"
+            }
+          }
+        }
+      },
+      "Occitanie": {
+        "url": "https://www.frenchweddingstyle.com/locations/south-of-france/occitanie/",
+        "cities": {
+          "Carcassonne": "https://www.frenchweddingstyle.com/locations/south-of-france/occitanie/carcassonne/",
+          "Montpellier": "https://www.frenchweddingstyle.com/locations/south-of-france/occitanie/montpellier/",
+          "Toulouse": "https://www.frenchweddingstyle.com/locations/south-of-france/occitanie/toulouse/"
+        }
+      },
+      "Corsica": "https://www.frenchweddingstyle.com/locations/south-france/corsica/",
+      "Nouvelle-Aquitaine": {
+        "url": "https://www.frenchweddingstyle.com/locations/south-of-france/nouvelle-aquitaine/",
+        "cities": {
+          "Bordeaux": "https://www.frenchweddingstyle.com/locations/south-of-france/nouvelle-aquitaine/bordeaux/",
+          "Dordogne / Perigord": "https://www.frenchweddingstyle.com/locations/south-of-france/nouvelle-aquitaine/dordogne/",
+          "Biarritz": "https://www.frenchweddingstyle.com/locations/south-of-france/nouvelle-aquitaine/biarritz/",
+          "Lourdes": "https://www.frenchweddingstyle.com/locations/south-of-france/nouvelle-aquitaine/lourdes/"
+        }
+      },
+      "Auvergne-Rhone-Alpes": {
+        "url": "https://www.frenchweddingstyle.com/locations/north-of-france/auvergne-rhone-alpes/",
+        "cities": {
+          "Lyon": "https://www.frenchweddingstyle.com/locations/north-of-france/auvergne-rhone-alpes/lyon/",
+          "Annecy": "https://www.frenchweddingstyle.com/locations/north-of-france/auvergne-rhone-alpes/annecy/",
+          "Chamonix": "https://www.frenchweddingstyle.com/locations/north-of-france/auvergne-rhone-alpes/chamonix/"
+        }
+      }
+    }
+  },
+  "North of France": {
+    "url": "https://www.frenchweddingstyle.com/locations/north-of-france/",
+    "sub_regions": {
+      "Brittany": "https://www.frenchweddingstyle.com/locations/north-of-france/brittany/",
+      "Normandy": "https://www.frenchweddingstyle.com/locations/north-of-france/normandy/",
+      "Hauts-de-France": "https://www.frenchweddingstyle.com/locations/north-of-france/hauts-de-france/",
+      "Burgundy": "https://www.frenchweddingstyle.com/locations/north-of-france/burgundy/",
+      "Ile-de-France": {
+        "url": "https://www.frenchweddingstyle.com/locations/north-of-france/ile-de-france-paris/",
+        "cities": {
+          "Versailles": "https://www.frenchweddingstyle.com/locations/north-of-france/ile-de-france-paris/versailles/"
+        }
+      },
+      "Loire Region": "https://www.frenchweddingstyle.com/locations/north-of-france/loire/",
+      "Grand Est": {
+        "url": "https://www.frenchweddingstyle.com/locations/north-of-france/grand-est/",
+        "cities": {
+          "Champagne": "https://www.frenchweddingstyle.com/locations/north-of-france/grand-est/champagne/",
+          "Strasburg": "https://www.frenchweddingstyle.com/locations/north-of-france/grand-est/strasbourg/",
+          "Nancy": "https://www.frenchweddingstyle.com/locations/north-of-france/grand-est/nancy/"
+        }
+      }
+    }
+  }
+}

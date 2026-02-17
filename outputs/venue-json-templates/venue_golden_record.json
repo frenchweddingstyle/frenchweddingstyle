@@ -1,0 +1,616 @@
+{
+  "overview": {
+    "min_price_eur": 7500,
+    "max_guests": 220,
+    "min_guests": 80,
+    "max_sleeping_guests": 55,
+    "total_bedrooms": 24,
+    "estate_size_hectares": 15
+  },
+
+  "identity": {
+    "venue_name": "Chateau de Pondres",
+    "venue_type": "chateau",
+    "venue_subtype": "chateau-hotel",
+    "tagline": "A thousand years of history for a timeless celebration",
+    "short_description": "A magnificent 12th century castle in the South of France, classified as a Monument Historique, offering exclusive privatisation for weddings of up to 220 guests with 55 sleeping on-site.",
+    "exclusivity_model": "full_exclusivity",
+    "owner_names": ["Jean-Pierre Durand", "Marie Durand"],
+    "management_company": "SCI Chateau de Pondres",
+    "network_membership": null,
+    "media_features": ["Style Me Pretty", "French Wedding Style", "Vogue Weddings", "Conde Nast Brides"],
+    "filming_credits": ["Le Temps des Amours (2023)"],
+    "certifications": ["Monument Historique", "Green Key"],
+    "google_rating": 4.8,
+    "google_review_count": 312,
+    "languages_spoken": ["French", "English", "Spanish"]
+  },
+
+  "location": {
+    "address": {
+      "street": "Route de Sommieres",
+      "city": "Villevieille",
+      "postal_code": "30250",
+      "department": "Gard",
+      "country": "France"
+    },
+    "gps_coordinates": {
+      "latitude": 43.7834,
+      "longitude": 4.0912
+    },
+    "region": "Occitanie",
+    "sub_region": "Pays de Sommieres",
+    "natural_park": null,
+    "nearest_city": {
+      "name": "Montpellier",
+      "distance_text": "35 minutes by car"
+    },
+    "nearest_cities": [
+      { "name": "Montpellier", "distance_text": "35 minutes" },
+      { "name": "Nimes", "distance_text": "25 minutes" },
+      { "name": "Avignon", "distance_text": "50 minutes" }
+    ],
+    "nearest_airports": [
+      { "name": "Montpellier-Mediterranee Airport", "distance_text": "40 minutes" },
+      { "name": "Nimes-Ales-Camargue Airport", "distance_text": "30 minutes" },
+      { "name": "Marseille Provence Airport", "distance_text": "1 hour 30 minutes" }
+    ],
+    "nearest_train_stations": [
+      { "name": "Montpellier Saint-Roch TGV", "distance_text": "35 minutes" },
+      { "name": "Nimes Gare", "distance_text": "25 minutes" }
+    ],
+    "motorway_access": "A9, exit Lunel, 20 minutes",
+    "distance_to_paris": "3 hours by TGV from Montpellier",
+    "distance_to_coast": "40 minutes to the Mediterranean (Aigues-Mortes, La Grande-Motte)",
+    "nearby_villages": ["Sommieres", "Sauve", "Saint-Guilhem-le-Desert", "Uzes"],
+    "nearby_attractions": ["Pont du Gard", "Camargue", "Cevennes National Park", "Pic Saint-Loup vineyards"],
+    "landscape_description": "Between the Mediterranean and the Cevennes, in the rolling garrigue landscape of the Gard",
+    "shuttle_service_available": true
+  },
+
+  "history": {
+    "construction_period": "12th century",
+    "construction_year": 1195,
+    "architectural_style": "medieval fortified castle with Renaissance additions",
+    "architect": null,
+    "listed_monument_status": "Monument Historique (classified historic monument)",
+    "historical_families": ["Marquis de Montlaur", "Comtes de Pondres"],
+    "notable_historical_guests": ["Louis IX (Saint Louis)", "Simon de Montfort"],
+    "historical_narrative": "Founded in 1195 as a fortified castle, Chateau de Pondres has witnessed over 800 years of history. Originally a stronghold during the Albigensian Crusade, it was transformed into an elegant Renaissance residence in the 16th century. The property underwent a meticulous 10-year restoration under the aegis of the Conservation des Monuments Historiques, preserving its medieval towers, vaulted halls, and Renaissance courtyards while introducing modern comfort.",
+    "notable_architectural_features": ["medieval watchtower", "Renaissance courtyard with sculpted stone balustrades", "vaulted reception halls", "restored chapel with original 14th-century paintings and altar", "cascading balustrade staircases", "French painted ceilings"],
+    "renovation_history": "10-year restoration completed under the Conservation des Monuments Historiques, balancing historical preservation with modern amenity integration",
+    "literary_cultural_associations": ["Troubadour poetry tradition of the Languedoc"]
+  },
+
+  "spaces": [
+    {
+      "name": "Cour d'Honneur",
+      "setting": "outdoor",
+      "area_sqm": 500,
+      "capacity_seated": 200,
+      "capacity_cocktail": 300,
+      "capacity_ceremony": 250,
+      "rental_fee_eur": null,
+      "suitable_for": ["ceremony", "cocktail", "dinner", "dancing"],
+      "notable_features": ["centuries-old plane trees", "stone arcades", "fountain"],
+      "description": "The majestic main courtyard, framed by the medieval towers and Renaissance facades, provides the dramatic heart of any celebration.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Salle des Repas",
+      "setting": "indoor",
+      "area_sqm": 93,
+      "capacity_seated": 80,
+      "capacity_cocktail": 100,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dinner", "rain_backup", "brunch"],
+      "notable_features": ["stone vaulted ceiling", "opens onto the Cour d'Honneur"],
+      "description": "A former armoury, this beautiful vaulted room of 93m2 opens directly onto the Cour d'Honneur. Also serves as backup for secular ceremonies in case of rain.",
+      "soundproofed": true,
+      "air_conditioned": true,
+      "av_equipment": ["wireless microphone", "speakers"]
+    },
+    {
+      "name": "Salle des Etats Generaux",
+      "setting": "indoor",
+      "area_sqm": 120,
+      "capacity_seated": 100,
+      "capacity_cocktail": 150,
+      "capacity_ceremony": 120,
+      "rental_fee_eur": 2500,
+      "suitable_for": ["ceremony", "cocktail", "dinner", "dancing"],
+      "notable_features": ["monumental fireplace", "14th-century painted beams", "period tapestries"],
+      "description": "The grand hall where the Estates General once convened, featuring a monumental stone fireplace and original painted beam ceiling.",
+      "soundproofed": true,
+      "air_conditioned": true,
+      "av_equipment": ["video projector", "projection screen", "wireless microphone", "sound system"]
+    },
+    {
+      "name": "Chapel",
+      "setting": "indoor",
+      "area_sqm": 45,
+      "capacity_seated": 40,
+      "capacity_cocktail": null,
+      "capacity_ceremony": 40,
+      "rental_fee_eur": null,
+      "suitable_for": ["ceremony"],
+      "notable_features": ["original 14th-century paintings", "restored altar", "stained glass"],
+      "description": "The restored castle chapel with original medieval paintings and consecrated altar, available for religious and symbolic ceremonies.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Les Jardins a la Francaise",
+      "setting": "outdoor",
+      "area_sqm": 2000,
+      "capacity_seated": null,
+      "capacity_cocktail": 200,
+      "capacity_ceremony": 200,
+      "rental_fee_eur": null,
+      "suitable_for": ["ceremony", "cocktail", "photos"],
+      "notable_features": ["formal French parterre gardens", "century-old boxwood hedges", "fountain and water features"],
+      "description": "Formal French gardens with geometric boxwood patterns, a central fountain, and sweeping views of the surrounding garrigue.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Pool Terrace",
+      "setting": "outdoor",
+      "area_sqm": 300,
+      "capacity_seated": 60,
+      "capacity_cocktail": 100,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["brunch", "cocktail", "pool_party"],
+      "notable_features": ["heated pool", "sun loungers", "views over vineyards"],
+      "description": "The poolside terrace overlooking the vineyards, ideal for next-day brunch or casual evening cocktails.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    }
+  ],
+
+  "accommodation": {
+    "on_site_accommodation": true,
+    "total_bedrooms": 24,
+    "total_sleeping_capacity": 55,
+    "mandatory_accommodation_purchase": true,
+    "mandatory_accommodation_details": "Accommodation for all on-site bedrooms is included in the venue hire — all 55 sleeping places are reserved for the wedding party.",
+    "bridal_suite": true,
+    "bridal_suite_description": "The Marquise Suite occupies the entire top floor of the medieval tower, featuring a king-size four-poster bed, freestanding bathtub, private terrace with panoramic views, and separate dressing room.",
+    "preparation_rooms": "Two separate preparation suites — one in the tower for the bride, one in the Renaissance wing for the groom, each with full-length mirrors, natural light, and en-suite facilities.",
+    "buildings": [
+      {
+        "name": "Le Chateau",
+        "building_type": "chateau",
+        "bedrooms": 12,
+        "sleeping_capacity": 28,
+        "price_per_night_eur": null,
+        "description": "The main castle building with rooms spanning the medieval tower and Renaissance wings. Each room features period furniture, stone walls, and modern en-suite bathrooms.",
+        "has_kitchen": false,
+        "has_living_area": true,
+        "has_private_garden": false,
+        "rooms": [
+          {
+            "name": "La Suite Marquise",
+            "room_type": "bridal_suite",
+            "capacity_persons": 2,
+            "bed_configuration": "1 King four-poster bed (180x200)",
+            "area_sqm": 65,
+            "en_suite": true,
+            "bathroom_type": "en-suite bath and shower with freestanding bathtub",
+            "view": "Panoramic views over gardens and garrigue",
+            "has_terrace": true,
+            "air_conditioned": true,
+            "accessible": false,
+            "price_per_night_eur": null
+          },
+          {
+            "name": "La Chambre Troubadour",
+            "room_type": "deluxe",
+            "capacity_persons": 2,
+            "bed_configuration": "1 King bed (180x200)",
+            "area_sqm": 35,
+            "en_suite": true,
+            "bathroom_type": "en-suite shower",
+            "view": "Courtyard view",
+            "has_terrace": false,
+            "air_conditioned": true,
+            "accessible": false,
+            "price_per_night_eur": 185
+          },
+          {
+            "name": "La Suite Famille Montlaur",
+            "room_type": "family_suite",
+            "capacity_persons": 4,
+            "bed_configuration": "1 King bed + 2 Single beds",
+            "area_sqm": 50,
+            "en_suite": true,
+            "bathroom_type": "en-suite bath and shower",
+            "view": "Garden view",
+            "has_terrace": false,
+            "air_conditioned": true,
+            "accessible": true,
+            "price_per_night_eur": 250
+          }
+        ]
+      },
+      {
+        "name": "Les Moulins",
+        "building_type": "gite",
+        "bedrooms": 8,
+        "sleeping_capacity": 18,
+        "price_per_night_eur": 475,
+        "description": "A converted stone mill house 50 metres from the chateau, offering 8 comfortable bedrooms with a shared kitchen, living area, and private garden.",
+        "has_kitchen": true,
+        "has_living_area": true,
+        "has_private_garden": true,
+        "rooms": null
+      },
+      {
+        "name": "La Maison des Bois",
+        "building_type": "cottage",
+        "bedrooms": 4,
+        "sleeping_capacity": 9,
+        "price_per_night_eur": 320,
+        "description": "A charming stone cottage at the edge of the estate woodland, with 4 bedrooms, equipped kitchen, and covered terrace with barbecue.",
+        "has_kitchen": true,
+        "has_living_area": true,
+        "has_private_garden": true,
+        "rooms": null
+      }
+    ],
+    "room_amenities_common": ["WiFi", "air conditioning", "en-suite bathroom", "hairdryer", "towels and linens", "welcome products", "safe"],
+    "air_conditioning": true,
+    "breakfast_included": true,
+    "breakfast_details": "Full French breakfast served in the Orangerie or on the courtyard terrace, featuring local pastries, cheeses, charcuterie, fresh fruits, and hot beverages.",
+    "breakfast_price_per_person_eur": null,
+    "dormitory_available": false,
+    "dormitory_beds": null,
+    "nearby_accommodation": ["Hotel & Spa Nid de Cigognes (3-star, 10 minutes)", "Les Oliviers B&B (15 minutes)", "Auberge de Sommieres (5 minutes)"],
+    "partner_hotel": null
+  },
+
+  "pricing": {
+    "pricing_model": "hybrid",
+    "starting_price_eur": 7500,
+    "starting_price_description": "Low season venue hire for 2 nights including accommodation for 55 guests, exclusive use, tables and chairs, and swimming pool access.",
+    "prices_include_tax": true,
+    "vat_rate_percentage": 20,
+    "tourist_tax_note": "Tourist tax (taxe de sejour) of 2.53 EUR per person per night, applicable from age 18, not included in venue hire price.",
+    "pricing_year": "2026-2027",
+    "seasonal_pricing": [
+      {
+        "season_name": "low",
+        "months": "November to March",
+        "day_of_week": null,
+        "price_eur": 7500,
+        "price_description": "2 nights, Friday to Sunday"
+      },
+      {
+        "season_name": "medium",
+        "months": "April, May, October",
+        "day_of_week": null,
+        "price_eur": 12000,
+        "price_description": "2 nights, Friday to Sunday"
+      },
+      {
+        "season_name": "high",
+        "months": "June to September",
+        "day_of_week": "saturday",
+        "price_eur": 18500,
+        "price_description": "2 nights, Friday to Sunday"
+      },
+      {
+        "season_name": "high",
+        "months": "June to September",
+        "day_of_week": "friday",
+        "price_eur": 15500,
+        "price_description": "2 nights, Thursday to Saturday"
+      }
+    ],
+    "packages": [
+      {
+        "name": "Chateau Prestige",
+        "price_eur": null,
+        "price_per_person_eur": 195,
+        "min_guests": 80,
+        "max_guests": 220,
+        "includes": [
+          "Champagne reception with 8 canapes per person",
+          "4-course seated dinner with amuse-bouche",
+          "3 glasses of regional wine (white, rose, red)",
+          "Wedding cake service",
+          "Tables, chairs, white linen tablecloths and napkins",
+          "Dedicated maitre d'hotel and service team",
+          "Tasting meal for the couple prior to the wedding"
+        ],
+        "excludes": ["decoration", "DJ or live music", "lighting design", "fireworks"],
+        "seasonal_validity": "Available year-round",
+        "tiered_pricing": null
+      },
+      {
+        "name": "Chateau Imperial",
+        "price_eur": null,
+        "price_per_person_eur": 295,
+        "min_guests": 80,
+        "max_guests": 200,
+        "includes": [
+          "Champagne reception with 12 premium canapes per person",
+          "6-course gastronomic dinner with amuse-bouche and pre-dessert",
+          "4 glasses of premium wine from Chateau la Dorgonne estate",
+          "Blanc de blanc champagne for toasts",
+          "Cheese course with regional selection",
+          "Presentation wedding cake plus dessert buffet",
+          "Premium table art and floral centrepieces",
+          "Dedicated maitre d'hotel, sommelier, and full service team",
+          "Bridal suite champagne welcome",
+          "Next-day brunch for overnight guests",
+          "Tasting meal for 4 persons"
+        ],
+        "excludes": ["fireworks", "photo booth"],
+        "seasonal_validity": "Available year-round",
+        "tiered_pricing": null
+      }
+    ],
+    "catering_cost_per_person_eur": 195,
+    "children_catering_price_eur": 55,
+    "children_pricing_age_range": "4-12 years, free under 4",
+    "drinks_cost_per_person_eur": null,
+    "brunch_cost_per_person_eur": 39,
+    "brunch_venue_fee_eur": null,
+    "welcome_dinner_cost_eur": 2400,
+    "minimum_nights": 2,
+    "additional_night_rate_eur": 3500,
+    "extended_hour_rate_eur": 500,
+    "rental_period_description": "Friday 3PM to Sunday 6PM (2-night standard); extendable to 3 nights",
+    "deposit_percentage": 30,
+    "deposit_amount_eur": null,
+    "deposit_refundable": false,
+    "security_deposit_eur": 5000,
+    "security_deposit_return_days": 21,
+    "payment_schedule": [
+      {
+        "stage": "deposit",
+        "percentage": 30,
+        "amount_eur": null,
+        "timing": "at booking confirmation"
+      },
+      {
+        "stage": "2nd instalment",
+        "percentage": 35,
+        "amount_eur": null,
+        "timing": "6 months before event"
+      },
+      {
+        "stage": "final balance",
+        "percentage": 35,
+        "amount_eur": null,
+        "timing": "8 weeks before event"
+      }
+    ],
+    "payment_methods": ["bank transfer", "credit card"],
+    "cancellation_policy": "30% deposit non-refundable. Balance due 8 weeks before event. Cancellation within 8 weeks: 100% of total charged.",
+    "cleaning_fee_eur": 350,
+    "security_guard_cost_eur": 450,
+    "coordinator_cost_eur": null,
+    "price_includes": [
+      "Exclusive use of entire estate",
+      "Accommodation for 55 guests across 24 bedrooms",
+      "Tables, chairs, and basic furniture",
+      "Swimming pool and garden access",
+      "On-site parking for 100 vehicles",
+      "Daily housekeeping",
+      "Breakfast for all overnight guests",
+      "Wedding coordinator on the day of the event"
+    ],
+    "price_excludes": [
+      "Catering and drinks",
+      "Decoration and floral arrangements",
+      "DJ or live music",
+      "Fireworks",
+      "Tourist tax"
+    ],
+    "price_extras": [
+      "Decoration and lighting design",
+      "Security guards",
+      "Fireworks display",
+      "Children's entertainment",
+      "Extended bar service",
+      "Additional night supplement",
+      "Marquee or tent extension"
+    ]
+  },
+
+  "catering": {
+    "catering_model": "recommended_list",
+    "in_house_chef": null,
+    "recommended_caterers": ["BRUNET Traiteur", "FLEUR DE SEL", "HELEN Traiteur", "MARROU Traiteur", "LA VALLERGUE", "LA TRUFFE NOIRE"],
+    "cuisine_style": "Refined traditional Mediterranean cuisine with local sourcing",
+    "dietary_accommodations": true,
+    "professional_kitchen": true,
+    "kitchen_size_sqm": 40,
+    "on_site_restaurant": "Restaurant La Canopee",
+    "brunch_available": true,
+    "brunch_description": "Sumptuous Sunday brunch served by the pool terrace or in the Orangerie, featuring local charcuterie, cheeses, pastries, fresh fruits, and Languedoc wines.",
+    "late_night_food_available": true,
+    "pre_wedding_dinner": true,
+    "tasting_meal_included": true,
+    "wedding_cake": "Arranged through chosen caterer or external patissier"
+  },
+
+  "drinks": {
+    "corkage_fee": false,
+    "corkage_fee_amount_eur": null,
+    "byo_wine_allowed": true,
+    "mandatory_venue_drinks": false,
+    "venue_wine_requirement": null,
+    "on_site_wine_production": false,
+    "wine_appellation": null,
+    "bar_service_description": "Full bar service available through caterer. No corkage fee — couples may bring their own champagne and wine.",
+    "wine_cellar": true
+  },
+
+  "vendor_rules": {
+    "vendor_freedom": "recommended_list",
+    "preferred_vendor_list_available": true,
+    "vendor_categories_recommended": ["caterers", "photographers", "videographers", "DJs", "florists", "wedding planners", "makeup artists", "hairdressers", "lighting designers", "equipment rental"],
+    "in_house_services": ["day-of coordination"],
+    "wedding_planner_available": "recommended",
+    "wedding_planner_mandatory": false,
+    "wedding_planner_name": null,
+    "non_approved_vendor_fee": "Non-listed caterers subject to 200 EUR kitchen inspection fee",
+    "day_of_coordinator_provided": true,
+    "dedicated_project_manager": true
+  },
+
+  "ceremony": {
+    "ceremony_types": ["secular", "symbolic", "religious", "catholic"],
+    "licensed_for_civil_marriage": false,
+    "chapel_on_site": true,
+    "chapel_details": "Restored castle chapel with original 14th-century paintings and consecrated altar, seating 40 guests for religious or symbolic ceremonies.",
+    "nearby_church": "Eglise de Villevieille, 5-minute walk from the chateau",
+    "outdoor_ceremony_locations": ["French gardens with fountain backdrop", "Cour d'Honneur under the plane trees", "Les Jardins a la Francaise formal parterre"],
+    "rain_backup_plan": "Salle des Repas (vaulted indoor hall) serves as backup for outdoor ceremonies",
+    "celebrant_available": true,
+    "elopement_option": false
+  },
+
+  "amenities": {
+    "swimming_pool": true,
+    "pool_count": 1,
+    "pool_details": "Heated outdoor pool surrounded by planted stone walls, open May to October",
+    "hot_tub_jacuzzi": false,
+    "spa": true,
+    "spa_details": "Pondres Nature wellness space with massage room, relaxation area, and curated treatments using local products",
+    "tennis_court": false,
+    "petanque_court": true,
+    "gym_fitness": true,
+    "games_room": false,
+    "library": true,
+    "cinema_room": false,
+    "grand_piano": false,
+    "children_playground": true,
+    "helipad": false,
+    "gardens_description": "15 hectares of formal French gardens, century-old plane trees, Mediterranean garrigue, vineyards, and planted courtyard with fountains and water features.",
+    "garden_style": "French formal",
+    "vineyard_on_site": true,
+    "olive_groves": false,
+    "lake_pond": false,
+    "forest_woodland": false,
+    "notable_trees": ["Centuries-old plane trees planted before the French Revolution"],
+    "fountain_water_feature": true,
+    "orangery": false,
+    "dovecote": false,
+    "greenhouse": false
+  },
+
+  "activities": {
+    "on_site_activities": ["swimming", "petanque", "wine tasting", "spa treatments", "garden walks", "gym"],
+    "nearby_activities": ["Pont du Gard visit", "Camargue horse riding", "Pic Saint-Loup wine tours", "Mediterranean beach day", "Cevennes hiking", "Sommieres Saturday market", "kayaking on the Vidourle"],
+    "wine_tasting_on_site": true,
+    "cooking_workshops": false,
+    "excursions_organized": true,
+    "excursion_destinations": ["Pont du Gard", "Uzes", "Aigues-Mortes", "Camargue", "Pic Saint-Loup vineyards"],
+    "fireworks_available": true,
+    "fireworks_details": "Professional fireworks display available through venue partner, launched from the gardens with views from the Cour d'Honneur."
+  },
+
+  "technical": {
+    "wifi_available": true,
+    "sound_system_provided": true,
+    "av_equipment": ["video projector", "projection screen", "wireless microphone", "speakers"],
+    "furniture_provided": true,
+    "furniture_details": "Round tables for 8 or 10 guests, gold chiavari chairs, standing cocktail tables, buffet tables. Additional rental options available through partner companies.",
+    "decoration_services": true,
+    "marquee_tent_available": false,
+    "marquee_size_sqm": null,
+    "backup_generator": true,
+    "ev_charging_stations": false,
+    "climate_control": "Reception rooms fully air-conditioned. Courtyard events benefit from natural stone cooling. Heating available for winter celebrations."
+  },
+
+  "accessibility": {
+    "wheelchair_accessible": true,
+    "accessible_rooms_count": 2,
+    "elevator": true,
+    "pmr_parking": true,
+    "accessibility_details": "Full PMR accessibility throughout ground floor reception areas. Elevator access to upper floors. 2 accessible bedrooms with adapted bathrooms. Independent disabled parking area near entrance."
+  },
+
+  "sustainability": {
+    "eco_certifications": ["Green Key"],
+    "eco_practices": ["Local sourcing from short supply circuits", "Partnership with regional olive oil, cheese, and seafood producers", "Energy-efficient lighting throughout", "Waste reduction programme"]
+  },
+
+  "parking": {
+    "parking_available": true,
+    "parking_spaces": 100,
+    "parking_type": "Free private parking behind the chateau, screened from event areas",
+    "vendor_parking_separate": true
+  },
+
+  "policies": {
+    "curfew_time": "3:00 AM indoors; midnight outdoors",
+    "outdoor_music_curfew": "midnight",
+    "indoor_music_curfew": "3:00 AM",
+    "no_curfew": false,
+    "noise_restrictions": "Outdoor music until midnight. Indoor dancing in soundproofed hall until 3:00 AM. DJ or live band until the end of the night in the Salle des Etats Generaux.",
+    "setup_access_time": "Thursday 2PM for Friday weddings; decoration team access from 8AM on Friday",
+    "teardown_deadline": "Sunday 6PM — all external vendor equipment must be removed",
+    "tent_marquee_policy": "Marquees not permitted on the formal gardens. Stretch tent allowed on the lower meadow with prior approval.",
+    "confetti_policy": "Natural petals and dried lavender only. No paper, metallic, or plastic confetti.",
+    "candle_policy": "Real candles must be in holders and placed on non-flammable surfaces. Extinguished after dinner service. LED candles preferred in historic rooms.",
+    "event_insurance_required": true,
+    "event_insurance_cost_eur": 120,
+    "portable_toilets_policy": "Required for events exceeding 150 guests with outdoor reception.",
+    "lifeguard_required": false,
+    "babysitter_mandatory": false,
+    "pet_policy": "allowed_on_request",
+    "child_friendly": true,
+    "baby_facilities": ["cots", "changing facilities", "high chairs"],
+    "children_area": true,
+    "babysitter_available": true,
+    "lgbtq_friendly": true,
+    "all_faiths_welcome": true,
+    "security_guard_policy": "Mandatory for events exceeding 150 guests or running past 1:00 AM.",
+    "events_per_year_limit": null,
+    "check_in_time": "3:00 PM on first day",
+    "check_out_time": "11:00 AM on departure day"
+  },
+
+  "contact": {
+    "phone_primary": "+33 4 66 35 97 20",
+    "phone_secondary": "+33 6 12 34 56 78",
+    "email_primary": "weddings@chateaudepondres.fr",
+    "email_secondary": "info@chateaudepondres.fr",
+    "website_url": "https://www.chateaudepondres.fr",
+    "instagram": "@chateaudepondres",
+    "facebook": "chateaudepondres",
+    "other_social_media": [
+      { "platform": "YouTube", "handle_or_url": "https://youtube.com/chateaudepondres" },
+      { "platform": "LinkedIn", "handle_or_url": "Chateau de Pondres" },
+      { "platform": "Pinterest", "handle_or_url": "chateaudepondres" }
+    ],
+    "whatsapp": null,
+    "contact_person": "Marie Durand, Wedding Coordinator",
+    "phone_hours": "Monday to Saturday, 9:00 AM to 6:00 PM",
+    "brochure_url": "https://www.chateaudepondres.fr/brochure-mariage-2026.pdf",
+    "virtual_tour_url": null
+  },
+
+  "event_types": ["weddings", "corporate events", "seminars", "gala dinners", "private celebrations", "photo shoots"],
+
+  "wedding_day_details": {
+    "typical_timeline": "Ceremony around 5:00 PM in the gardens, cocktail hour at 6:00 PM in the Cour d'Honneur, seated dinner at 8:00 PM, party and dancing from 11:00 PM in the Salle des Etats Generaux.",
+    "typical_weekend_flow": "Friday evening: welcome dinner for close family on the Pool Terrace. Saturday: bride and groom preparations, ceremony, cocktails, dinner, party. Sunday: late brunch by the pool, leisurely departure by 6:00 PM.",
+    "multi_day_event": true,
+    "cultural_ceremony_experience": ["secular", "catholic", "jewish", "same-sex"],
+    "destination_wedding_speciality": true
+  }
+}
