@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "description": "Venue Reduced Record — 20 core fields for high-level filtering and bride-facing comparison.",
+    "schema_version": "v1.1.0",
+    "field_count": 20,
+    "golden_record_ref": "chateau-challain_full.json"
+  },
+
+  "venue_name": "Chateau Challain",
+  "venue_type": "chateau",
+  "short_description": "A stunning Neo-Gothic chateau in the western Loire Valley, built in 1854 by Louvre architect Louis Visconti, offering exclusive all-inclusive fairy-tale weddings for up to 120 guests with 50 sleeping on-site across 72 acres of gardens, forest, and lake.",
+  "region": "Pays de la Loire",
+  "department": "Maine-et-Loire",
+  "nearest_city": "Angers (40 minutes by car)",
+  "max_guests": 120,
+  "min_guests": null,
+  "max_sleeping_guests": 50,
+  "total_bedrooms": 21,
+  "starting_price_eur": 8000,
+  "exclusivity_model": "full_exclusivity",
+  "catering_model": "in_house_only",
+  "on_site_accommodation": true,
+  "swimming_pool": false,
+  "chapel_on_site": true,
+  "curfew": "No curfew",
+  "child_friendly": true,
+  "google_rating": null,
+  "website_url": "https://chateauchallain.com"
+}

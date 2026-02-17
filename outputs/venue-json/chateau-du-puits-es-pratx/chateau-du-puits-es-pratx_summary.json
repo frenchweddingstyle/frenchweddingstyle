@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "description": "Venue Reduced Record — 20 core fields for high-level filtering and bride-facing comparison.",
+    "schema_version": "v1.1.0",
+    "field_count": 20,
+    "golden_record_ref": "chateau-du-puits-es-pratx_full.json"
+  },
+
+  "venue_name": "Chateau du Puits es Pratx",
+  "venue_type": "chateau",
+  "short_description": "A historic 19th-century wine estate in the Aude region of southern France, surrounded by its own vineyard and ornamental gardens, offering exclusive destination weddings for up to 160 guests with 50 sleeping on-site, in-house catering, complimentary wedding planning, and a romantic candlelit courtyard for dining under the stars.",
+  "region": "Occitanie",
+  "department": "Aude",
+  "nearest_city": "Narbonne (15 minutes)",
+  "max_guests": 160,
+  "min_guests": 30,
+  "max_sleeping_guests": 50,
+  "total_bedrooms": 21,
+  "starting_price_eur": 14895,
+  "exclusivity_model": "full_exclusivity",
+  "catering_model": "in_house_only",
+  "on_site_accommodation": true,
+  "swimming_pool": true,
+  "chapel_on_site": false,
+  "curfew": "2:00 AM",
+  "child_friendly": null,
+  "google_rating": null,
+  "website_url": "https://www.chateaudupuitsespratx.com/"
+}

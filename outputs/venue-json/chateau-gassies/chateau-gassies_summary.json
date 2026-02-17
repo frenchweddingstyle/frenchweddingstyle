@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "description": "Venue Reduced Record — 20 core fields for high-level filtering and bride-facing comparison.",
+    "schema_version": "v1.1.0",
+    "field_count": 20,
+    "golden_record_ref": "chateau-gassies_full.json"
+  },
+
+  "venue_name": "Chateau Gassies",
+  "venue_type": "chateau",
+  "short_description": "A magnificently restored 18th-century estate set on 14 hectares on the heights of Latresne, overlooking Bordeaux and the Garonne River, offering exclusive-use weddings for up to 150 guests with 43 sleeping on-site across 6 suites and 3 guesthouses.",
+  "region": "Nouvelle-Aquitaine",
+  "department": "Gironde",
+  "nearest_city": "Bordeaux (5 minutes)",
+  "max_guests": 150,
+  "min_guests": 40,
+  "max_sleeping_guests": 43,
+  "total_bedrooms": null,
+  "starting_price_eur": 15000,
+  "exclusivity_model": "full_exclusivity",
+  "catering_model": "recommended_list",
+  "on_site_accommodation": true,
+  "swimming_pool": true,
+  "chapel_on_site": false,
+  "curfew": "4:00 AM",
+  "child_friendly": true,
+  "google_rating": null,
+  "website_url": "https://www.chateaugassies.com"
+}

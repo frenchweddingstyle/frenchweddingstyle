@@ -1,0 +1,739 @@
+{
+  "overview": {
+    "min_price_eur": 15000,
+    "max_guests": 150,
+    "min_guests": 40,
+    "max_sleeping_guests": 43,
+    "total_bedrooms": null,
+    "estate_size_hectares": 14
+  },
+
+  "identity": {
+    "venue_name": "Chateau Gassies",
+    "venue_type": "chateau",
+    "venue_subtype": null,
+    "tagline": null,
+    "short_description": "A magnificently restored 18th-century estate set on 14 hectares on the heights of Latresne, overlooking Bordeaux and the Garonne River, offering exclusive-use weddings for up to 150 guests with 43 sleeping on-site across 6 suites and 3 guesthouses.",
+    "exclusivity_model": "full_exclusivity",
+    "owner_names": ["Geraldine", "Ben"],
+    "management_company": null,
+    "network_membership": null,
+    "media_features": ["Conde Nast Brides", "Vogue", "The Guardian", "Tatler", "G Wedding Directory", "Perfect Wedding", "Hitched", "Rock My Wedding", "Style Me Pretty", "French Wedding Style", "WedInspire", "The Wed", "Wed Vibes Media"],
+    "filming_credits": null,
+    "certifications": ["Green Key"],
+    "google_rating": null,
+    "google_review_count": null,
+    "languages_spoken": ["French", "English"]
+  },
+
+  "location": {
+    "address": {
+      "street": "26 Route de Brun",
+      "city": "Latresne",
+      "postal_code": "33360",
+      "department": "Gironde",
+      "country": "France"
+    },
+    "gps_coordinates": null,
+    "region": "Nouvelle-Aquitaine",
+    "sub_region": "Bordeaux & Gironde",
+    "natural_park": null,
+    "nearest_city": {
+      "name": "Bordeaux",
+      "distance_text": "5 minutes by car"
+    },
+    "nearest_cities": [
+      { "name": "Bordeaux", "distance_text": "5 minutes by car" },
+      { "name": "Paris", "distance_text": "2 hours by train" }
+    ],
+    "nearest_airports": [
+      { "name": "Bordeaux-Merignac Airport", "distance_text": "20-25 minutes" },
+      { "name": "London Gatwick Airport", "distance_text": "1 hour flight" }
+    ],
+    "nearest_train_stations": [
+      { "name": "Bordeaux Saint-Jean", "distance_text": "10 minutes" }
+    ],
+    "motorway_access": "A630 and D113 roads",
+    "distance_to_paris": "2 hours by train",
+    "distance_to_coast": null,
+    "nearby_villages": null,
+    "nearby_attractions": ["Saint-Emilion", "La Cite du Vin", "Bassin d'Arcachon", "Cap Ferret", "Dune du Pyla"],
+    "landscape_description": "Set on the heights of Latresne overlooking the city of Bordeaux and the Garonne River, with magnificent parkland featuring century-old trees and panoramic views.",
+    "shuttle_service_available": null
+  },
+
+  "history": {
+    "construction_period": "1770-1775",
+    "construction_year": null,
+    "architectural_style": null,
+    "architect": null,
+    "listed_monument_status": null,
+    "historical_families": null,
+    "notable_historical_guests": null,
+    "historical_narrative": "Chateau Gassies was built between 1770 and 1775. The estate was formerly a wine-making chateau before the previous owner removed the 9 hectares of vines. It underwent a complete 4-year renovation between June 2014 and May 2019, requiring 16 months of work per building. The owners worked with a local architect specializing in chateau renovation, using only authentic materials and local craftsmen to restore the property to its original 18th-century beauty without compromise. The main chateau was entirely renovated with its original layout reinstated, facades sanded, and a terrace added on the west side. The North building was converted from the coachman's house, tack room, Orangerie, and attics into guesthouses. The South building's old winery, barrel room, and bottling room were converted into the main reception room, gym, and wellness area with spa.",
+    "notable_architectural_features": [
+      "Original exposed stone walls",
+      "Wooden beams",
+      "Crystal chandeliers",
+      "Antique mirrors",
+      "19th-century arched covered courtyards",
+      "260-year-old Lebanese Cedar tree"
+    ],
+    "renovation_history": "Complete 4-year renovation between June 2014 and May 2019, requiring 16 months of work per building, using authentic materials and local craftsmen.",
+    "literary_cultural_associations": null
+  },
+
+  "spaces": [
+    {
+      "name": "Oak Grove Clearing",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": 150,
+      "rental_fee_eur": null,
+      "suitable_for": ["ceremony", "welcome_drinks"],
+      "notable_features": ["surrounded by old oak trees"],
+      "description": "A clearing in the Oak Grove surrounded by old oak trees, the perfect spot to celebrate a ceremony.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Caleche Courtyard",
+      "setting": "covered_outdoor",
+      "area_sqm": 100,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["ceremony", "cocktail", "rain_backup"],
+      "notable_features": ["19th-century arched covered courtyard"],
+      "description": "A picturesque 19th-century arched covered courtyard, 100 sqm, suitable for ceremonies and reception drinks.",
+      "soundproofed": null,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Orangerie Courtyard",
+      "setting": "covered_outdoor",
+      "area_sqm": 120,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["ceremony", "cocktail", "brunch", "rain_backup"],
+      "notable_features": ["19th-century arched covered courtyard", "transparent crystal cover installed from November 1st for winter events"],
+      "description": "A 120 sqm covered courtyard that can be adapted with a transparent crystal cover from November 1st for winter events.",
+      "soundproofed": null,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "West Terrace",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": 60,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["cocktail"],
+      "notable_features": ["panoramic views over Bordeaux", "sunset views", "overlooks the 260-year-old Cedar of Lebanon"],
+      "description": "The West Terrace of the Chateau with views over Bordeaux, the sunset, and the magnificent old Cedar of Lebanon.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Charles X Reception Room",
+      "setting": "indoor",
+      "area_sqm": 190,
+      "capacity_seated": 150,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dinner", "dancing", "reception"],
+      "notable_features": ["original exposed stone walls", "wooden beams", "crystal chandeliers", "antique mirrors"],
+      "description": "The main reception room, 190 sqm, converted from the old winery. Features original exposed stone walls, wooden beams, crystal chandeliers, and antique mirrors. Furniture (tables and chairs) included. Events can run until 4:00 AM.",
+      "soundproofed": true,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Orangerie",
+      "setting": "indoor",
+      "area_sqm": 74,
+      "capacity_seated": 40,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dinner", "breakfast", "intimate_reception"],
+      "notable_features": ["bathed in natural light"],
+      "description": "A lovely 74 sqm room bathed in natural light, also used for daily breakfast service. Ideal for more intimate gatherings under 40 people. Not soundproofed, so evening events must conclude by 11 PM.",
+      "soundproofed": false,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Salon Gris",
+      "setting": "indoor",
+      "area_sqm": 50,
+      "capacity_seated": 10,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dinner", "meeting"],
+      "notable_features": null,
+      "description": "A 50 sqm room suitable for intimate meetings or confidential meals, configurable for meetings, business lunches, or dinners for up to 10 people.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Central Garden",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["ceremony"],
+      "notable_features": ["pond with stepping stones", "framed by main chateau and two symmetric wings"],
+      "description": "A beautiful central garden with a pond and stepping stones framed by the main chateau and its two symmetric wings. Ceremony here available at no extra cost with Diamond package, or at additional cost for other packages.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    }
+  ],
+
+  "accommodation": {
+    "on_site_accommodation": true,
+    "total_bedrooms": null,
+    "total_sleeping_capacity": 43,
+    "mandatory_accommodation_purchase": true,
+    "mandatory_accommodation_details": "Accommodation and breakfast for up to 43 guests included in all packages.",
+    "bridal_suite": null,
+    "bridal_suite_description": null,
+    "preparation_rooms": null,
+    "buildings": [
+      {
+        "name": "Suites (South Building)",
+        "building_type": "chateau",
+        "bedrooms": 6,
+        "sleeping_capacity": 16,
+        "price_per_night_eur": null,
+        "description": "Six large suites located upstairs in the South building, created from a 400 sqm empty attic during renovation. Each offers a unique and refined atmosphere with elegant, individual styling. Includes Cedar, Olivier, Sequoia, Linden, and Cypress suites. All air-conditioned.",
+        "has_kitchen": false,
+        "has_living_area": null,
+        "has_private_garden": false,
+        "rooms": [
+          {
+            "name": "Cedar",
+            "room_type": "suite",
+            "capacity_persons": null,
+            "bed_configuration": null,
+            "area_sqm": null,
+            "en_suite": null,
+            "bathroom_type": null,
+            "view": null,
+            "has_terrace": null,
+            "air_conditioned": true,
+            "accessible": null,
+            "price_per_night_eur": null
+          },
+          {
+            "name": "Olivier",
+            "room_type": "suite",
+            "capacity_persons": null,
+            "bed_configuration": null,
+            "area_sqm": null,
+            "en_suite": null,
+            "bathroom_type": null,
+            "view": null,
+            "has_terrace": null,
+            "air_conditioned": true,
+            "accessible": null,
+            "price_per_night_eur": null
+          },
+          {
+            "name": "Sequoia",
+            "room_type": "suite",
+            "capacity_persons": null,
+            "bed_configuration": null,
+            "area_sqm": null,
+            "en_suite": null,
+            "bathroom_type": null,
+            "view": null,
+            "has_terrace": null,
+            "air_conditioned": true,
+            "accessible": null,
+            "price_per_night_eur": null
+          },
+          {
+            "name": "Linden",
+            "room_type": "suite",
+            "capacity_persons": null,
+            "bed_configuration": null,
+            "area_sqm": null,
+            "en_suite": null,
+            "bathroom_type": null,
+            "view": null,
+            "has_terrace": null,
+            "air_conditioned": true,
+            "accessible": null,
+            "price_per_night_eur": null
+          },
+          {
+            "name": "Cypress",
+            "room_type": "suite",
+            "capacity_persons": null,
+            "bed_configuration": null,
+            "area_sqm": null,
+            "en_suite": null,
+            "bathroom_type": null,
+            "view": null,
+            "has_terrace": null,
+            "air_conditioned": true,
+            "accessible": null,
+            "price_per_night_eur": null
+          }
+        ]
+      },
+      {
+        "name": "Gite Caleche",
+        "building_type": "gite",
+        "bedrooms": null,
+        "sleeping_capacity": null,
+        "price_per_night_eur": null,
+        "description": "Converted from the original coachman's house in the North building. Fully equipped kitchen, dining area, and comfortable seating area. Air-conditioned bedrooms.",
+        "has_kitchen": true,
+        "has_living_area": true,
+        "has_private_garden": false,
+        "rooms": null
+      },
+      {
+        "name": "Gite Orangerie",
+        "building_type": "gite",
+        "bedrooms": null,
+        "sleeping_capacity": null,
+        "price_per_night_eur": null,
+        "description": "Converted from a large attic and workshop in the North building. Fully equipped kitchen, dining area, and comfortable seating area. Air-conditioned bedrooms.",
+        "has_kitchen": true,
+        "has_living_area": true,
+        "has_private_garden": false,
+        "rooms": null
+      },
+      {
+        "name": "Gite Vignes",
+        "building_type": "gite",
+        "bedrooms": null,
+        "sleeping_capacity": null,
+        "price_per_night_eur": null,
+        "description": "Created from the large hay attic between the two covered courtyards. Fully equipped kitchen, dining area, and comfortable seating area. Air-conditioned bedrooms.",
+        "has_kitchen": true,
+        "has_living_area": true,
+        "has_private_garden": false,
+        "rooms": null
+      }
+    ],
+    "room_amenities_common": ["air conditioning", "breakfast included"],
+    "air_conditioning": true,
+    "breakfast_included": true,
+    "breakfast_details": "Breakfast served daily in the Orangerie for all guests sleeping on site.",
+    "breakfast_price_per_person_eur": null,
+    "dormitory_available": false,
+    "dormitory_beds": null,
+    "nearby_accommodation": null,
+    "partner_hotel": null
+  },
+
+  "pricing": {
+    "pricing_model": "packages",
+    "starting_price_eur": 15000,
+    "starting_price_description": "Winter 1 night / 2 day package including exclusive use, accommodation and breakfast for up to 43 guests.",
+    "prices_include_tax": true,
+    "vat_rate_percentage": null,
+    "tourist_tax_note": "Price inclusive of tourist tax.",
+    "pricing_year": "2027",
+    "seasonal_pricing": null,
+    "packages": [
+      {
+        "name": "Gold Package (Weekday)",
+        "price_eur": null,
+        "price_per_person_eur": null,
+        "min_guests": null,
+        "max_guests": 150,
+        "includes": [
+          "3 nights / 4 days exclusive use",
+          "Accommodation and breakfast for up to 43 guests",
+          "Access to guest pool, pool house, sauna, steam room, fitness room, sports facilities (9am-7pm daily)",
+          "Wedding coordinator",
+          "Tables, chairs and cocktail tables",
+          "Portable speaker, arch, easels, lectern and eco cups",
+          "Daily housekeeping",
+          "Cleaning of reception hall and all reception spaces",
+          "Security guard all night of the wedding day",
+          "Tourist tax included",
+          "On-site parking for 56 cars",
+          "No corkage fee",
+          "Covered courtyards (no additional marquee costs for rain)",
+          "Complimentary 60-minute Oriental massage for bride and groom",
+          "Chairs, arch and lectern for ceremony"
+        ],
+        "excludes": null,
+        "seasonal_validity": "Monday to Thursday",
+        "tiered_pricing": [
+          { "guests_up_to": 150, "price_eur": 24500 },
+          { "guests_up_to": 150, "price_eur": 29000 }
+        ]
+      },
+      {
+        "name": "Platinum Package (Weekend)",
+        "price_eur": null,
+        "price_per_person_eur": null,
+        "min_guests": null,
+        "max_guests": 150,
+        "includes": [
+          "3 nights / 4 days exclusive use",
+          "Accommodation and breakfast for up to 43 guests",
+          "Access to guest pool, pool house, sauna, steam room, fitness room, sports facilities (9am-7pm daily)",
+          "Wedding coordinator",
+          "Tables, chairs and cocktail tables",
+          "Portable speaker, arch, easels, lectern and eco cups",
+          "Daily housekeeping",
+          "Cleaning of reception hall and all reception spaces",
+          "Security guard all night of the wedding day",
+          "Tourist tax included",
+          "On-site parking for 56 cars",
+          "No corkage fee",
+          "Covered courtyards (no additional marquee costs for rain)",
+          "Complimentary 60-minute Oriental massage for bride and groom",
+          "Chairs, arch and lectern for ceremony"
+        ],
+        "excludes": null,
+        "seasonal_validity": "Weekend",
+        "tiered_pricing": [
+          { "guests_up_to": 150, "price_eur": 27500 },
+          { "guests_up_to": 150, "price_eur": 32000 }
+        ]
+      },
+      {
+        "name": "Diamond Package (Weekend)",
+        "price_eur": null,
+        "price_per_person_eur": null,
+        "min_guests": null,
+        "max_guests": 150,
+        "includes": [
+          "4 nights / 5 days exclusive use",
+          "Accommodation and breakfast for up to 43 guests",
+          "Access to guest pool, pool house, sauna, steam room, fitness room, sports facilities (9am-7pm daily)",
+          "Wedding coordinator",
+          "Tables, chairs and cocktail tables",
+          "Portable speaker, arch, easels, lectern and eco cups",
+          "Daily housekeeping",
+          "Cleaning of reception hall and all reception spaces",
+          "Security guard all night of the wedding day",
+          "Tourist tax included",
+          "On-site parking for 56 cars",
+          "No corkage fee",
+          "Covered courtyards (no additional marquee costs for rain)",
+          "Complimentary 60-minute Oriental massage for bride and groom",
+          "Chairs, arch and lectern for ceremony",
+          "Games day with games available on site",
+          "Ceremony in the central garden at no extra cost"
+        ],
+        "excludes": null,
+        "seasonal_validity": "Weekend",
+        "tiered_pricing": [
+          { "guests_up_to": 150, "price_eur": 34500 },
+          { "guests_up_to": 150, "price_eur": 40500 }
+        ]
+      },
+      {
+        "name": "Winter 1 Night / 2 Day Package",
+        "price_eur": 15000,
+        "price_per_person_eur": null,
+        "min_guests": null,
+        "max_guests": 150,
+        "includes": [
+          "1 night / 2 days exclusive use",
+          "Accommodation and breakfast for up to 43 guests"
+        ],
+        "excludes": null,
+        "seasonal_validity": "November 1st to March 31st",
+        "tiered_pricing": null
+      },
+      {
+        "name": "Winter 2 Night / 3 Day Package",
+        "price_eur": 18000,
+        "price_per_person_eur": null,
+        "min_guests": null,
+        "max_guests": 150,
+        "includes": [
+          "2 nights / 3 days exclusive use",
+          "Accommodation and breakfast for up to 43 guests"
+        ],
+        "excludes": null,
+        "seasonal_validity": "November 1st to March 31st",
+        "tiered_pricing": null
+      },
+      {
+        "name": "Winter 3 Night / 4 Day Package",
+        "price_eur": 21000,
+        "price_per_person_eur": null,
+        "min_guests": null,
+        "max_guests": 150,
+        "includes": [
+          "3 nights / 4 days exclusive use",
+          "Accommodation and breakfast for up to 43 guests"
+        ],
+        "excludes": null,
+        "seasonal_validity": "November 1st to March 31st",
+        "tiered_pricing": null
+      }
+    ],
+    "catering_cost_per_person_eur": null,
+    "children_catering_price_eur": null,
+    "children_pricing_age_range": null,
+    "drinks_cost_per_person_eur": null,
+    "brunch_cost_per_person_eur": null,
+    "brunch_venue_fee_eur": null,
+    "welcome_dinner_cost_eur": null,
+    "minimum_nights": 3,
+    "additional_night_rate_eur": null,
+    "extended_hour_rate_eur": null,
+    "rental_period_description": "3 nights minimum during summer season (April to October). 1, 2 or 3 nights available during winter season (November to March).",
+    "deposit_percentage": null,
+    "deposit_amount_eur": null,
+    "deposit_refundable": null,
+    "security_deposit_eur": null,
+    "security_deposit_return_days": null,
+    "payment_schedule": null,
+    "payment_methods": null,
+    "cancellation_policy": null,
+    "cleaning_fee_eur": null,
+    "security_guard_cost_eur": null,
+    "coordinator_cost_eur": null,
+    "price_includes": [
+      "Exclusive use of entire estate",
+      "Accommodation and breakfast for up to 43 guests",
+      "Access to guest pool, pool house, sauna, steam room, fitness room, sports facilities",
+      "Wedding coordinator",
+      "Tables, chairs and cocktail tables",
+      "Portable speaker, arch, easels, lectern and eco cups",
+      "Daily housekeeping in suites and gite kitchens",
+      "Cleaning of reception hall and all reception spaces",
+      "Security guard all night of the wedding day",
+      "Tourist tax",
+      "On-site parking for 56 cars",
+      "Covered courtyards (no marquee hire needed for rain)",
+      "Complimentary 60-minute Oriental massage for bride and groom"
+    ],
+    "price_excludes": ["catering", "drinks"],
+    "price_extras": [
+      "Use of Chateau's private pool and terrace for cocktail evening (up to 60 people)",
+      "Use of West Terrace for cocktail (up to 60 people)",
+      "Use of Orangerie room for children during wedding",
+      "Ceremony in central garden (free with Diamond, extra cost with other packages)",
+      "Late checkout (accommodation at 1pm, grounds at 6pm)",
+      "Welcome basket in each gite",
+      "Additional THEMAE spa treatments",
+      "Champagne or wine supplied by Chateau Gassies (Rauzan Gassies, Chateau Climens, Chateau Pascot)",
+      "Wine tasting session at Chateau Pascot",
+      "Chateau Gassies Lavender sachets",
+      "Extra pool towels for non-residents"
+    ]
+  },
+
+  "catering": {
+    "catering_model": "recommended_list",
+    "in_house_chef": null,
+    "recommended_caterers": ["Aynel Traiteur", "Maison Dulou Traiteur", "Capdevielle", "Humblot Experiences", "Deval Traiteur", "Lacoste Traiteur", "Le Nectar", "Marie Curry Traiteur", "Monblanc Traiteur"],
+    "cuisine_style": null,
+    "dietary_accommodations": null,
+    "professional_kitchen": true,
+    "kitchen_size_sqm": null,
+    "on_site_restaurant": null,
+    "brunch_available": true,
+    "brunch_description": "Brunch by the pool available the day after the wedding at the guesthouse pool terrace and Orangerie courtyard.",
+    "late_night_food_available": null,
+    "pre_wedding_dinner": true,
+    "tasting_meal_included": null,
+    "wedding_cake": null
+  },
+
+  "drinks": {
+    "corkage_fee": false,
+    "corkage_fee_amount_eur": null,
+    "byo_wine_allowed": true,
+    "mandatory_venue_drinks": false,
+    "venue_wine_requirement": null,
+    "on_site_wine_production": false,
+    "wine_appellation": null,
+    "bar_service_description": null,
+    "wine_cellar": null
+  },
+
+  "vendor_rules": {
+    "vendor_freedom": "recommended_list",
+    "preferred_vendor_list_available": true,
+    "vendor_categories_recommended": ["caterers", "DJs", "furniture rental/tableware", "music/lighting", "animation", "babysitters"],
+    "in_house_services": ["wedding coordination"],
+    "wedding_planner_available": "recommended",
+    "wedding_planner_mandatory": false,
+    "wedding_planner_name": null,
+    "non_approved_vendor_fee": null,
+    "day_of_coordinator_provided": true,
+    "dedicated_project_manager": null
+  },
+
+  "ceremony": {
+    "ceremony_types": ["secular", "symbolic", "religious"],
+    "licensed_for_civil_marriage": null,
+    "chapel_on_site": false,
+    "chapel_details": null,
+    "nearby_church": null,
+    "outdoor_ceremony_locations": [
+      "Oak Grove clearing surrounded by old oak trees",
+      "Central garden with pond and stepping stones",
+      "Caleche Courtyard (100 sqm covered)",
+      "Orangerie Courtyard (120 sqm covered)"
+    ],
+    "rain_backup_plan": "Covered courtyards (Caleche and Orangerie) available at no additional cost.",
+    "celebrant_available": null,
+    "elopement_option": null
+  },
+
+  "amenities": {
+    "swimming_pool": true,
+    "pool_count": 2,
+    "pool_details": "2 heated swimming pools (one guest pool with pool house, and one near the gites).",
+    "hot_tub_jacuzzi": null,
+    "spa": true,
+    "spa_details": "Spa THEMAE with massage room, sauna, steam room (steam bath). Accessible 9am to 7pm daily.",
+    "tennis_court": true,
+    "petanque_court": true,
+    "gym_fitness": true,
+    "games_room": null,
+    "library": null,
+    "cinema_room": null,
+    "grand_piano": null,
+    "children_playground": true,
+    "helipad": null,
+    "gardens_description": "14-hectare estate with magnificent parkland, central garden with pond and stepping stones framed by the chateau and symmetric wings, oak grove, and panoramic views over Bordeaux and the Garonne River.",
+    "garden_style": null,
+    "vineyard_on_site": false,
+    "olive_groves": null,
+    "lake_pond": true,
+    "forest_woodland": null,
+    "notable_trees": ["260-year-old Lebanese Cedar"],
+    "fountain_water_feature": null,
+    "orangery": true,
+    "dovecote": null,
+    "greenhouse": null
+  },
+
+  "activities": {
+    "on_site_activities": ["swimming", "tennis", "basketball", "petanque", "spa", "sauna", "steam room", "fitness", "children's playground with trampoline"],
+    "nearby_activities": ["wine tours and vineyard visits", "La Cite du Vin", "Saint-Emilion visits", "Bassin d'Arcachon day trips", "Cap Ferret", "Dune du Pyla"],
+    "wine_tasting_on_site": false,
+    "cooking_workshops": null,
+    "excursions_organized": true,
+    "excursion_destinations": ["Saint-Emilion", "La Cite du Vin", "Bassin d'Arcachon", "Cap Ferret", "Dune du Pyla"],
+    "fireworks_available": null,
+    "fireworks_details": null
+  },
+
+  "technical": {
+    "wifi_available": true,
+    "sound_system_provided": true,
+    "av_equipment": ["portable speaker", "audiovisual equipment in Charles X room"],
+    "furniture_provided": true,
+    "furniture_details": "Tables, chairs, cocktail tables, high and low tables, 6 wooden barrels, arch, easels, lectern, and eco cups provided.",
+    "decoration_services": null,
+    "marquee_tent_available": false,
+    "marquee_size_sqm": null,
+    "backup_generator": null,
+    "ev_charging_stations": null,
+    "climate_control": "Air conditioning throughout all accommodation and event spaces."
+  },
+
+  "accessibility": {
+    "wheelchair_accessible": true,
+    "accessible_rooms_count": null,
+    "elevator": null,
+    "pmr_parking": null,
+    "accessibility_details": "Disabled access available."
+  },
+
+  "sustainability": {
+    "eco_certifications": ["Green Key"],
+    "eco_practices": ["Organically grown lavender on grounds"]
+  },
+
+  "parking": {
+    "parking_available": true,
+    "parking_spaces": 56,
+    "parking_type": "On-site parking for 56 cars",
+    "vendor_parking_separate": null
+  },
+
+  "policies": {
+    "curfew_time": "4:00 AM",
+    "outdoor_music_curfew": null,
+    "indoor_music_curfew": "4:00 AM",
+    "no_curfew": false,
+    "noise_restrictions": "Charles X reception room events can run until 4:00 AM. Orangerie evening events must conclude by 11 PM. Rehearsal/welcome dinner music until 10 PM.",
+    "setup_access_time": "Access to the reception hall the day before the wedding for decoration, until 7 PM.",
+    "teardown_deadline": null,
+    "tent_marquee_policy": null,
+    "confetti_policy": null,
+    "candle_policy": null,
+    "event_insurance_required": null,
+    "event_insurance_cost_eur": null,
+    "portable_toilets_policy": null,
+    "lifeguard_required": null,
+    "babysitter_mandatory": false,
+    "pet_policy": "allowed",
+    "child_friendly": true,
+    "baby_facilities": null,
+    "children_area": true,
+    "babysitter_available": true,
+    "lgbtq_friendly": true,
+    "all_faiths_welcome": true,
+    "security_guard_policy": "Security guard mandatory and included all night of the wedding day.",
+    "events_per_year_limit": null,
+    "check_in_time": "2pm for bride and groom, 4pm for guests",
+    "check_out_time": null
+  },
+
+  "contact": {
+    "phone_primary": "+33 5 56 68 28 78",
+    "phone_secondary": "+33 6 85 60 72 53",
+    "email_primary": "contact@chateaugassies.com",
+    "email_secondary": null,
+    "website_url": "https://www.chateaugassies.com",
+    "instagram": "@chateaugassies",
+    "facebook": "/Chateaugassies",
+    "other_social_media": [
+      { "platform": "YouTube", "handle_or_url": "Chateau Gassies" },
+      { "platform": "LinkedIn", "handle_or_url": "Chateau Gassies" },
+      { "platform": "Pinterest", "handle_or_url": "Chateau Gassies" }
+    ],
+    "whatsapp": "+33 6 85 60 72 53",
+    "contact_person": "Geraldine Mostachfi",
+    "phone_hours": null,
+    "brochure_url": null,
+    "virtual_tour_url": null
+  },
+
+  "event_types": ["weddings", "corporate retreats", "seminars", "family reunions", "private events"],
+
+  "wedding_day_details": {
+    "typical_timeline": "Breakfast in the Orangerie. Welcome drinks in the Oak Grove or covered courtyard. Ceremony. Cocktails on the West Terrace. Wedding dinner in the Charles X reception room. Party until 4:00 AM.",
+    "typical_weekend_flow": "Day 1: Check-in (2pm bride & groom, 4pm guests), complimentary massage, rehearsal/welcome dinner (music until 10pm). Day 2: Breakfast, wedding ceremony, cocktails, dinner in Charles X reception room, party until 4AM. Day 3: Breakfast, brunch by the pool.",
+    "multi_day_event": true,
+    "cultural_ceremony_experience": ["Jewish", "Chinese", "Asian"],
+    "destination_wedding_speciality": true
+  }
+}

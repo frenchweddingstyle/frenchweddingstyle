@@ -1,0 +1,376 @@
+{
+  "overview": {
+    "min_price_eur": 2750,
+    "max_guests": 200,
+    "min_guests": null,
+    "max_sleeping_guests": null,
+    "total_bedrooms": null,
+    "estate_size_hectares": 14
+  },
+
+  "identity": {
+    "venue_name": "Chateau de Pont-Foret",
+    "venue_type": "chateau",
+    "venue_subtype": null,
+    "tagline": null,
+    "short_description": "A 19th century chateau set on a 14-hectare estate in Loire-Atlantique, offering privacy and exclusivity for weddings of up to 200 guests with on-site marquees and a large wooded park with views of the castle.",
+    "exclusivity_model": "full_exclusivity",
+    "owner_names": ["Anaik", "Christophe"],
+    "management_company": null,
+    "network_membership": null,
+    "media_features": null,
+    "filming_credits": null,
+    "certifications": null,
+    "google_rating": null,
+    "google_review_count": null,
+    "languages_spoken": ["French", "English"]
+  },
+
+  "location": {
+    "address": {
+      "street": "Pont Foret",
+      "city": "Plesse",
+      "postal_code": "44630",
+      "department": "Loire-Atlantique",
+      "country": "France"
+    },
+    "gps_coordinates": null,
+    "region": "Pays de la Loire",
+    "sub_region": null,
+    "natural_park": null,
+    "nearest_city": null,
+    "nearest_cities": null,
+    "nearest_airports": null,
+    "nearest_train_stations": null,
+    "motorway_access": null,
+    "distance_to_paris": null,
+    "distance_to_coast": null,
+    "nearby_villages": null,
+    "nearby_attractions": null,
+    "landscape_description": "Lush greenery with fourteen hectares of wooded parkland and meadows, rolling hills in the Loire Valley, often referred to as the garden of France.",
+    "shuttle_service_available": null
+  },
+
+  "history": {
+    "construction_period": "19th century",
+    "construction_year": null,
+    "architectural_style": null,
+    "architect": null,
+    "listed_monument_status": null,
+    "historical_families": null,
+    "notable_historical_guests": null,
+    "historical_narrative": "The Chateau de Pont-Foret is a 19th century property set on 14 hectares in Loire-Atlantique. It has recently opened its doors as a reception venue, combining the charm of the old with a contemporary style.",
+    "notable_architectural_features": null,
+    "renovation_history": "A suite is currently being renovated inside the castle.",
+    "literary_cultural_associations": null
+  },
+
+  "spaces": [
+    {
+      "name": "Reception Marquee (150m2)",
+      "setting": "covered_outdoor",
+      "area_sqm": 150,
+      "capacity_seated": 110,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dinner", "dancing"],
+      "notable_features": ["contemporary style marquee with view of the castle"],
+      "description": "A 150m2 marquee option for seated reception dining.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Reception Marquee (400m2)",
+      "setting": "covered_outdoor",
+      "area_sqm": 400,
+      "capacity_seated": 200,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dinner", "dancing"],
+      "notable_features": ["contemporary style marquee with view of the castle"],
+      "description": "A 400m2 marquee option allowing up to 200 seated guests.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Shaded Cocktail Area",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": 200,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["cocktail"],
+      "notable_features": ["shaded area", "view of the castle"],
+      "description": "A large shaded outdoor area for cocktail receptions and vin d'honneur.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Wooded Park",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": 200,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["cocktail", "photos"],
+      "notable_features": ["view of the castle", "large wooded parkland and meadows"],
+      "description": "A large wooded park ideal for vin d'honneur and photo opportunities with views of the castle.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    }
+  ],
+
+  "accommodation": {
+    "on_site_accommodation": false,
+    "total_bedrooms": null,
+    "total_sleeping_capacity": null,
+    "mandatory_accommodation_purchase": null,
+    "mandatory_accommodation_details": null,
+    "bridal_suite": null,
+    "bridal_suite_description": "A suite is currently being renovated inside the castle.",
+    "preparation_rooms": null,
+    "buildings": null,
+    "room_amenities_common": null,
+    "air_conditioning": null,
+    "breakfast_included": null,
+    "breakfast_details": null,
+    "breakfast_price_per_person_eur": null,
+    "dormitory_available": null,
+    "dormitory_beds": null,
+    "nearby_accommodation": null,
+    "partner_hotel": null
+  },
+
+  "pricing": {
+    "pricing_model": "dry_hire",
+    "starting_price_eur": 2750,
+    "starting_price_description": "Exclusive use for the whole weekend or week, starting from 2,750 EUR.",
+    "prices_include_tax": null,
+    "vat_rate_percentage": null,
+    "tourist_tax_note": null,
+    "pricing_year": null,
+    "seasonal_pricing": null,
+    "packages": null,
+    "catering_cost_per_person_eur": null,
+    "children_catering_price_eur": null,
+    "children_pricing_age_range": null,
+    "drinks_cost_per_person_eur": null,
+    "brunch_cost_per_person_eur": null,
+    "brunch_venue_fee_eur": null,
+    "welcome_dinner_cost_eur": null,
+    "minimum_nights": null,
+    "additional_night_rate_eur": null,
+    "extended_hour_rate_eur": null,
+    "rental_period_description": "Whole weekend or week",
+    "deposit_percentage": null,
+    "deposit_amount_eur": null,
+    "deposit_refundable": null,
+    "security_deposit_eur": null,
+    "security_deposit_return_days": null,
+    "payment_schedule": null,
+    "payment_methods": null,
+    "cancellation_policy": null,
+    "cleaning_fee_eur": null,
+    "security_guard_cost_eur": null,
+    "coordinator_cost_eur": null,
+    "price_includes": [
+      "Exclusive use of entire estate",
+      "Tables and chairs",
+      "Reception marquee",
+      "Car parking for 50 cars"
+    ],
+    "price_excludes": null,
+    "price_extras": null
+  },
+
+  "catering": {
+    "catering_model": "recommended_list",
+    "in_house_chef": null,
+    "recommended_caterers": null,
+    "cuisine_style": null,
+    "dietary_accommodations": null,
+    "professional_kitchen": null,
+    "kitchen_size_sqm": 20,
+    "on_site_restaurant": null,
+    "brunch_available": null,
+    "brunch_description": null,
+    "late_night_food_available": null,
+    "pre_wedding_dinner": null,
+    "tasting_meal_included": null,
+    "wedding_cake": null
+  },
+
+  "drinks": {
+    "corkage_fee": null,
+    "corkage_fee_amount_eur": null,
+    "byo_wine_allowed": null,
+    "mandatory_venue_drinks": null,
+    "venue_wine_requirement": null,
+    "on_site_wine_production": null,
+    "wine_appellation": null,
+    "bar_service_description": null,
+    "wine_cellar": null
+  },
+
+  "vendor_rules": {
+    "vendor_freedom": "recommended_list",
+    "preferred_vendor_list_available": true,
+    "vendor_categories_recommended": ["caterers", "accommodation", "photographers", "photo booth", "florists", "dress designers", "entertainment"],
+    "in_house_services": null,
+    "wedding_planner_available": "recommended",
+    "wedding_planner_mandatory": null,
+    "wedding_planner_name": null,
+    "non_approved_vendor_fee": null,
+    "day_of_coordinator_provided": null,
+    "dedicated_project_manager": null
+  },
+
+  "ceremony": {
+    "ceremony_types": null,
+    "licensed_for_civil_marriage": null,
+    "chapel_on_site": null,
+    "chapel_details": null,
+    "nearby_church": null,
+    "outdoor_ceremony_locations": null,
+    "rain_backup_plan": null,
+    "celebrant_available": null,
+    "elopement_option": null
+  },
+
+  "amenities": {
+    "swimming_pool": null,
+    "pool_count": null,
+    "pool_details": null,
+    "hot_tub_jacuzzi": null,
+    "spa": null,
+    "spa_details": null,
+    "tennis_court": null,
+    "petanque_court": null,
+    "gym_fitness": null,
+    "games_room": null,
+    "library": null,
+    "cinema_room": null,
+    "grand_piano": null,
+    "children_playground": null,
+    "helipad": null,
+    "gardens_description": "14 hectares of wooded parkland and meadows with a large park offering views of the castle.",
+    "garden_style": null,
+    "vineyard_on_site": null,
+    "olive_groves": null,
+    "lake_pond": null,
+    "forest_woodland": true,
+    "notable_trees": null,
+    "fountain_water_feature": null,
+    "orangery": null,
+    "dovecote": null,
+    "greenhouse": null
+  },
+
+  "activities": {
+    "on_site_activities": ["camping"],
+    "nearby_activities": null,
+    "wine_tasting_on_site": null,
+    "cooking_workshops": null,
+    "excursions_organized": null,
+    "excursion_destinations": null,
+    "fireworks_available": null,
+    "fireworks_details": null
+  },
+
+  "technical": {
+    "wifi_available": null,
+    "sound_system_provided": null,
+    "av_equipment": null,
+    "furniture_provided": true,
+    "furniture_details": "Tables and chairs provided by the chateau.",
+    "decoration_services": null,
+    "marquee_tent_available": true,
+    "marquee_size_sqm": 400,
+    "backup_generator": null,
+    "ev_charging_stations": null,
+    "climate_control": null
+  },
+
+  "accessibility": {
+    "wheelchair_accessible": true,
+    "accessible_rooms_count": null,
+    "elevator": null,
+    "pmr_parking": null,
+    "accessibility_details": "Disabled access available. 1 PMR (accessible) toilet provided."
+  },
+
+  "sustainability": {
+    "eco_certifications": null,
+    "eco_practices": null
+  },
+
+  "parking": {
+    "parking_available": true,
+    "parking_spaces": 50,
+    "parking_type": "Car parking for 50 cars",
+    "vendor_parking_separate": null
+  },
+
+  "policies": {
+    "curfew_time": null,
+    "outdoor_music_curfew": null,
+    "indoor_music_curfew": null,
+    "no_curfew": true,
+    "noise_restrictions": "No time limit for music (isolated and quiet location).",
+    "setup_access_time": null,
+    "teardown_deadline": null,
+    "tent_marquee_policy": null,
+    "confetti_policy": null,
+    "candle_policy": null,
+    "event_insurance_required": null,
+    "event_insurance_cost_eur": null,
+    "portable_toilets_policy": null,
+    "lifeguard_required": null,
+    "babysitter_mandatory": null,
+    "pet_policy": null,
+    "child_friendly": null,
+    "baby_facilities": null,
+    "children_area": null,
+    "babysitter_available": null,
+    "lgbtq_friendly": null,
+    "all_faiths_welcome": null,
+    "security_guard_policy": null,
+    "events_per_year_limit": null,
+    "check_in_time": null,
+    "check_out_time": null
+  },
+
+  "contact": {
+    "phone_primary": null,
+    "phone_secondary": null,
+    "email_primary": "contact@chateaudepontforet.com",
+    "email_secondary": null,
+    "website_url": "https://www.chateaudepontforet.com/",
+    "instagram": null,
+    "facebook": null,
+    "other_social_media": null,
+    "whatsapp": null,
+    "contact_person": null,
+    "phone_hours": null,
+    "brochure_url": null,
+    "virtual_tour_url": null
+  },
+
+  "event_types": ["weddings"],
+
+  "wedding_day_details": {
+    "typical_timeline": null,
+    "typical_weekend_flow": null,
+    "multi_day_event": true,
+    "cultural_ceremony_experience": null,
+    "destination_wedding_speciality": null
+  }
+}

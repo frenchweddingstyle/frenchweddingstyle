@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "description": "Venue Reduced Record — 20 core fields for high-level filtering and bride-facing comparison. Each venue's reduced record links to its comprehensive golden record for full details.",
+    "schema_version": "v1.1.0",
+    "field_count": 20,
+    "golden_record_ref": "chateau-de-pont-foret_full.json"
+  },
+
+  "venue_name": "Chateau de Pont-Foret",
+  "venue_type": "chateau",
+  "short_description": "A 19th century chateau set on a 14-hectare estate in Loire-Atlantique, offering privacy and exclusivity for weddings of up to 200 guests with on-site marquees and a large wooded park with views of the castle.",
+  "region": "Pays de la Loire",
+  "department": "Loire-Atlantique",
+  "nearest_city": null,
+  "max_guests": 200,
+  "min_guests": null,
+  "max_sleeping_guests": null,
+  "total_bedrooms": null,
+  "starting_price_eur": 2750,
+  "exclusivity_model": "full_exclusivity",
+  "catering_model": "recommended_list",
+  "on_site_accommodation": false,
+  "swimming_pool": null,
+  "chapel_on_site": null,
+  "curfew": "No curfew (isolated location)",
+  "child_friendly": null,
+  "google_rating": null,
+  "website_url": "https://www.chateaudepontforet.com/"
+}

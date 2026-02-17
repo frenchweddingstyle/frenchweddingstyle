@@ -1,0 +1,563 @@
+{
+  "overview": {
+    "min_price_eur": 21000,
+    "max_guests": 280,
+    "min_guests": null,
+    "max_sleeping_guests": 10,
+    "total_bedrooms": 5,
+    "estate_size_hectares": null
+  },
+
+  "identity": {
+    "venue_name": "Bastide du Roy",
+    "venue_type": "bastide",
+    "venue_subtype": null,
+    "tagline": "A unique venue to share magical moments, to create your story, to leave a legacy...",
+    "short_description": "An iconic classified Historic Monument on the Cote d'Azur in Antibes, surrounded by 365 olive trees and remarkable gardens. Kings, artists, and designers have walked its grounds, and the estate blends timeless beauty with sophistication across multiple named gardens and a grand Court of Honor.",
+    "exclusivity_model": "full_exclusivity",
+    "owner_names": null,
+    "management_company": null,
+    "network_membership": null,
+    "media_features": null,
+    "filming_credits": null,
+    "certifications": ["Monument Historique", "Jardins Remarquables"],
+    "google_rating": null,
+    "google_review_count": null,
+    "languages_spoken": null
+  },
+
+  "location": {
+    "address": {
+      "street": "3055 Avenue Jean Michard Pellissier",
+      "city": "Antibes",
+      "postal_code": "06600",
+      "department": null,
+      "country": "France"
+    },
+    "gps_coordinates": {
+      "latitude": 43.6141667,
+      "longitude": 7.1069722
+    },
+    "region": "Provence-Alpes-Cote d'Azur",
+    "sub_region": "Cote d'Azur",
+    "natural_park": null,
+    "nearest_city": null,
+    "nearest_cities": null,
+    "nearest_airports": [
+      { "name": "Nice Cote d'Azur Airport", "distance_text": "12 km" }
+    ],
+    "nearest_train_stations": [
+      { "name": "Gare TGV Antibes", "distance_text": "3 km" }
+    ],
+    "motorway_access": "A8: 4 km",
+    "distance_to_paris": "1 hour 30 minutes by air to Nice, then 25 minutes by car",
+    "distance_to_coast": null,
+    "nearby_villages": ["Biot"],
+    "nearby_attractions": null,
+    "landscape_description": "Located on the commune of Antibes, at the edge of the golf course and the village of Biot, appearing majestically behind restanques (stone-walled terraces) and olive trees, with sea views and panoramic scenery of the surrounding landscape.",
+    "shuttle_service_available": null
+  },
+
+  "history": {
+    "construction_period": null,
+    "construction_year": null,
+    "architectural_style": "provencal bastide",
+    "architect": null,
+    "listed_monument_status": "Monument Historique",
+    "historical_families": ["Lanvin", "Polignac"],
+    "notable_historical_guests": ["Henry IV", "Louis XV", "Jeanne Lanvin", "Marie-Blanche Lanvin", "Count de Polignac", "Mick Jagger", "Cesar", "Arman", "Ben", "Folon", "Farhi", "Castelli", "Lalanne", "Nora Amsellem", "Teresa Berganza"],
+    "historical_narrative": "The residence was given to Henry IV in 1608 as a wedding present. The city of Antibes received it graciously from Louis XV at the end of his reign. In 1924, the famous fashion designer Jeanne Lanvin bought the estate and offered it to her daughter, her muse Marguerite, known as Marie-Blanche Lanvin, and her son-in-law Count de Polignac, member of the Princely Family of Monaco. In 1971, following his marriage with Bianca, Mick Jagger from the Rolling Stones spent a summer at the Bastide du Roy, where they completed their album 'Exile on Main Street.' The sculptor Cesar lived there for four years alongside the current owner, the Gismondi family, surrounded by friends including Arman, Ben, Folon, Farhi, Castelli, Lalanne, and other great lyrical names such as Nora Amsellem and Teresa Berganza.",
+    "notable_architectural_features": null,
+    "renovation_history": null,
+    "literary_cultural_associations": ["Rolling Stones completed 'Exile on Main Street' here"]
+  },
+
+  "spaces": [
+    {
+      "name": "French Garden",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["cocktail", "welcome_drinks"],
+      "notable_features": ["basin and fountain", "hundred-year-old olive trees", "geometric design"],
+      "description": "Geometric and rigorous, illustrating the order and mastery of nature. Composed of a sublime pond with water features, surrounded by hundred-year-old olive trees. Ideal for cocktails and welcome drinks.",
+      "soundproofed": null,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Music Garden",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["ceremony"],
+      "notable_features": ["cypresses forming a perfect circle", "fountain of Neptune dating from the 18th century"],
+      "description": "Bathed in sun, this garden with rounded contours, surrounded by cypresses forming a perfect circle, and overlooked by a fountain of Neptune dating from the eighteenth century. A majestic setting for ceremonies.",
+      "soundproofed": null,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Spanish Garden",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["cocktail", "welcome_drinks"],
+      "notable_features": ["reflecting pond", "centuries-old olive trees"],
+      "description": "Harmonious blend of natural beauty and architectural precision. At its heart lies an elegant reflecting pond, surrounded by tall, graceful olive trees that have stood for centuries. Ideal for intimate and sophisticated cocktail receptions and welcome drinks.",
+      "soundproofed": null,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Court of Honor",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dinner", "dancing", "reception"],
+      "notable_features": ["panoramic views of the village of Biot, mountains, and Baie des Anges"],
+      "description": "The Bastide overlooks a majestic courtyard, allowing guests to dine and celebrate while contemplating an exceptional panorama of the old village of Biot, the mountains and the Baie des Anges.",
+      "soundproofed": null,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Pool Garden",
+      "setting": "outdoor",
+      "area_sqm": 1000,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["reception"],
+      "notable_features": ["semi-Olympic swimming pool", "olive trees", "hundred-year-old umbrella pines", "sunset views"],
+      "description": "Surrounding the semi-Olympic swimming pool, a space of over 1000m2, with several configurations, bordered by olive trees and hundred-year-old umbrella pines, offering the best area for receptions with beautiful sunset views.",
+      "soundproofed": null,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Pavillon des Oliviers",
+      "setting": "covered_outdoor",
+      "area_sqm": 400,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dinner", "reception", "rain_backup"],
+      "notable_features": ["inside and outside olive trees", "imperceptible walls"],
+      "description": "A sheltered pavilion of 400m2, offering an additional and exceptional area. Authentic olive grove, with inside and outside trees thanks to its imperceptible walls. Included in wedding hire.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    }
+  ],
+
+  "accommodation": {
+    "on_site_accommodation": true,
+    "total_bedrooms": 5,
+    "total_sleeping_capacity": 10,
+    "mandatory_accommodation_purchase": null,
+    "mandatory_accommodation_details": null,
+    "bridal_suite": null,
+    "bridal_suite_description": null,
+    "preparation_rooms": "5 double bedrooms available to get ready and to sleep",
+    "buildings": null,
+    "room_amenities_common": ["air conditioning", "sea and mountain views"],
+    "air_conditioning": true,
+    "breakfast_included": true,
+    "breakfast_details": "Breakfast served the next morning on the terrace",
+    "breakfast_price_per_person_eur": null,
+    "dormitory_available": null,
+    "dormitory_beds": null,
+    "nearby_accommodation": null,
+    "partner_hotel": null
+  },
+
+  "pricing": {
+    "pricing_model": "hybrid",
+    "starting_price_eur": 21000,
+    "starting_price_description": "Wedding venue hire for up to 100 guests, 5pm to 2:30am, including rental from 9am to 5am for vendors, park and facade lighting, 5 double bedrooms, vendor and kids facilities, cleaning, Pavillon des Oliviers, sound kit with engineer, site manager, security agents, and toilet attendant.",
+    "prices_include_tax": true,
+    "vat_rate_percentage": 20,
+    "tourist_tax_note": null,
+    "pricing_year": "2026",
+    "seasonal_pricing": null,
+    "packages": [
+      {
+        "name": "Wedding - Up to 100 guests",
+        "price_eur": 21000,
+        "price_per_person_eur": null,
+        "min_guests": null,
+        "max_guests": 100,
+        "includes": [
+          "Rental from 9am to 5am (vendors access)",
+          "Highlight of the park, swimming pool and facade",
+          "5 double bedrooms to get ready and to sleep",
+          "Facilities for vendors and kids room",
+          "Cleaning before and after the event",
+          "Pavillon des Oliviers 400m2 (sheltered area)",
+          "Sound kit with engineer (only for the front of the house)",
+          "Staff: site manager, security agents, toilet attendant"
+        ],
+        "excludes": ["Furniture"],
+        "seasonal_validity": null,
+        "tiered_pricing": null
+      },
+      {
+        "name": "Wedding - 101 to 180 guests",
+        "price_eur": 23500,
+        "price_per_person_eur": null,
+        "min_guests": 101,
+        "max_guests": 180,
+        "includes": [
+          "Rental from 9am to 5am (vendors access)",
+          "Highlight of the park, swimming pool and facade",
+          "5 double bedrooms to get ready and to sleep",
+          "Facilities for vendors and kids room",
+          "Cleaning before and after the event",
+          "Pavillon des Oliviers 400m2 (sheltered area)",
+          "Sound kit with engineer (only for the front of the house)",
+          "Staff: site manager, security agents, toilet attendant"
+        ],
+        "excludes": ["Furniture"],
+        "seasonal_validity": null,
+        "tiered_pricing": null
+      },
+      {
+        "name": "Wedding - 181 to 280 guests",
+        "price_eur": 26000,
+        "price_per_person_eur": null,
+        "min_guests": 181,
+        "max_guests": 280,
+        "includes": [
+          "Rental from 9am to 5am (vendors access)",
+          "Highlight of the park, swimming pool and facade",
+          "5 double bedrooms to get ready and to sleep",
+          "Facilities for vendors and kids room",
+          "Cleaning before and after the event",
+          "Pavillon des Oliviers 400m2 (sheltered area)",
+          "Sound kit with engineer (only for the front of the house)",
+          "Staff: site manager, security agents, toilet attendant"
+        ],
+        "excludes": ["Furniture"],
+        "seasonal_validity": null,
+        "tiered_pricing": null
+      },
+      {
+        "name": "Brunch - Up to 100 guests",
+        "price_eur": 6000,
+        "price_per_person_eur": null,
+        "min_guests": null,
+        "max_guests": 100,
+        "includes": [
+          "Rental from 10am to 6pm (vendors access)",
+          "Facilities for vendors and kids room",
+          "Cleaning before and after the event",
+          "Staff: site manager, security agents, lifeguard"
+        ],
+        "excludes": ["Furniture"],
+        "seasonal_validity": "Only available if the wedding is the day before",
+        "tiered_pricing": null
+      },
+      {
+        "name": "Brunch - 101 to 180 guests",
+        "price_eur": 7000,
+        "price_per_person_eur": null,
+        "min_guests": 101,
+        "max_guests": 180,
+        "includes": [
+          "Rental from 10am to 6pm (vendors access)",
+          "Facilities for vendors and kids room",
+          "Cleaning before and after the event",
+          "Staff: site manager, security agents, lifeguard"
+        ],
+        "excludes": ["Furniture"],
+        "seasonal_validity": "Only available if the wedding is the day before",
+        "tiered_pricing": null
+      },
+      {
+        "name": "Brunch - 181 to 280 guests",
+        "price_eur": 8000,
+        "price_per_person_eur": null,
+        "min_guests": 181,
+        "max_guests": 280,
+        "includes": [
+          "Rental from 10am to 6pm (vendors access)",
+          "Facilities for vendors and kids room",
+          "Cleaning before and after the event",
+          "Staff: site manager, security agents, lifeguard"
+        ],
+        "excludes": ["Furniture"],
+        "seasonal_validity": "Only available if the wedding is the day before",
+        "tiered_pricing": null
+      }
+    ],
+    "catering_cost_per_person_eur": null,
+    "children_catering_price_eur": null,
+    "children_pricing_age_range": null,
+    "drinks_cost_per_person_eur": null,
+    "brunch_cost_per_person_eur": null,
+    "brunch_venue_fee_eur": 6000,
+    "welcome_dinner_cost_eur": null,
+    "minimum_nights": null,
+    "additional_night_rate_eur": null,
+    "extended_hour_rate_eur": null,
+    "rental_period_description": "Wedding: 5pm to 2:30am (vendors access 9am to 5am). Brunch: 12pm to 4pm (vendors access 10am to 6pm).",
+    "deposit_percentage": 30,
+    "deposit_amount_eur": null,
+    "deposit_refundable": false,
+    "security_deposit_eur": 10000,
+    "security_deposit_return_days": 30,
+    "payment_schedule": [
+      {
+        "stage": "deposit",
+        "percentage": 30,
+        "amount_eur": null,
+        "timing": "at signing of contract"
+      },
+      {
+        "stage": "2nd instalment",
+        "percentage": 40,
+        "amount_eur": null,
+        "timing": "6 months before the wedding"
+      },
+      {
+        "stage": "final balance",
+        "percentage": 30,
+        "amount_eur": null,
+        "timing": "30 days before the reception"
+      }
+    ],
+    "payment_methods": ["wire transfer", "credit card"],
+    "cancellation_policy": "Cancellation at signature to 30 days before: 100% of deposit retained. Cancellation within 30 days: full balance claimed and retained. 2,500 EUR administrative costs included in price and non-refundable. If cancelled by venue (except force majeure), full deposit refunded.",
+    "cleaning_fee_eur": null,
+    "security_guard_cost_eur": null,
+    "coordinator_cost_eur": null,
+    "price_includes": [
+      "Exclusive use of estate",
+      "Rental from 9am to 5am (vendors access)",
+      "Highlight of the park, swimming pool and facade",
+      "5 double bedrooms to get ready and to sleep",
+      "Facilities for vendors and kids room",
+      "Cleaning before and after the event",
+      "Pavillon des Oliviers 400m2 (sheltered area)",
+      "Sound kit with engineer (only for the front of the house)",
+      "Staff: site manager, security agents, toilet attendant"
+    ],
+    "price_excludes": ["Furniture", "Catering"],
+    "price_extras": [
+      "Market lights on the courtyard: 990 EUR",
+      "Babysitter: 200 EUR per 8 hours"
+    ]
+  },
+
+  "catering": {
+    "catering_model": "recommended_list",
+    "in_house_chef": null,
+    "recommended_caterers": [
+      "Helen Traiteur",
+      "Pavillon Traiteur",
+      "La Cinquieme Saison",
+      "Les Terraillers (1* Michelin)",
+      "Lenotre",
+      "Roland Paix",
+      "Perche & Giraud",
+      "A Roca Gourmet"
+    ],
+    "cuisine_style": null,
+    "dietary_accommodations": null,
+    "professional_kitchen": null,
+    "kitchen_size_sqm": null,
+    "on_site_restaurant": null,
+    "brunch_available": true,
+    "brunch_description": "Day-after brunch available from 12pm to 4pm, only if wedding is the day before. Separate venue hire fee applies.",
+    "late_night_food_available": null,
+    "pre_wedding_dinner": null,
+    "tasting_meal_included": null,
+    "wedding_cake": null
+  },
+
+  "drinks": {
+    "corkage_fee": null,
+    "corkage_fee_amount_eur": null,
+    "byo_wine_allowed": null,
+    "mandatory_venue_drinks": null,
+    "venue_wine_requirement": null,
+    "on_site_wine_production": false,
+    "wine_appellation": null,
+    "bar_service_description": "Bar closes at 2:15am.",
+    "wine_cellar": null
+  },
+
+  "vendor_rules": {
+    "vendor_freedom": "restricted",
+    "preferred_vendor_list_available": true,
+    "vendor_categories_recommended": ["caterers", "wedding planners", "audiovisual", "furniture rental", "tents"],
+    "in_house_services": null,
+    "wedding_planner_available": "recommended",
+    "wedding_planner_mandatory": true,
+    "wedding_planner_name": null,
+    "non_approved_vendor_fee": "15% fee if lessee wishes to use a caterer not referenced by the venue",
+    "day_of_coordinator_provided": false,
+    "dedicated_project_manager": null
+  },
+
+  "ceremony": {
+    "ceremony_types": ["secular", "symbolic", "religious"],
+    "licensed_for_civil_marriage": null,
+    "chapel_on_site": false,
+    "chapel_details": null,
+    "nearby_church": null,
+    "outdoor_ceremony_locations": ["Music Garden"],
+    "rain_backup_plan": null,
+    "celebrant_available": null,
+    "elopement_option": true
+  },
+
+  "amenities": {
+    "swimming_pool": true,
+    "pool_count": 1,
+    "pool_details": "Semi-Olympic swimming pool",
+    "hot_tub_jacuzzi": null,
+    "spa": null,
+    "spa_details": null,
+    "tennis_court": null,
+    "petanque_court": null,
+    "gym_fitness": null,
+    "games_room": null,
+    "library": null,
+    "cinema_room": null,
+    "grand_piano": null,
+    "children_playground": null,
+    "helipad": null,
+    "gardens_description": "Multiple named gardens including French Garden, Music Garden, Spanish Garden, Pool Garden, and Court of Honor. The estate is surrounded by 365 olive trees forming a labyrinth, with restanques (traditional Provencal stone-walled terraces). Holds the Jardins Remarquables designation.",
+    "garden_style": "French formal, Spanish, provencal",
+    "vineyard_on_site": false,
+    "olive_groves": true,
+    "lake_pond": false,
+    "forest_woodland": null,
+    "notable_trees": ["365 olive trees", "hundred-year-old umbrella pines", "cypresses"],
+    "fountain_water_feature": true,
+    "orangery": false,
+    "dovecote": null,
+    "greenhouse": null
+  },
+
+  "activities": {
+    "on_site_activities": null,
+    "nearby_activities": null,
+    "wine_tasting_on_site": null,
+    "cooking_workshops": null,
+    "excursions_organized": null,
+    "excursion_destinations": null,
+    "fireworks_available": false,
+    "fireworks_details": "Fireworks not permitted for safety reasons."
+  },
+
+  "technical": {
+    "wifi_available": null,
+    "sound_system_provided": true,
+    "av_equipment": ["sound kit with engineer (front of the house only)"],
+    "furniture_provided": false,
+    "furniture_details": "Furniture is not included. Dance floors, stage for musicians, aisle, platform, and ceremony podium managed by required partners (UJ LOC / Audiovisions).",
+    "decoration_services": null,
+    "marquee_tent_available": true,
+    "marquee_size_sqm": null,
+    "backup_generator": null,
+    "ev_charging_stations": null,
+    "climate_control": "Air conditioning in accommodation"
+  },
+
+  "accessibility": {
+    "wheelchair_accessible": null,
+    "accessible_rooms_count": null,
+    "elevator": null,
+    "pmr_parking": null,
+    "accessibility_details": "Large vehicles accessible: vans and minibuses of 27 seats, buses of 50 seats, trucks up to 20m3."
+  },
+
+  "sustainability": {
+    "eco_certifications": null,
+    "eco_practices": ["Partnership with Events For Heritage initiative", "Optional 1% contribution to ecological transition association", "Natural landscape integration", "Reasoned resource management", "Collaboration with local providers"]
+  },
+
+  "parking": {
+    "parking_available": true,
+    "parking_spaces": 250,
+    "parking_type": null,
+    "vendor_parking_separate": null
+  },
+
+  "policies": {
+    "curfew_time": "2:30 AM",
+    "outdoor_music_curfew": null,
+    "indoor_music_curfew": null,
+    "no_curfew": false,
+    "noise_restrictions": "Music turns off at the latest 2:30am. Bar closes at 2:15am. Guests kindly requested to leave the Bastide at 2:30am after the music stops.",
+    "setup_access_time": "9am on the day of the event for providers and suppliers",
+    "teardown_deadline": "5am for vendors (dismantling)",
+    "tent_marquee_policy": "UJ LOC is the referenced provider for any tent needs.",
+    "confetti_policy": null,
+    "candle_policy": "Candle flames can be used with protective measures.",
+    "event_insurance_required": true,
+    "event_insurance_cost_eur": 115,
+    "portable_toilets_policy": null,
+    "lifeguard_required": true,
+    "babysitter_mandatory": true,
+    "pet_policy": null,
+    "child_friendly": null,
+    "baby_facilities": null,
+    "children_area": true,
+    "babysitter_available": true,
+    "lgbtq_friendly": true,
+    "all_faiths_welcome": null,
+    "security_guard_policy": "Security guards included in price, appointed by the venue and charged to the lessee.",
+    "events_per_year_limit": null,
+    "check_in_time": "5pm for guests",
+    "check_out_time": null
+  },
+
+  "contact": {
+    "phone_primary": "+33 (0)7 88 22 36 49",
+    "phone_secondary": null,
+    "email_primary": "contact@bastide-du-roy.com",
+    "email_secondary": null,
+    "website_url": "https://www.bastide-du-roy.com",
+    "instagram": "@bastideduroy",
+    "facebook": null,
+    "other_social_media": [
+      { "platform": "Pinterest", "handle_or_url": "Pinterest" },
+      { "platform": "TikTok", "handle_or_url": "TikTok" },
+      { "platform": "LinkedIn", "handle_or_url": "LinkedIn" },
+      { "platform": "Vimeo", "handle_or_url": "Vimeo" }
+    ],
+    "whatsapp": null,
+    "contact_person": "Camille",
+    "phone_hours": null,
+    "brochure_url": null,
+    "virtual_tour_url": null
+  },
+
+  "event_types": ["weddings", "elopements", "corporate events", "product launches", "team building", "conferences", "seminars", "galas", "art exhibitions", "photo shoots", "film shoots", "private events", "anniversaries"],
+
+  "wedding_day_details": {
+    "typical_timeline": "5pm guests arrive, reception through dinner and dancing until 2:30am. Bar closes at 2:15am.",
+    "typical_weekend_flow": "Day before or welcome dinner; Wedding day: 5pm to 2:30am; Day after: brunch 12pm to 4pm.",
+    "multi_day_event": true,
+    "cultural_ceremony_experience": ["Jewish", "same-sex"],
+    "destination_wedding_speciality": true
+  }
+}

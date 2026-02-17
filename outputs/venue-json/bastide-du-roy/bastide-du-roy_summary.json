@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "description": "Venue Reduced Record — 20 core fields for high-level filtering and bride-facing comparison.",
+    "schema_version": "v1.1.0",
+    "field_count": 20,
+    "golden_record_ref": "bastide-du-roy_full.json"
+  },
+
+  "venue_name": "Bastide du Roy",
+  "venue_type": "bastide",
+  "short_description": "An iconic classified Historic Monument on the Cote d'Azur in Antibes, surrounded by 365 olive trees and remarkable gardens. Kings, artists, and designers have walked its grounds, and the estate blends timeless beauty with sophistication across multiple named gardens and a grand Court of Honor.",
+  "region": "Provence-Alpes-Cote d'Azur",
+  "department": null,
+  "nearest_city": null,
+  "max_guests": 280,
+  "min_guests": null,
+  "max_sleeping_guests": 10,
+  "total_bedrooms": 5,
+  "starting_price_eur": 21000,
+  "exclusivity_model": "full_exclusivity",
+  "catering_model": "recommended_list",
+  "on_site_accommodation": true,
+  "swimming_pool": true,
+  "chapel_on_site": false,
+  "curfew": "2:30 AM",
+  "child_friendly": null,
+  "google_rating": null,
+  "website_url": "https://www.bastide-du-roy.com"
+}

@@ -1,0 +1,896 @@
+{
+  "overview": {
+    "min_price_eur": 8000,
+    "max_guests": 120,
+    "min_guests": null,
+    "max_sleeping_guests": 50,
+    "total_bedrooms": 21,
+    "estate_size_hectares": 29.1
+  },
+
+  "identity": {
+    "venue_name": "Chateau Challain",
+    "venue_type": "chateau",
+    "venue_subtype": "neo-gothic castle",
+    "tagline": "Where the fairytale begins...",
+    "short_description": "A stunning Neo-Gothic chateau in the western Loire Valley, built in 1854 by Louvre architect Louis Visconti, offering exclusive all-inclusive fairy-tale weddings for up to 120 guests with 50 sleeping on-site across 72 acres of gardens, forest, and lake.",
+    "exclusivity_model": "full_exclusivity",
+    "owner_names": ["Cynthia Nicholson"],
+    "management_company": null,
+    "network_membership": null,
+    "media_features": null,
+    "filming_credits": null,
+    "certifications": null,
+    "google_rating": null,
+    "google_review_count": null,
+    "languages_spoken": ["French", "English"]
+  },
+
+  "location": {
+    "address": {
+      "street": "1 Route de Cande",
+      "city": "Challain-la-Potherie",
+      "postal_code": "49440",
+      "department": "Maine-et-Loire",
+      "country": "France"
+    },
+    "gps_coordinates": null,
+    "region": "Pays de la Loire",
+    "sub_region": "Loire Valley",
+    "natural_park": null,
+    "nearest_city": {
+      "name": "Angers",
+      "distance_text": "40 minutes by car"
+    },
+    "nearest_cities": [
+      { "name": "Angers", "distance_text": "40 minutes" },
+      { "name": "Nantes", "distance_text": "1 hour" },
+      { "name": "Paris", "distance_text": "90 minutes by TGV" }
+    ],
+    "nearest_airports": [
+      { "name": "Nantes Airport", "distance_text": "50 minutes" }
+    ],
+    "nearest_train_stations": [
+      { "name": "Angers (TGV)", "distance_text": "40 minutes" }
+    ],
+    "motorway_access": null,
+    "distance_to_paris": "90 minutes by TGV",
+    "distance_to_coast": null,
+    "nearby_villages": ["Challain-la-Potherie"],
+    "nearby_attractions": ["Angers", "Nantes", "Puy du Fou"],
+    "landscape_description": "In the heart of the Loire Valley, rolling hills, spectacular sunsets, and breath-taking fairy-tale castles amid rich agricultural countryside.",
+    "shuttle_service_available": true
+  },
+
+  "history": {
+    "construction_period": "mid-19th century (on medieval foundations from 1050)",
+    "construction_year": 1854,
+    "architectural_style": "Neo-Gothic romanticism",
+    "architect": "Louis Visconti (Louvre architect)",
+    "listed_monument_status": null,
+    "historical_families": ["La Rochefoucauld"],
+    "notable_historical_guests": null,
+    "historical_narrative": "Built in 1854 by one of France's most eminent families, La Rochefoucauld, Chateau Challain stands as an exceptional testament to Neo-Gothic romanticism. It was a labour of love meticulously crafted by Madame Rochefoucauld after the tragic loss of her husband. The chateau's origins trace back to the medieval era, with the earliest recorded structure dating to 1050. Originally part of 'Les Marches de Bretagne,' Brittany's historic defensive line. It was originally built on the site of a 12th-century castle. Designed as a celestial observatory, the chateau's architecture is a masterpiece of time and space. Following its completion in 1854, it earned its title as the 'Neo-Gothic Jewel of Anjou.' Restored by the Nicholson family in 2002, it now ranks among France's most sought-after wedding venues.",
+    "notable_architectural_features": [
+      "4 towers symbolising the seasons",
+      "12 turrets marking the lunar months",
+      "26 spiral staircases counting the fortnights",
+      "52 fireplaces representing the weeks of the year",
+      "365 windows mirroring the days of the year",
+      "7,600 square metres total"
+    ],
+    "renovation_history": "Restored by the Nicholson family in 2002",
+    "literary_cultural_associations": null
+  },
+
+  "spaces": [
+    {
+      "name": "On-site Chapel",
+      "setting": "indoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": 20,
+      "rental_fee_eur": null,
+      "suitable_for": ["ceremony"],
+      "notable_features": null,
+      "description": "On-site chapel accommodating 20 wedding guests for religious or symbolic ceremonies.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Dome Gazebo",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": 120,
+      "rental_fee_eur": null,
+      "suitable_for": ["ceremony"],
+      "notable_features": ["overlooks the lake"],
+      "description": "A romantic dome gazebo overlooking the lake, capable of hosting 120+ guests for ceremonies.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Front Gardens",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["ceremony", "photos"],
+      "notable_features": ["chateau as spectacular backdrop"],
+      "description": "Ceremony spot in the front gardens with the chateau as a spectacular backdrop.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Memorial Tower and Woods",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["ceremony"],
+      "notable_features": null,
+      "description": "Popular ceremony location at the memorial tower and surrounding woods.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Main Reception Hall",
+      "setting": "indoor",
+      "area_sqm": null,
+      "capacity_seated": 120,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dinner", "dancing", "reception"],
+      "notable_features": null,
+      "description": "The main indoor reception space with a maximum seated dining capacity of 120 guests.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": ["sound system"]
+    },
+    {
+      "name": "Coach House Reception",
+      "setting": "indoor",
+      "area_sqm": null,
+      "capacity_seated": 30,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dinner", "intimate_reception"],
+      "notable_features": null,
+      "description": "The Coach House reception area used for Intimate Affairs (Silver) package receptions of up to 30 guests, and for elopement private dinners.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Outdoor Tent Area",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dinner", "reception"],
+      "notable_features": ["luxury tents for larger parties"],
+      "description": "For wedding parties greater than 120 guests, the venue can accommodate in luxury tents outside.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    }
+  ],
+
+  "accommodation": {
+    "on_site_accommodation": true,
+    "total_bedrooms": 21,
+    "total_sleeping_capacity": 50,
+    "mandatory_accommodation_purchase": true,
+    "mandatory_accommodation_details": "Accommodation for up to 50 guests is included in the Gold and Platinum packages. Off-season packages may have the possibility of being without accommodation included.",
+    "bridal_suite": true,
+    "bridal_suite_description": "Multiple popular bridal suites including The Empress Suite (king four-poster, en-suite, baroque style), The Romance Suite (king canopy, the chateau's most spacious en-suite with Greco-Roman bathtub), and The Tower Suite (king bed, en-suite, breakfast room — favoured by brides the night before).",
+    "preparation_rooms": "Dedicated makeup room delicately decorated in feminine pastels, where internationally renowned beauty specialists work. Champagne is served while the bridal party prepares.",
+    "buildings": [
+      {
+        "name": "Le Chateau",
+        "building_type": "chateau",
+        "bedrooms": 10,
+        "sleeping_capacity": 29,
+        "price_per_night_eur": null,
+        "description": "The main castle building with 10 period suites spanning the towers and principal floors. Each room uniquely decorated with original neo-gothic artisanal carpentry, coffered ceilings, four-poster beds, and period furnishings.",
+        "has_kitchen": false,
+        "has_living_area": true,
+        "has_private_garden": false,
+        "rooms": [
+          {
+            "name": "The Royal Suite",
+            "room_type": "family_suite",
+            "capacity_persons": 6,
+            "bed_configuration": "1 Double canopy bed (King's Room) + 1 Queen bed + 2 Single four-poster beds (Princess Tower)",
+            "area_sqm": null,
+            "en_suite": true,
+            "bathroom_type": "en-suite bath and large Italian shower",
+            "view": "Park and lake views",
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": true,
+            "price_per_night_eur": 750
+          },
+          {
+            "name": "The Amboise Chambres",
+            "room_type": "standard",
+            "capacity_persons": 3,
+            "bed_configuration": "1 Queen bed with silk curtains + 1 Single four-poster daybed (adjoining room)",
+            "area_sqm": null,
+            "en_suite": false,
+            "bathroom_type": "shared bathroom down the hall (in northeastern tower, shower/WC/vanity)",
+            "view": "Park and lake views",
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": false,
+            "price_per_night_eur": 450
+          },
+          {
+            "name": "The Mme Rochefoucauld Suite",
+            "room_type": "suite",
+            "capacity_persons": 4,
+            "bed_configuration": "1 Queen canopy bed + 1 Double bed (adjoining room)",
+            "area_sqm": null,
+            "en_suite": true,
+            "bathroom_type": "en-suite bath and shower",
+            "view": "Park and lake views",
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": false,
+            "price_per_night_eur": 650
+          },
+          {
+            "name": "The Napoleon Chambres",
+            "room_type": "standard",
+            "capacity_persons": 3,
+            "bed_configuration": "1 Full canopy bed with silk curtains + 1 Single daybed (adjoining room)",
+            "area_sqm": null,
+            "en_suite": false,
+            "bathroom_type": "shared bathroom on same floor (in northeastern tower, shower/WC/vanity)",
+            "view": "Front garden and memorial tower views",
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": false,
+            "price_per_night_eur": 450
+          },
+          {
+            "name": "The Empress Suite",
+            "room_type": "bridal_suite",
+            "capacity_persons": 2,
+            "bed_configuration": "1 King canopy four-poster bed",
+            "area_sqm": null,
+            "en_suite": true,
+            "bathroom_type": "en-suite with large walk-in shower, stone floor, marble vanity",
+            "view": "Front garden views",
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": false,
+            "price_per_night_eur": 550
+          },
+          {
+            "name": "The Romance Suite",
+            "room_type": "bridal_suite",
+            "capacity_persons": 2,
+            "bed_configuration": "1 King canopy bed with silk curtains",
+            "area_sqm": null,
+            "en_suite": true,
+            "bathroom_type": "en-suite Greco-Roman style: roll-top bathtub, his-and-hers stone basin, walk-in shower — most spacious in the chateau",
+            "view": "Front garden and memorial tower views",
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": false,
+            "price_per_night_eur": 550
+          },
+          {
+            "name": "The Tower Suite",
+            "room_type": "bridal_suite",
+            "capacity_persons": 3,
+            "bed_configuration": "1 King canopy bed + 1 day bed (breakfast room)",
+            "area_sqm": null,
+            "en_suite": true,
+            "bathroom_type": "en-suite bath and large shower",
+            "view": "Park and lake views",
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": false,
+            "price_per_night_eur": 550
+          },
+          {
+            "name": "The Toile du Jouy Suite",
+            "room_type": "suite",
+            "capacity_persons": 2,
+            "bed_configuration": "1 King canopy bed with silk curtains",
+            "area_sqm": null,
+            "en_suite": true,
+            "bathroom_type": "en-suite (large bathroom)",
+            "view": "Park and lake views",
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": false,
+            "price_per_night_eur": 550
+          },
+          {
+            "name": "The Mai Room",
+            "room_type": "standard",
+            "capacity_persons": 2,
+            "bed_configuration": "1 Double bed",
+            "area_sqm": null,
+            "en_suite": false,
+            "bathroom_type": "shared bathroom on same floor (in northwestern tower, shower/WC/vanity)",
+            "view": "Park views",
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": false,
+            "price_per_night_eur": 350
+          },
+          {
+            "name": "The Golden Tower Suite",
+            "room_type": "suite",
+            "capacity_persons": 2,
+            "bed_configuration": "1 King canopy bed with silk curtains",
+            "area_sqm": null,
+            "en_suite": true,
+            "bathroom_type": "en-suite with roll-top bath and walk-in shower",
+            "view": "Park and lake views",
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": false,
+            "price_per_night_eur": 550
+          }
+        ]
+      },
+      {
+        "name": "The Coach House",
+        "building_type": "annex",
+        "bedrooms": 11,
+        "sleeping_capacity": 25,
+        "price_per_night_eur": null,
+        "description": "A modernised annex with 11 elegantly decorated suites and bedrooms, each named after the owner's grandchildren. Classic French style decor with beautiful views of the chateau. Includes a bar for guests.",
+        "has_kitchen": false,
+        "has_living_area": true,
+        "has_private_garden": false,
+        "rooms": [
+          {
+            "name": "Pink Leila",
+            "room_type": "standard",
+            "capacity_persons": 2,
+            "bed_configuration": "1 King bed",
+            "area_sqm": null,
+            "en_suite": true,
+            "bathroom_type": "en-suite",
+            "view": "Chateau views",
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": false,
+            "price_per_night_eur": 350
+          },
+          {
+            "name": "Atlas",
+            "room_type": "standard",
+            "capacity_persons": 2,
+            "bed_configuration": "1 Queen four-poster bed",
+            "area_sqm": null,
+            "en_suite": true,
+            "bathroom_type": "en-suite",
+            "view": "Grounds views",
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": false,
+            "price_per_night_eur": 300
+          },
+          {
+            "name": "Peacock Family Suite",
+            "room_type": "family_suite",
+            "capacity_persons": 4,
+            "bed_configuration": "1 King bed + 2 Single beds",
+            "area_sqm": null,
+            "en_suite": true,
+            "bathroom_type": "en-suite shower",
+            "view": "Grounds views",
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": false,
+            "price_per_night_eur": 450
+          },
+          {
+            "name": "Sky Bleu",
+            "room_type": "standard",
+            "capacity_persons": 2,
+            "bed_configuration": "1 Queen bed",
+            "area_sqm": null,
+            "en_suite": true,
+            "bathroom_type": "en-suite shower",
+            "view": "Chateau views",
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": false,
+            "price_per_night_eur": 350
+          },
+          {
+            "name": "Graystone",
+            "room_type": "standard",
+            "capacity_persons": 2,
+            "bed_configuration": "1 King bed",
+            "area_sqm": null,
+            "en_suite": true,
+            "bathroom_type": "en-suite",
+            "view": "Chateau views",
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": false,
+            "price_per_night_eur": 350
+          },
+          {
+            "name": "Blooming River",
+            "room_type": "standard",
+            "capacity_persons": 2,
+            "bed_configuration": "1 Double bed",
+            "area_sqm": null,
+            "en_suite": true,
+            "bathroom_type": "en-suite",
+            "view": "Chateau views",
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": false,
+            "price_per_night_eur": 350
+          },
+          {
+            "name": "Shaelene",
+            "room_type": "standard",
+            "capacity_persons": 3,
+            "bed_configuration": "1 Queen bed + 1 Single daybed",
+            "area_sqm": null,
+            "en_suite": true,
+            "bathroom_type": "en-suite",
+            "view": "Chateau views",
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": false,
+            "price_per_night_eur": 350
+          },
+          {
+            "name": "Tuscan Ryder",
+            "room_type": "standard",
+            "capacity_persons": 2,
+            "bed_configuration": "1 King bed",
+            "area_sqm": null,
+            "en_suite": true,
+            "bathroom_type": "en-suite",
+            "view": "Chateau views",
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": false,
+            "price_per_night_eur": 350
+          },
+          {
+            "name": "Stella Star",
+            "room_type": "standard",
+            "capacity_persons": 2,
+            "bed_configuration": "1 Queen bed",
+            "area_sqm": null,
+            "en_suite": true,
+            "bathroom_type": "en-suite",
+            "view": null,
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": false,
+            "price_per_night_eur": 350
+          },
+          {
+            "name": "Rue LaLa",
+            "room_type": "standard",
+            "capacity_persons": 2,
+            "bed_configuration": "1 King bed",
+            "area_sqm": null,
+            "en_suite": true,
+            "bathroom_type": "en-suite",
+            "view": "Chateau views",
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": false,
+            "price_per_night_eur": 350
+          },
+          {
+            "name": "Avalily",
+            "room_type": "standard",
+            "capacity_persons": 2,
+            "bed_configuration": "1 Queen bed",
+            "area_sqm": null,
+            "en_suite": true,
+            "bathroom_type": "en-suite",
+            "view": "Chateau views",
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": false,
+            "price_per_night_eur": 350
+          }
+        ]
+      },
+      {
+        "name": "The Gate House",
+        "building_type": "annex",
+        "bedrooms": null,
+        "sleeping_capacity": null,
+        "price_per_night_eur": null,
+        "description": "Additional accommodations available in the Gate House. Details not specified.",
+        "has_kitchen": null,
+        "has_living_area": null,
+        "has_private_garden": null,
+        "rooms": null
+      }
+    ],
+    "room_amenities_common": ["WiFi", "en-suite or shared bathroom", "toiletries", "towels", "hairdryer", "tea and coffee making facilities", "breakfast included"],
+    "air_conditioning": null,
+    "breakfast_included": true,
+    "breakfast_details": "Daily breakfast showcasing French culinary excellence, included in all room rates and wedding packages.",
+    "breakfast_price_per_person_eur": null,
+    "dormitory_available": false,
+    "dormitory_beds": null,
+    "nearby_accommodation": ["Local private chateau with pool sleeping up to 40 additional guests", "Local hotels and B&Bs arranged by the venue"],
+    "partner_hotel": null
+  },
+
+  "pricing": {
+    "pricing_model": "all_inclusive",
+    "starting_price_eur": 8000,
+    "starting_price_description": "Elopement Chateau Package for the bride and groom: 1-night accommodation, private dinner, hair and makeup, 4-hour photography, celebrant, floral decor, ceremony, and wedding cake.",
+    "prices_include_tax": false,
+    "vat_rate_percentage": 20,
+    "tourist_tax_note": null,
+    "pricing_year": "2026-2027",
+    "seasonal_pricing": [
+      {
+        "season_name": "low",
+        "months": "November to March",
+        "day_of_week": null,
+        "price_eur": 18000,
+        "price_description": "2-night rental for up to 50 guests (venue hire + accommodation)"
+      },
+      {
+        "season_name": "medium",
+        "months": "April, May, October",
+        "day_of_week": null,
+        "price_eur": 20000,
+        "price_description": "2-night rental for up to 50 guests (venue hire + accommodation)"
+      },
+      {
+        "season_name": "high",
+        "months": "June to September",
+        "day_of_week": null,
+        "price_eur": 26000,
+        "price_description": "2-night rental for up to 50 guests (venue hire + accommodation)"
+      }
+    ],
+    "packages": [
+      {
+        "name": "Elopement Chateau Package",
+        "price_eur": 8000,
+        "price_per_person_eur": null,
+        "min_guests": 1,
+        "max_guests": 2,
+        "includes": [
+          "1-night accommodation for the bride and groom",
+          "Private dinner by gastronomic chef in the Coach House",
+          "Professional hair and makeup",
+          "4-hour wedding photography session",
+          "Celebrant",
+          "Floral decor",
+          "Ceremony and wedding cake"
+        ],
+        "excludes": null,
+        "seasonal_validity": "Available year-round",
+        "tiered_pricing": null
+      },
+      {
+        "name": "Intimate Affairs (Silver) Package",
+        "price_eur": 16000,
+        "price_per_person_eur": null,
+        "min_guests": null,
+        "max_guests": 30,
+        "includes": [
+          "Accommodation for bride and groom",
+          "Reception for 30 guests in the Coach House",
+          "5-course meal by gastronomic chef",
+          "1-hour cocktail plus house wine (7pm-12am)"
+        ],
+        "excludes": ["Receptions for 50+ guests held at the French Castle at additional cost"],
+        "seasonal_validity": "Available year-round",
+        "tiered_pricing": null
+      },
+      {
+        "name": "Gold Package",
+        "price_eur": 45000,
+        "price_per_person_eur": null,
+        "min_guests": 30,
+        "max_guests": 70,
+        "includes": [
+          "Private chateau rental with 2 nights' accommodation",
+          "Exclusivity of the chateau",
+          "Any choice of suites",
+          "Rehearsal dinner inside or outside",
+          "Unlimited house wine and beer for 3 hours",
+          "Wedding day brunch for chateau guests",
+          "Gold photography package",
+          "Harpist for ceremony for 3 hours",
+          "DJ for 4 hours",
+          "Food and beverage (5PM-1AM): canapes, starter, main, cheese buffet and French wedding cake",
+          "Florals: bride bouquet, boutonniere, 1 centrepiece per 10 persons",
+          "Day-of wedding planner and chateau liaison",
+          "Taxes and service fees included"
+        ],
+        "excludes": ["videography", "liquor bar", "fireworks"],
+        "seasonal_validity": "Available year-round",
+        "tiered_pricing": null
+      },
+      {
+        "name": "Platinum Package",
+        "price_eur": 50000,
+        "price_per_person_eur": null,
+        "min_guests": 30,
+        "max_guests": 70,
+        "includes": [
+          "Everything in the Gold Package",
+          "Videographer with short montage and full film",
+          "Horse and carriage for bride's arrival and couple's exit",
+          "Liquor bar service",
+          "Fireworks display"
+        ],
+        "excludes": null,
+        "seasonal_validity": "Available year-round",
+        "tiered_pricing": null
+      }
+    ],
+    "catering_cost_per_person_eur": null,
+    "children_catering_price_eur": null,
+    "children_pricing_age_range": "Children drink free all weekend",
+    "drinks_cost_per_person_eur": null,
+    "brunch_cost_per_person_eur": null,
+    "brunch_venue_fee_eur": null,
+    "welcome_dinner_cost_eur": null,
+    "minimum_nights": 1,
+    "additional_night_rate_eur": null,
+    "extended_hour_rate_eur": null,
+    "rental_period_description": "2-night and 3-day exclusive use standard for Gold and Platinum packages. 1 night for elopement.",
+    "deposit_percentage": null,
+    "deposit_amount_eur": null,
+    "deposit_refundable": null,
+    "security_deposit_eur": null,
+    "security_deposit_return_days": null,
+    "payment_schedule": null,
+    "payment_methods": null,
+    "cancellation_policy": null,
+    "cleaning_fee_eur": null,
+    "security_guard_cost_eur": null,
+    "coordinator_cost_eur": null,
+    "price_includes": [
+      "Exclusive use of entire estate",
+      "Accommodation for up to 50 guests across 21 bedrooms",
+      "Breakfast for all overnight guests",
+      "In-house wedding planning and coordination",
+      "In-house floral design and decor",
+      "In-house catering",
+      "Furniture (tables, chairs — no external hire needed)",
+      "Free on-site parking"
+    ],
+    "price_excludes": null,
+    "price_extras": [
+      "Fireworks and pyrotechnics packages",
+      "Horse and carriage",
+      "Extended bar service (until 1AM)",
+      "Luxury tents for parties over 120",
+      "Additional activities (wine day, skeet shooting, archery)",
+      "Transport to Paris, Angers, Nantes",
+      "Helicopter arrivals and departures"
+    ]
+  },
+
+  "catering": {
+    "catering_model": "in_house_only",
+    "in_house_chef": "Max Braud",
+    "recommended_caterers": null,
+    "cuisine_style": "French gastronomic using finest seasonal and locally sourced ingredients. Four or five course wedding reception with canapes, cocktails, starters, mains, and French desserts. Hog-roasts and BBQs also available.",
+    "dietary_accommodations": null,
+    "professional_kitchen": true,
+    "kitchen_size_sqm": null,
+    "on_site_restaurant": null,
+    "brunch_available": true,
+    "brunch_description": "Wedding day brunch for chateau guests, included in Gold and Platinum packages.",
+    "late_night_food_available": null,
+    "pre_wedding_dinner": true,
+    "tasting_meal_included": null,
+    "wedding_cake": "Included in all wedding packages, arranged by in-house team."
+  },
+
+  "drinks": {
+    "corkage_fee": null,
+    "corkage_fee_amount_eur": null,
+    "byo_wine_allowed": null,
+    "mandatory_venue_drinks": true,
+    "venue_wine_requirement": null,
+    "on_site_wine_production": false,
+    "wine_appellation": null,
+    "bar_service_description": "Beer and wine included in Gold/Platinum packages. Licensed bar with a wide selection of champagne, cocktails, spirits, and soft drinks. Bar open until 11PM; extended bar available until 1AM. Children drink free all weekend. Suites have tea and coffee making facilities.",
+    "wine_cellar": null
+  },
+
+  "vendor_rules": {
+    "vendor_freedom": "in_house_only",
+    "preferred_vendor_list_available": true,
+    "vendor_categories_recommended": ["photographers", "videographers", "DJs", "florists", "makeup artists", "hairdressers", "entertainment"],
+    "in_house_services": ["wedding planning and design", "floral design and decor", "catering", "bar service", "day-of coordination", "furniture"],
+    "wedding_planner_available": "in_house",
+    "wedding_planner_mandatory": null,
+    "wedding_planner_name": "Cynthia Nicholson",
+    "non_approved_vendor_fee": null,
+    "day_of_coordinator_provided": true,
+    "dedicated_project_manager": true
+  },
+
+  "ceremony": {
+    "ceremony_types": ["secular", "symbolic", "religious"],
+    "licensed_for_civil_marriage": null,
+    "chapel_on_site": true,
+    "chapel_details": "On-site chapel accommodating 20 guests for religious or symbolic ceremonies.",
+    "nearby_church": "18th century church in Challain-la-Potherie, directly opposite the chateau, a few minutes' walk. Can be decorated to taste with local clergy or your own.",
+    "outdoor_ceremony_locations": [
+      "Dome Gazebo overlooking the lake (120+ guests)",
+      "Front Gardens with chateau backdrop",
+      "Memorial Tower and Woods"
+    ],
+    "rain_backup_plan": null,
+    "celebrant_available": true,
+    "elopement_option": true
+  },
+
+  "amenities": {
+    "swimming_pool": false,
+    "pool_count": null,
+    "pool_details": null,
+    "hot_tub_jacuzzi": false,
+    "spa": true,
+    "spa_details": "On-site spa facilities",
+    "tennis_court": false,
+    "petanque_court": false,
+    "gym_fitness": false,
+    "games_room": true,
+    "library": true,
+    "cinema_room": false,
+    "grand_piano": false,
+    "children_playground": false,
+    "helipad": true,
+    "gardens_description": "72 acres of meticulously landscaped gardens, forest, and lake. Multiple garden areas including front gardens, rear gardens, and gazebo area overlooking the lake.",
+    "garden_style": null,
+    "vineyard_on_site": false,
+    "olive_groves": false,
+    "lake_pond": true,
+    "forest_woodland": true,
+    "notable_trees": null,
+    "fountain_water_feature": null,
+    "orangery": false,
+    "dovecote": false,
+    "greenhouse": false
+  },
+
+  "activities": {
+    "on_site_activities": ["spa", "billiards", "archery", "skeet shooting", "garden walks"],
+    "nearby_activities": ["wine tasting day trips to Loire Valley vineyards", "Angers visit", "Nantes visit", "Puy du Fou"],
+    "wine_tasting_on_site": false,
+    "cooking_workshops": false,
+    "excursions_organized": true,
+    "excursion_destinations": ["Angers", "Nantes", "Puy du Fou", "Loire Valley vineyards", "Paris day trip"],
+    "fireworks_available": true,
+    "fireworks_details": "In-house fireworks expert Toby Ayling of Dragon Rouge Artifice. Range of fireworks and pyrotechnics packages available. Previous events have included fire-breathers, dragons, fire-showers, and displays."
+  },
+
+  "technical": {
+    "wifi_available": true,
+    "sound_system_provided": true,
+    "av_equipment": ["sound system"],
+    "furniture_provided": true,
+    "furniture_details": "Carefully curated furniture options eliminating the need to hire in furniture. Tables, chairs, and various luxury options available in-house.",
+    "decoration_services": true,
+    "marquee_tent_available": true,
+    "marquee_size_sqm": null,
+    "backup_generator": null,
+    "ev_charging_stations": null,
+    "climate_control": "52 fireplaces throughout the chateau, including cozy options for winter events."
+  },
+
+  "accessibility": {
+    "wheelchair_accessible": true,
+    "accessible_rooms_count": null,
+    "elevator": null,
+    "pmr_parking": null,
+    "accessibility_details": "Disabled access available. The Royal Suite is noted as mobility-impaired welcome."
+  },
+
+  "sustainability": {
+    "eco_certifications": null,
+    "eco_practices": null
+  },
+
+  "parking": {
+    "parking_available": true,
+    "parking_spaces": null,
+    "parking_type": "Free on-site parking",
+    "vendor_parking_separate": null
+  },
+
+  "policies": {
+    "curfew_time": null,
+    "outdoor_music_curfew": null,
+    "indoor_music_curfew": null,
+    "no_curfew": true,
+    "noise_restrictions": "No curfew. Outdoor parties and music permitted.",
+    "setup_access_time": null,
+    "teardown_deadline": null,
+    "tent_marquee_policy": "Luxury tents available on-site for larger parties.",
+    "confetti_policy": null,
+    "candle_policy": null,
+    "event_insurance_required": null,
+    "event_insurance_cost_eur": null,
+    "portable_toilets_policy": null,
+    "lifeguard_required": null,
+    "babysitter_mandatory": null,
+    "pet_policy": "allowed",
+    "child_friendly": true,
+    "baby_facilities": ["cots", "changing facilities"],
+    "children_area": null,
+    "babysitter_available": null,
+    "lgbtq_friendly": true,
+    "all_faiths_welcome": null,
+    "security_guard_policy": null,
+    "events_per_year_limit": null,
+    "check_in_time": null,
+    "check_out_time": null
+  },
+
+  "contact": {
+    "phone_primary": "+1 908 489 5005",
+    "phone_secondary": null,
+    "email_primary": "cynthia@chateauchallain.com",
+    "email_secondary": "chateauchallain@gmail.com",
+    "website_url": "https://chateauchallain.com",
+    "instagram": "@chateauchallainevents",
+    "facebook": null,
+    "other_social_media": null,
+    "whatsapp": "+33 7 69 81 61 11",
+    "contact_person": "Cynthia Nicholson",
+    "phone_hours": null,
+    "brochure_url": null,
+    "virtual_tour_url": null
+  },
+
+  "event_types": ["weddings", "elopements", "corporate retreats", "birthdays", "private celebrations", "product launches", "film shoots", "fashion shows", "yoga retreats", "B&B stays"],
+
+  "wedding_day_details": {
+    "typical_timeline": "Friday evening: rehearsal dinner for the couple and overnight guests. Saturday: preparations, ceremony, cocktails, canapes, reception dinner, party and dancing (5PM-1AM). Sunday: wedding day brunch, departure.",
+    "typical_weekend_flow": "Friday: arrive and rehearsal dinner. Saturday: bride and groom preparations in dedicated suites, ceremony (chapel, gazebo, or gardens), cocktail hour, seated dinner, party. Sunday: brunch for overnight guests.",
+    "multi_day_event": true,
+    "cultural_ceremony_experience": ["secular", "symbolic", "religious"],
+    "destination_wedding_speciality": true
+  },
+
+  "_meta": {
+    "slug": "chateau-challain",
+    "schema_version": "v1.1.0",
+    "extraction_date": "2026-02-17",
+    "source_fields": ["venue_url_scraped", "brochure_text"],
+    "source_quality_notes": "Both venue_url_scraped and brochure_text available. Brochure is accommodation-focused with detailed room descriptions and pricing. Website scrape aggregates data from chateauchallain.com, ChateauBee, WedInspire, and French Wedding Venues listings. No deposit/payment/cancellation info found in either source."
+  }
+}
