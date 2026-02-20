@@ -1,0 +1,133 @@
+# Location Page Generation Pipeline
+# Generates bride-facing informative blog posts as WPCode-compatible HTML snippets
+# with Tailwind CSS for any target wedding location in France.
+
+name: location-page-gen
+root_path: ./
+description: >
+  4-step content pipeline that produces a complete location-based wedding venue
+  guide as a standalone HTML page. Each step pauses for user review.
+
+# --- Data Sources ---
+airtable:
+  base_id: appFQYNRTuooIRZZz
+  venues_table_id: tblIEJQNynXIsD8GL
+  real_weddings_table_id: tbljA9gnZH0Of1Xbz
+
+  venue_fields:
+    - venue_name
+    - full_venue_json
+    - image_url
+    - fws_url
+    - FWS Review
+    - Real Weddings
+    - region
+    - Closest Town/ City
+    - FWS Member
+
+  venue_filter_template: "AND({FWS Member}='Listing', FIND('{region}', {region}) > 0)"
+
+# --- Location Reference ---
+location_hierarchy: ../../../reference/location-pages.json
+
+# --- Templates ---
+templates:
+  main: ../templates/location-page.html
+  venue_card: ../templates/venue-card.html
+  base_styles: ../templates/base-styles.html
+
+# --- Tone Enforcement ---
+tone_of_voice: ../../../context/tone-of-voice.md
+
+# --- Pipeline Steps ---
+steps:
+  - name: intelligence
+    script: step1_intelligence.py
+    description: Firecrawl research + AI synthesis for target location
+    output: working/{slug}/research.json
+    pause: true
+
+  - name: venues
+    script: step2_venues.py
+    description: Airtable member venue lookup + JSON parsing
+    output: working/{slug}/venues.json
+    pause: true
+
+  - name: links
+    script: step3_links.py
+    description: Venue CTA link assembly (fws_url, review, real weddings)
+    output: working/{slug}/links.json
+    pause: true
+
+  - name: compile
+    script: step4_compile.py
+    description: Jinja2 template rendering + tone enforcement
+    output: working/{slug}/draft.html
+    pause: true
+    final_output: output/{slug}.html
+
+# --- Venue Card Field Mapping ---
+# Maps full_venue_json paths to venue card display fields
+venue_card_mapping:
+  name: identity.venue_name
+  venue_type: identity.venue_type
+  short_description: identity.short_description
+  min_price_eur: overview.min_price_eur
+  max_guests: overview.max_guests
+  max_sleeping_guests: overview.max_sleeping_guests
+  sub_region: location.sub_region
+  nearest_airport: location.nearest_airports[0]
+  construction_period: history.construction_period
+
+# --- Tag Derivation ---
+# Pick 2 most distinctive tags per venue from these categories
+tag_rules:
+  character:
+    - label: Historic
+      condition: "construction_period < 1800"
+    - label: Romantic
+      condition: "gardens + chapel"
+    - label: Artistic
+      condition: "cultural/art associations"
+  practical:
+    - label: Intimate
+      condition: "max_guests < 80"
+    - label: Grand
+      condition: "max_guests > 200"
+    - label: Family-Friendly
+      condition: "child_friendly"
+    - label: All-Inclusive
+      condition: "pricing_model = all_inclusive"
+  location:
+    - label: Seaside
+      condition: "distance_to_coast = seafront"
+    - label: Countryside
+      condition: "sub_region contains rural indicators"
+    - label: Hilltop
+      condition: "landscape indicates elevation"
+    - label: Vineyard
+      condition: "vineyard_on_site"
+
+# --- Cost Tiers ---
+# Calculated from actual venue pricing data, split into thirds
+cost_tiers:
+  - name: 'The "Chic Boutique"'
+    range: lowest_third
+  - name: 'The "Heritage Grandeur"'
+    range: middle_third
+  - name: 'The "Ultra Luxe"'
+    range: top_third
+
+# --- SEO ---
+# Meta tags (title, description, OG) are handled by Yoast on the WordPress page.
+# These templates are kept here for reference / Yoast field population only.
+seo:
+  title_template: "Wedding Venues in {location} - French Wedding Style"
+  canonical_template: "https://www.frenchweddingstyle.com/locations/{slug}/"
+  og_type: article
+  note: "Not included in HTML output — configure in Yoast SEO on the WP page."
+
+# --- Output ---
+output_format: wpcode_snippet  # Self-contained HTML fragment, not a full document
+output_dir: output/
+working_dir: working/

@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "description": "Venue Reduced Record — 20 core fields for high-level filtering and bride-facing comparison.",
+    "schema_version": "v1.1.0",
+    "field_count": 20,
+    "golden_record_ref": "chateau-daveny_full.json"
+  },
+
+  "venue_name": "Chateau d'Aveny",
+  "venue_type": "chateau",
+  "short_description": "An 18th-century chateau in the heart of Vexin, between Ile-de-France and Normandy, offering exclusive privatisation for weddings of up to 220 guests with 94 sleeping on-site across 34 rooms.",
+  "region": "Normandy",
+  "department": "Eure",
+  "nearest_city": "Paris (1 hour)",
+  "max_guests": 220,
+  "min_guests": 10,
+  "max_sleeping_guests": 94,
+  "total_bedrooms": 34,
+  "starting_price_eur": 14000,
+  "exclusivity_model": "full_exclusivity",
+  "catering_model": "recommended_list",
+  "on_site_accommodation": true,
+  "swimming_pool": null,
+  "chapel_on_site": true,
+  "curfew": "10:00 PM outdoors / 4:00 AM indoors",
+  "child_friendly": true,
+  "google_rating": null,
+  "website_url": "https://www.domainedaveny.com"
+}

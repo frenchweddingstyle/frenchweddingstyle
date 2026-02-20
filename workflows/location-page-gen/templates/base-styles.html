@@ -1,0 +1,54 @@
+<!-- FWS Location Page — Inline dependencies for WPCode snippet -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    important: '#fws-location-page',
+    theme: {
+      extend: {
+        colors: {
+          'fws-green': '#808254',
+          'fws-dark': '#463728',
+          'fws-light': '#edede6',
+          'fws-grey': '#7a7a7a',
+        },
+        fontFamily: {
+          serif: ['Cormorant', 'serif'],
+          sans: ['Montserrat', 'sans-serif'],
+          editorial: ['Cormorant', 'serif'],
+        },
+      },
+    },
+  }
+</script>
+<style>
+  #fws-location-page {
+    font-family: 'Montserrat', sans-serif;
+    color: #463728;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  #fws-location-page h1,
+  #fws-location-page h2 {
+    font-family: 'Cormorant', serif !important;
+    font-weight: 300 !important;
+    font-style: italic !important;
+    letter-spacing: -0.02em;
+    line-height: 1.05;
+    text-transform: none;
+    text-rendering: optimizeLegibility;
+  }
+  #fws-location-page h3 {
+    font-family: 'Cormorant', serif !important;
+    font-style: italic !important;
+    font-weight: 400 !important;
+    letter-spacing: -0.01em;
+    text-rendering: optimizeLegibility;
+  }
+  #fws-location-page ::selection {
+    background-color: #808254;
+    color: white;
+  }
+</style>

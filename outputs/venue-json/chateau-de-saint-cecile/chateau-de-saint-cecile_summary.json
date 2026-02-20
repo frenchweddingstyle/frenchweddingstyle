@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "description": "Venue Reduced Record — 20 core fields for high-level filtering and bride-facing comparison.",
+    "schema_version": "v1.1.0",
+    "field_count": 20,
+    "golden_record_ref": "chateau-de-saint-cecile_full.json"
+  },
+
+  "venue_name": "Chateau Sainte Cecile",
+  "venue_type": "chateau",
+  "short_description": "A magnificent Venetian folly in the heart of Occitanie, featuring Florentine architecture, Mediterranean gardens, and Italian opera-themed guest rooms, set in 6 hectares of parkland near the Canal du Midi.",
+  "region": "Occitanie",
+  "department": "Herault",
+  "nearest_city": "Montpellier (30 minutes)",
+  "max_guests": 200,
+  "min_guests": null,
+  "max_sleeping_guests": 14,
+  "total_bedrooms": 5,
+  "starting_price_eur": null,
+  "exclusivity_model": "full_exclusivity",
+  "catering_model": "recommended_list",
+  "on_site_accommodation": true,
+  "swimming_pool": false,
+  "chapel_on_site": true,
+  "curfew": null,
+  "child_friendly": null,
+  "google_rating": 4.6,
+  "website_url": "https://www.chateausaintececile.fr"
+}

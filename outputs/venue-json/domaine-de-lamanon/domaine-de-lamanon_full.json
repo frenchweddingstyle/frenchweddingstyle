@@ -1,0 +1,510 @@
+{
+  "overview": {
+    "min_price_eur": null,
+    "max_guests": null,
+    "min_guests": null,
+    "max_sleeping_guests": 15,
+    "total_bedrooms": 7,
+    "estate_size_hectares": 20
+  },
+
+  "identity": {
+    "venue_name": "Domaine de Lamanon",
+    "venue_type": "domaine",
+    "venue_subtype": "mas-provencal",
+    "tagline": "E Pluribus Unum — One from many",
+    "short_description": "An authentic 15th-century Provencal farmhouse set on a 20-hectare estate in the Alpilles region, offering full privatisation with 7 bedrooms sleeping 15 guests, a swimming pool, and landscaped gardens with centuries-old plane trees.",
+    "exclusivity_model": "full_exclusivity",
+    "owner_names": ["Eve", "Sebastien"],
+    "management_company": "EVENTDT",
+    "network_membership": null,
+    "media_features": null,
+    "filming_credits": null,
+    "certifications": null,
+    "google_rating": null,
+    "google_review_count": null,
+    "languages_spoken": ["French", "English"]
+  },
+
+  "location": {
+    "address": {
+      "street": "LD LE JAS DES BARRES",
+      "city": "Lamanon",
+      "postal_code": "13113",
+      "department": "Bouches-du-Rhone",
+      "country": "France"
+    },
+    "gps_coordinates": {
+      "latitude": null,
+      "longitude": null
+    },
+    "region": "Provence",
+    "sub_region": "Alpilles",
+    "natural_park": "Alpilles Regional Park",
+    "nearest_city": {
+      "name": "Aix-en-Provence",
+      "distance_text": "35 minutes by TGV station"
+    },
+    "nearest_cities": [
+      { "name": "Aix-en-Provence", "distance_text": "35 minutes" },
+      { "name": "Avignon", "distance_text": "35 minutes" }
+    ],
+    "nearest_airports": [
+      { "name": "Marseille Marignane Airport", "distance_text": "35 minutes" }
+    ],
+    "nearest_train_stations": [
+      { "name": "Aix-en-Provence TGV", "distance_text": "35 minutes" },
+      { "name": "Avignon TGV", "distance_text": "35 minutes" }
+    ],
+    "motorway_access": null,
+    "distance_to_paris": null,
+    "distance_to_coast": null,
+    "nearby_villages": ["Eygalieres", "Lourmarin", "Menerbes", "Gordes", "Avignon"],
+    "nearby_attractions": ["Alpilles Regional Park", "Camargue", "Marseille Calanques", "Chateauneuf-du-Pape vineyards", "Gigondas vineyards", "Tavel vineyards"],
+    "landscape_description": "Verdant 20-hectare estate in the heart of the Alpilles, with canals running through the property giving it a Venetian charm — nicknamed the Venice of Provence.",
+    "shuttle_service_available": null
+  },
+
+  "history": {
+    "construction_period": "15th century",
+    "construction_year": null,
+    "architectural_style": "Provencal mas (farmhouse) with chateau-like interiors",
+    "architect": null,
+    "listed_monument_status": null,
+    "historical_families": null,
+    "notable_historical_guests": null,
+    "historical_narrative": "The foundations of the Mas date back to the end of the 15th century. Typically Provencal in exterior and facade, it takes on the appearance of a small chateau thanks to its sumptuous interiors. The property features canals conceived and created in the 16th century by Adam de Craponne, funded by Nostradamus, which brought water from the Alps via the Durance. The current owners, Eve and Sebastien, returned from 8 years as expatriates in New York and renovated the building using French heritage craftsmen to preserve the soul of the place. The furniture is the fruit of more than 50 years of passionate multi-generational research, creating a unique collection.",
+    "notable_architectural_features": ["16th-century canal system by Adam de Craponne", "centuries-old plane trees planted before the French Revolution", "majestic hall", "royal salon", "vaulted billiard room"],
+    "renovation_history": "Renovated by current owners Eve and Sebastien using French heritage craftsmen to preserve the soul of the place",
+    "literary_cultural_associations": ["Nostradamus (funded the canal system)", "Adam de Craponne (created the canal system)"]
+  },
+
+  "spaces": [
+    {
+      "name": "Rose Garden Area",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["ceremony", "photos"],
+      "notable_features": ["rose garden"],
+      "description": "A rose garden area available for ceremonies and events.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Large Ceremony Area",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["ceremony"],
+      "notable_features": null,
+      "description": "A large dedicated ceremony area within the grounds.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Esplanade under Centuries-Old Plane Trees",
+      "setting": "outdoor",
+      "area_sqm": 500,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["cocktail", "dinner", "ceremony", "dancing"],
+      "notable_features": ["500m2 esplanade", "centuries-old plane trees planted before the French Revolution", "elegant lighting for day and night"],
+      "description": "A 500m2 esplanade in front of the Mas, shaded by remarkable centuries-old plane trees. Elegantly lit for both day and night events.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Swimming Pool Area",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["pool_party", "cocktail", "relaxation"],
+      "notable_features": ["planted walls surrounding the pool"],
+      "description": "Swimming pool nestled in a green setting with planted walls.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Lavender and Cypress Alley",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["ceremony", "photos"],
+      "notable_features": ["lavender", "cypress trees"],
+      "description": "A picturesque alley lined with lavender and cypress trees, suitable for ceremonies and photos.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Park (Bucolic Ceremonies)",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["ceremony", "photos"],
+      "notable_features": ["bucolic parkland setting"],
+      "description": "Parkland area within the estate for bucolic outdoor ceremonies.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Majestic Hall",
+      "setting": "indoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["reception", "cocktail"],
+      "notable_features": ["majestic entrance hall"],
+      "description": "The majestic entrance hall of the Mas, one of the spacious living areas available to guests.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Royal Salon",
+      "setting": "indoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["reception", "cocktail"],
+      "notable_features": ["royal salon"],
+      "description": "An elegant salon within the Mas for receptions and gatherings.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Large Library",
+      "setting": "indoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["lounge", "relaxation"],
+      "notable_features": ["library"],
+      "description": "A large library within the Mas for guests to enjoy.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Vaulted Billiard Room",
+      "setting": "indoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dinner", "wine_tasting", "games"],
+      "notable_features": ["vaulted ceiling", "billiard table", "transformable into dining room or tasting room"],
+      "description": "A vaulted billiard room that can be transformed into a dining room or wine tasting room.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Games Room and Cinema",
+      "setting": "indoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["entertainment", "relaxation"],
+      "notable_features": ["games room", "cinema"],
+      "description": "A vast games room and cinema within the Mas for guest entertainment.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    }
+  ],
+
+  "accommodation": {
+    "on_site_accommodation": true,
+    "total_bedrooms": 7,
+    "total_sleeping_capacity": 15,
+    "mandatory_accommodation_purchase": null,
+    "mandatory_accommodation_details": null,
+    "bridal_suite": null,
+    "bridal_suite_description": null,
+    "preparation_rooms": null,
+    "buildings": [
+      {
+        "name": "Le Mas",
+        "building_type": "mas",
+        "bedrooms": 7,
+        "sleeping_capacity": 15,
+        "price_per_night_eur": null,
+        "description": "A splendid 600m2 (6500 square feet) house whose foundations date back to the end of the 15th century. Typically Provencal in exterior, it takes on the appearance of a small chateau thanks to its sumptuous interiors. The seven bedrooms, most of which are en suite, can accommodate 15 people in comfort worthy of the finest hotels. Features include a majestic hall, royal salon, large library, Provencal kitchen, vaulted billiard room, games room and cinema.",
+        "has_kitchen": true,
+        "has_living_area": true,
+        "has_private_garden": true,
+        "rooms": null
+      }
+    ],
+    "room_amenities_common": null,
+    "air_conditioning": null,
+    "breakfast_included": true,
+    "breakfast_details": "Breakfast included for stays of three nights or more.",
+    "breakfast_price_per_person_eur": null,
+    "dormitory_available": null,
+    "dormitory_beds": null,
+    "nearby_accommodation": null,
+    "partner_hotel": null
+  },
+
+  "pricing": {
+    "pricing_model": null,
+    "starting_price_eur": null,
+    "starting_price_description": null,
+    "prices_include_tax": null,
+    "vat_rate_percentage": null,
+    "tourist_tax_note": null,
+    "pricing_year": null,
+    "seasonal_pricing": null,
+    "packages": null,
+    "catering_cost_per_person_eur": null,
+    "children_catering_price_eur": null,
+    "children_pricing_age_range": null,
+    "drinks_cost_per_person_eur": null,
+    "brunch_cost_per_person_eur": null,
+    "brunch_venue_fee_eur": null,
+    "welcome_dinner_cost_eur": null,
+    "minimum_nights": 2,
+    "additional_night_rate_eur": null,
+    "extended_hour_rate_eur": null,
+    "rental_period_description": "Minimum two nights for private evening events. Guests encouraged to extend to a full week.",
+    "deposit_percentage": null,
+    "deposit_amount_eur": null,
+    "deposit_refundable": null,
+    "security_deposit_eur": null,
+    "security_deposit_return_days": null,
+    "payment_schedule": null,
+    "payment_methods": null,
+    "cancellation_policy": null,
+    "cleaning_fee_eur": null,
+    "security_guard_cost_eur": null,
+    "coordinator_cost_eur": null,
+    "price_includes": [
+      "Exclusive use of entire estate including 7-bedroom Mas",
+      "5 hectares of landscaped gardens",
+      "Swimming pool access",
+      "Furniture for 15 people"
+    ],
+    "price_excludes": [
+      "Event furniture (beyond 15-person furniture)"
+    ],
+    "price_extras": null
+  },
+
+  "catering": {
+    "catering_model": "external_free_choice",
+    "in_house_chef": null,
+    "recommended_caterers": null,
+    "cuisine_style": null,
+    "dietary_accommodations": null,
+    "professional_kitchen": null,
+    "kitchen_size_sqm": null,
+    "on_site_restaurant": null,
+    "brunch_available": null,
+    "brunch_description": null,
+    "late_night_food_available": null,
+    "pre_wedding_dinner": null,
+    "tasting_meal_included": null,
+    "wedding_cake": null
+  },
+
+  "drinks": {
+    "corkage_fee": false,
+    "corkage_fee_amount_eur": null,
+    "byo_wine_allowed": true,
+    "mandatory_venue_drinks": false,
+    "venue_wine_requirement": null,
+    "on_site_wine_production": false,
+    "wine_appellation": null,
+    "bar_service_description": "No corkage fees. Multi-regional wine selection exclusive to the domaine is available for guests. Former wine professionals, the owners offer a curated wine selection.",
+    "wine_cellar": null
+  },
+
+  "vendor_rules": {
+    "vendor_freedom": "full_freedom",
+    "preferred_vendor_list_available": true,
+    "vendor_categories_recommended": ["wedding planners", "caterers", "photographers", "bands", "DJs"],
+    "in_house_services": null,
+    "wedding_planner_available": "recommended",
+    "wedding_planner_mandatory": null,
+    "wedding_planner_name": null,
+    "non_approved_vendor_fee": null,
+    "day_of_coordinator_provided": null,
+    "dedicated_project_manager": null
+  },
+
+  "ceremony": {
+    "ceremony_types": null,
+    "licensed_for_civil_marriage": null,
+    "chapel_on_site": null,
+    "chapel_details": null,
+    "nearby_church": null,
+    "outdoor_ceremony_locations": ["Rose garden area", "Large ceremony area", "Esplanade under centuries-old plane trees", "Lavender and cypress alley", "Park for bucolic ceremonies"],
+    "rain_backup_plan": null,
+    "celebrant_available": null,
+    "elopement_option": null
+  },
+
+  "amenities": {
+    "swimming_pool": true,
+    "pool_count": 1,
+    "pool_details": "Swimming pool nestled in a green setting with planted walls",
+    "hot_tub_jacuzzi": null,
+    "spa": null,
+    "spa_details": null,
+    "tennis_court": null,
+    "petanque_court": null,
+    "gym_fitness": null,
+    "games_room": true,
+    "library": true,
+    "cinema_room": true,
+    "grand_piano": null,
+    "children_playground": null,
+    "helipad": null,
+    "gardens_description": "Twenty hectares of unspoilt nature, including five hectares of parkland and landscaped gardens. Features a rose garden, several ceremonial areas, a bowling green, a huge esplanade shaded by remarkable plane trees planted before the French Revolution, a lavender avenue, canals giving the property a Venetian charm.",
+    "garden_style": "Provencal parkland",
+    "vineyard_on_site": null,
+    "olive_groves": null,
+    "lake_pond": null,
+    "forest_woodland": null,
+    "notable_trees": ["Centuries-old plane trees planted before the French Revolution"],
+    "fountain_water_feature": true,
+    "orangery": null,
+    "dovecote": null,
+    "greenhouse": null
+  },
+
+  "activities": {
+    "on_site_activities": ["swimming", "billiards", "cinema", "games room", "wine tasting", "garden walks", "bowling green"],
+    "nearby_activities": ["Horses in the Camargue", "Boat day in Marseille's calanques", "Provencal markets with local producers", "Wine tasting at Chateauneuf-du-Pape, Gigondas, and Tavel", "Blacksmith workshop to make your own knife", "Hiking and biking in the Alpilles regional park", "Helicopter flight"],
+    "wine_tasting_on_site": true,
+    "cooking_workshops": null,
+    "excursions_organized": null,
+    "excursion_destinations": ["Eygalieres", "Lourmarin", "Menerbes", "Gordes", "Avignon", "Camargue", "Marseille Calanques"],
+    "fireworks_available": null,
+    "fireworks_details": null
+  },
+
+  "technical": {
+    "wifi_available": null,
+    "sound_system_provided": null,
+    "av_equipment": null,
+    "furniture_provided": true,
+    "furniture_details": "Furniture for 15 people included. Event furniture not included.",
+    "decoration_services": null,
+    "marquee_tent_available": null,
+    "marquee_size_sqm": null,
+    "backup_generator": null,
+    "ev_charging_stations": null,
+    "climate_control": null
+  },
+
+  "accessibility": {
+    "wheelchair_accessible": null,
+    "accessible_rooms_count": null,
+    "elevator": null,
+    "pmr_parking": null,
+    "accessibility_details": null
+  },
+
+  "sustainability": {
+    "eco_certifications": null,
+    "eco_practices": ["Located within the Alpilles Regional Park", "Organic Crau hay production on the estate"]
+  },
+
+  "parking": {
+    "parking_available": null,
+    "parking_spaces": null,
+    "parking_type": null,
+    "vendor_parking_separate": null
+  },
+
+  "policies": {
+    "curfew_time": null,
+    "outdoor_music_curfew": null,
+    "indoor_music_curfew": null,
+    "no_curfew": true,
+    "noise_restrictions": "No late-night closing time — total flexibility.",
+    "setup_access_time": null,
+    "teardown_deadline": null,
+    "tent_marquee_policy": null,
+    "confetti_policy": null,
+    "candle_policy": null,
+    "event_insurance_required": null,
+    "event_insurance_cost_eur": null,
+    "portable_toilets_policy": null,
+    "lifeguard_required": null,
+    "babysitter_mandatory": null,
+    "pet_policy": null,
+    "child_friendly": null,
+    "baby_facilities": null,
+    "children_area": null,
+    "babysitter_available": null,
+    "lgbtq_friendly": null,
+    "all_faiths_welcome": null,
+    "security_guard_policy": null,
+    "events_per_year_limit": null,
+    "check_in_time": null,
+    "check_out_time": null
+  },
+
+  "contact": {
+    "phone_primary": "+33 6 49 17 61 61",
+    "phone_secondary": null,
+    "email_primary": "contact@domainedelamanon.com",
+    "email_secondary": null,
+    "website_url": "https://www.domainedelamanon.com",
+    "instagram": "@domainedelamanon",
+    "facebook": null,
+    "other_social_media": null,
+    "whatsapp": null,
+    "contact_person": "Eve and Sebastien",
+    "phone_hours": null,
+    "brochure_url": null,
+    "virtual_tour_url": null
+  },
+
+  "event_types": ["weddings", "private events", "corporate events", "film shoots", "weekly stays"],
+
+  "wedding_day_details": {
+    "typical_timeline": null,
+    "typical_weekend_flow": null,
+    "multi_day_event": true,
+    "cultural_ceremony_experience": null,
+    "destination_wedding_speciality": true
+  }
+}

@@ -890,7 +890,6 @@
     "slug": "chateau-challain",
     "schema_version": "v1.1.0",
     "extraction_date": "2026-02-17",
-    "source_fields": ["venue_url_scraped", "brochure_text"],
-    "source_quality_notes": "Both venue_url_scraped and brochure_text available. Brochure is accommodation-focused with detailed room descriptions and pricing. Website scrape aggregates data from chateauchallain.com, ChateauBee, WedInspire, and French Wedding Venues listings. No deposit/payment/cancellation info found in either source."
+    "source_fields": ["venue_url_scraped", "brochure_text"]
   }
 }

@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Venues in the South of France - Chateau Bee Selection</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'fws-green': '#808254',
+                        'fws-dark': '#463728',
+                        'fws-light': '#edede6',
+                        'fws-grey': '#7a7a7a'
+                    },
+                    fontFamily: {
+                        serif: ['Cormorant', 'serif'],
+                        sans: ['Montserrat', 'sans-serif'],
+                        editorial: ['Cormorant', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #edede6;
+            color: #463728;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        h1, h2 {
+            font-family: 'Cormorant', serif !important;
+            font-weight: 300 !important;
+            font-style: italic !important;
+            letter-spacing: -0.02em;
+            line-height: 1.05;
+            text-transform: none;
+        }
+        h3 {
+            font-family: 'Cormorant', serif !important;
+            font-style: italic !important;
+            font-weight: 400 !important;
+            letter-spacing: -0.01em;
+        }
+        .nav-link { transition: color 0.3s ease; }
+        .nav-link:hover { color: #808254; }
+        html { scroll-behavior: smooth; }
+        h1, h2, h3 { text-rendering: optimizeLegibility; }
+        .venue-card:hover .venue-img { transform: scale(1.05); }
+        .venue-img { transition: transform 5s ease; }
+    </style>
+</head>
+<body>
+
+<!-- MAIN CONTENT -->
+<div class="min-h-screen bg-white selection:bg-fws-green selection:text-white pb-16">
+<main class="max-w-6xl mx-auto px-4 md:px-8">
+
+    <!-- Article Header -->
+    <header class="py-16 text-center border-b border-fws-green/10 mb-12">
+        <h1 class="text-5xl md:text-7xl lg:text-8xl mb-6 max-w-5xl mx-auto">Wedding Venues in the South of France</h1>
+        <p class="text-lg md:text-xl font-serif text-fws-grey italic max-w-3xl mx-auto leading-relaxed">From the rolling hills of Provence to the glitz of the French Riviera, discover our handpicked selection of the most exquisite estates for your dream French wedding.</p>
+    </header>
+
+    <!-- Intro Text -->
+    <div class="max-w-4xl mx-auto text-base text-fws-grey font-light leading-relaxed mb-8 space-y-4">
+        <p>The South of France is more than just a destination; it's a feeling. It's the scent of lavender on a warm breeze, the rhythmic song of cicadas, and the sparkle of the Mediterranean sun on ancient stone walls. Planning a wedding in this corner of the world means choosing a backdrop of unparalleled beauty and timeless romance.</p>
+        <h2 class="text-3xl md:text-4xl lg:text-5xl text-fws-dark pt-8 pb-4">Our Top 10 South of France Venue Comparison</h2>
+        <p>To help you navigate through the finest options available, we have compiled a quick-reference table of our favorite venues across the region. Use this to filter by your primary needs—whether that's guest capacity or an approximate starting price point.</p>
+    </div>
+
+    <!-- Comparison Table -->
+    <div class="mb-8 max-w-5xl mx-auto">
+        <div class="overflow-x-auto border border-fws-green/20 shadow-md relative rounded-xl overflow-hidden">
+            <table class="w-full text-left border-collapse min-w-[700px]">
+                <thead>
+                    <tr class="bg-fws-light border-b border-fws-green/30">
+                        <th class="sticky left-0 z-20 bg-fws-light py-3 px-5 text-[9px] font-bold tracking-[0.2em] text-fws-dark uppercase border-r border-fws-green/10">Venue Name</th>
+                        <th class="py-3 px-5 text-[9px] font-bold tracking-[0.2em] text-fws-dark uppercase">Best For</th>
+                        <th class="py-3 px-5 text-[9px] font-bold tracking-[0.2em] text-fws-dark uppercase">Region</th>
+                        <th class="py-3 px-5 text-[9px] font-bold tracking-[0.2em] text-fws-dark uppercase">From Price</th>
+                        <th class="py-3 px-5 text-[9px] font-bold tracking-[0.2em] text-fws-dark uppercase">Capacity</th>
+                    </tr>
+                </thead>
+                <tbody class="divide-y divide-fws-green/10">
+                    <tr class="hover:bg-fws-light/50 transition-colors">
+                        <td class="sticky left-0 z-10 bg-white py-2 px-1 text-xs font-sans font-bold text-fws-dark border-r border-fws-green/10 whitespace-nowrap"><a href="#1" class="hover:text-fws-green transition-colors duration-300">Château de la Croix</a></td>
+                        <td class="py-2 px-5 text-xs font-medium text-fws-grey font-sans tracking-tight">Romantic</td>
+                        <td class="py-2 px-5 text-xs text-fws-grey font-medium font-sans">Provence</td>
+                        <td class="py-2 px-5 text-xs font-bold text-fws-green font-sans whitespace-nowrap">€12,000 / 2 nights</td>
+                        <td class="py-2 px-5 text-xs text-fws-grey font-medium font-sans">150 guests</td>
+                    </tr>
+                    <tr class="hover:bg-fws-light/50 transition-colors">
+                        <td class="sticky left-0 z-10 bg-white py-2 px-1 text-xs font-sans font-bold text-fws-dark border-r border-fws-green/10 whitespace-nowrap"><a href="#2" class="hover:text-fws-green transition-colors duration-300">Villa Ephrussi de Rothschild</a></td>
+                        <td class="py-2 px-5 text-xs font-medium text-fws-grey font-sans tracking-tight">Coastal Elegance</td>
+                        <td class="py-2 px-5 text-xs text-fws-grey font-medium font-sans">French Riviera</td>
+                        <td class="py-2 px-5 text-xs font-bold text-fws-green font-sans whitespace-nowrap">On Request</td>
+                        <td class="py-2 px-5 text-xs text-fws-grey font-medium font-sans">300 guests</td>
+                    </tr>
+                    <tr class="hover:bg-fws-light/50 transition-colors">
+                        <td class="sticky left-0 z-10 bg-white py-2 px-1 text-xs font-sans font-bold text-fws-dark border-r border-fws-green/10 whitespace-nowrap"><a href="#3" class="hover:text-fws-green transition-colors duration-300">Domaine de Canaille</a></td>
+                        <td class="py-2 px-5 text-xs font-medium text-fws-grey font-sans tracking-tight">Cliffside</td>
+                        <td class="py-2 px-5 text-xs text-fws-grey font-medium font-sans">Cassis</td>
+                        <td class="py-2 px-5 text-xs font-bold text-fws-green font-sans whitespace-nowrap">€15,000 / 3 nights</td>
+                        <td class="py-2 px-5 text-xs text-fws-grey font-medium font-sans">80 guests</td>
+                    </tr>
+                    <tr class="hover:bg-fws-light/50 transition-colors">
+                        <td class="sticky left-0 z-10 bg-white py-2 px-1 text-xs font-sans font-bold text-fws-dark border-r border-fws-green/10 whitespace-nowrap"><a href="#4" class="hover:text-fws-green transition-colors duration-300">Château de Robernier</a></td>
+                        <td class="py-2 px-5 text-xs font-medium text-fws-grey font-sans tracking-tight">Fairytale</td>
+                        <td class="py-2 px-5 text-xs text-fws-grey font-medium font-sans">Cotignac</td>
+                        <td class="py-2 px-5 text-xs font-bold text-fws-green font-sans whitespace-nowrap">€18,000 / 3 nights</td>
+                        <td class="py-2 px-5 text-xs text-fws-grey font-medium font-sans">200 guests</td>
+                    </tr>
+                    <tr class="hover:bg-fws-light/50 transition-colors">
+                        <td class="sticky left-0 z-10 bg-white py-2 px-1 text-xs font-sans font-bold text-fws-dark border-r border-fws-green/10 whitespace-nowrap"><a href="#5" class="hover:text-fws-green transition-colors duration-300">Bastide Saint-Mathieu</a></td>
+                        <td class="py-2 px-5 text-xs font-medium text-fws-grey font-sans tracking-tight">Authentic</td>
+                        <td class="py-2 px-5 text-xs text-fws-grey font-medium font-sans">Grasse</td>
+                        <td class="py-2 px-5 text-xs font-bold text-fws-green font-sans whitespace-nowrap">€9,000 / 2 nights</td>
+                        <td class="py-2 px-5 text-xs text-fws-grey font-medium font-sans">120 guests</td>
+                    </tr>
+                    <tr class="hover:bg-fws-light/50 transition-colors">
+                        <td class="sticky left-0 z-10 bg-white py-2 px-1 text-xs font-sans font-bold text-fws-dark border-r border-fws-green/10 whitespace-nowrap"><a href="#6" class="hover:text-fws-green transition-colors duration-300">Château de Grimaldi</a></td>
+                        <td class="py-2 px-5 text-xs font-medium text-fws-grey font-sans tracking-tight">Grand Estate</td>
+                        <td class="py-2 px-5 text-xs text-fws-grey font-medium font-sans">Aix-en-Provence</td>
+                        <td class="py-2 px-5 text-xs font-bold text-fws-green font-sans whitespace-nowrap">€14,000 / 3 nights</td>
+                        <td class="py-2 px-5 text-xs text-fws-grey font-medium font-sans">250 guests</td>
+                    </tr>
+                    <tr class="hover:bg-fws-light/50 transition-colors">
+                        <td class="sticky left-0 z-10 bg-white py-2 px-1 text-xs font-sans font-bold text-fws-dark border-r border-fws-green/10 whitespace-nowrap"><a href="#7" class="hover:text-fws-green transition-colors duration-300">Le Mas des Poiriers</a></td>
+                        <td class="py-2 px-5 text-xs font-medium text-fws-grey font-sans tracking-tight">Ultimate Luxury</td>
+                        <td class="py-2 px-5 text-xs text-fws-grey font-medium font-sans">Avignon</td>
+                        <td class="py-2 px-5 text-xs font-bold text-fws-green font-sans whitespace-nowrap">€35,000 / 7 nights</td>
+                        <td class="py-2 px-5 text-xs text-fws-grey font-medium font-sans">100 guests</td>
+                    </tr>
+                    <tr class="hover:bg-fws-light/50 transition-colors">
+                        <td class="sticky left-0 z-10 bg-white py-2 px-1 text-xs font-sans font-bold text-fws-dark border-r border-fws-green/10 whitespace-nowrap"><a href="#8" class="hover:text-fws-green transition-colors duration-300">Château d'Estoublon</a></td>
+                        <td class="py-2 px-5 text-xs font-medium text-fws-grey font-sans tracking-tight">Wine &amp; Olives</td>
+                        <td class="py-2 px-5 text-xs text-fws-grey font-medium font-sans">Fontvieille</td>
+                        <td class="py-2 px-5 text-xs font-bold text-fws-green font-sans whitespace-nowrap">€25,000 / 3 nights</td>
+                        <td class="py-2 px-5 text-xs text-fws-grey font-medium font-sans">200 guests</td>
+                    </tr>
+                    <tr class="hover:bg-fws-light/50 transition-colors">
+                        <td class="sticky left-0 z-10 bg-white py-2 px-1 text-xs font-sans font-bold text-fws-dark border-r border-fws-green/10 whitespace-nowrap"><a href="#9" class="hover:text-fws-green transition-colors duration-300">Villa Kerylos</a></td>
+                        <td class="py-2 px-5 text-xs font-medium text-fws-grey font-sans tracking-tight">Historic Charm</td>
+                        <td class="py-2 px-5 text-xs text-fws-grey font-medium font-sans">Beaulieu-sur-Mer</td>
+                        <td class="py-2 px-5 text-xs font-bold text-fws-green font-sans whitespace-nowrap">€22,000 / 1 night</td>
+                        <td class="py-2 px-5 text-xs text-fws-grey font-medium font-sans">80 guests</td>
+                    </tr>
+                    <tr class="hover:bg-fws-light/50 transition-colors">
+                        <td class="sticky left-0 z-10 bg-white py-2 px-1 text-xs font-sans font-bold text-fws-dark border-r border-fws-green/10 whitespace-nowrap"><a href="#10" class="hover:text-fws-green transition-colors duration-300">Grand-Hôtel du Cap-Ferrat</a></td>
+                        <td class="py-2 px-5 text-xs font-medium text-fws-grey font-sans tracking-tight">Iconic Glamour</td>
+                        <td class="py-2 px-5 text-xs text-fws-grey font-medium font-sans">Cap-Ferrat</td>
+                        <td class="py-2 px-5 text-xs font-bold text-fws-green font-sans whitespace-nowrap">On Request</td>
+                        <td class="py-2 px-5 text-xs text-fws-grey font-medium font-sans">400 guests</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p class="mt-3 text-[9px] text-fws-grey italic text-center uppercase tracking-widest opacity-60">Scroll horizontally to view all columns on mobile</p>
+    </div>
+
+    <!-- Key Insights -->
+    <div class="max-w-5xl mx-auto mb-16">
+        <div class="bg-fws-light/60 border border-fws-green/10 p-8 rounded-xl shadow-sm">
+            <h3 class="text-[17px] tracking-[0.3em] font-bold text-fws-green uppercase mb-4 flex items-center gap-3">
+                <span class="w-12 h-px bg-fws-green/30"></span>
+                Key Insights &amp; Expert Takeaways
+                <span class="w-12 h-px bg-fws-green/30"></span>
+            </h3>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="space-y-1.5">
+                    <h4 class="font-serif text-fws-dark text-xl italic border-b border-fws-green/10 pb-1">Accessibility</h4>
+                    <p class="text-xs text-fws-grey leading-normal font-light">Most premier estates are within a 45-minute drive of major hubs like <span class="text-fws-dark font-medium">Marseille (MRS)</span> or <span class="text-fws-dark font-medium">Nice (NCE)</span>.</p>
+                </div>
+                <div class="space-y-1.5">
+                    <h4 class="font-serif text-fws-dark text-xl italic border-b border-fws-green/10 pb-1">Optimal Timing</h4>
+                    <p class="text-xs text-fws-grey leading-relaxed font-light"><span class="text-fws-dark font-medium">June and September</span> are the prime months for perfect light and manageable temperatures.</p>
+                </div>
+                <div class="space-y-1.5">
+                    <h4 class="font-serif text-fws-dark text-xl italic border-b border-fws-green/10 pb-1">Budgeting</h4>
+                    <p class="text-xs text-fws-grey leading-relaxed font-light">Venue hire often includes exclusive use for <span class="text-fws-dark font-medium">3 days</span>, allowing for a relaxed arrival and recovery.</p>
+                </div>
+                <div class="space-y-1.5">
+                    <h4 class="font-serif text-fws-dark text-xl italic border-b border-fws-green/10 pb-1">Legal Facts</h4>
+                    <p class="text-xs text-fws-grey leading-relaxed font-light">Foreign couples typically marry civilly in their home country, hosting a <span class="text-fws-dark font-medium">symbolic blessing</span> in France.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Detailed Content -->
+    <div class="max-w-4xl mx-auto mb-16 space-y-16">
+
+        <!-- Why Choose -->
+        <section>
+            <h2 class="text-3xl md:text-4xl lg:text-5xl text-fws-dark mb-4">Why Choose the South of France for Your Wedding?</h2>
+            <p class="text-fws-grey font-light leading-relaxed text-sm">If you still need convincing, let us paint the picture. From the rolling lavender fields of the Luberon to the dramatic limestone peaks of Les Alpilles, the landscapes are as diverse as they are accessible. Located just one hour from Marseille Provence Airport or the gateway of Nice Côte d'Azur, the region offers a Mediterranean climate with long, sun-drenched summers that make outdoor "al fresco" dining under the stars a reality.</p>
+        </section>
+
+        <!-- Destinations -->
+        <section id="destinations">
+            <h2 class="text-3xl md:text-4xl lg:text-5xl text-fws-dark mb-8">What Are the Best Wedding Destinations in the South of France?</h2>
+            <div class="space-y-12">
+
+                <!-- Luberon & Gordes -->
+                <div class="border-l-2 border-fws-green/20 pl-8">
+                    <h3 class="text-2xl text-fws-dark mb-3">The Luberon &amp; Gordes</h3>
+                    <p class="text-fws-grey text-sm font-light leading-relaxed mb-8">Known as the cultural heart of Provence, the Luberon is a tapestry of vineyards, olive groves, and ancient hilltop villages. Gordes, a majestic stone village perched on a cliff, offers some of the most romantic sunsets in France, making it a premier choice for those seeking refined, pastoral elegance.</p>
+
+                    <!-- Le Mas des Poiriers -->
+                    <div class="flex flex-col space-y-6 venue-card" id="7">
+                        <div class="text-center md:text-left">
+                            <h2 class="text-3xl md:text-4xl lg:text-5xl text-fws-dark mb-1 leading-tight">Le Mas des Poiriers</h2>
+                            <p class="text-fws-green text-[10px] tracking-[0.4em] font-bold uppercase font-sans">Avignon</p>
+                        </div>
+                        <div class="max-w-4xl"><p class="text-fws-grey text-sm font-light leading-relaxed">The ultimate luxury farmhouse experience, meticulously renovated with high-end finishes and vast pear orchards. It represents the pinnacle of Provencal luxury living. The property is world-renowned for its Pierre Frey interiors and exceptional service standards, offering an exclusive lifestyle experience for the most discerning couples.</p></div>
+                        <div class="w-full overflow-hidden shadow-lg rounded-sm"><div class="aspect-[16/9] overflow-hidden bg-fws-light relative"><img src="https://images.unsplash.com/photo-1507039228507-356617ad36f0?q=80&w=2000&auto=format&fit=crop" alt="Le Mas des Poiriers" class="w-full h-full object-cover venue-img" loading="lazy" /><span class="absolute bottom-2 right-2 text-[8px] uppercase tracking-widest text-white/40 pointer-events-none select-none">Photo credit</span></div></div>
+                        <div class="max-w-xl"><div class="border border-fws-green/20 rounded-lg overflow-hidden bg-white shadow-sm"><table class="w-full text-left border-collapse"><tbody class="divide-y divide-fws-green/10">
+                            <tr class="hover:bg-fws-light/30 transition-colors"><th class="w-[100px] py-2 px-2 bg-fws-light text-[8px] font-bold tracking-[0.2em] text-fws-dark uppercase border-r border-fws-green/10 align-middle whitespace-nowrap">Best For</th><td class="py-2 px-4 text-xs font-sans font-medium text-fws-grey tracking-tight align-middle">Ultimate Luxury &amp; Exclusive</td></tr>
+                            <tr class="hover:bg-fws-light/30 transition-colors"><th class="py-2 px-2 bg-fws-light text-[8px] font-bold tracking-[0.2em] text-fws-dark uppercase border-r border-fws-green/10 align-middle whitespace-nowrap">Hire Price</th><td class="py-2 px-4 text-xs font-sans font-bold text-fws-green align-middle">€35,000 / 7 nights</td></tr>
+                            <tr class="hover:bg-fws-light/30 transition-colors"><th class="py-2 px-2 bg-fws-light text-[8px] font-bold tracking-[0.2em] text-fws-dark uppercase border-r border-fws-green/10 align-middle whitespace-nowrap">Capacity</th><td class="py-2 px-4 text-xs font-sans font-medium text-fws-grey align-middle">100 guests</td></tr>
+                            <tr class="hover:bg-fws-light/30 transition-colors"><th class="py-2 px-2 bg-fws-light text-[8px] font-bold tracking-[0.2em] text-fws-dark uppercase border-r border-fws-green/10 align-middle whitespace-nowrap">Airport</th><td class="py-2 px-4 text-xs font-sans font-medium text-fws-grey italic align-middle">Avignon (20 mins)</td></tr>
+                        </tbody></table></div></div>
+                        <div class="flex flex-wrap items-center gap-x-8 gap-y-3 pt-2">
+                            <button class="group text-fws-dark hover:text-fws-green transition-all duration-300 py-1 text-[10px] font-bold tracking-[0.2em] uppercase flex items-center gap-2 border-b border-transparent hover:border-fws-green/30"><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>Explore Mas des Poiriers</button>
+                            <button class="group text-fws-grey hover:text-fws-green transition-all duration-300 py-1 text-[10px] font-bold tracking-[0.2em] uppercase flex items-center gap-2 border-b border-transparent hover:border-fws-green/30"><svg class="w-3 h-3 opacity-60 group-hover:opacity-100" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" /></svg>Mas des Poiriers Review</button>
+                            <button class="group text-fws-dark hover:text-fws-green transition-all duration-300 py-1 text-[10px] font-bold tracking-[0.2em] uppercase flex items-center gap-2 border-b border-transparent hover:border-fws-green/30"><svg class="w-3 h-3 text-fws-green group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" /></svg>Mas des Poiriers Real Wedding</button>
+                        </div>
+                    </div>
+
+                    <div class="mt-16"></div>
+
+                    <!-- Château de la Croix -->
+                    <div class="flex flex-col space-y-6 venue-card" id="1">
+                        <div class="text-center md:text-left">
+                            <h2 class="text-3xl md:text-4xl lg:text-5xl text-fws-dark mb-1 leading-tight">Château de la Croix</h2>
+                            <p class="text-fws-green text-[10px] tracking-[0.4em] font-bold uppercase font-sans">Provence</p>
+                        </div>
+                        <div class="max-w-4xl"><p class="text-fws-grey text-sm font-light leading-relaxed">A magnificent 18th-century château nestled in the heart of Provence, surrounded by lavender fields and ancient olive groves. It offers a unique blend of historical grandeur and intimate rustic charm, perfect for couples seeking an authentic French experience. The estate features a grand reception hall with original stonework and multiple outdoor terraces for a sunset Vin d'Honneur.</p></div>
+                        <div class="w-full overflow-hidden shadow-lg rounded-sm"><div class="aspect-[16/9] overflow-hidden bg-fws-light relative"><img src="https://images.unsplash.com/photo-1542662565-7e4b66bae529?q=80&w=2000&auto=format&fit=crop" alt="Château de la Croix" class="w-full h-full object-cover venue-img" loading="lazy" /><span class="absolute bottom-2 right-2 text-[8px] uppercase tracking-widest text-white/40 pointer-events-none select-none">Photo credit</span></div></div>
+                        <div class="max-w-xl"><div class="border border-fws-green/20 rounded-lg overflow-hidden bg-white shadow-sm"><table class="w-full text-left border-collapse"><tbody class="divide-y divide-fws-green/10">
+                            <tr class="hover:bg-fws-light/30 transition-colors"><th class="w-[100px] py-2 px-2 bg-fws-light text-[8px] font-bold tracking-[0.2em] text-fws-dark uppercase border-r border-fws-green/10 align-middle whitespace-nowrap">Best For</th><td class="py-2 px-4 text-xs font-sans font-medium text-fws-grey tracking-tight align-middle">Romantic &amp; Historic</td></tr>
+                            <tr class="hover:bg-fws-light/30 transition-colors"><th class="py-2 px-2 bg-fws-light text-[8px] font-bold tracking-[0.2em] text-fws-dark uppercase border-r border-fws-green/10 align-middle whitespace-nowrap">Hire Price</th><td class="py-2 px-4 text-xs font-sans font-bold text-fws-green align-middle">€12,000 / 2 nights</td></tr>
+                            <tr class="hover:bg-fws-light/30 transition-colors"><th class="py-2 px-2 bg-fws-light text-[8px] font-bold tracking-[0.2em] text-fws-dark uppercase border-r border-fws-green/10 align-middle whitespace-nowrap">Capacity</th><td class="py-2 px-4 text-xs font-sans font-medium text-fws-grey align-middle">150 guests</td></tr>
+                            <tr class="hover:bg-fws-light/30 transition-colors"><th class="py-2 px-2 bg-fws-light text-[8px] font-bold tracking-[0.2em] text-fws-dark uppercase border-r border-fws-green/10 align-middle whitespace-nowrap">Airport</th><td class="py-2 px-4 text-xs font-sans font-medium text-fws-grey italic align-middle">Marseille (55 mins)</td></tr>
+                        </tbody></table></div></div>
+                        <div class="flex flex-wrap items-center gap-x-8 gap-y-3 pt-2">
+                            <button class="group text-fws-dark hover:text-fws-green transition-all duration-300 py-1 text-[10px] font-bold tracking-[0.2em] uppercase flex items-center gap-2 border-b border-transparent hover:border-fws-green/30"><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>Explore Château de la Croix</button>
+                            <button class="group text-fws-grey hover:text-fws-green transition-all duration-300 py-1 text-[10px] font-bold tracking-[0.2em] uppercase flex items-center gap-2 border-b border-transparent hover:border-fws-green/30"><svg class="w-3 h-3 opacity-60 group-hover:opacity-100" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" /></svg>Château de la Croix Review</button>
+                            <button class="group text-fws-dark hover:text-fws-green transition-all duration-300 py-1 text-[10px] font-bold tracking-[0.2em] uppercase flex items-center gap-2 border-b border-transparent hover:border-fws-green/30"><svg class="w-3 h-3 text-fws-green group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" /></svg>Château de la Croix Real Wedding</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Les Alpilles & Aix-en-Provence -->
+                <div class="border-l-2 border-fws-green/20 pl-8">
+                    <h3 class="text-2xl text-fws-dark mb-3">Les Alpilles &amp; Aix-en-Provence</h3>
+                    <p class="text-fws-grey text-sm font-light leading-relaxed mb-8">Characterized by its rugged white limestone peaks and silver-green landscape, Les Alpilles is home to Saint-Rémy-de-Provence and some of the region's most historic wine estates. This area offers a chic, low-key luxury that is deeply rooted in local traditions.</p>
+
+                    <!-- Château d'Estoublon -->
+                    <div class="flex flex-col space-y-6 venue-card" id="8">
+                        <div class="text-center md:text-left">
+                            <h2 class="text-3xl md:text-4xl lg:text-5xl text-fws-dark mb-1 leading-tight">Château d'Estoublon</h2>
+                            <p class="text-fws-green text-[10px] tracking-[0.4em] font-bold uppercase font-sans">Fontvieille</p>
+                        </div>
+                        <div class="max-w-4xl"><p class="text-fws-grey text-sm font-light leading-relaxed">A world-famous wine and olive oil estate offering a blend of heritage, luxury, and authentic French lifestyle. Set in the heart of the Alpilles, it provides a majestic setting with rows of silver-green olive trees and a grand white-stone facade. The estate's own Michelin-standard catering makes it a dream for gourmands.</p></div>
+                        <div class="w-full overflow-hidden shadow-lg rounded-sm"><div class="aspect-[16/9] overflow-hidden bg-fws-light relative"><img src="https://images.unsplash.com/photo-1564501049412-61c2a3083791?q=80&w=2000&auto=format&fit=crop" alt="Château d'Estoublon" class="w-full h-full object-cover venue-img" loading="lazy" /><span class="absolute bottom-2 right-2 text-[8px] uppercase tracking-widest text-white/40 pointer-events-none select-none">Photo credit</span></div></div>
+                        <div class="max-w-xl"><div class="border border-fws-green/20 rounded-lg overflow-hidden bg-white shadow-sm"><table class="w-full text-left border-collapse"><tbody class="divide-y divide-fws-green/10">
+                            <tr class="hover:bg-fws-light/30 transition-colors"><th class="w-[100px] py-2 px-2 bg-fws-light text-[8px] font-bold tracking-[0.2em] text-fws-dark uppercase border-r border-fws-green/10 align-middle whitespace-nowrap">Best For</th><td class="py-2 px-4 text-xs font-sans font-medium text-fws-grey tracking-tight align-middle">Wine &amp; Olives &amp; Heritage</td></tr>
+                            <tr class="hover:bg-fws-light/30 transition-colors"><th class="py-2 px-2 bg-fws-light text-[8px] font-bold tracking-[0.2em] text-fws-dark uppercase border-r border-fws-green/10 align-middle whitespace-nowrap">Hire Price</th><td class="py-2 px-4 text-xs font-sans font-bold text-fws-green align-middle">€25,000 / 3 nights</td></tr>
+                            <tr class="hover:bg-fws-light/30 transition-colors"><th class="py-2 px-2 bg-fws-light text-[8px] font-bold tracking-[0.2em] text-fws-dark uppercase border-r border-fws-green/10 align-middle whitespace-nowrap">Capacity</th><td class="py-2 px-4 text-xs font-sans font-medium text-fws-grey align-middle">200 guests</td></tr>
+                            <tr class="hover:bg-fws-light/30 transition-colors"><th class="py-2 px-2 bg-fws-light text-[8px] font-bold tracking-[0.2em] text-fws-dark uppercase border-r border-fws-green/10 align-middle whitespace-nowrap">Airport</th><td class="py-2 px-4 text-xs font-sans font-medium text-fws-grey italic align-middle">Marseille (50 mins)</td></tr>
+                        </tbody></table></div></div>
+                        <div class="flex flex-wrap items-center gap-x-8 gap-y-3 pt-2">
+                            <button class="group text-fws-dark hover:text-fws-green transition-all duration-300 py-1 text-[10px] font-bold tracking-[0.2em] uppercase flex items-center gap-2 border-b border-transparent hover:border-fws-green/30"><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>Explore Château d'Estoublon</button>
+                            <button class="group text-fws-grey hover:text-fws-green transition-all duration-300 py-1 text-[10px] font-bold tracking-[0.2em] uppercase flex items-center gap-2 border-b border-transparent hover:border-fws-green/30"><svg class="w-3 h-3 opacity-60 group-hover:opacity-100" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" /></svg>Château d'Estoublon Review</button>
+                            <button class="group text-fws-dark hover:text-fws-green transition-all duration-300 py-1 text-[10px] font-bold tracking-[0.2em] uppercase flex items-center gap-2 border-b border-transparent hover:border-fws-green/30"><svg class="w-3 h-3 text-fws-green group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" /></svg>Château d'Estoublon Real Wedding</button>
+                        </div>
+                    </div>
+
+                    <div class="mt-16"></div>
+
+                    <!-- Château de Grimaldi -->
+                    <div class="flex flex-col space-y-6 venue-card" id="6">
+                        <div class="text-center md:text-left">
+                            <h2 class="text-3xl md:text-4xl lg:text-5xl text-fws-dark mb-1 leading-tight">Château de Grimaldi</h2>
+                            <p class="text-fws-green text-[10px] tracking-[0.4em] font-bold uppercase font-sans">Aix-en-Provence</p>
+                        </div>
+                        <div class="max-w-4xl"><p class="text-fws-grey text-sm font-light leading-relaxed">An elegant estate featuring a private chapel and a ruin which serves as a stunning backdrop for outdoor dinners. The property exudes the sophisticated spirit of Aix-en-Provence. With sprawling manicured lawns and a hidden pool area, it offers a variety of picturesque settings for every part of your multi-day wedding celebration.</p></div>
+                        <div class="w-full overflow-hidden shadow-lg rounded-sm"><div class="aspect-[16/9] overflow-hidden bg-fws-light relative"><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2000&auto=format&fit=crop" alt="Château de Grimaldi" class="w-full h-full object-cover venue-img" loading="lazy" /><span class="absolute bottom-2 right-2 text-[8px] uppercase tracking-widest text-white/40 pointer-events-none select-none">Photo credit</span></div></div>
+                        <div class="max-w-xl"><div class="border border-fws-green/20 rounded-lg overflow-hidden bg-white shadow-sm"><table class="w-full text-left border-collapse"><tbody class="divide-y divide-fws-green/10">
+                            <tr class="hover:bg-fws-light/30 transition-colors"><th class="w-[100px] py-2 px-2 bg-fws-light text-[8px] font-bold tracking-[0.2em] text-fws-dark uppercase border-r border-fws-green/10 align-middle whitespace-nowrap">Best For</th><td class="py-2 px-4 text-xs font-sans font-medium text-fws-grey tracking-tight align-middle">Grand Estate &amp; Classic</td></tr>
+                            <tr class="hover:bg-fws-light/30 transition-colors"><th class="py-2 px-2 bg-fws-light text-[8px] font-bold tracking-[0.2em] text-fws-dark uppercase border-r border-fws-green/10 align-middle whitespace-nowrap">Hire Price</th><td class="py-2 px-4 text-xs font-sans font-bold text-fws-green align-middle">€14,000 / 3 nights</td></tr>
+                            <tr class="hover:bg-fws-light/30 transition-colors"><th class="py-2 px-2 bg-fws-light text-[8px] font-bold tracking-[0.2em] text-fws-dark uppercase border-r border-fws-green/10 align-middle whitespace-nowrap">Capacity</th><td class="py-2 px-4 text-xs font-sans font-medium text-fws-grey align-middle">250 guests</td></tr>
+                            <tr class="hover:bg-fws-light/30 transition-colors"><th class="py-2 px-2 bg-fws-light text-[8px] font-bold tracking-[0.2em] text-fws-dark uppercase border-r border-fws-green/10 align-middle whitespace-nowrap">Airport</th><td class="py-2 px-4 text-xs font-sans font-medium text-fws-grey italic align-middle">Marseille (30 mins)</td></tr>
+                        </tbody></table></div></div>
+                        <div class="flex flex-wrap items-center gap-x-8 gap-y-3 pt-2">
+                            <button class="group text-fws-dark hover:text-fws-green transition-all duration-300 py-1 text-[10px] font-bold tracking-[0.2em] uppercase flex items-center gap-2 border-b border-transparent hover:border-fws-green/30"><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>Explore Château de Grimaldi</button>
+                            <button class="group text-fws-grey hover:text-fws-green transition-all duration-300 py-1 text-[10px] font-bold tracking-[0.2em] uppercase flex items-center gap-2 border-b border-transparent hover:border-fws-green/30"><svg class="w-3 h-3 opacity-60 group-hover:opacity-100" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" /></svg>Château de Grimaldi Review</button>
+                            <button class="group text-fws-dark hover:text-fws-green transition-all duration-300 py-1 text-[10px] font-bold tracking-[0.2em] uppercase flex items-center gap-2 border-b border-transparent hover:border-fws-green/30"><svg class="w-3 h-3 text-fws-green group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" /></svg>Château de Grimaldi Real Wedding</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Côte d'Azur -->
+                <div class="border-l-2 border-fws-green/20 pl-8">
+                    <h3 class="text-2xl text-fws-dark mb-3">Côte d'Azur (French Riviera)</h3>
+                    <p class="text-fws-grey text-sm font-light leading-relaxed mb-8">The French Riviera is synonymous with mythic glamour and high-end coastal living. From the grand palaces of Cap-Ferrat to the artistic villas of Beaulieu-sur-Mer, this stretch of coastline offers unmatched azure views and an international atmosphere.</p>
+                    <div class="space-y-16">
+
+                        <!-- Villa Ephrussi de Rothschild -->
+                        <div class="flex flex-col space-y-6 venue-card" id="2">
+                            <div class="text-center md:text-left">
+                                <h2 class="text-3xl md:text-4xl lg:text-5xl text-fws-dark mb-1 leading-tight">Villa Ephrussi de Rothschild</h2>
+                                <p class="text-fws-green text-[10px] tracking-[0.4em] font-bold uppercase font-sans">French Riviera</p>
+                            </div>
+                            <div class="max-w-4xl"><p class="text-fws-grey text-sm font-light leading-relaxed">One of the most prestigious venues on the Côte d'Azur, offering breathtaking sea views and nine themed gardens. This pink palace is the epitome of Riviera glamour and Belle Époque elegance. Guests can dine amidst musical fountains and rare botanical species, creating a truly sensory experience that is unmatched in European destination weddings.</p></div>
+                            <div class="w-full overflow-hidden shadow-lg rounded-sm"><div class="aspect-[16/9] overflow-hidden bg-fws-light relative"><img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=2000&auto=format&fit=crop" alt="Villa Ephrussi de Rothschild" class="w-full h-full object-cover venue-img" loading="lazy" /><span class="absolute bottom-2 right-2 text-[8px] uppercase tracking-widest text-white/40 pointer-events-none select-none">Photo credit</span></div></div>
+                            <div class="max-w-xl"><div class="border border-fws-green/20 rounded-lg overflow-hidden bg-white shadow-sm"><table class="w-full text-left border-collapse"><tbody class="divide-y divide-fws-green/10">
+                                <tr class="hover:bg-fws-light/30 transition-colors"><th class="w-[100px] py-2 px-2 bg-fws-light text-[8px] font-bold tracking-[0.2em] text-fws-dark uppercase border-r border-fws-green/10 align-middle whitespace-nowrap">Best For</th><td class="py-2 px-4 text-xs font-sans font-medium text-fws-grey tracking-tight align-middle">Coastal Elegance &amp; Gardens</td></tr>
+                                <tr class="hover:bg-fws-light/30 transition-colors"><th class="py-2 px-2 bg-fws-light text-[8px] font-bold tracking-[0.2em] text-fws-dark uppercase border-r border-fws-green/10 align-middle whitespace-nowrap">Hire Price</th><td class="py-2 px-4 text-xs font-sans font-bold text-fws-green align-middle">On Request</td></tr>
+                                <tr class="hover:bg-fws-light/30 transition-colors"><th class="py-2 px-2 bg-fws-light text-[8px] font-bold tracking-[0.2em] text-fws-dark uppercase border-r border-fws-green/10 align-middle whitespace-nowrap">Capacity</th><td class="py-2 px-4 text-xs font-sans font-medium text-fws-grey align-middle">300 guests</td></tr>
+                                <tr class="hover:bg-fws-light/30 transition-colors"><th class="py-2 px-2 bg-fws-light text-[8px] font-bold tracking-[0.2em] text-fws-dark uppercase border-r border-fws-green/10 align-middle whitespace-nowrap">Airport</th><td class="py-2 px-4 text-xs font-sans font-medium text-fws-grey italic align-middle">Nice (25 mins)</td></tr>
+                            </tbody></table></div></div>
+                            <div class="flex flex-wrap items-center gap-x-8 gap-y-3 pt-2">
+                                <button class="group text-fws-dark hover:text-fws-green transition-all duration-300 py-1 text-[10px] font-bold tracking-[0.2em] uppercase flex items-center gap-2 border-b border-transparent hover:border-fws-green/30"><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>Explore Villa Ephrussi</button>
+                                <button class="group text-fws-grey hover:text-fws-green transition-all duration-300 py-1 text-[10px] font-bold tracking-[0.2em] uppercase flex items-center gap-2 border-b border-transparent hover:border-fws-green/30"><svg class="w-3 h-3 opacity-60 group-hover:opacity-100" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" /></svg>Villa Ephrussi Review</button>
+                                <button class="group text-fws-dark hover:text-fws-green transition-all duration-300 py-1 text-[10px] font-bold tracking-[0.2em] uppercase flex items-center gap-2 border-b border-transparent hover:border-fws-green/30"><svg class="w-3 h-3 text-fws-green group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" /></svg>Villa Ephrussi Real Wedding</button>
+                            </div>
+                        </div>
+
+                        <!-- Grand-Hôtel du Cap-Ferrat -->
+                        <div class="flex flex-col space-y-6 venue-card" id="10">
+                            <div class="text-center md:text-left">
+                                <h2 class="text-3xl md:text-4xl lg:text-5xl text-fws-dark mb-1 leading-tight">Grand-Hôtel du Cap-Ferrat</h2>
+                                <p class="text-fws-green text-[10px] tracking-[0.4em] font-bold uppercase font-sans">Cap-Ferrat</p>
+                            </div>
+                            <div class="max-w-4xl"><p class="text-fws-grey text-sm font-light leading-relaxed">An icon of the French Riviera, this Four Seasons hotel is the pinnacle of glamour and world-class service. Its manicured lawns and coastal views are legendary. The venue specializes in large-scale luxury events, offering a seamless experience where every detail, from the floral arrangements to the midnight snacks, is executed to perfection.</p></div>
+                            <div class="w-full overflow-hidden shadow-lg rounded-sm"><div class="aspect-[16/9] overflow-hidden bg-fws-light relative"><img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?q=80&w=2000&auto=format&fit=crop" alt="Grand-Hôtel du Cap-Ferrat" class="w-full h-full object-cover venue-img" loading="lazy" /><span class="absolute bottom-2 right-2 text-[8px] uppercase tracking-widest text-white/40 pointer-events-none select-none">Photo credit</span></div></div>
+                            <div class="max-w-xl"><div class="border border-fws-green/20 rounded-lg overflow-hidden bg-white shadow-sm"><table class="w-full text-left border-collapse"><tbody class="divide-y divide-fws-green/10">
+                                <tr class="hover:bg-fws-light/30 transition-colors"><th class="w-[100px] py-2 px-2 bg-fws-light text-[8px] font-bold tracking-[0.2em] text-fws-dark uppercase border-r border-fws-green/10 align-middle whitespace-nowrap">Best For</th><td class="py-2 px-4 text-xs font-sans font-medium text-fws-grey tracking-tight align-middle">Iconic Glamour &amp; Resort</td></tr>
+                                <tr class="hover:bg-fws-light/30 transition-colors"><th class="py-2 px-2 bg-fws-light text-[8px] font-bold tracking-[0.2em] text-fws-dark uppercase border-r border-fws-green/10 align-middle whitespace-nowrap">Hire Price</th><td class="py-2 px-4 text-xs font-sans font-bold text-fws-green align-middle">On Request</td></tr>
+                                <tr class="hover:bg-fws-light/30 transition-colors"><th class="py-2 px-2 bg-fws-light text-[8px] font-bold tracking-[0.2em] text-fws-dark uppercase border-r border-fws-green/10 align-middle whitespace-nowrap">Capacity</th><td class="py-2 px-4 text-xs font-sans font-medium text-fws-grey align-middle">400 guests</td></tr>
+                                <tr class="hover:bg-fws-light/30 transition-colors"><th class="py-2 px-2 bg-fws-light text-[8px] font-bold tracking-[0.2em] text-fws-dark uppercase border-r border-fws-green/10 align-middle whitespace-nowrap">Airport</th><td class="py-2 px-4 text-xs font-sans font-medium text-fws-grey italic align-middle">Nice (35 mins)</td></tr>
+                            </tbody></table></div></div>
+                            <div class="flex flex-wrap items-center gap-x-8 gap-y-3 pt-2">
+                                <button class="group text-fws-dark hover:text-fws-green transition-all duration-300 py-1 text-[10px] font-bold tracking-[0.2em] uppercase flex items-center gap-2 border-b border-transparent hover:border-fws-green/30"><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>Explore Grand-Hôtel</button>
+                                <button class="group text-fws-grey hover:text-fws-green transition-all duration-300 py-1 text-[10px] font-bold tracking-[0.2em] uppercase flex items-center gap-2 border-b border-transparent hover:border-fws-green/30"><svg class="w-3 h-3 opacity-60 group-hover:opacity-100" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" /></svg>Grand-Hôtel Review</button>
+                                <button class="group text-fws-dark hover:text-fws-green transition-all duration-300 py-1 text-[10px] font-bold tracking-[0.2em] uppercase flex items-center gap-2 border-b border-transparent hover:border-fws-green/30"><svg class="w-3 h-3 text-fws-green group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" /></svg>Grand-Hôtel Real Wedding</button>
+                            </div>
+                        </div>
+
+                        <!-- Villa Kerylos -->
+                        <div class="flex flex-col space-y-6 venue-card" id="9">
+                            <div class="text-center md:text-left">
+                                <h2 class="text-3xl md:text-4xl lg:text-5xl text-fws-dark mb-1 leading-tight">Villa Kerylos</h2>
+                                <p class="text-fws-green text-[10px] tracking-[0.4em] font-bold uppercase font-sans">Beaulieu-sur-Mer</p>
+                            </div>
+                            <div class="max-w-4xl"><p class="text-fws-grey text-sm font-light leading-relaxed">A unique recreation of an Ancient Greek villa, offering unparalleled historical charm on the water's edge. Ideal for couples seeking a distinctive and artistic coastal venue. Every mosaic tile and marble pillar tells a story, while the sea-breeze terraces provide a romantic setting for exchange of vows at sunset.</p></div>
+                            <div class="w-full overflow-hidden shadow-lg rounded-sm"><div class="aspect-[16/9] overflow-hidden bg-fws-light relative"><img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2000&auto=format&fit=crop" alt="Villa Kerylos" class="w-full h-full object-cover venue-img" loading="lazy" /><span class="absolute bottom-2 right-2 text-[8px] uppercase tracking-widest text-white/40 pointer-events-none select-none">Photo credit</span></div></div>
+                            <div class="max-w-xl"><div class="border border-fws-green/20 rounded-lg overflow-hidden bg-white shadow-sm"><table class="w-full text-left border-collapse"><tbody class="divide-y divide-fws-green/10">
+                                <tr class="hover:bg-fws-light/30 transition-colors"><th class="w-[100px] py-2 px-2 bg-fws-light text-[8px] font-bold tracking-[0.2em] text-fws-dark uppercase border-r border-fws-green/10 align-middle whitespace-nowrap">Best For</th><td class="py-2 px-4 text-xs font-sans font-medium text-fws-grey tracking-tight align-middle">Historic Charm &amp; Seafront</td></tr>
+                                <tr class="hover:bg-fws-light/30 transition-colors"><th class="py-2 px-2 bg-fws-light text-[8px] font-bold tracking-[0.2em] text-fws-dark uppercase border-r border-fws-green/10 align-middle whitespace-nowrap">Hire Price</th><td class="py-2 px-4 text-xs font-sans font-bold text-fws-green align-middle">€22,000 / 1 night</td></tr>
+                                <tr class="hover:bg-fws-light/30 transition-colors"><th class="py-2 px-2 bg-fws-light text-[8px] font-bold tracking-[0.2em] text-fws-dark uppercase border-r border-fws-green/10 align-middle whitespace-nowrap">Capacity</th><td class="py-2 px-4 text-xs font-sans font-medium text-fws-grey align-middle">80 guests</td></tr>
+                                <tr class="hover:bg-fws-light/30 transition-colors"><th class="py-2 px-2 bg-fws-light text-[8px] font-bold tracking-[0.2em] text-fws-dark uppercase border-r border-fws-green/10 align-middle whitespace-nowrap">Airport</th><td class="py-2 px-4 text-xs font-sans font-medium text-fws-grey italic align-middle">Nice (30 mins)</td></tr>
+                            </tbody></table></div></div>
+                            <div class="flex flex-wrap items-center gap-x-8 gap-y-3 pt-2">
+                                <button class="group text-fws-dark hover:text-fws-green transition-all duration-300 py-1 text-[10px] font-bold tracking-[0.2em] uppercase flex items-center gap-2 border-b border-transparent hover:border-fws-green/30"><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>Explore Villa Kerylos</button>
+                                <button class="group text-fws-grey hover:text-fws-green transition-all duration-300 py-1 text-[10px] font-bold tracking-[0.2em] uppercase flex items-center gap-2 border-b border-transparent hover:border-fws-green/30"><svg class="w-3 h-3 opacity-60 group-hover:opacity-100" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" /></svg>Villa Kerylos Review</button>
+                                <button class="group text-fws-dark hover:text-fws-green transition-all duration-300 py-1 text-[10px] font-bold tracking-[0.2em] uppercase flex items-center gap-2 border-b border-transparent hover:border-fws-green/30"><svg class="w-3 h-3 text-fws-green group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" /></svg>Villa Kerylos Real Wedding</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Types Section -->
+        <section id="types">
+            <h2 class="text-3xl md:text-4xl lg:text-5xl text-fws-dark mb-8">What Types of Wedding Venues Can You Find in the South of France?</h2>
+            <div class="space-y-16">
+
+                <!-- Fairytale Chateaux -->
+                <div>
+                    <h3 class="text-2xl text-fws-green mb-4">Fairytale Chateaux</h3>
+                    <p class="text-fws-grey text-base font-light leading-relaxed mb-8 max-w-3xl">For the ultimate romantic experience, the South of France boasts an array of fairytale chateaux. These historic monuments have been carefully restored to offer modern luxury while retaining their original turrets, private chapels, and grand ballrooms.</p>
+                    <div class="space-y-16">
+                        <!-- Château de Robernier -->
+                        <div class="flex flex-col space-y-6 venue-card" id="4">
+                            <div class="text-center md:text-left">
+                                <h2 class="text-3xl md:text-4xl lg:text-5xl text-fws-dark mb-1 leading-tight">Château de Robernier</h2>
+                                <p class="text-fws-green text-[10px] tracking-[0.4em] font-bold uppercase font-sans">Cotignac</p>
+                            </div>
+                            <div class="max-w-4xl"><p class="text-fws-grey text-sm font-light leading-relaxed">A fairytale castle hidden in the Provençal countryside, offering multiple spaces for ceremony and reception. Its distinctive turrets and private consecrated chapel make it a truly magical setting. The château has been lovingly restored to include high-end guest accommodations, allowing the bridal party to reside within the castle walls for the duration of the celebrations.</p></div>
+                            <div class="w-full overflow-hidden shadow-lg rounded-sm"><div class="aspect-[16/9] overflow-hidden bg-fws-light relative"><img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?q=80&w=2000&auto=format&fit=crop" alt="Château de Robernier" class="w-full h-full object-cover venue-img" loading="lazy" /><span class="absolute bottom-2 right-2 text-[8px] uppercase tracking-widest text-white/40 pointer-events-none select-none">Photo credit</span></div></div>
+                            <div class="max-w-xl"><div class="border border-fws-green/20 rounded-lg overflow-hidden bg-white shadow-sm"><table class="w-full text-left border-collapse"><tbody class="divide-y divide-fws-green/10">
+                                <tr class="hover:bg-fws-light/30 transition-colors"><th class="w-[100px] py-2 px-2 bg-fws-light text-[8px] font-bold tracking-[0.2em] text-fws-dark uppercase border-r border-fws-green/10 align-middle whitespace-nowrap">Best For</th><td class="py-2 px-4 text-xs font-sans font-medium text-fws-grey tracking-tight align-middle">Fairytale &amp; Privacy</td></tr>
+                                <tr class="hover:bg-fws-light/30 transition-colors"><th class="py-2 px-2 bg-fws-light text-[8px] font-bold tracking-[0.2em] text-fws-dark uppercase border-r border-fws-green/10 align-middle whitespace-nowrap">Hire Price</th><td class="py-2 px-4 text-xs font-sans font-bold text-fws-green align-middle">€18,000 / 3 nights</td></tr>
+                                <tr class="hover:bg-fws-light/30 transition-colors"><th class="py-2 px-2 bg-fws-light text-[8px] font-bold tracking-[0.2em] text-fws-dark uppercase border-r border-fws-green/10 align-middle whitespace-nowrap">Capacity</th><td class="py-2 px-4 text-xs font-sans font-medium text-fws-grey align-middle">200 guests</td></tr>
+                                <tr class="hover:bg-fws-light/30 transition-colors"><th class="py-2 px-2 bg-fws-light text-[8px] font-bold tracking-[0.2em] text-fws-dark uppercase border-r border-fws-green/10 align-middle whitespace-nowrap">Airport</th><td class="py-2 px-4 text-xs font-sans font-medium text-fws-grey italic align-middle">Toulon-Hyères (50 mins)</td></tr>
+                            </tbody></table></div></div>
+                            <div class="flex flex-wrap items-center gap-x-8 gap-y-3 pt-2">
+                                <button class="group text-fws-dark hover:text-fws-green transition-all duration-300 py-1 text-[10px] font-bold tracking-[0.2em] uppercase flex items-center gap-2 border-b border-transparent hover:border-fws-green/30"><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>Explore Château de Robernier</button>
+                                <button class="group text-fws-grey hover:text-fws-green transition-all duration-300 py-1 text-[10px] font-bold tracking-[0.2em] uppercase flex items-center gap-2 border-b border-transparent hover:border-fws-green/30"><svg class="w-3 h-3 opacity-60 group-hover:opacity-100" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" /></svg>Château de Robernier Review</button>
+                                <button class="group text-fws-dark hover:text-fws-green transition-all duration-300 py-1 text-[10px] font-bold tracking-[0.2em] uppercase flex items-center gap-2 border-b border-transparent hover:border-fws-green/30"><svg class="w-3 h-3 text-fws-green group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" /></svg>Château de Robernier Real Wedding</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Authentic Bastides & Mas -->
+                <div>
+                    <h3 class="text-2xl text-fws-green mb-4">Authentic Bastides &amp; Mas</h3>
+                    <p class="text-fws-grey text-sm font-light leading-relaxed mb-8 max-w-3xl">A "Mas" or "Bastide" offers an intimate and earthy luxury. These traditional stone farmhouses and manor houses are perfect for long, family-style dinners under the shade of plane trees.</p>
+                    <!-- Bastide Saint-Mathieu -->
+                    <div class="flex flex-col space-y-6 venue-card" id="5">
+                        <div class="text-center md:text-left">
+                            <h2 class="text-3xl md:text-4xl lg:text-5xl text-fws-dark mb-1 leading-tight">Bastide Saint-Mathieu</h2>
+                            <p class="text-fws-green text-[10px] tracking-[0.4em] font-bold uppercase font-sans">Grasse</p>
+                        </div>
+                        <div class="max-w-4xl"><p class="text-fws-grey text-sm font-light leading-relaxed">A charming 18th-century manor house located near the perfume capital of Grasse, known for its warm atmosphere and exquisite cuisine prepared with local seasonal ingredients. The venue features a classic courtyard shaded by century-old plane trees, ideal for a traditional long-table Provencal wedding breakfast under fairy lights.</p></div>
+                        <div class="w-full overflow-hidden shadow-lg rounded-sm"><div class="aspect-[16/9] overflow-hidden bg-fws-light relative"><img src="https://images.unsplash.com/photo-1505944270255-bd2b68af642d?q=80&w=2000&auto=format&fit=crop" alt="Bastide Saint-Mathieu" class="w-full h-full object-cover venue-img" loading="lazy" /><span class="absolute bottom-2 right-2 text-[8px] uppercase tracking-widest text-white/40 pointer-events-none select-none">Photo credit</span></div></div>
+                        <div class="max-w-xl"><div class="border border-fws-green/20 rounded-lg overflow-hidden bg-white shadow-sm"><table class="w-full text-left border-collapse"><tbody class="divide-y divide-fws-green/10">
+                            <tr class="hover:bg-fws-light/30 transition-colors"><th class="w-[100px] py-2 px-2 bg-fws-light text-[8px] font-bold tracking-[0.2em] text-fws-dark uppercase border-r border-fws-green/10 align-middle whitespace-nowrap">Best For</th><td class="py-2 px-4 text-xs font-sans font-medium text-fws-grey tracking-tight align-middle">Authentic &amp; Provençal</td></tr>
+                            <tr class="hover:bg-fws-light/30 transition-colors"><th class="py-2 px-2 bg-fws-light text-[8px] font-bold tracking-[0.2em] text-fws-dark uppercase border-r border-fws-green/10 align-middle whitespace-nowrap">Hire Price</th><td class="py-2 px-4 text-xs font-sans font-bold text-fws-green align-middle">€9,000 / 2 nights</td></tr>
+                            <tr class="hover:bg-fws-light/30 transition-colors"><th class="py-2 px-2 bg-fws-light text-[8px] font-bold tracking-[0.2em] text-fws-dark uppercase border-r border-fws-green/10 align-middle whitespace-nowrap">Capacity</th><td class="py-2 px-4 text-xs font-sans font-medium text-fws-grey align-middle">120 guests</td></tr>
+                            <tr class="hover:bg-fws-light/30 transition-colors"><th class="py-2 px-2 bg-fws-light text-[8px] font-bold tracking-[0.2em] text-fws-dark uppercase border-r border-fws-green/10 align-middle whitespace-nowrap">Airport</th><td class="py-2 px-4 text-xs font-sans font-medium text-fws-grey italic align-middle">Nice (35 mins)</td></tr>
+                        </tbody></table></div></div>
+                        <div class="flex flex-wrap items-center gap-x-8 gap-y-3 pt-2">
+                            <button class="group text-fws-dark hover:text-fws-green transition-all duration-300 py-1 text-[10px] font-bold tracking-[0.2em] uppercase flex items-center gap-2 border-b border-transparent hover:border-fws-green/30"><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>Explore Bastide Saint-Mathieu</button>
+                            <button class="group text-fws-grey hover:text-fws-green transition-all duration-300 py-1 text-[10px] font-bold tracking-[0.2em] uppercase flex items-center gap-2 border-b border-transparent hover:border-fws-green/30"><svg class="w-3 h-3 opacity-60 group-hover:opacity-100" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" /></svg>Bastide Saint-Mathieu Review</button>
+                            <button class="group text-fws-dark hover:text-fws-green transition-all duration-300 py-1 text-[10px] font-bold tracking-[0.2em] uppercase flex items-center gap-2 border-b border-transparent hover:border-fws-green/30"><svg class="w-3 h-3 text-fws-green group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" /></svg>Bastide Saint-Mathieu Real Wedding</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Coastal & Cliffside -->
+                <div>
+                    <h3 class="text-2xl text-fws-green mb-4">Coastal &amp; Cliffside</h3>
+                    <p class="text-fws-grey text-sm font-light leading-relaxed mb-5 max-w-3xl">Embrace the sea with venues that cling to the dramatic cliffs of the Calanques or sit right on the water's edge.</p>
+                    <!-- Domaine de Canaille -->
+                    <div class="flex flex-col space-y-6 venue-card" id="3">
+                        <div class="text-center md:text-left">
+                            <h2 class="text-3xl md:text-4xl lg:text-5xl text-fws-dark mb-1 leading-tight">Domaine de Canaille</h2>
+                            <p class="text-fws-green text-[10px] tracking-[0.4em] font-bold uppercase font-sans">Cassis</p>
+                        </div>
+                        <div class="max-w-4xl"><p class="text-fws-grey text-sm font-light leading-relaxed">A cliffside gem overlooking the Mediterranean, perfect for intimate weddings with a modern, chic aesthetic. The infinity pool and dramatic limestone backdrop provide unparalleled photo opportunities. This private estate offers total seclusion and a minimalist architectural style that allows the natural beauty of the Calanques to take center stage.</p></div>
+                        <div class="w-full overflow-hidden shadow-lg rounded-sm"><div class="aspect-[16/9] overflow-hidden bg-fws-light relative"><img src="https://images.unsplash.com/photo-1544971582-674ca6b7b743?q=80&w=2000&auto=format&fit=crop" alt="Domaine de Canaille" class="w-full h-full object-cover venue-img" loading="lazy" /><span class="absolute bottom-2 right-2 text-[8px] uppercase tracking-widest text-white/40 pointer-events-none select-none">Photo credit</span></div></div>
+                        <div class="max-w-xl"><div class="border border-fws-green/20 rounded-lg overflow-hidden bg-white shadow-sm"><table class="w-full text-left border-collapse"><tbody class="divide-y divide-fws-green/10">
+                            <tr class="hover:bg-fws-light/30 transition-colors"><th class="w-[100px] py-2 px-2 bg-fws-light text-[8px] font-bold tracking-[0.2em] text-fws-dark uppercase border-r border-fws-green/10 align-middle whitespace-nowrap">Best For</th><td class="py-2 px-4 text-xs font-sans font-medium text-fws-grey tracking-tight align-middle">Cliffside &amp; Modernity</td></tr>
+                            <tr class="hover:bg-fws-light/30 transition-colors"><th class="py-2 px-2 bg-fws-light text-[8px] font-bold tracking-[0.2em] text-fws-dark uppercase border-r border-fws-green/10 align-middle whitespace-nowrap">Hire Price</th><td class="py-2 px-4 text-xs font-sans font-bold text-fws-green align-middle">€15,000 / 3 nights</td></tr>
+                            <tr class="hover:bg-fws-light/30 transition-colors"><th class="py-2 px-2 bg-fws-light text-[8px] font-bold tracking-[0.2em] text-fws-dark uppercase border-r border-fws-green/10 align-middle whitespace-nowrap">Capacity</th><td class="py-2 px-4 text-xs font-sans font-medium text-fws-grey align-middle">80 guests</td></tr>
+                            <tr class="hover:bg-fws-light/30 transition-colors"><th class="py-2 px-2 bg-fws-light text-[8px] font-bold tracking-[0.2em] text-fws-dark uppercase border-r border-fws-green/10 align-middle whitespace-nowrap">Airport</th><td class="py-2 px-4 text-xs font-sans font-medium text-fws-grey italic align-middle">Marseille (40 mins)</td></tr>
+                        </tbody></table></div></div>
+                        <div class="flex flex-wrap items-center gap-x-8 gap-y-3 pt-2">
+                            <button class="group text-fws-dark hover:text-fws-green transition-all duration-300 py-1 text-[10px] font-bold tracking-[0.2em] uppercase flex items-center gap-2 border-b border-transparent hover:border-fws-green/30"><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>Explore Domaine de Canaille</button>
+                            <button class="group text-fws-grey hover:text-fws-green transition-all duration-300 py-1 text-[10px] font-bold tracking-[0.2em] uppercase flex items-center gap-2 border-b border-transparent hover:border-fws-green/30"><svg class="w-3 h-3 opacity-60 group-hover:opacity-100" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" /></svg>Domaine de Canaille Review</button>
+                            <button class="group text-fws-dark hover:text-fws-green transition-all duration-300 py-1 text-[10px] font-bold tracking-[0.2em] uppercase flex items-center gap-2 border-b border-transparent hover:border-fws-green/30"><svg class="w-3 h-3 text-fws-green group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" /></svg>Domaine de Canaille Real Wedding</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Cost Section -->
+        <section id="cost" class="bg-fws-light p-10 md:p-14 border-y border-fws-green/10">
+            <h2 class="text-3xl md:text-4xl lg:text-5xl text-fws-dark mb-8 text-center">The Real Cost of a South of France Wedding</h2>
+            <div class="max-w-3xl mx-auto text-sm text-fws-grey font-light leading-relaxed mb-12 text-center">
+                <p>While the region is known for luxury, the cost of a wedding varies significantly based on your "Big Three": Venue, Catering, and Accommodation. Below is a detailed breakdown of what to expect for a standard 100-guest wedding in high season.</p>
+            </div>
+            <!-- Price Category Grid -->
+            <div class="grid md:grid-cols-3 gap-8 mb-16">
+                <div class="bg-white p-6 rounded-lg shadow-sm border-t-4 border-fws-green/30">
+                    <h4 class="text-fws-green font-bold text-[10px] uppercase tracking-[0.2em] mb-4">The "Chic Boutique"</h4>
+                    <div class="space-y-4">
+                        <div>
+                            <p class="text-fws-dark font-serif text-lg leading-tight">€15k - €30k Total</p>
+                            <p class="text-[10px] text-fws-grey italic">Ideal for: Bastides &amp; Intimate Mas</p>
+                        </div>
+                        <ul class="text-xs text-fws-grey space-y-2 list-disc pl-4 font-sans">
+                            <li>Venue Hire: €5k - €10k / 2 nights</li>
+                            <li>Catering: €150 - €180 per head</li>
+                            <li>Simple local florals &amp; DIY decor</li>
+                            <li>Local DJ &amp; Acoustic Duo</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-md border-t-4 border-fws-green relative scale-105 z-10">
+                    <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-fws-green text-white text-[8px] font-bold px-4 py-1.5 rounded-full uppercase tracking-widest">Most Popular</div>
+                    <h4 class="text-fws-green font-bold text-[10px] uppercase tracking-[0.2em] mb-4">The "Heritage Grandeur"</h4>
+                    <div class="space-y-4">
+                        <div>
+                            <p class="text-fws-dark font-serif text-xl leading-tight">€45k - €75k Total</p>
+                            <p class="text-[10px] text-fws-grey italic">Ideal for: Classic Chateaux</p>
+                        </div>
+                        <ul class="text-xs text-fws-grey space-y-2 list-disc pl-4 font-sans">
+                            <li>Venue Hire: €12k - €20k / 3 nights</li>
+                            <li>Catering: €200 - €250 per head</li>
+                            <li>Full planning service included</li>
+                            <li>Multi-day events (Brunch etc)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm border-t-4 border-fws-green/30">
+                    <h4 class="text-fws-green font-bold text-[10px] uppercase tracking-[0.2em] mb-4">The "Ultra Luxe"</h4>
+                    <div class="space-y-4">
+                        <div>
+                            <p class="text-fws-dark font-serif text-lg leading-tight">€100k+ Total</p>
+                            <p class="text-[10px] text-fws-grey italic">Ideal for: Cap-Ferrat Palaces</p>
+                        </div>
+                        <ul class="text-xs text-fws-grey space-y-2 list-disc pl-4 font-sans">
+                            <li>Venue Buyouts: €35k+ / 3 nights</li>
+                            <li>Michelin-standard catering</li>
+                            <li>High-end production &amp; lighting</li>
+                            <li>Guest concierge services</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Hidden Costs & Seasonal Grid -->
+            <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-12 pt-10 border-t border-fws-green/10">
+                <div>
+                    <h3 class="text-fws-dark text-2xl mb-4">Common "Hidden" Expenses</h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-start gap-3">
+                            <svg class="w-4 h-4 text-fws-green mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg>
+                            <p class="text-sm text-fws-grey leading-relaxed"><span class="text-fws-dark font-bold">SACEM Tax:</span> The French music rights fee. Often around €150-€300 depending on guest count and music type.</p>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-4 h-4 text-fws-green mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg>
+                            <p class="text-sm text-fws-grey leading-relaxed"><span class="text-fws-dark font-bold">Security &amp; Cleaning:</span> Historic chateaux often require a mandatory security guard and professional cleaning crew fee (€500-€1,200).</p>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-4 h-4 text-fws-green mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg>
+                            <p class="text-sm text-fws-grey leading-relaxed"><span class="text-fws-dark font-bold">Electricity Surcharge:</span> If you are bringing in heavy production (stage lighting, sound), some older estates charge for power consumption.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-fws-dark text-2xl mb-4">Seasonal Savings</h3>
+                    <p class="text-sm text-fws-grey leading-relaxed mb-4 font-light">To maximize your budget, consider the <span class="text-fws-green font-bold italic">"Shoulder Seasons"</span>.</p>
+                    <div class="space-y-4">
+                        <div class="flex justify-between items-center text-[10px] font-bold tracking-widest uppercase border-b border-fws-green/10 pb-2">
+                            <span class="text-fws-dark">High Season (July - Aug)</span>
+                            <span class="text-fws-green">100% Price</span>
+                        </div>
+                        <div class="flex justify-between items-center text-[10px] font-bold tracking-widest uppercase border-b border-fws-green/10 pb-2">
+                            <span class="text-fws-dark">Mid Season (June / Sept)</span>
+                            <span class="text-fws-green">85% - 90% Price</span>
+                        </div>
+                        <div class="flex justify-between items-center text-[10px] font-bold tracking-widest uppercase border-b border-fws-green/10 pb-2">
+                            <span class="text-fws-dark">Low Season (Oct - May)</span>
+                            <span class="text-fws-green">60% - 75% Price</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Expert Tips -->
+        <section id="expert-tips">
+            <h2 class="text-3xl md:text-4xl lg:text-5xl text-fws-dark mb-8">Expert Tips for Your Paris Wedding</h2>
+            <div class="grid md:grid-cols-2 gap-x-12 gap-y-12">
+                <div class="space-y-3">
+                    <div class="flex items-center gap-3">
+                        <span class="w-8 h-8 rounded-full bg-fws-green/10 text-fws-green flex items-center justify-center font-bold text-xs">1</span>
+                        <h4 class="text-base font-bold text-fws-dark">The "Sunrise" Portrait Session</h4>
+                    </div>
+                    <p class="text-sm text-fws-grey font-light leading-relaxed">To get those iconic, empty shots at the Louvre or Trocadéro, you must shoot at sunrise.</p>
+                </div>
+                <div class="space-y-3">
+                    <div class="flex items-center gap-3">
+                        <span class="w-8 h-8 rounded-full bg-fws-green/10 text-fws-green flex items-center justify-center font-bold text-xs">2</span>
+                        <h4 class="text-base font-bold text-fws-dark">Think Vertically for Views</h4>
+                    </div>
+                    <p class="text-sm text-fws-grey font-light leading-relaxed">Many of the best Eiffel Tower views are from private terraces.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bride's Tip Block -->
+        <div class="max-w-4xl mx-auto my-12">
+            <div class="bg-fws-light/40 border-2 border-fws-green/10 p-8 md:p-12 rounded-lg relative text-center">
+                <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-white px-6 py-1 border border-fws-green/30 rounded-full shadow-sm flex items-center gap-3">
+                    <svg class="w-4 h-4 text-fws-green" fill="currentColor" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" /></svg>
+                    <span class="text-[10px] font-bold tracking-[0.3em] text-fws-green uppercase">Bride's Tip</span>
+                </div>
+                <h3 class="text-2xl md:text-3xl text-fws-dark mb-6 mt-4">The "Secret" Parisian Golden Hour</h3>
+                <p class="text-base md:text-lg text-fws-grey italic font-serif leading-relaxed max-w-2xl mx-auto">"If you are planning an outdoor ceremony in a Parisian garden, aim for an early evening start. The light reflects off the limestone buildings in a way that turns the city a soft, powdery pink."</p>
+            </div>
+        </div>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="border-t border-fws-green/20 pt-16">
+            <h2 class="text-3xl md:text-4xl lg:text-5xl text-fws-dark mb-12 text-center italic">Comprehensive FAQ</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-fws-light p-8 rounded-lg shadow-sm">
+                    <h4 class="text-sm font-bold text-fws-dark mb-3">Can foreigners legally marry in France?</h4>
+                    <p class="text-sm text-fws-grey font-light leading-relaxed italic">Legally, one partner must reside in the town for at least 40 days prior to the wedding. Consequently, 99% of destination couples choose to have a simple civil ceremony in their home country and then host a stunning "Symbolic Ceremony" or religious blessing in France.</p>
+                </div>
+                <div class="bg-fws-light p-8 rounded-lg shadow-sm">
+                    <h4 class="text-sm font-bold text-fws-dark mb-3">What is a "Plan B" and do I need one?</h4>
+                    <p class="text-sm text-fws-grey font-light leading-relaxed italic">Even in the sunny South, rain can happen. A proper "Plan B" is an indoor space or high-quality marquee that can fit your entire guest list for both the ceremony and dinner. Never book a venue that doesn't have a backup space you genuinely love.</p>
+                </div>
+                <div class="bg-fws-light p-8 rounded-lg shadow-sm">
+                    <h4 class="text-sm font-bold text-fws-dark mb-3">Do venues have noise curfews?</h4>
+                    <p class="text-sm text-fws-grey font-light leading-relaxed italic">Yes. Many venues located near villages have a 2 AM music limit. If you plan to party until sunrise, look for isolated "Mas" or larger private estates like Château de Robernier which are more flexible with late-night celebrations.</p>
+                </div>
+                <div class="bg-fws-light p-8 rounded-lg shadow-sm">
+                    <h4 class="text-sm font-bold text-fws-dark mb-3">How much should I budget per guest?</h4>
+                    <p class="text-sm text-fws-grey font-light leading-relaxed italic">For mid-to-high-end weddings in this region, expect a total investment of €1,500–€2,500 per guest. This typically covers the venue, premium catering, open bar, florals, photography, and the full multi-day event experience.</p>
+                </div>
+                <div class="bg-fws-light p-8 rounded-lg shadow-sm">
+                    <h4 class="text-sm font-bold text-fws-dark mb-3">Is it easy for guests to travel here?</h4>
+                    <p class="text-sm text-fws-grey font-light leading-relaxed italic">Extremely. Marseille (MRS) and Nice (NCE) airports serve most major international hubs. The high-speed TGV train also connects Paris to Avignon or Aix-en-Provence in under 3 hours, making it very accessible for guests coming from the capital.</p>
+                </div>
+                <div class="bg-fws-light p-8 rounded-lg shadow-sm">
+                    <h4 class="text-sm font-bold text-fws-dark mb-3">Should I hire a local wedding planner?</h4>
+                    <p class="text-sm text-fws-grey font-light leading-relaxed italic">Unless you speak fluent French and have significant experience in event production, yes. A local planner will have established relationships with vendors, understand local contracts, and manage the complex logistics of a destination wedding.</p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+</main>
+</div>
+
+</body>
+</html>

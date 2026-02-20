@@ -1,0 +1,541 @@
+{
+  "overview": {
+    "min_price_eur": null,
+    "max_guests": 200,
+    "min_guests": null,
+    "max_sleeping_guests": 14,
+    "total_bedrooms": 5,
+    "estate_size_hectares": 6
+  },
+
+  "identity": {
+    "venue_name": "Chateau Sainte Cecile",
+    "venue_type": "chateau",
+    "venue_subtype": "chambres-d-hotes",
+    "tagline": null,
+    "short_description": "A magnificent Venetian folly in the heart of Occitanie, featuring Florentine architecture, Mediterranean gardens, and Italian opera-themed guest rooms, set in 6 hectares of parkland near the Canal du Midi.",
+    "exclusivity_model": "full_exclusivity",
+    "owner_names": null,
+    "management_company": "SARL Sainte Cecile",
+    "network_membership": null,
+    "media_features": null,
+    "filming_credits": null,
+    "certifications": null,
+    "google_rating": 4.6,
+    "google_review_count": 136,
+    "languages_spoken": ["French", "English"]
+  },
+
+  "location": {
+    "address": {
+      "street": "D13 E16 route de la Solenciere",
+      "city": "Saint-Thibery",
+      "postal_code": "34630",
+      "department": "Herault",
+      "country": "France"
+    },
+    "gps_coordinates": {
+      "latitude": 43.40882,
+      "longitude": 3.412971
+    },
+    "region": "Occitanie",
+    "sub_region": "Languedoc",
+    "natural_park": null,
+    "nearest_city": {
+      "name": "Montpellier",
+      "distance_text": "30 minutes by car"
+    },
+    "nearest_cities": [
+      { "name": "Montpellier", "distance_text": "30 minutes" },
+      { "name": "Beziers", "distance_text": "nearby" },
+      { "name": "Pezenas", "distance_text": "nearby" }
+    ],
+    "nearest_airports": [
+      { "name": "Montpellier-Mediterranee Airport", "distance_text": "30 minutes" }
+    ],
+    "nearest_train_stations": [
+      { "name": "Montpellier Saint-Roch TGV", "distance_text": "30 minutes" }
+    ],
+    "motorway_access": "A9, exit no. 34, direction Pezenas via D13; or A75, N9 and D13 direction Agde",
+    "distance_to_paris": "3 hours by TGV from Montpellier",
+    "distance_to_coast": "10 km to the Mediterranean (Cap d'Agde, Marseillan)",
+    "nearby_villages": ["Pezenas", "Valros", "Montblanc", "Nezignan-l'Eveque"],
+    "nearby_attractions": ["Canal du Midi", "Cap d'Agde", "Pezenas historic town", "Etang de Thau"],
+    "landscape_description": "Surrounded by vineyards in the Herault valley, along the banks of the Herault river and near the Canal du Midi",
+    "shuttle_service_available": null
+  },
+
+  "history": {
+    "construction_period": "18th century",
+    "construction_year": null,
+    "architectural_style": "Italian Renaissance / Venetian folly with Florentine facade",
+    "architect": null,
+    "listed_monument_status": null,
+    "historical_families": ["Saint-Exupery family"],
+    "notable_historical_guests": null,
+    "historical_narrative": "The origins of the bastide date back to the 18th century. Originally a 'maison des champs' (country house) for holiday retreats, the estate later served as a wine-producing chateau, silkworm farm, and alcohol distillery. The surrounding vineyards were planted with the celebrated Saint Aramon grape variety, which made the fortune of local wine-estate owners. Some castellated their buildings, and Chateau Sainte Cecile was transformed into one of the most beautiful architectural follies of the Languedoc-Roussillon region. A magnificent Venetian folly, it became the property of several families, the most famous being the Saint-Exupery family.",
+    "notable_architectural_features": ["Florentine facade", "Corinthian columns", "Terrazza with Venetian lions", "Cascading balustrade staircases", "Florentine loggia", "Mediterranean patio with centuries-old olive tree", "Lava-stone baker's oven", "Majestic portal"],
+    "renovation_history": null,
+    "literary_cultural_associations": ["Antoine de Saint-Exupery (writer and national hero)", "Located on the ancient Via Domitia"]
+  },
+
+  "spaces": [
+    {
+      "name": "French-Style Courtyard",
+      "setting": "outdoor",
+      "area_sqm": 500,
+      "capacity_seated": null,
+      "capacity_cocktail": 200,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["cocktail", "vin_d_honneur"],
+      "notable_features": ["Majestic portal entrance", "French formal garden"],
+      "description": "The 500m2 French-style courtyard, accessed through the majestic portal, opens onto the bastide and its French garden. Ideal for cocktails and vin d'honneur.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "6-Hectare Park",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": 200,
+      "capacity_cocktail": null,
+      "capacity_ceremony": 200,
+      "rental_fee_eur": null,
+      "suitable_for": ["ceremony", "dinner", "photos"],
+      "notable_features": ["Splendid green setting", "Chestnut trees", "Faces the chateau"],
+      "description": "The 6-hectare park facing the chateau, retaining all its naturalness and offering a unique sensation where time seems to have stood still. Suitable for outdoor ceremonies and dinners.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Prestige Vaulted Room",
+      "setting": "indoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dinner"],
+      "notable_features": ["Vaulted ceiling"],
+      "description": "The prestige vaulted room, perfectly suited as an evening meal room.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "The Stable Room",
+      "setting": "indoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["reception"],
+      "notable_features": null,
+      "description": "A reception room within the estate, available for events.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Mediterranean Patio",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["breakfast", "relaxation"],
+      "notable_features": ["Centuries-old olive tree", "Adjacent to former bakery with lava-stone oven"],
+      "description": "A Mediterranean patio accessed through an almost secret passage, shaded by a magnificent centuries-old olive tree. Used for breakfast service.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Terrazza and Loggia",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["ceremony", "cocktail", "photos"],
+      "notable_features": ["Corinthian columns", "Venetian lions", "Balustrade staircases", "Florentine loggia"],
+      "description": "The Florentine loggia and terrazza with Venetian lions, featuring Corinthian columns and cascading balustrade staircases.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Chapel of Serenity",
+      "setting": "indoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["ceremony"],
+      "notable_features": ["Described as discreet and exquisite"],
+      "description": "A small chapel called 'Serenity' located facing the French courtyard.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    }
+  ],
+
+  "accommodation": {
+    "on_site_accommodation": true,
+    "total_bedrooms": 5,
+    "total_sleeping_capacity": 14,
+    "mandatory_accommodation_purchase": null,
+    "mandatory_accommodation_details": null,
+    "bridal_suite": true,
+    "bridal_suite_description": "The estate offers a bridal suite for the newlyweds, spacious and beautifully decorated with comfort and tranquility.",
+    "preparation_rooms": null,
+    "buildings": [
+      {
+        "name": "Le Chateau",
+        "building_type": "chateau",
+        "bedrooms": 4,
+        "sleeping_capacity": 10,
+        "price_per_night_eur": null,
+        "description": "The main chateau building with a first-floor grand corridor serving several rooms and a suite, each named after Italian operas in tribute to Sainte Cecile. All rooms feature TV, WiFi, air conditioning, non-smoking policy, bathtub and shower. Breakfast included.",
+        "has_kitchen": false,
+        "has_living_area": null,
+        "has_private_garden": false,
+        "rooms": [
+          {
+            "name": "La Chambre Tosca",
+            "room_type": "double",
+            "capacity_persons": 2,
+            "bed_configuration": "1 King bed",
+            "area_sqm": null,
+            "en_suite": true,
+            "bathroom_type": "Shower and claw-foot bronze bathtub",
+            "view": "Garden view with terrace access",
+            "has_terrace": true,
+            "air_conditioned": true,
+            "accessible": null,
+            "price_per_night_eur": null
+          },
+          {
+            "name": "La Chambre Traviata",
+            "room_type": "double",
+            "capacity_persons": 2,
+            "bed_configuration": "1 King bed",
+            "area_sqm": null,
+            "en_suite": true,
+            "bathroom_type": "Shower and claw-foot bronze bathtub",
+            "view": "Garden view with terrace access",
+            "has_terrace": true,
+            "air_conditioned": true,
+            "accessible": null,
+            "price_per_night_eur": null
+          },
+          {
+            "name": "La Chambre Aida",
+            "room_type": "double",
+            "capacity_persons": 2,
+            "bed_configuration": "1 King bed",
+            "area_sqm": null,
+            "en_suite": true,
+            "bathroom_type": "Shower and claw-foot bronze bathtub",
+            "view": "Garden view - French gardens of the chateau",
+            "has_terrace": false,
+            "air_conditioned": true,
+            "accessible": null,
+            "price_per_night_eur": null
+          },
+          {
+            "name": "La Suite Carmen",
+            "room_type": "family_suite",
+            "capacity_persons": 4,
+            "bed_configuration": "1 King bed + 2 Single beds",
+            "area_sqm": null,
+            "en_suite": true,
+            "bathroom_type": "Shower and claw-foot bronze bathtub",
+            "view": "Garden view - French gardens of the chateau",
+            "has_terrace": false,
+            "air_conditioned": true,
+            "accessible": null,
+            "price_per_night_eur": null
+          }
+        ]
+      },
+      {
+        "name": "Le Gite du Parc",
+        "building_type": "gite",
+        "bedrooms": 2,
+        "sleeping_capacity": 4,
+        "price_per_night_eur": null,
+        "description": "A charming pavilion situated in the heart of the chateau's park. Self-catering cottage with two bedrooms, two private bathrooms, equipped kitchen, outdoor terrace, living room and dining area. Towels and linens provided.",
+        "has_kitchen": true,
+        "has_living_area": true,
+        "has_private_garden": true,
+        "rooms": [
+          {
+            "name": "Ground Floor Bedroom",
+            "room_type": "double",
+            "capacity_persons": 2,
+            "bed_configuration": "1 Double bed",
+            "area_sqm": null,
+            "en_suite": true,
+            "bathroom_type": "Private bathroom",
+            "view": "Garden view",
+            "has_terrace": false,
+            "air_conditioned": true,
+            "accessible": null,
+            "price_per_night_eur": null
+          },
+          {
+            "name": "Upstairs Bedroom",
+            "room_type": "twin",
+            "capacity_persons": 2,
+            "bed_configuration": "2 Single beds",
+            "area_sqm": null,
+            "en_suite": true,
+            "bathroom_type": "Private bathroom",
+            "view": "Garden view",
+            "has_terrace": false,
+            "air_conditioned": true,
+            "accessible": null,
+            "price_per_night_eur": null
+          }
+        ]
+      }
+    ],
+    "room_amenities_common": ["WiFi", "TV", "air conditioning", "bathtub", "shower", "hairdryer", "wardrobe", "towels and linens"],
+    "air_conditioning": true,
+    "breakfast_included": true,
+    "breakfast_details": "Breakfast served beneath the centuries-old olive tree in the Mediterranean patio. Included with all room bookings.",
+    "breakfast_price_per_person_eur": null,
+    "dormitory_available": false,
+    "dormitory_beds": null,
+    "nearby_accommodation": null,
+    "partner_hotel": null
+  },
+
+  "pricing": {
+    "pricing_model": null,
+    "starting_price_eur": null,
+    "starting_price_description": null,
+    "prices_include_tax": null,
+    "vat_rate_percentage": null,
+    "tourist_tax_note": null,
+    "pricing_year": null,
+    "seasonal_pricing": null,
+    "packages": null,
+    "catering_cost_per_person_eur": null,
+    "children_catering_price_eur": null,
+    "children_pricing_age_range": null,
+    "drinks_cost_per_person_eur": null,
+    "brunch_cost_per_person_eur": null,
+    "brunch_venue_fee_eur": null,
+    "welcome_dinner_cost_eur": null,
+    "minimum_nights": null,
+    "additional_night_rate_eur": null,
+    "extended_hour_rate_eur": null,
+    "rental_period_description": "Weekend rental available",
+    "deposit_percentage": null,
+    "deposit_amount_eur": null,
+    "deposit_refundable": null,
+    "security_deposit_eur": null,
+    "security_deposit_return_days": null,
+    "payment_schedule": null,
+    "payment_methods": null,
+    "cancellation_policy": null,
+    "cleaning_fee_eur": null,
+    "security_guard_cost_eur": null,
+    "coordinator_cost_eur": null,
+    "price_includes": null,
+    "price_excludes": null,
+    "price_extras": null
+  },
+
+  "catering": {
+    "catering_model": "recommended_list",
+    "in_house_chef": null,
+    "recommended_caterers": null,
+    "cuisine_style": null,
+    "dietary_accommodations": null,
+    "professional_kitchen": null,
+    "kitchen_size_sqm": null,
+    "on_site_restaurant": null,
+    "brunch_available": true,
+    "brunch_description": "Next-day brunch in the shade of the chestnut trees. Options include homemade, caterer, or food truck.",
+    "late_night_food_available": null,
+    "pre_wedding_dinner": null,
+    "tasting_meal_included": null,
+    "wedding_cake": null
+  },
+
+  "drinks": {
+    "corkage_fee": null,
+    "corkage_fee_amount_eur": null,
+    "byo_wine_allowed": null,
+    "mandatory_venue_drinks": null,
+    "venue_wine_requirement": null,
+    "on_site_wine_production": false,
+    "wine_appellation": null,
+    "bar_service_description": null,
+    "wine_cellar": null
+  },
+
+  "vendor_rules": {
+    "vendor_freedom": "recommended_list",
+    "preferred_vendor_list_available": true,
+    "vendor_categories_recommended": ["caterers", "florists", "decorators", "furniture rental", "wedding planners", "musicians", "photographers", "beauty services"],
+    "in_house_services": null,
+    "wedding_planner_available": "recommended",
+    "wedding_planner_mandatory": null,
+    "wedding_planner_name": null,
+    "non_approved_vendor_fee": null,
+    "day_of_coordinator_provided": null,
+    "dedicated_project_manager": null
+  },
+
+  "ceremony": {
+    "ceremony_types": ["secular"],
+    "licensed_for_civil_marriage": null,
+    "chapel_on_site": true,
+    "chapel_details": "A small chapel called 'Serenity', described as discreet and exquisite, located facing the French courtyard.",
+    "nearby_church": null,
+    "outdoor_ceremony_locations": ["In front of the chateau facing the park", "6-hectare park grounds"],
+    "rain_backup_plan": null,
+    "celebrant_available": null,
+    "elopement_option": null
+  },
+
+  "amenities": {
+    "swimming_pool": false,
+    "pool_count": 0,
+    "pool_details": null,
+    "hot_tub_jacuzzi": null,
+    "spa": false,
+    "spa_details": "Massage services available by reservation with wellness practitioner Anne Sophie Rodriguez. Organic massage oil. Themes: escape, soothing, vitality.",
+    "tennis_court": false,
+    "petanque_court": null,
+    "gym_fitness": false,
+    "games_room": null,
+    "library": null,
+    "cinema_room": null,
+    "grand_piano": null,
+    "children_playground": null,
+    "helipad": null,
+    "gardens_description": "6 hectares of parkland including a French-style formal garden with 500m2 courtyard, Mediterranean patio with centuries-old olive tree, bucolic garden in the shade of trees, terraces, and Florentine loggia with terrazza.",
+    "garden_style": "French formal with Mediterranean elements",
+    "vineyard_on_site": true,
+    "olive_groves": false,
+    "lake_pond": false,
+    "forest_woodland": false,
+    "notable_trees": ["Centuries-old olive tree in the Mediterranean patio", "Chestnut trees"],
+    "fountain_water_feature": null,
+    "orangery": false,
+    "dovecote": false,
+    "greenhouse": false
+  },
+
+  "activities": {
+    "on_site_activities": ["wine tasting", "vineyard picnic", "massage treatments", "garden walks"],
+    "nearby_activities": ["Beach (10 km - Cap d'Agde, Marseillan)", "Golf International du Cap d'Agde", "Golf International Saint Thomas Beziers", "Tennis International du Cap d'Agde", "Hiking in the hinterland", "Canal du Midi walks", "Pezenas historic town visit", "Cap d'Agde nautical base", "Canyoning", "Water games", "Pezenas flea markets"],
+    "wine_tasting_on_site": true,
+    "cooking_workshops": null,
+    "excursions_organized": null,
+    "excursion_destinations": null,
+    "fireworks_available": null,
+    "fireworks_details": null
+  },
+
+  "technical": {
+    "wifi_available": true,
+    "sound_system_provided": null,
+    "av_equipment": null,
+    "furniture_provided": null,
+    "furniture_details": null,
+    "decoration_services": null,
+    "marquee_tent_available": null,
+    "marquee_size_sqm": null,
+    "backup_generator": null,
+    "ev_charging_stations": null,
+    "climate_control": "Air conditioning in all accommodations"
+  },
+
+  "accessibility": {
+    "wheelchair_accessible": null,
+    "accessible_rooms_count": null,
+    "elevator": null,
+    "pmr_parking": null,
+    "accessibility_details": null
+  },
+
+  "sustainability": {
+    "eco_certifications": null,
+    "eco_practices": null
+  },
+
+  "parking": {
+    "parking_available": null,
+    "parking_spaces": null,
+    "parking_type": null,
+    "vendor_parking_separate": null
+  },
+
+  "policies": {
+    "curfew_time": null,
+    "outdoor_music_curfew": null,
+    "indoor_music_curfew": null,
+    "no_curfew": null,
+    "noise_restrictions": null,
+    "setup_access_time": null,
+    "teardown_deadline": null,
+    "tent_marquee_policy": null,
+    "confetti_policy": null,
+    "candle_policy": null,
+    "event_insurance_required": null,
+    "event_insurance_cost_eur": null,
+    "portable_toilets_policy": null,
+    "lifeguard_required": null,
+    "babysitter_mandatory": null,
+    "pet_policy": null,
+    "child_friendly": null,
+    "baby_facilities": null,
+    "children_area": null,
+    "babysitter_available": null,
+    "lgbtq_friendly": null,
+    "all_faiths_welcome": null,
+    "security_guard_policy": null,
+    "events_per_year_limit": null,
+    "check_in_time": null,
+    "check_out_time": null
+  },
+
+  "contact": {
+    "phone_primary": "+33 6 47 48 99 11",
+    "phone_secondary": null,
+    "email_primary": "contact@chateausaintececile.fr",
+    "email_secondary": null,
+    "website_url": "https://www.chateausaintececile.fr",
+    "instagram": "@chateausaintececile",
+    "facebook": "chateau.saintececile.5",
+    "other_social_media": null,
+    "whatsapp": null,
+    "contact_person": "Madame/Monsieur Cammarata (Director)",
+    "phone_hours": null,
+    "brochure_url": null,
+    "virtual_tour_url": null
+  },
+
+  "event_types": ["weddings", "birthday parties", "baptisms", "corporate seminars", "conferences", "product launches", "film shoots", "photo shoots", "family reunions"],
+
+  "wedding_day_details": {
+    "typical_timeline": "Ceremony in front of the chateau, cocktails/vin d'honneur in the 500m2 French-style courtyard, dinner in the park facing the chateau or in a reception room, next-day brunch in the shade of the chestnut trees.",
+    "typical_weekend_flow": "Saturday: ceremony surrounded by loved ones facing the chateau, cocktails in the French courtyard, dinner in the park or reception rooms, party begins. Sunday: brunch under the chestnut trees (homemade, caterer, or food truck options).",
+    "multi_day_event": true,
+    "cultural_ceremony_experience": ["secular"],
+    "destination_wedding_speciality": true
+  }
+}

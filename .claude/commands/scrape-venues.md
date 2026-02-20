@@ -21,34 +21,33 @@ Read `.env` and extract: `AIRTABLE_API_KEY`, `AIRTABLE_BASE_ID`, `FIRECRAWL_API_
 4. Report total eligible records to user (and how many have listing-site URLs)
 5. Create/append session header to `workflows/scrape-venue-site/working/workings_temp.md`
 
-### Phase 3: Scrape Batch
+### Phase 3: Process Venues (Each Venue in its Own Task Agent)
 
-Process the next 5 eligible records. For each record, run the script with `--scrape-only`:
+**CONTEXT ISOLATION:** Each venue is processed in its own Task agent to prevent context/memory accumulation in the main orchestrator. The orchestrator never touches raw content — it only sees one-line status summaries.
 
+Process the next 5 eligible records. For each record, launch a **Task agent** (subagent_type: `general-purpose`). Process **one venue at a time** (sequentially, not in parallel) to keep memory low.
+
+**The Task agent prompt must include:**
+- The record_id, venue_url, listing-site URLs (chateaubee_url, wedinspire_url, fwv_url — pass empty string if absent)
+- All three API keys: FIRECRAWL_API_KEY, AIRTABLE_API_KEY, AIRTABLE_BASE_ID
+- The working directory path: `workflows/scrape-venue-site/working/`
+- The full processing instructions below (copy them into the prompt)
+- Instruction to return ONLY a one-line summary: `DONE|{venue_url}|{chars_written}` or `MANUAL_CHECK|{venue_url}|{reason}` or `ERROR|{venue_url}|{reason}`
+
+**Full venue processing instructions (for the agent prompt):**
+
+#### Step A: Scrape
+
+Run the scrape script:
 ```
 python "workflows/scrape-venue-site/scripts/process_venue.py" --scrape-only "{record_id}" "{venue_url}" "{chateaubee_url}" "{wedinspire_url}" "{fwv_url}" "{FIRECRAWL_API_KEY}" "{AIRTABLE_API_KEY}" "{BASE_ID}"
 ```
-
 - Pass `""` for any empty listing-site URL
 - Script outputs one line to stdout: `SCRAPED|venue_chars|pages+listings|sources|listing_chars` or `MANUAL_CHECK|reason|0`
-- Parse that line and log the result to `workings_temp.md`
-- Progress messages appear on stderr (visible in terminal)
-- 2+ consecutive failures → pause and ask user with AskUserQuestion
+- If MANUAL_CHECK, return immediately with `MANUAL_CHECK|{venue_url}|{reason}`
 - Script saves raw content to `working/raw_{record_id}.md` and `working/listing_{record_id}_{CB|WI|FWV}.md`
 
-### Phase 3.5: Structure Content (Delegated to Task Agents)
-
-**CONTEXT MANAGEMENT:** Each venue's raw content is 50-150k chars. To avoid blowing the context window, delegate the entire structure+write cycle for each venue to a **Task agent**. The full content never enters the orchestrator's context.
-
-For each record that returned `SCRAPED` in Phase 3, launch a **Task agent** (subagent_type: `general-purpose`). You may run up to 2 agents in parallel if multiple venues are ready.
-
-**The Task agent prompt must include:**
-- The record_id, the working directory path, and which listing files exist (CB/WI/FWV)
-- The full structuring instructions below (copy them into the prompt)
-- Instruction to save output to `working/structured_{record_id}.md`
-- Instruction to return ONLY a one-line summary: `SUCCESS|{char_count}` or `ERROR|{reason}`
-
-**Structuring instructions (for the agent prompt):**
+#### Step B: Structure Content
 
 1. **Read raw files** from `working/`:
    - `working/raw_{record_id}.md` (venue website content)
@@ -107,17 +106,25 @@ For each record that returned `SCRAPED` in Phase 3, launch a **Task agent** (sub
 
 8. **Save** the final document to `working/structured_{record_id}.md` using the Write tool.
 
-9. **Return** ONLY: `SUCCESS|{char_count}` or `ERROR|{reason}`. Do NOT return the content itself.
+#### Step C: Write to Airtable
 
-**After each agent returns**, the orchestrator runs:
-
+Run the write script:
 ```
 python "workflows/scrape-venue-site/scripts/process_venue.py" --write-file "{record_id}" "workflows/scrape-venue-site/working/structured_{record_id}.md" "{AIRTABLE_API_KEY}" "{AIRTABLE_BASE_ID}"
 ```
-
 - Script reads the file, PATCHes to Airtable, and deletes all temp files (structured + raw + listings)
 - Script stdout: `WRITTEN|{chars}` or `AIRTABLE_ERROR|reason|{chars}`
-- Log the result to `workings_temp.md`
+
+#### Step D: Return Result
+
+Return ONLY a one-line summary: `DONE|{venue_url}|{chars_written}` or `ERROR|{venue_url}|{reason}`. Do NOT return any venue content.
+
+---
+
+**Back in the orchestrator**, after each agent returns:
+- Parse the one-line result and log it to `workings_temp.md`
+- Track consecutive failures — if >= 2, pause and ask user with AskUserQuestion
+- Proceed to the next venue
 
 ### Phase 4: Report
 

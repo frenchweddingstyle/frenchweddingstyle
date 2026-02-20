@@ -1,0 +1,621 @@
+{
+  "overview": {
+    "min_price_eur": 7800,
+    "max_guests": 180,
+    "min_guests": 50,
+    "max_sleeping_guests": 11,
+    "total_bedrooms": 4,
+    "estate_size_hectares": 4
+  },
+
+  "identity": {
+    "venue_name": "Bastide de Puget",
+    "venue_type": "bastide",
+    "venue_subtype": "maison-de-famille",
+    "tagline": "Provencal charm just minutes from Aix-en-Provence",
+    "short_description": "An authentic 18th-century Provencal manor set in a 4-hectare park with century-old trees, fountains, and sculptures, offering exclusive privatisation for weddings of up to 180 guests near Aix-en-Provence.",
+    "exclusivity_model": "full_exclusivity",
+    "owner_names": null,
+    "management_company": null,
+    "network_membership": null,
+    "media_features": null,
+    "filming_credits": null,
+    "certifications": null,
+    "google_rating": null,
+    "google_review_count": null,
+    "languages_spoken": ["French", "English"]
+  },
+
+  "location": {
+    "address": {
+      "street": "Chemin de Bourtin",
+      "city": "Meyreuil",
+      "postal_code": "13590",
+      "department": "Bouches-du-Rhone",
+      "country": "France"
+    },
+    "gps_coordinates": {
+      "latitude": 43.477848,
+      "longitude": 5.525110
+    },
+    "region": "Provence-Alpes-Cote d'Azur",
+    "sub_region": "Pays d'Aix",
+    "natural_park": null,
+    "nearest_city": {
+      "name": "Aix-en-Provence",
+      "distance_text": "10 minutes by car"
+    },
+    "nearest_cities": [
+      { "name": "Aix-en-Provence", "distance_text": "10 minutes" },
+      { "name": "Marseille", "distance_text": "20 minutes" }
+    ],
+    "nearest_airports": null,
+    "nearest_train_stations": null,
+    "motorway_access": null,
+    "distance_to_paris": null,
+    "distance_to_coast": null,
+    "nearby_villages": null,
+    "nearby_attractions": null,
+    "landscape_description": "Set within a magnificent 4-hectare park featuring basins, fountains, and statues in the shade of tricentennial plane trees, close to Aix-en-Provence",
+    "shuttle_service_available": null
+  },
+
+  "history": {
+    "construction_period": "18th century",
+    "construction_year": null,
+    "architectural_style": "Provencal bastide",
+    "architect": null,
+    "listed_monument_status": null,
+    "historical_families": null,
+    "notable_historical_guests": null,
+    "historical_narrative": "La Bastide de Puget is a historic mansion from the 18th century, an authentic Provencal 'Maison de Famille' (family home) that has preserved its original charm. The venue has been hosting wedding receptions for over 25 years.",
+    "notable_architectural_features": ["tricentennial plane trees", "basins and fountains", "statues", "crystal chandeliers (lustres a pampilles)", "indoor salons"],
+    "renovation_history": null,
+    "literary_cultural_associations": null
+  },
+
+  "spaces": [
+    {
+      "name": "Grand Lawn",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": 180,
+      "rental_fee_eur": null,
+      "suitable_for": ["ceremony"],
+      "notable_features": ["vast lawn by the pond", "white chairs arranged by the team", "refreshment table with lemonade and iced tea"],
+      "description": "The large lawn in front of the Bastide, by the pond, used for civil and secular ceremonies. White chairs are arranged by the team and a refreshment table welcomes guests on arrival.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Cocktail Lawn",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": 50,
+      "capacity_cocktail": 180,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["cocktail"],
+      "notable_features": ["wrought iron garden tables", "rattan lounges", "shade of the park's trees"],
+      "description": "The lawn facing the Bastide where the cocktail aperitif is held in summer, furnished with wrought iron garden tables and rattan lounges, seating approximately 50 guests.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Outdoor Dining Terrace (under the plane trees)",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": 180,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dinner"],
+      "notable_features": ["tricentennial plane trees", "string lights", "magical nighttime setting"],
+      "description": "The outdoor dining area under the plane trees where dinner is served under the stars. The terrace lights up as night falls for a magical setting.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Indoor Salons",
+      "setting": "indoor",
+      "area_sqm": 180,
+      "capacity_seated": 180,
+      "capacity_cocktail": 180,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dinner", "dancing", "rain_backup"],
+      "notable_features": ["crystal chandeliers (lustres a pampilles)", "dancefloor opening onto the terrace"],
+      "description": "The Bastide's 180 m2 indoor salons with crystal chandeliers, used for dinner in case of bad weather and for the dance party. The dancefloor opens directly onto the terrace.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Covered Terrace",
+      "setting": "outdoor",
+      "area_sqm": 70,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dinner", "rain_backup"],
+      "notable_features": ["covered area adjacent to the indoor salons"],
+      "description": "A 70 m2 covered terrace available as additional sheltered space for receptions, complementing the indoor salons.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Annex / Meeting Room",
+      "setting": "indoor",
+      "area_sqm": 110,
+      "capacity_seated": 35,
+      "capacity_cocktail": 100,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["meeting", "rain_backup", "dinner"],
+      "notable_features": ["natural light overlooking the park", "U-shape configuration for 35", "cinema/theatre configuration for 100"],
+      "description": "A 110 m2 annex room with natural light overlooking the park, accommodating up to 35 persons in U-shape configuration and 100 persons in cinema/theatre configuration. Available as additional event space.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Lime Tree Brunch Area",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["brunch"],
+      "notable_features": ["shade of the lime trees"],
+      "description": "A shaded outdoor area under lime trees used for next-day brunch.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Swimming Pool Area",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["brunch", "relaxation"],
+      "notable_features": ["16 x 8 m pool", "supervised by a certified lifeguard"],
+      "description": "The swimming pool area with a 16 x 8 m pool, fully privatised during events and supervised by a certified lifeguard during brunch.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    }
+  ],
+
+  "accommodation": {
+    "on_site_accommodation": true,
+    "total_bedrooms": 4,
+    "total_sleeping_capacity": 11,
+    "mandatory_accommodation_purchase": true,
+    "mandatory_accommodation_details": "The 4 bedrooms are included in the venue hire for all privatisation packages.",
+    "bridal_suite": null,
+    "bridal_suite_description": null,
+    "preparation_rooms": "Beautifully decorated rooms are available for bridal preparation — hair, makeup, and first photos.",
+    "buildings": [
+      {
+        "name": "La Bastide (First Floor)",
+        "building_type": "bastide",
+        "bedrooms": 4,
+        "sleeping_capacity": 11,
+        "price_per_night_eur": null,
+        "description": "The first floor of the Bastide houses 4 very large double bedrooms (30 m2 each), each with a private en-suite bathroom. Up to 3 additional beds are available at 30 EUR per bed per night.",
+        "has_kitchen": false,
+        "has_living_area": false,
+        "has_private_garden": false,
+        "rooms": [
+          {
+            "name": "La Chambre Baldaquin",
+            "room_type": "double",
+            "capacity_persons": 2,
+            "bed_configuration": "1 four-poster bed (baldaquin-style)",
+            "area_sqm": 30,
+            "en_suite": true,
+            "bathroom_type": "en-suite bathroom",
+            "view": null,
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": null,
+            "price_per_night_eur": null
+          },
+          {
+            "name": "La Chambre Bleue",
+            "room_type": "double",
+            "capacity_persons": 2,
+            "bed_configuration": "1 double bed",
+            "area_sqm": 30,
+            "en_suite": true,
+            "bathroom_type": "en-suite bathroom",
+            "view": null,
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": null,
+            "price_per_night_eur": null
+          },
+          {
+            "name": "La Chambre Toile de Jouy",
+            "room_type": "double",
+            "capacity_persons": 2,
+            "bed_configuration": "1 double bed",
+            "area_sqm": 30,
+            "en_suite": true,
+            "bathroom_type": "en-suite bathroom",
+            "view": null,
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": null,
+            "price_per_night_eur": null
+          },
+          {
+            "name": "La Chambre Jaune",
+            "room_type": "double",
+            "capacity_persons": 2,
+            "bed_configuration": "1 double bed",
+            "area_sqm": 30,
+            "en_suite": true,
+            "bathroom_type": "en-suite bathroom",
+            "view": null,
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": null,
+            "price_per_night_eur": null
+          }
+        ]
+      }
+    ],
+    "room_amenities_common": null,
+    "air_conditioning": null,
+    "breakfast_included": false,
+    "breakfast_details": null,
+    "breakfast_price_per_person_eur": null,
+    "dormitory_available": false,
+    "dormitory_beds": null,
+    "nearby_accommodation": ["Hotels and guesthouses within 4 km"],
+    "partner_hotel": null
+  },
+
+  "pricing": {
+    "pricing_model": "seasonal",
+    "starting_price_eur": 7800,
+    "starting_price_description": "Low season 1-night weekday hire with 4 rooms included (2026 rates).",
+    "prices_include_tax": true,
+    "vat_rate_percentage": null,
+    "tourist_tax_note": null,
+    "pricing_year": "2026",
+    "seasonal_pricing": [
+      {
+        "season_name": "low",
+        "months": "October to May (excluding June-September)",
+        "day_of_week": "weekday",
+        "price_eur": 7800,
+        "price_description": "1 night during the week with 4 rooms included"
+      },
+      {
+        "season_name": "high",
+        "months": "June to September",
+        "day_of_week": "weekday",
+        "price_eur": 8800,
+        "price_description": "1 night during the week with 4 rooms included"
+      },
+      {
+        "season_name": "low",
+        "months": "October to May",
+        "day_of_week": "weekday",
+        "price_eur": 8800,
+        "price_description": "2 nights during the week with 4 rooms included"
+      },
+      {
+        "season_name": "high",
+        "months": "June to September",
+        "day_of_week": "weekday",
+        "price_eur": 10000,
+        "price_description": "2 nights during the week with 4 rooms included"
+      },
+      {
+        "season_name": "low",
+        "months": "October to May",
+        "day_of_week": "friday_saturday_bank_holiday",
+        "price_eur": 8800,
+        "price_description": "1 night Friday, Saturday or bank holiday with 4 rooms included"
+      },
+      {
+        "season_name": "high",
+        "months": "June to September",
+        "day_of_week": "friday_or_bank_holiday",
+        "price_eur": 9500,
+        "price_description": "1 night Friday or bank holiday with 4 rooms included (except Saturday)"
+      },
+      {
+        "season_name": "low",
+        "months": "October to May",
+        "day_of_week": "weekend",
+        "price_eur": 10000,
+        "price_description": "1 night / 2 days weekend (Saturday and Sunday) with 4 rooms included"
+      },
+      {
+        "season_name": "high",
+        "months": "June to September",
+        "day_of_week": "weekend",
+        "price_eur": 12000,
+        "price_description": "1 night / 2 days weekend (Saturday and Sunday) with 4 rooms included"
+      },
+      {
+        "season_name": "low",
+        "months": "October to May",
+        "day_of_week": "long_weekend",
+        "price_eur": 12000,
+        "price_description": "2 nights / 3 days weekend (Friday, Saturday and Sunday) with 4 rooms included"
+      },
+      {
+        "season_name": "high",
+        "months": "June to September",
+        "day_of_week": "long_weekend",
+        "price_eur": 14500,
+        "price_description": "2 nights / 3 days weekend (Friday, Saturday and Sunday) with 4 rooms included"
+      }
+    ],
+    "packages": null,
+    "catering_cost_per_person_eur": 129.80,
+    "children_catering_price_eur": 20,
+    "children_pricing_age_range": "3 to 12 years old",
+    "drinks_cost_per_person_eur": null,
+    "brunch_cost_per_person_eur": 30,
+    "brunch_venue_fee_eur": null,
+    "welcome_dinner_cost_eur": null,
+    "minimum_nights": null,
+    "additional_night_rate_eur": null,
+    "extended_hour_rate_eur": null,
+    "rental_period_description": "Varies by package: single evening, 1 night/2 days, or 2 nights/3 days weekend",
+    "deposit_percentage": 40,
+    "deposit_amount_eur": null,
+    "deposit_refundable": false,
+    "security_deposit_eur": null,
+    "security_deposit_return_days": null,
+    "payment_schedule": [
+      {
+        "stage": "deposit",
+        "percentage": 40,
+        "amount_eur": null,
+        "timing": "at reservation (signing of Provisional PO)"
+      },
+      {
+        "stage": "2nd instalment",
+        "percentage": 40,
+        "amount_eur": null,
+        "timing": "at signing of Final PO (after tasting, generally in Q1 of the wedding year)"
+      },
+      {
+        "stage": "final balance",
+        "percentage": 20,
+        "amount_eur": null,
+        "timing": "no later than 10 calendar days before the event"
+      }
+    ],
+    "payment_methods": null,
+    "cancellation_policy": "Cancellation more than 90 days before: 40% of total. Cancellation 90-15 days before: 80% of total. Cancellation fewer than 15 days before: 100% of total.",
+    "cleaning_fee_eur": null,
+    "security_guard_cost_eur": null,
+    "coordinator_cost_eur": null,
+    "price_includes": [
+      "Exclusive use of entire property",
+      "4 double bedrooms with ensuite bathrooms (1 night)",
+      "Round tables and white Napoleon III chairs",
+      "Garden lighting and string lights"
+    ],
+    "price_excludes": [
+      "Catering and drinks",
+      "Decoration and floral arrangements",
+      "DJ or live music",
+      "Additional beds (30 EUR/bed/night)",
+      "Ceremony package",
+      "Brunch"
+    ],
+    "price_extras": [
+      "Optional extra bed: 30 EUR/bed/night",
+      "Ceremony package: 12 EUR per person (via caterer)",
+      "Brunch: 30-45 EUR per person",
+      "Children's menu: 20 EUR per person",
+      "Cheese slate: 7 EUR per person supplement",
+      "Large cheese buffet: 12 EUR per person supplement",
+      "Wedding cake: from 10.50 EUR per portion",
+      "Evening food presentations (hamburgers, panini, crepes, etc.)"
+    ]
+  },
+
+  "catering": {
+    "catering_model": "exclusive_caterer",
+    "in_house_chef": null,
+    "recommended_caterers": ["Roland Paix Traiteur"],
+    "cuisine_style": "Fine Mediterranean gastronomy with local seasonal produce from Provence",
+    "dietary_accommodations": true,
+    "professional_kitchen": null,
+    "kitchen_size_sqm": null,
+    "on_site_restaurant": null,
+    "brunch_available": true,
+    "brunch_description": "Next-day brunch available from exclusive partners Brunch Me Up or Roland Paix, at 30-45 EUR per person. Served in the shade of the lime trees with pool access.",
+    "late_night_food_available": true,
+    "pre_wedding_dinner": null,
+    "tasting_meal_included": true,
+    "wedding_cake": "Wedding cake or naked cake from 10.50 EUR per portion (minimum 50 portions). Croquembouche (choux or macaroon) also available."
+  },
+
+  "drinks": {
+    "corkage_fee": false,
+    "corkage_fee_amount_eur": null,
+    "byo_wine_allowed": true,
+    "mandatory_venue_drinks": false,
+    "venue_wine_requirement": null,
+    "on_site_wine_production": false,
+    "wine_appellation": null,
+    "bar_service_description": "Roland Paix offers a curated wine and champagne selection. Couples may also supply their own alcohol, subject to a logistics fee (0-100 bottles: 495 EUR, 100-200 bottles: 725 EUR, 200+ bottles: 900 EUR) covering handling, cooling, glassware, counting, and disposal. Non-alcoholic drinks (lemonade, soda, juices, mineral water, coffee, tea) included in the catering package.",
+    "wine_cellar": null
+  },
+
+  "vendor_rules": {
+    "vendor_freedom": "exclusive_caterer_with_flexibility",
+    "preferred_vendor_list_available": true,
+    "vendor_categories_recommended": ["photographers", "DJs", "florists", "brunch providers"],
+    "in_house_services": null,
+    "wedding_planner_available": null,
+    "wedding_planner_mandatory": null,
+    "wedding_planner_name": null,
+    "non_approved_vendor_fee": null,
+    "day_of_coordinator_provided": null,
+    "dedicated_project_manager": true
+  },
+
+  "ceremony": {
+    "ceremony_types": ["secular", "civil"],
+    "licensed_for_civil_marriage": null,
+    "chapel_on_site": false,
+    "chapel_details": null,
+    "nearby_church": null,
+    "outdoor_ceremony_locations": ["Grand lawn by the pond in front of the Bastide"],
+    "rain_backup_plan": null,
+    "celebrant_available": null,
+    "elopement_option": null
+  },
+
+  "amenities": {
+    "swimming_pool": true,
+    "pool_count": 1,
+    "pool_details": "16 x 8 m pool, fully privatised during events, supervised by a certified lifeguard during brunch",
+    "hot_tub_jacuzzi": null,
+    "spa": null,
+    "spa_details": null,
+    "tennis_court": null,
+    "petanque_court": null,
+    "gym_fitness": null,
+    "games_room": null,
+    "library": null,
+    "cinema_room": null,
+    "grand_piano": null,
+    "children_playground": null,
+    "helipad": null,
+    "gardens_description": "4-hectare landscaped park with basins, fountains, statues, tricentennial plane trees, and lime trees providing shaded areas.",
+    "garden_style": "Provencal parkland",
+    "vineyard_on_site": null,
+    "olive_groves": null,
+    "lake_pond": true,
+    "forest_woodland": null,
+    "notable_trees": ["Tricentennial plane trees", "Lime trees"],
+    "fountain_water_feature": true,
+    "orangery": null,
+    "dovecote": null,
+    "greenhouse": null
+  },
+
+  "activities": {
+    "on_site_activities": ["swimming", "brunch by the pool"],
+    "nearby_activities": null,
+    "wine_tasting_on_site": null,
+    "cooking_workshops": null,
+    "excursions_organized": null,
+    "excursion_destinations": null,
+    "fireworks_available": null,
+    "fireworks_details": null
+  },
+
+  "technical": {
+    "wifi_available": null,
+    "sound_system_provided": null,
+    "av_equipment": null,
+    "furniture_provided": true,
+    "furniture_details": "Round tables and white Napoleon III chairs included. Additional furniture options available through caterer: round tables for 11-12 (14 EUR), rectangular tables for 6 (12 EUR), wooden rectangular for 6 (80 EUR), oval table for 8-30 (55 EUR). Chair options: Squares white/wood (3.50 EUR), Bistrot wood (12 EUR), Medaillon (22 EUR).",
+    "decoration_services": true,
+    "marquee_tent_available": null,
+    "marquee_size_sqm": null,
+    "backup_generator": null,
+    "ev_charging_stations": null,
+    "climate_control": "Heating available for year-round receptions"
+  },
+
+  "accessibility": {
+    "wheelchair_accessible": null,
+    "accessible_rooms_count": null,
+    "elevator": null,
+    "pmr_parking": null,
+    "accessibility_details": null
+  },
+
+  "sustainability": {
+    "eco_certifications": null,
+    "eco_practices": ["Partnership with Red Cross to recover non-consumed food products for distribution to people in need", "Local sourcing from short supply circuits", "Seasonal produce from nearby producers"]
+  },
+
+  "parking": {
+    "parking_available": null,
+    "parking_spaces": null,
+    "parking_type": null,
+    "vendor_parking_separate": null
+  },
+
+  "policies": {
+    "curfew_time": "5:00 AM",
+    "outdoor_music_curfew": null,
+    "indoor_music_curfew": "5:00 AM",
+    "no_curfew": false,
+    "noise_restrictions": "Service and dancing until 5:00 AM",
+    "setup_access_time": null,
+    "teardown_deadline": null,
+    "tent_marquee_policy": null,
+    "confetti_policy": null,
+    "candle_policy": null,
+    "event_insurance_required": null,
+    "event_insurance_cost_eur": null,
+    "portable_toilets_policy": null,
+    "lifeguard_required": true,
+    "babysitter_mandatory": null,
+    "pet_policy": null,
+    "child_friendly": true,
+    "baby_facilities": null,
+    "children_area": null,
+    "babysitter_available": null,
+    "lgbtq_friendly": null,
+    "all_faiths_welcome": null,
+    "security_guard_policy": null,
+    "events_per_year_limit": null,
+    "check_in_time": null,
+    "check_out_time": null
+  },
+
+  "contact": {
+    "phone_primary": "+33 6 15 21 94 22",
+    "phone_secondary": null,
+    "email_primary": "bastidepuget@free.fr",
+    "email_secondary": null,
+    "website_url": "https://www.bastidepuget.com",
+    "instagram": "@bastidedepuget",
+    "facebook": "bastidepuget",
+    "other_social_media": null,
+    "whatsapp": null,
+    "contact_person": "Virginie Kovalenko",
+    "phone_hours": null,
+    "brochure_url": null,
+    "virtual_tour_url": null
+  },
+
+  "event_types": ["weddings", "corporate events", "seminars", "private celebrations"],
+
+  "wedding_day_details": {
+    "typical_timeline": "Getting ready in the Bastide's decorated rooms. Ceremony on the grand lawn by the pond. Cocktail reception on the lawn in front of the Bastide under the trees. Dinner under the plane trees and stars (or in the indoor salons). Dancing in the salons until 5:00 AM. Next-day brunch and swimming pool.",
+    "typical_weekend_flow": "Saturday: preparations, ceremony, cocktail, dinner, party until 5:00 AM. Sunday: brunch under the lime trees, swimming pool, departure.",
+    "multi_day_event": true,
+    "cultural_ceremony_experience": ["secular", "civil"],
+    "destination_wedding_speciality": null
+  }
+}

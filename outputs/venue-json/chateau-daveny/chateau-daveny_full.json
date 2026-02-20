@@ -1,0 +1,776 @@
+{
+  "overview": {
+    "min_price_eur": 14000,
+    "max_guests": 220,
+    "min_guests": 10,
+    "max_sleeping_guests": 94,
+    "total_bedrooms": 34,
+    "estate_size_hectares": 6
+  },
+
+  "identity": {
+    "venue_name": "Chateau d'Aveny",
+    "venue_type": "chateau",
+    "venue_subtype": "chateau-domaine",
+    "tagline": "Unite & Reunite",
+    "short_description": "An 18th-century chateau in the heart of Vexin, between Ile-de-France and Normandy, offering exclusive privatisation for weddings of up to 220 guests with 94 sleeping on-site across 34 rooms.",
+    "exclusivity_model": "full_exclusivity",
+    "owner_names": ["Nicolas Tommasini", "Adelaide Chambriard"],
+    "management_company": "Domaines & Evenements SAS",
+    "network_membership": "Domaines & Evenements collection (7 domaines de caractere)",
+    "media_features": ["French Wedding Style"],
+    "filming_credits": null,
+    "certifications": ["Wedding Award 2025 (Mariages.net)"],
+    "google_rating": null,
+    "google_review_count": null,
+    "languages_spoken": ["English", "French"]
+  },
+
+  "location": {
+    "address": {
+      "street": "1 rue Pavee, Dampsmesnil",
+      "city": "Vexin-sur-Epte",
+      "postal_code": "27630",
+      "department": "Eure",
+      "country": "France"
+    },
+    "gps_coordinates": {
+      "latitude": null,
+      "longitude": null
+    },
+    "region": "Normandy",
+    "sub_region": "Vexin",
+    "natural_park": "On the edge of the Vexin National Park",
+    "nearest_city": {
+      "name": "Paris",
+      "distance_text": "1 hour by car"
+    },
+    "nearest_cities": [
+      { "name": "Paris", "distance_text": "1 hour" },
+      { "name": "Giverny", "distance_text": "15 minutes" },
+      { "name": "Vernon", "distance_text": "20 minutes" }
+    ],
+    "nearest_airports": [
+      { "name": "Paris Charles de Gaulle Airport (CDG)", "distance_text": "50 minutes" },
+      { "name": "Beauvais Airport", "distance_text": "1 hour" }
+    ],
+    "nearest_train_stations": [
+      { "name": "Vernon-Giverny", "distance_text": "20 minutes" }
+    ],
+    "motorway_access": "A15 or A13 from Paris (Porte de Clichy or Porte d'Auteuil)",
+    "distance_to_paris": "1 hour by car from Paris",
+    "distance_to_coast": null,
+    "nearby_villages": ["Magny", "Marines", "Cormeilles", "Auvers-sur-Oise", "Bray-et-Lu"],
+    "nearby_attractions": [
+      "Claude Monet's house and gardens in Giverny",
+      "Castles of Villarceaux, La Roche Guyon, and Ambleville",
+      "Golf de Villarceux (13 minutes)",
+      "Canoe excursion along the Epte River",
+      "Local cider house visits",
+      "Auvers-sur-Oise (inspired French painters and poets)"
+    ],
+    "landscape_description": "Peaceful green hills of Vexin, between Ile-de-France and Normandy, surrounded by centuries-old trees in an English landscape park",
+    "shuttle_service_available": true
+  },
+
+  "history": {
+    "construction_period": "18th century",
+    "construction_year": null,
+    "architectural_style": "18th-century French chateau with contemporary renovation",
+    "architect": null,
+    "listed_monument_status": null,
+    "historical_families": null,
+    "notable_historical_guests": null,
+    "historical_narrative": "For centuries weddings have been celebrated at this magnificent chateau. The first marriage in 1800 marked the beginning of a long history of love and celebrations. The company Domaines & Evenements SAS bought the castle in September 2021 and undertook a remarkable renovation during the winter of 2021-2022. The inauguration took place on June 2, 2022, with more than 350 guests. The chateau's elegant silhouette is not unlike that of Cheverny.",
+    "notable_architectural_features": [
+      "Grand Gallery (220m2) with Hungarian Point parquet flooring and crystal chandeliers",
+      "Grand Hall with grand staircase (160m2)",
+      "Salon des Singes with exposed stone walls and fireplace",
+      "Salon des Oiseaux",
+      "Salon d'Hiver with wall tapestries",
+      "Salon des Pantheres",
+      "Orangery opening to Impressionist Garden"
+    ],
+    "renovation_history": "Extensive renovation during winter 2021-2022 by Domaines & Evenements. Grand Gallery renovated with radiant heating ceiling, soft lighting, Hungarian Point parquet, double-glazed windows, custom DJ booth. Lobby, Orangery, and iconic salons meticulously restored. New Salon des Pantheres created.",
+    "literary_cultural_associations": null
+  },
+
+  "spaces": [
+    {
+      "name": "Grand Gallery (Grande Galerie)",
+      "setting": "indoor",
+      "area_sqm": 220,
+      "capacity_seated": 200,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dinner", "dancing", "soiree", "brunch"],
+      "notable_features": [
+        "radiant heating ceiling",
+        "Hungarian Point parquet flooring",
+        "double-glazed windows for acoustic and thermal insulation",
+        "custom-made DJ booth",
+        "cream hues with elegant gilding",
+        "numerous mirrors",
+        "crystal chandeliers"
+      ],
+      "description": "The castle's Grand Reception Gallery, completely renovated and air-conditioned, for a prestigious reception for up to 200 people with a dance floor (220 without). Features soft lighting, parquet flooring, and luxurious decor.",
+      "soundproofed": true,
+      "air_conditioned": true,
+      "av_equipment": null
+    },
+    {
+      "name": "Grand Hall (Lobby)",
+      "setting": "indoor",
+      "area_sqm": 160,
+      "capacity_seated": null,
+      "capacity_cocktail": 180,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["cocktail", "welcome"],
+      "notable_features": ["grand staircase", "elegant architecture", "opens onto the large terrace"],
+      "description": "The castle's lobby with grand staircase, ideal for indoor cocktails or welcome events. Opens directly onto the large terrace.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Salon des Singes",
+      "setting": "indoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["relaxation", "wine tasting"],
+      "notable_features": ["exposed stone walls", "fireplace", "oval mirror", "round wooden table"],
+      "description": "Ideal for relaxing moments over a cup of tea or wine tasting evenings.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Salon des Oiseaux (Bird Lounge)",
+      "setting": "indoor",
+      "area_sqm": null,
+      "capacity_seated": 20,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dinner", "cocktail"],
+      "notable_features": ["white tablecloths", "light green walls", "mirrors and light fixtures"],
+      "description": "Perfect for small dinners accommodating up to 20 people, or for more lively cocktails.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Salon d'Hiver (Winter Lounge)",
+      "setting": "indoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["ceremony", "children_area", "meetings"],
+      "notable_features": ["oriental carpet", "antique wooden furniture", "wall tapestries"],
+      "description": "A fallback solution for a secular ceremony in case of rain. Also suitable as a children's area and for professional meetings.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Salon des Pantheres",
+      "setting": "indoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["games", "meetings", "karaoke"],
+      "notable_features": ["adjacent bar", "terrace", "bright room", "abstract art"],
+      "description": "Suitable for games, meetings and evenings in small groups with an adjacent bar and terrace.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Giverny Room",
+      "setting": "indoor",
+      "area_sqm": null,
+      "capacity_seated": 25,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["meetings", "training"],
+      "notable_features": ["large wooden table", "yellow chairs", "black and white vegetable fresco"],
+      "description": "Can accommodate up to 25 people, ideal for meetings or training sessions.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Impressionist Hall (Salle des Impressionnistes)",
+      "setting": "indoor",
+      "area_sqm": null,
+      "capacity_seated": 150,
+      "capacity_cocktail": null,
+      "capacity_ceremony": 150,
+      "rental_fee_eur": null,
+      "suitable_for": ["ceremony", "meetings", "children_room"],
+      "notable_features": ["large mirrors", "exposed wooden beams"],
+      "description": "Can accommodate up to 150 people. Perfect for a secular ceremony in case of rain, for business meetings, or as a children's room.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Monet Room",
+      "setting": "indoor",
+      "area_sqm": null,
+      "capacity_seated": 15,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["meetings", "seminars"],
+      "notable_features": null,
+      "description": "Designed to accommodate up to 15 people, ideal for meetings or seminars.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Orangery",
+      "setting": "indoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["ceremony", "rain_backup", "brunch"],
+      "notable_features": ["opens to the Impressionist Garden"],
+      "description": "Indoor space open to the Impressionist Garden, serves as a rain backup for ceremonies and suitable for brunch.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "La Grande Terrasse",
+      "setting": "outdoor",
+      "area_sqm": 1000,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["cocktail", "brunch"],
+      "notable_features": ["gravel terrace", "views of the castle and Vexin hills"],
+      "description": "Gravel terrace of over 1,000m2 for cocktails and brunches, with views of the castle and the Vexin hills.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "La Clairiere (The Clearing)",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["ceremony"],
+      "notable_features": ["round clearing on the edge of the forest"],
+      "description": "A round clearing on the edge of the forest, with captivating charm, perfect for ceremonies.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "La Roseraie (Rose Garden)",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["photos", "ceremony"],
+      "notable_features": ["lawn refreshed by ponds"],
+      "description": "Garden with its lawn refreshed by ponds.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Le Jardin des Impressionnistes",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["photos", "walks"],
+      "notable_features": ["bushes and red flowers along a paved path"],
+      "description": "Garden with bushes and red flowers along a paved path, adjacent to the Orangery.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "L'Allee des Fleurs (The Alley of Flowers)",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["walks", "photos"],
+      "notable_features": null,
+      "description": "Outdoor walking path through the estate.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "La Terrasse du Salon des Pantheres",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["drinks", "relaxation"],
+      "notable_features": ["adjacent to the Panther Lounge bar"],
+      "description": "Terrace adjacent to the Salon des Pantheres and its bar.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "The Church",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["ceremony"],
+      "notable_features": ["stone church with bell tower", "approximately 100m from the castle"],
+      "description": "Stone church with a bell tower, located approximately 100m from the castle, available for ceremonies.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "6-Hectare Park",
+      "setting": "outdoor",
+      "area_sqm": 60000,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["ceremony", "cocktail", "photos", "walks"],
+      "notable_features": [
+        "English landscape style",
+        "centuries-old plane trees, oaks, ash trees and chestnuts",
+        "star-shaped alleys",
+        "lake",
+        "cedars and horse chestnuts"
+      ],
+      "description": "The park retains its English landscape style with centuries-old native trees. Star-shaped alleys offer magnificent panoramas. A lake and exotic species such as cedars and horse chestnuts were added in the early 19th century.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    }
+  ],
+
+  "accommodation": {
+    "on_site_accommodation": true,
+    "total_bedrooms": 34,
+    "total_sleeping_capacity": 94,
+    "mandatory_accommodation_purchase": null,
+    "mandatory_accommodation_details": null,
+    "bridal_suite": true,
+    "bridal_suite_description": "Dedicated bridegroom's room in the castle, among the refined rooms steeped in rich history and authentic charm.",
+    "preparation_rooms": null,
+    "buildings": [
+      {
+        "name": "Le Chateau (Castle Rooms)",
+        "building_type": "chateau",
+        "bedrooms": 15,
+        "sleeping_capacity": 42,
+        "price_per_night_eur": null,
+        "description": "Rooms steeped in rich history and authentic charm, between tradition and elegance. Spacious, bright and comfortable, including a dedicated bridegroom's room. Each room is unique and tastefully decorated to convey 18th-century refinement.",
+        "has_kitchen": true,
+        "has_living_area": null,
+        "has_private_garden": true,
+        "rooms": null
+      },
+      {
+        "name": "L'Orangerie (Orangery Rooms)",
+        "building_type": "orangery",
+        "bedrooms": 8,
+        "sleeping_capacity": 23,
+        "price_per_night_eur": null,
+        "description": "A haven of softness, comfort and tranquility, particularly suitable for families. Overlooking the delightful Impressionist Garden. Cocooning experience in a cozy and warm setting, where every detail is designed for well-being.",
+        "has_kitchen": null,
+        "has_living_area": null,
+        "has_private_garden": true,
+        "rooms": null
+      },
+      {
+        "name": "Maison des Fleurs (Flower House)",
+        "building_type": "gite",
+        "bedrooms": 5,
+        "sleeping_capacity": 13,
+        "price_per_night_eur": null,
+        "description": "1-minute walk from the estate. 5 rooms sleeping 13 people, with 5 bathrooms, equipped kitchen, and private garden.",
+        "has_kitchen": true,
+        "has_living_area": null,
+        "has_private_garden": true,
+        "rooms": null
+      },
+      {
+        "name": "Maison de l'Epte",
+        "building_type": "gite",
+        "bedrooms": 5,
+        "sleeping_capacity": 14,
+        "price_per_night_eur": null,
+        "description": "1-minute walk from the estate. 5 rooms sleeping 14 people, with 4 bathrooms, equipped kitchen, and private garden.",
+        "has_kitchen": true,
+        "has_living_area": null,
+        "has_private_garden": true,
+        "rooms": null
+      },
+      {
+        "name": "Maison de l'Epicerie",
+        "building_type": "gite",
+        "bedrooms": 1,
+        "sleeping_capacity": 2,
+        "price_per_night_eur": null,
+        "description": "1-minute walk from the estate. 1 bedroom sleeping 2 people, with 1 bathroom, kitchenette, and private garden.",
+        "has_kitchen": true,
+        "has_living_area": null,
+        "has_private_garden": true,
+        "rooms": null
+      },
+      {
+        "name": "Maison de la Violette",
+        "building_type": "gite",
+        "bedrooms": null,
+        "sleeping_capacity": null,
+        "price_per_night_eur": null,
+        "description": "Part of the estate houses complex, listed alongside Maison de l'Epicerie, Maison de l'Epte, and Maison des Fleurs.",
+        "has_kitchen": null,
+        "has_living_area": null,
+        "has_private_garden": null,
+        "rooms": null
+      },
+      {
+        "name": "Gite d'Adelaide (Adelaide's Cottage)",
+        "building_type": "cottage",
+        "bedrooms": null,
+        "sleeping_capacity": null,
+        "price_per_night_eur": null,
+        "description": "Located on the estate grounds.",
+        "has_kitchen": null,
+        "has_living_area": null,
+        "has_private_garden": null,
+        "rooms": null
+      }
+    ],
+    "room_amenities_common": ["private bathroom with toilet", "WiFi"],
+    "air_conditioning": true,
+    "breakfast_included": null,
+    "breakfast_details": null,
+    "breakfast_price_per_person_eur": null,
+    "dormitory_available": null,
+    "dormitory_beds": null,
+    "nearby_accommodation": ["Cottages available nearby in the village"],
+    "partner_hotel": null
+  },
+
+  "pricing": {
+    "pricing_model": "seasonal",
+    "starting_price_eur": 14000,
+    "starting_price_description": "Low season (November to March) venue hire for 2 days/1 night.",
+    "prices_include_tax": null,
+    "vat_rate_percentage": null,
+    "tourist_tax_note": null,
+    "pricing_year": null,
+    "seasonal_pricing": [
+      {
+        "season_name": "low",
+        "months": "November, December, January, February, March",
+        "day_of_week": null,
+        "price_eur": 14000,
+        "price_description": "2 days / 1 night"
+      },
+      {
+        "season_name": "low",
+        "months": "November, December, January, February, March",
+        "day_of_week": null,
+        "price_eur": 18100,
+        "price_description": "3 days / 2 nights"
+      },
+      {
+        "season_name": "medium",
+        "months": "April, October",
+        "day_of_week": null,
+        "price_eur": 15500,
+        "price_description": "2 days / 1 night"
+      },
+      {
+        "season_name": "medium",
+        "months": "April, October",
+        "day_of_week": null,
+        "price_eur": 22100,
+        "price_description": "3 days / 2 nights"
+      },
+      {
+        "season_name": "high",
+        "months": "May, June, July, August, September",
+        "day_of_week": null,
+        "price_eur": 18000,
+        "price_description": "2 days / 1 night"
+      },
+      {
+        "season_name": "high",
+        "months": "May, June, July, August, September",
+        "day_of_week": null,
+        "price_eur": 26000,
+        "price_description": "3 days / 2 nights"
+      }
+    ],
+    "packages": null,
+    "catering_cost_per_person_eur": null,
+    "children_catering_price_eur": null,
+    "children_pricing_age_range": null,
+    "drinks_cost_per_person_eur": null,
+    "brunch_cost_per_person_eur": null,
+    "brunch_venue_fee_eur": null,
+    "welcome_dinner_cost_eur": null,
+    "minimum_nights": 1,
+    "additional_night_rate_eur": null,
+    "extended_hour_rate_eur": null,
+    "rental_period_description": "2 days/1 night or 3 days/2 nights. Additional days and nights available for a competitive supplement.",
+    "deposit_percentage": null,
+    "deposit_amount_eur": null,
+    "deposit_refundable": null,
+    "security_deposit_eur": null,
+    "security_deposit_return_days": null,
+    "payment_schedule": null,
+    "payment_methods": null,
+    "cancellation_policy": null,
+    "cleaning_fee_eur": null,
+    "security_guard_cost_eur": null,
+    "coordinator_cost_eur": null,
+    "price_includes": [
+      "Exclusive use of entire estate",
+      "Round tables and Napoleon chairs (red cake) for 200 people",
+      "Garden furniture and umbrellas",
+      "Dance floor in the Grand Gallery"
+    ],
+    "price_excludes": null,
+    "price_extras": null
+  },
+
+  "catering": {
+    "catering_model": "recommended_list",
+    "in_house_chef": null,
+    "recommended_caterers": null,
+    "cuisine_style": null,
+    "dietary_accommodations": null,
+    "professional_kitchen": null,
+    "kitchen_size_sqm": null,
+    "on_site_restaurant": null,
+    "brunch_available": true,
+    "brunch_description": "Brunch the next day on the Large Terrace with views of the Castle and the Vexin hills, or a picnic in the park clearing. Also possible in the Grand Gallery or Orangery.",
+    "late_night_food_available": null,
+    "pre_wedding_dinner": null,
+    "tasting_meal_included": null,
+    "wedding_cake": null
+  },
+
+  "drinks": {
+    "corkage_fee": null,
+    "corkage_fee_amount_eur": null,
+    "byo_wine_allowed": null,
+    "mandatory_venue_drinks": null,
+    "venue_wine_requirement": null,
+    "on_site_wine_production": null,
+    "wine_appellation": null,
+    "bar_service_description": null,
+    "wine_cellar": null
+  },
+
+  "vendor_rules": {
+    "vendor_freedom": "recommended_list",
+    "preferred_vendor_list_available": true,
+    "vendor_categories_recommended": ["caterers", "wedding planners", "celebrants", "fireworks"],
+    "in_house_services": null,
+    "wedding_planner_available": "recommended",
+    "wedding_planner_mandatory": null,
+    "wedding_planner_name": null,
+    "non_approved_vendor_fee": null,
+    "day_of_coordinator_provided": true,
+    "dedicated_project_manager": true
+  },
+
+  "ceremony": {
+    "ceremony_types": ["secular", "symbolic"],
+    "licensed_for_civil_marriage": null,
+    "chapel_on_site": true,
+    "chapel_details": "Stone church with a bell tower, located approximately 100m from the castle, available for ceremonies.",
+    "nearby_church": null,
+    "outdoor_ceremony_locations": [
+      "La Clairiere (round clearing on the edge of the forest)",
+      "6-hectare park with multiple outdoor spaces",
+      "La Roseraie (Rose Garden)"
+    ],
+    "rain_backup_plan": "Orangery (open to the Impressionist Garden), Salon d'Hiver, Impressionist Hall (Salle des Impressionnistes, up to 150 people), or Grand Hall for indoor ceremonies.",
+    "celebrant_available": true,
+    "elopement_option": null
+  },
+
+  "amenities": {
+    "swimming_pool": null,
+    "pool_count": null,
+    "pool_details": null,
+    "hot_tub_jacuzzi": null,
+    "spa": null,
+    "spa_details": null,
+    "tennis_court": null,
+    "petanque_court": null,
+    "gym_fitness": null,
+    "games_room": true,
+    "library": null,
+    "cinema_room": null,
+    "grand_piano": null,
+    "children_playground": null,
+    "helipad": true,
+    "gardens_description": "6 hectares of centennial park in English landscape style with centuries-old plane trees, oaks, ash trees and chestnuts. Star-shaped alleys cross the park. A lake and species such as cedars and horse chestnuts were added in the early 19th century. Includes the Rose Garden, Impressionist Garden, Alley of Flowers, and multiple terraces.",
+    "garden_style": "English landscape",
+    "vineyard_on_site": null,
+    "olive_groves": null,
+    "lake_pond": true,
+    "forest_woodland": true,
+    "notable_trees": ["centuries-old plane trees", "oaks", "ash trees", "chestnuts", "cedars", "horse chestnuts"],
+    "fountain_water_feature": true,
+    "orangery": true,
+    "dovecote": null,
+    "greenhouse": null
+  },
+
+  "activities": {
+    "on_site_activities": ["cycling (bikes provided)", "games (foosball, wooden games)", "walking in the park"],
+    "nearby_activities": [
+      "Golf de Villarceux (13 minutes)",
+      "Canoe excursion along the Epte River",
+      "Hot air balloon rides over the Vexin countryside",
+      "Claude Monet's house and gardens in Giverny (15-20 minutes)",
+      "Local cider house visits",
+      "Nearby farm exploration",
+      "Castles of Villarceaux, La Roche Guyon, and Ambleville"
+    ],
+    "wine_tasting_on_site": null,
+    "cooking_workshops": null,
+    "excursions_organized": null,
+    "excursion_destinations": null,
+    "fireworks_available": true,
+    "fireworks_details": "Fireworks show available on request, arranged through the chateau's fireworks provider."
+  },
+
+  "technical": {
+    "wifi_available": true,
+    "sound_system_provided": null,
+    "av_equipment": null,
+    "furniture_provided": true,
+    "furniture_details": "Round tables and Napoleon chairs (red cake) for 200 people. Garden furniture and umbrellas provided for outdoor cocktails.",
+    "decoration_services": null,
+    "marquee_tent_available": null,
+    "marquee_size_sqm": null,
+    "backup_generator": null,
+    "ev_charging_stations": true,
+    "climate_control": "Air conditioning in the Grand Gallery (radiant heating ceiling, double-glazed windows for thermal insulation). Some bedrooms also air-conditioned."
+  },
+
+  "accessibility": {
+    "wheelchair_accessible": true,
+    "accessible_rooms_count": 3,
+    "elevator": true,
+    "pmr_parking": null,
+    "accessibility_details": "Elevator for wheelchair access. 3 accessible rooms (PMR) for those with reduced mobility."
+  },
+
+  "sustainability": {
+    "eco_certifications": null,
+    "eco_practices": [
+      "Encouraging biodiversity",
+      "Reducing waste",
+      "Focusing on low-impact products",
+      "Installation of bee hives",
+      "Working with the local community"
+    ]
+  },
+
+  "parking": {
+    "parking_available": true,
+    "parking_spaces": null,
+    "parking_type": "Castle parking, Parking des Platanes, and Epte car park for gites",
+    "vendor_parking_separate": null
+  },
+
+  "policies": {
+    "curfew_time": "10:00 PM outdoors; 4:00 AM indoors",
+    "outdoor_music_curfew": "10:00 PM",
+    "indoor_music_curfew": "4:00 AM",
+    "no_curfew": false,
+    "noise_restrictions": "Outdoor activities until 10:00 PM. Indoor events in the Grand Gallery until 4:00 AM.",
+    "setup_access_time": null,
+    "teardown_deadline": null,
+    "tent_marquee_policy": null,
+    "confetti_policy": null,
+    "candle_policy": null,
+    "event_insurance_required": null,
+    "event_insurance_cost_eur": null,
+    "portable_toilets_policy": null,
+    "lifeguard_required": null,
+    "babysitter_mandatory": null,
+    "pet_policy": "allowed_on_request",
+    "child_friendly": true,
+    "baby_facilities": ["cots", "changing facilities"],
+    "children_area": null,
+    "babysitter_available": null,
+    "lgbtq_friendly": true,
+    "all_faiths_welcome": null,
+    "security_guard_policy": null,
+    "events_per_year_limit": null,
+    "check_in_time": null,
+    "check_out_time": null
+  },
+
+  "contact": {
+    "phone_primary": "+33 1 40 67 67 20",
+    "phone_secondary": "+33 6 33 29 91 89",
+    "email_primary": "sophie@domainesevenements.com",
+    "email_secondary": "contact@domainesevenements.com",
+    "website_url": "https://www.domainedaveny.com",
+    "instagram": "@chateauaveny",
+    "facebook": null,
+    "other_social_media": null,
+    "whatsapp": null,
+    "contact_person": "Sophie (Booking contact)",
+    "phone_hours": null,
+    "brochure_url": "https://www.calameo.com/read/00725988869bdde58158a",
+    "virtual_tour_url": "https://my.matterport.com/show/?m=qSquyQqYAWE"
+  },
+
+  "event_types": ["weddings", "corporate events", "private celebrations"],
+
+  "wedding_day_details": {
+    "typical_timeline": "Ceremony in the park or chapel, cocktail on the Grande Terrasse or in the Grand Hall, dinner in the Grand Gallery (up to 200 seated with dance floor), soiree with DJ and optional fireworks, brunch the next day on the Grande Terrasse or in the Orangery.",
+    "typical_weekend_flow": "Day 1: Arrival, ceremony in the park or chapel (100m away), cocktail on the terrace or in the Grand Hall, dinner in the Grand Gallery, party and dancing with DJ. Day 2: Brunch on the Grande Terrasse with views of the castle and Vexin hills, or picnic in the park clearing.",
+    "multi_day_event": true,
+    "cultural_ceremony_experience": null,
+    "destination_wedding_speciality": true
+  }
+}

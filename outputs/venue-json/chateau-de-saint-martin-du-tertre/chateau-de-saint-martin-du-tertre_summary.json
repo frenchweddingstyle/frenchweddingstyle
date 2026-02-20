@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "description": "Venue Reduced Record — 20 core fields for high-level filtering and bride-facing comparison.",
+    "schema_version": "v1.1.0",
+    "field_count": 20,
+    "golden_record_ref": "chateau-de-saint-martin-du-tertre_full.json"
+  },
+
+  "venue_name": "Chateau de Saint-Martin du Tertre",
+  "venue_type": "chateau",
+  "short_description": "A magnificent 19th-century chateau listed as a Historic Monument in Ile-de-France, just 30 minutes from Paris, offering exclusive use for weddings of up to 340 seated guests with 32 sleeping on-site across elegant rooms and family suites.",
+  "region": "Ile-de-France",
+  "department": "Val-d'Oise",
+  "nearest_city": "Paris (30 minutes)",
+  "max_guests": 340,
+  "min_guests": null,
+  "max_sleeping_guests": 32,
+  "total_bedrooms": 11,
+  "starting_price_eur": 18900,
+  "exclusivity_model": "full_exclusivity",
+  "catering_model": "recommended_list",
+  "on_site_accommodation": true,
+  "swimming_pool": false,
+  "chapel_on_site": false,
+  "curfew": "5:00 AM",
+  "child_friendly": true,
+  "google_rating": null,
+  "website_url": "https://www.chateaudesaintmartindutertre.com"
+}

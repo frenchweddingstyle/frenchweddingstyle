@@ -1,0 +1,852 @@
+{
+  "overview": {
+    "min_price_eur": null,
+    "max_guests": 450,
+    "min_guests": 20,
+    "max_sleeping_guests": null,
+    "total_bedrooms": null,
+    "estate_size_hectares": 135
+  },
+
+  "identity": {
+    "venue_name": "Chateau de Ferrieres",
+    "venue_type": "chateau",
+    "venue_subtype": "event-venue",
+    "tagline": "Experience excellence the French way",
+    "short_description": "A 19th-century neo-renaissance masterpiece built for Baron James de Rothschild, set within a 135-hectare English park just 25 km from Paris, offering prestigious wedding receptions for 20 to 450 guests with bespoke high-end catering by MOF-titled chefs.",
+    "exclusivity_model": "shared_venue",
+    "owner_names": null,
+    "management_company": "Accelis",
+    "network_membership": null,
+    "media_features": null,
+    "filming_credits": ["Le Comte de Monte Cristo (2024)"],
+    "certifications": null,
+    "google_rating": null,
+    "google_review_count": null,
+    "languages_spoken": ["French", "English"]
+  },
+
+  "location": {
+    "address": {
+      "street": "Rue du Chateau, BP 49",
+      "city": "Ferrieres-en-Brie",
+      "postal_code": "77164",
+      "department": "Seine-et-Marne",
+      "country": "France"
+    },
+    "gps_coordinates": {
+      "latitude": null,
+      "longitude": null
+    },
+    "region": "Ile-de-France",
+    "sub_region": "Seine-et-Marne",
+    "natural_park": null,
+    "nearest_city": {
+      "name": "Paris",
+      "distance_text": "25 km"
+    },
+    "nearest_cities": [
+      { "name": "Paris", "distance_text": "25 km" }
+    ],
+    "nearest_airports": [
+      { "name": "Charles de Gaulle Airport", "distance_text": "30 km" },
+      { "name": "Paris-Orly Airport", "distance_text": "40 km" }
+    ],
+    "nearest_train_stations": [
+      { "name": "Bussy-Saint-Georges", "distance_text": "15-minute walk" }
+    ],
+    "motorway_access": "A4, exit 12",
+    "distance_to_paris": "25 km",
+    "distance_to_coast": null,
+    "nearby_villages": null,
+    "nearby_attractions": ["Disneyland Paris (2 train stations away)"],
+    "landscape_description": "Rolling green landscapes of Seine-et-Marne with a 135-hectare English park surrounding the chateau, featuring a lake and majestic gardens",
+    "shuttle_service_available": null
+  },
+
+  "history": {
+    "construction_period": "1855-1859",
+    "construction_year": 1855,
+    "architectural_style": "neo-renaissance",
+    "architect": "Joseph Paxton",
+    "listed_monument_status": null,
+    "historical_families": ["Rothschild", "Fouche (Duke of Otranto)"],
+    "notable_historical_guests": ["Emperor Napoleon III", "Empress Eugenie", "Otto von Bismarck", "Jules Favre"],
+    "historical_narrative": "Built between 1855 and 1859 for Baron James de Rothschild, the chateau was designed by architect Joseph Paxton, who also created the Crystal Palace. Inaugurated on December 16, 1862 by Napoleon III, the estate replaced the old castle of Fouche, Duke of Otranto and Minister of Police of Napoleon I. The chateau famously hosted the Ferrieres interview between Bismarck and Jules Favre during the Franco-German War of 1870, where Bismarck demanded the cession of Alsace and Lorraine as a condition of peace. The property originally contained 28 suites with central heating and hot and cold running water. An underground passage connected the basement to a neighbouring building where the kitchens were located, avoiding cooking odours in the main chateau. The property is now part of the Accelis group and also houses the Ecole Ferrieres hospitality and luxury management school.",
+    "notable_architectural_features": ["iconic glass ceiling in the Grand Salon designed by Joseph Paxton", "grand staircase replicating the Crystal Palace", "ebony, bronze, marble and fine gold decor", "underground passage to former kitchens", "neo-renaissance facades"],
+    "renovation_history": "Underground passage rehabilitated in 2014. Le Lounge decorated in 2014 by architect Pierre-Yves Rochon. Caves (former kitchens) renovated into modern tasting rooms.",
+    "literary_cultural_associations": ["Le Comte de Monte Cristo (2024 film)", "The Tiger Brigades (TV series)", "Alexandre Dumas"]
+  },
+
+  "spaces": [
+    {
+      "name": "Le Grand Salon",
+      "setting": "indoor",
+      "area_sqm": 253,
+      "capacity_seated": 242,
+      "capacity_cocktail": 240,
+      "capacity_ceremony": 220,
+      "rental_fee_eur": null,
+      "suitable_for": ["ceremony", "cocktail", "dinner", "dancing"],
+      "notable_features": ["glass ceiling designed by Joseph Paxton", "ebony, bronze, marble and fine gold decor"],
+      "description": "The heart of the chateau where the Baron and Baroness de Rothschild traditionally received their guests. This majestic room features a sumptuous glass canopy and has hosted high-ranking guests since the mid-19th century, including Emperor Napoleon III and Empress Eugenie.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Le Salon Bleu",
+      "setting": "indoor",
+      "area_sqm": 125,
+      "capacity_seated": 88,
+      "capacity_cocktail": 120,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["cocktail", "dinner"],
+      "notable_features": ["marble columns", "Louis XVI style", "direct access to the park", "magnificent views"],
+      "description": "A perfect setting for cocktails or banquets with marble columns and Louis XVI style giving it a chic and classic ambiance. Offers a magnificent view and direct access to the chateau park.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Le Salon Antonin Careme",
+      "setting": "indoor",
+      "area_sqm": 58,
+      "capacity_seated": 44,
+      "capacity_cocktail": 50,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dinner", "meeting"],
+      "notable_features": ["very luminous ambiance", "formerly Guy de Rothschild's golf practice room"],
+      "description": "A very bright atmosphere for meetings and private meals. This salon was formerly where Guy de Rothschild practiced golf.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Salon Louis XIII",
+      "setting": "indoor",
+      "area_sqm": null,
+      "capacity_seated": 30,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dinner"],
+      "notable_features": ["cosy and warm decor", "intimate atmosphere"],
+      "description": "An exceptional setting for private dining with a cosy and warm decor, creating a very intimate atmosphere for private meals.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Salon de la Baronne",
+      "setting": "indoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["meeting", "dinner"],
+      "notable_features": ["former bedroom of Baroness Germaine de Rothschild", "access to former bathroom"],
+      "description": "A room particularly well-suited to executive committee meetings and other corporate events. This lounge is the former bedroom of Baroness Germaine de Rothschild and also provides privileged access to her former bathroom.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Le Baron",
+      "setting": "indoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dinner"],
+      "notable_features": ["gastronomic restaurant"],
+      "description": "The gastronomic restaurant of the chateau led by chef de cuisine Yannick Quemin, with Patrick Juhel (MOF 2000) as executive chef. Features as a prestigious event dining space.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Salon Privatif du Baron",
+      "setting": "indoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dinner"],
+      "notable_features": ["private dining room"],
+      "description": "Private dining room associated with Le Baron restaurant.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Salon Privatif",
+      "setting": "indoor",
+      "area_sqm": null,
+      "capacity_seated": 11,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dinner"],
+      "notable_features": ["intimate and peaceful atmosphere"],
+      "description": "A privileged space for hosting a private meal. Host up to 11 guests in an intimate and peaceful atmosphere while enjoying the restaurant's a la carte menu and set meals.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Salon Blanc",
+      "setting": "indoor",
+      "area_sqm": null,
+      "capacity_seated": 67,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dinner", "ceremony"],
+      "notable_features": ["incredible ceiling fresco", "extensive moldings", "stunning chandelier"],
+      "description": "Formerly the Rothschild family's music room, the White Room features an incredible ceiling fresco, extensive moldings, and a stunning chandelier. A room with incredible architecture and a chic, bright atmosphere.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Salon de l'Entrevue",
+      "setting": "indoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["meeting", "dinner"],
+      "notable_features": ["site of the Ferrieres meeting between Bismarck and Jules Favre in 1870", "two remaining period tapestries"],
+      "description": "An ideal venue for seminars, conventions, corporate meetings, and private dining. The Salon de l'Entrevue was the very site of the Ferrieres meeting between Bismarck and Jules Favre in 1870 and houses the chateau's two remaining period tapestries.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Le Lounge",
+      "setting": "indoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["cocktail"],
+      "notable_features": ["light-filled space", "former Rothschild billiard room", "decorated in 2014 by architect Pierre-Yves Rochon"],
+      "description": "A light-filled space for aperitifs or digestifs. Former billiard room of the Rothschild family, decorated in 2014 by renowned architect Pierre-Yves Rochon.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Les Caves",
+      "setting": "indoor",
+      "area_sqm": 154,
+      "capacity_seated": 88,
+      "capacity_cocktail": 120,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["cocktail", "dinner"],
+      "notable_features": ["former kitchens of the chateau", "connected by tunnel to main building", "modern tasting rooms", "wine-themed activities"],
+      "description": "An original space for cocktails and banquets. The former kitchens of the chateau, connected to the main building by a tunnel. Houses modern tasting rooms and hosts original wine-themed activities, including incentive wine-making activities and wine casinos.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Le Parc du Chateau",
+      "setting": "outdoor",
+      "area_sqm": 1320000,
+      "capacity_seated": null,
+      "capacity_cocktail": 3000,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["ceremony", "cocktail", "garden_party"],
+      "notable_features": ["132-hectare English garden", "lake", "option to install temporary structures"],
+      "description": "A privileged location for garden parties or cocktails. Recognised as one of the most beautiful English gardens from the era of Baron James de Rothschild, the majestic park extends around the lake over 132 hectares. Unlimited capacity with option to install temporary structures.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Terrasse Cote Parc",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["cocktail"],
+      "notable_features": ["overlooking the park"],
+      "description": "Terrace space overlooking the park, available for events.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Le Chai",
+      "setting": "indoor",
+      "area_sqm": null,
+      "capacity_seated": 120,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dinner"],
+      "notable_features": ["renovated former kitchens building", "main room (80 covers)", "veranda (40 covers)", "terrace (60 covers)", "panoramic park views"],
+      "description": "Set in the warm surroundings of the renovated former kitchens building, at the heart of the chateau's park. Bistronomic restaurant featuring fresh seasonal produce with creative French terroir-inspired cuisine. Main dining room seats 80, veranda seats 40, with a 60-cover terrace.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "La Cave du Chai",
+      "setting": "indoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dinner", "wine_tasting"],
+      "notable_features": ["wine cellar"],
+      "description": "Wine cellar space associated with Le Chai restaurant, available for private events.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    }
+  ],
+
+  "accommodation": {
+    "on_site_accommodation": false,
+    "total_bedrooms": null,
+    "total_sleeping_capacity": null,
+    "mandatory_accommodation_purchase": false,
+    "mandatory_accommodation_details": null,
+    "bridal_suite": false,
+    "bridal_suite_description": "Complimentary wedding night at Paxton Paris MLV hotel with Paxton SPA - Cinq Mondes access until Sunday 5pm (from 80 guests, subject to availability)",
+    "preparation_rooms": null,
+    "buildings": null,
+    "room_amenities_common": null,
+    "air_conditioning": null,
+    "breakfast_included": null,
+    "breakfast_details": null,
+    "breakfast_price_per_person_eur": null,
+    "dormitory_available": null,
+    "dormitory_beds": null,
+    "nearby_accommodation": null,
+    "partner_hotel": {
+      "name": "Paxton Paris Marne-la-Vallee",
+      "distance_text": "800 metres",
+      "star_rating": 4,
+      "total_rooms": 232,
+      "features": ["spa (Paxton SPA - Cinq Mondes)", "brunch facilities", "complimentary wedding night for couple (from 80 guests, subject to availability)"]
+    }
+  },
+
+  "pricing": {
+    "pricing_model": "per_person_packages",
+    "starting_price_eur": null,
+    "starting_price_description": null,
+    "prices_include_tax": true,
+    "vat_rate_percentage": null,
+    "tourist_tax_note": null,
+    "pricing_year": null,
+    "seasonal_pricing": null,
+    "packages": [
+      {
+        "name": "Pack Prestige",
+        "price_eur": null,
+        "price_per_person_eur": 180,
+        "min_guests": null,
+        "max_guests": null,
+        "includes": [
+          "1 glass of Jacquart champagne",
+          "8 canapes",
+          "4-course menu: amuse-bouche, starter, main course, individual dessert",
+          "Presentation cake (gateau factice)",
+          "Still and sparkling water",
+          "3 glasses of wine per person",
+          "Coffee",
+          "Room hire (room allocated by venue)",
+          "Simple round floral table centrepiece"
+        ],
+        "excludes": null,
+        "seasonal_validity": null,
+        "tiered_pricing": null
+      },
+      {
+        "name": "Pack Excellence",
+        "price_eur": null,
+        "price_per_person_eur": 225,
+        "min_guests": null,
+        "max_guests": null,
+        "includes": [
+          "1 glass of Jacquart Blanc de Blanc champagne",
+          "12 canapes",
+          "5-course menu: amuse-bouche, starter, main course, cheese, individual dessert",
+          "Presentation cake (gateau factice)",
+          "Still and sparkling water",
+          "3 glasses of wine per person",
+          "Coffee",
+          "Room hire (room allocated by venue)",
+          "Elaborated floral table centrepiece with decoration (glassware, mirrors, simple table decorations)"
+        ],
+        "excludes": null,
+        "seasonal_validity": null,
+        "tiered_pricing": null
+      },
+      {
+        "name": "Pack Ferrieres",
+        "price_eur": null,
+        "price_per_person_eur": 249,
+        "min_guests": null,
+        "max_guests": null,
+        "includes": [
+          "1 glass of Jacquart Blanc de Blanc champagne",
+          "12 canapes",
+          "7-course menu: amuse-bouche, first starter, second starter, fish course, meat course, cheese (Brie mascarpone et fruits secs), individual dessert",
+          "Presentation cake (gateau factice)",
+          "Still and sparkling water",
+          "4 glasses of wine per person",
+          "Coffee",
+          "Room hire (room allocated by venue)",
+          "Tall floral table centrepiece with complete table decoration"
+        ],
+        "excludes": null,
+        "seasonal_validity": null,
+        "tiered_pricing": null
+      }
+    ],
+    "catering_cost_per_person_eur": 180,
+    "children_catering_price_eur": null,
+    "children_pricing_age_range": null,
+    "drinks_cost_per_person_eur": null,
+    "brunch_cost_per_person_eur": null,
+    "brunch_venue_fee_eur": null,
+    "welcome_dinner_cost_eur": null,
+    "minimum_nights": null,
+    "additional_night_rate_eur": null,
+    "extended_hour_rate_eur": null,
+    "rental_period_description": "Lunch: 12:00 to 16:00. Dinner: 20:00 to 00:00. Additional rental fees apply beyond these periods.",
+    "deposit_percentage": null,
+    "deposit_amount_eur": null,
+    "deposit_refundable": null,
+    "security_deposit_eur": null,
+    "security_deposit_return_days": null,
+    "payment_schedule": null,
+    "payment_methods": null,
+    "cancellation_policy": null,
+    "cleaning_fee_eur": null,
+    "security_guard_cost_eur": null,
+    "coordinator_cost_eur": null,
+    "price_includes": null,
+    "price_excludes": null,
+    "price_extras": [
+      {
+        "item": "Piece montee or Wedding cake (replacing dessert, simple)",
+        "price_eur": 11,
+        "unit": "per person"
+      },
+      {
+        "item": "Piece montee or Wedding cake (replacing dessert, decorated)",
+        "price_eur": 15,
+        "unit": "per person"
+      },
+      {
+        "item": "Piece montee or Wedding cake (in addition to dessert, simple)",
+        "price_eur": 15,
+        "unit": "per person"
+      },
+      {
+        "item": "Piece montee or Wedding cake (in addition to dessert, decorated)",
+        "price_eur": 19,
+        "unit": "per person"
+      },
+      {
+        "item": "Gateau buffet (type fraisier, replacing dessert)",
+        "price_eur": 15,
+        "unit": "per person"
+      },
+      {
+        "item": "Assortment of 4 mignardises",
+        "price_eur": 11,
+        "unit": "per person"
+      },
+      {
+        "item": "Lobster supplement (Pack Ferrieres)",
+        "price_eur": 10,
+        "unit": "per person"
+      },
+      {
+        "item": "Additional champagne glass (Jacquart)",
+        "price_eur": 14,
+        "unit": "per glass"
+      },
+      {
+        "item": "Additional champagne glass (Jacquart Blanc de Blanc)",
+        "price_eur": 17,
+        "unit": "per glass"
+      },
+      {
+        "item": "Soupe Champenoise",
+        "price_eur": 10,
+        "unit": "per glass"
+      },
+      {
+        "item": "Simple floral table centrepiece",
+        "price_eur": 50,
+        "unit": "per table"
+      },
+      {
+        "item": "Elaborate floral table centrepiece",
+        "price_eur": 80,
+        "unit": "per table"
+      },
+      {
+        "item": "Tall floral table centrepiece",
+        "price_eur": 100,
+        "unit": "per table"
+      },
+      {
+        "item": "Outdoor decoration pack (vin d'honneur, tent, buffet decor, floral, games, lanterns, bubbles, carpet, cocktail tables, seating)",
+        "price_eur": 1500,
+        "unit": "from"
+      },
+      {
+        "item": "Room decoration pack (lighting, heavy smoke)",
+        "price_eur": 540,
+        "unit": "from"
+      },
+      {
+        "item": "Floral decoration pack (table centrepiece, test presentation, bridal bouquet with pre-wedding presentation)",
+        "price_eur": 180,
+        "unit": "from"
+      },
+      {
+        "item": "Helium balloons",
+        "price_eur": 120,
+        "unit": "from"
+      },
+      {
+        "item": "DJ",
+        "price_eur": 950,
+        "unit": "from"
+      },
+      {
+        "item": "Musical ambiance",
+        "price_eur": 660,
+        "unit": "from"
+      },
+      {
+        "item": "1 musician (violinist/harpist/pianist/guitarist/soloist/accordionist)",
+        "price_eur": 1080,
+        "unit": "from"
+      },
+      {
+        "item": "Piano/voice duo",
+        "price_eur": 2040,
+        "unit": "from"
+      },
+      {
+        "item": "Jazz trio or quartet",
+        "price_eur": 2280,
+        "unit": "from"
+      },
+      {
+        "item": "Photo & video package (photo, video 3 min, 2 polaroids 100 photos)",
+        "price_eur": 2400,
+        "unit": "flat"
+      },
+      {
+        "item": "Photo & video package with selfie booth",
+        "price_eur": 3228,
+        "unit": "flat"
+      },
+      {
+        "item": "Photo & video package with photo studio and unlimited prints",
+        "price_eur": 4200,
+        "unit": "flat"
+      },
+      {
+        "item": "Full photo & video package (studio, polaroids, drone)",
+        "price_eur": 4800,
+        "unit": "flat"
+      },
+      {
+        "item": "Photo reportage (6 hours)",
+        "price_eur": 1500,
+        "unit": "flat"
+      },
+      {
+        "item": "Video reportage (6 hours)",
+        "price_eur": 1500,
+        "unit": "flat"
+      },
+      {
+        "item": "Secular ceremony pack (master of ceremonies, stage, speakers, mic, Napoleon chairs, carpet, floral arch, row markers)",
+        "price_eur": 2520,
+        "unit": "from"
+      },
+      {
+        "item": "Babysitters (wooden games, colouring)",
+        "price_eur": 480,
+        "unit": "from"
+      },
+      {
+        "item": "VR headset option for children over 8",
+        "price_eur": 360,
+        "unit": "flat"
+      },
+      {
+        "item": "Car rental",
+        "price_eur": 950,
+        "unit": "from"
+      },
+      {
+        "item": "Mentalism",
+        "price_eur": 1440,
+        "unit": "flat"
+      },
+      {
+        "item": "Magic show",
+        "price_eur": 1140,
+        "unit": "flat"
+      },
+      {
+        "item": "Brazilian or Indian dance",
+        "price_eur": 1900,
+        "unit": "from"
+      },
+      {
+        "item": "Evening games",
+        "price_eur": 660,
+        "unit": "from"
+      },
+      {
+        "item": "Graphic design / stationery pack",
+        "price_eur": 28,
+        "unit": "per dispatch"
+      },
+      {
+        "item": "Plancha shrimp and vegetable wok (30-min outdoor animation)",
+        "price_eur": 5,
+        "unit": "per person"
+      },
+      {
+        "item": "Plancha chicken aiguillette (30-min outdoor animation)",
+        "price_eur": 5,
+        "unit": "per person"
+      },
+      {
+        "item": "Plancha duck brochette (30-min outdoor animation)",
+        "price_eur": 4,
+        "unit": "per person"
+      },
+      {
+        "item": "Salmon heart carving with blinis (indoor/outdoor animation)",
+        "price_eur": 6,
+        "unit": "per person"
+      },
+      {
+        "item": "Foie gras carving with breads (indoor/outdoor animation)",
+        "price_eur": 6,
+        "unit": "per person"
+      },
+      {
+        "item": "Duck terrine carving (indoor/outdoor animation)",
+        "price_eur": 3,
+        "unit": "per person"
+      }
+    ]
+  },
+
+  "catering": {
+    "catering_model": "in_house_exclusive",
+    "in_house_chef": "Patrick Juhel (Meilleur Ouvrier de France 2000, Executive Chef) and Desty Brami",
+    "recommended_caterers": null,
+    "cuisine_style": "High-end French gastronomy with creative terroir-inspired cuisine",
+    "dietary_accommodations": null,
+    "professional_kitchen": true,
+    "kitchen_size_sqm": null,
+    "on_site_restaurant": "Le Baron (gastronomic restaurant, Chef Yannick Quemin) and Le Chai (bistronomic restaurant)",
+    "brunch_available": true,
+    "brunch_description": "Post-event brunch available at Paxton Paris MLV hotel for guests",
+    "late_night_food_available": null,
+    "pre_wedding_dinner": null,
+    "tasting_meal_included": true,
+    "wedding_cake": "Piece montee (3 choux) or Wedding cake available as replacement or complement to dessert. Simple from 11 EUR/person, decorated from 15 EUR/person."
+  },
+
+  "drinks": {
+    "corkage_fee": null,
+    "corkage_fee_amount_eur": null,
+    "byo_wine_allowed": null,
+    "mandatory_venue_drinks": null,
+    "venue_wine_requirement": null,
+    "on_site_wine_production": false,
+    "wine_appellation": "Chateau la Dorgonne estate wines",
+    "bar_service_description": "Packages include champagne (Jacquart or Jacquart Blanc de Blanc), 3-4 glasses of wine per person, still and sparkling water, and coffee. Additional champagne glasses and other drinks available a la carte.",
+    "wine_cellar": true
+  },
+
+  "vendor_rules": {
+    "vendor_freedom": "in_house",
+    "preferred_vendor_list_available": true,
+    "vendor_categories_recommended": ["photographers", "videographers", "DJs", "musicians", "florists", "decorators", "entertainment", "babysitters", "car rental", "stationery"],
+    "in_house_services": ["catering", "floral decoration", "table art", "day-of coordination", "master of ceremonies"],
+    "wedding_planner_available": null,
+    "wedding_planner_mandatory": null,
+    "wedding_planner_name": null,
+    "non_approved_vendor_fee": null,
+    "day_of_coordinator_provided": true,
+    "dedicated_project_manager": true
+  },
+
+  "ceremony": {
+    "ceremony_types": ["secular"],
+    "licensed_for_civil_marriage": false,
+    "chapel_on_site": false,
+    "chapel_details": null,
+    "nearby_church": null,
+    "outdoor_ceremony_locations": ["Location of choice within the chateau park grounds"],
+    "rain_backup_plan": null,
+    "celebrant_available": true,
+    "elopement_option": null
+  },
+
+  "amenities": {
+    "swimming_pool": false,
+    "pool_count": null,
+    "pool_details": null,
+    "hot_tub_jacuzzi": false,
+    "spa": false,
+    "spa_details": "Available at partner hotel Paxton Paris MLV (Paxton SPA - Cinq Mondes)",
+    "tennis_court": null,
+    "petanque_court": null,
+    "gym_fitness": null,
+    "games_room": null,
+    "library": null,
+    "cinema_room": null,
+    "grand_piano": null,
+    "children_playground": null,
+    "helipad": null,
+    "gardens_description": "135-hectare landscaped park with one of the most beautiful English gardens from the era of Baron James de Rothschild, featuring rolling green landscapes, a lake, and majestic trees. The park extends over 132 hectares around the lake.",
+    "garden_style": "English",
+    "vineyard_on_site": false,
+    "olive_groves": false,
+    "lake_pond": true,
+    "forest_woodland": false,
+    "notable_trees": null,
+    "fountain_water_feature": null,
+    "orangery": false,
+    "dovecote": false,
+    "greenhouse": false
+  },
+
+  "activities": {
+    "on_site_activities": ["wine tasting", "wine-making incentive activities", "wine casino", "culinary workshops (pastry, cooking, oenology)", "team building", "sporting activities in the park"],
+    "nearby_activities": null,
+    "wine_tasting_on_site": true,
+    "cooking_workshops": true,
+    "excursions_organized": null,
+    "excursion_destinations": null,
+    "fireworks_available": true,
+    "fireworks_details": "Pyrotechnic shows available with reduced noise system"
+  },
+
+  "technical": {
+    "wifi_available": null,
+    "sound_system_provided": true,
+    "av_equipment": ["speakers", "microphone", "stage/estrade"],
+    "furniture_provided": true,
+    "furniture_details": "Napoleon chairs (transparent, white or black seat), cocktail tables (mange-debout), seating. Custom furniture available.",
+    "decoration_services": true,
+    "marquee_tent_available": true,
+    "marquee_size_sqm": null,
+    "backup_generator": null,
+    "ev_charging_stations": null,
+    "climate_control": null
+  },
+
+  "accessibility": {
+    "wheelchair_accessible": null,
+    "accessible_rooms_count": null,
+    "elevator": null,
+    "pmr_parking": null,
+    "accessibility_details": null
+  },
+
+  "sustainability": {
+    "eco_certifications": null,
+    "eco_practices": null
+  },
+
+  "parking": {
+    "parking_available": null,
+    "parking_spaces": null,
+    "parking_type": null,
+    "vendor_parking_separate": null
+  },
+
+  "policies": {
+    "curfew_time": "Midnight (dinner events end at 00:00)",
+    "outdoor_music_curfew": null,
+    "indoor_music_curfew": null,
+    "no_curfew": false,
+    "noise_restrictions": "Noise level must not exceed 70 dB before 11:00 PM. Dancing permitted from 11:00 PM.",
+    "setup_access_time": null,
+    "teardown_deadline": null,
+    "tent_marquee_policy": null,
+    "confetti_policy": null,
+    "candle_policy": null,
+    "event_insurance_required": null,
+    "event_insurance_cost_eur": null,
+    "portable_toilets_policy": null,
+    "lifeguard_required": null,
+    "babysitter_mandatory": null,
+    "pet_policy": null,
+    "child_friendly": true,
+    "baby_facilities": null,
+    "children_area": null,
+    "babysitter_available": true,
+    "lgbtq_friendly": null,
+    "all_faiths_welcome": null,
+    "security_guard_policy": null,
+    "events_per_year_limit": null,
+    "check_in_time": null,
+    "check_out_time": null
+  },
+
+  "contact": {
+    "phone_primary": "+33 1 81 16 01 23",
+    "phone_secondary": "+33 1 81 16 27 77",
+    "email_primary": "commercial@chateaudeferrieres.com",
+    "email_secondary": null,
+    "website_url": "https://www.chateaudeferrieres.com",
+    "instagram": "https://www.instagram.com/chateaudeferrieres/",
+    "facebook": "https://www.facebook.com/chateaudeferrieres/",
+    "other_social_media": [
+      { "platform": "LinkedIn", "handle_or_url": "https://fr.linkedin.com/company/chateau-de-ferrieres" }
+    ],
+    "whatsapp": null,
+    "contact_person": null,
+    "phone_hours": "Monday to Saturday, 9:00 AM to 5:00 PM",
+    "brochure_url": "https://www.chateaudeferrieres.com/BROCHURE_MARIAGE.pdf",
+    "virtual_tour_url": null
+  },
+
+  "event_types": ["weddings", "corporate events", "seminars", "banquets", "private celebrations", "gala dinners", "conventions", "cocktail receptions", "garden parties", "film shoots"],
+
+  "wedding_day_details": {
+    "typical_timeline": "Discovery visit, meeting with dedicated project manager, tasting meal, final technical visit. Wedding day: welcome at the Chateau or Paxton Paris MLV hotel, beauty preparations, lunch with close family, ceremony in the park, cocktail reception, seated dinner, dancing from 11:00 PM.",
+    "typical_weekend_flow": "Wedding day celebrations at the chateau. Post-event: relaxation at Paxton Paris Marne-la-Vallee hotel spa, brunch with guests.",
+    "multi_day_event": true,
+    "cultural_ceremony_experience": ["secular"],
+    "destination_wedding_speciality": null
+  }
+}

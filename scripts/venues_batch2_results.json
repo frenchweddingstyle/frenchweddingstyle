@@ -1,0 +1,302 @@
+[
+  {
+    "venue": "Chateau de la Rode",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "No Google Doc found"
+  },
+  {
+    "venue": "Chateau De Pont-Forêt",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "No Google Doc found"
+  },
+  {
+    "venue": "Château du Blanc Buisson",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "No Google Doc found"
+  },
+  {
+    "venue": "Chateau de la Groirie",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "No Google Doc found"
+  },
+  {
+    "venue": "Valmagne Sainte-Maria's Abbey",
+    "status": "OK",
+    "chars": 30139,
+    "doc_name": "Valmagne Sainte-Maria's Abbey"
+  },
+  {
+    "venue": "A'mare Resort",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "No Google Doc found"
+  },
+  {
+    "venue": "Chateau l'Hospitalet",
+    "status": "OK",
+    "chars": 9974,
+    "doc_name": "Chateau l'Hospitalet"
+  },
+  {
+    "venue": "Le Domaine Miltat",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "No Google Doc found"
+  },
+  {
+    "venue": "Chateau de Cas",
+    "status": "OK",
+    "chars": 7800,
+    "doc_name": "Chateau de Cassis"
+  },
+  {
+    "venue": "Manoir de l'Etang",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "No Google Doc found"
+  },
+  {
+    "venue": "Chateau de Carsix",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "No Google Doc found"
+  },
+  {
+    "venue": "Chateau de Colliers",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "No Google Doc found"
+  },
+  {
+    "venue": "Chateau de Mairy ",
+    "status": "OK",
+    "chars": 7372,
+    "doc_name": "250703 - Chateau de Mairy, Chalons-en-Champagne - Daria Ovseenko"
+  },
+  {
+    "venue": "Château d'Agel",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "No Google Doc found"
+  },
+  {
+    "venue": "Musée Nissim de Camondo",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "No Google Doc found"
+  },
+  {
+    "venue": "Abbaye Saint-Eusèbe de Saignon",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "No Google Doc found"
+  },
+  {
+    "venue": "Castle Vaulogé",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "No Google Doc found"
+  },
+  {
+    "venue": "Chateau le Mas de Montet",
+    "status": "OK",
+    "chars": 9300,
+    "doc_name": "Chateau le Mas de Montet"
+  },
+  {
+    "venue": "Chateau de Lacoste",
+    "status": "OK",
+    "chars": 5434,
+    "doc_name": "Chateau de Lacoste"
+  },
+  {
+    "venue": "Domaine de Capelongue",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "No Google Doc found"
+  },
+  {
+    "venue": "Chateau de Bardouly",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "No Google Doc found"
+  },
+  {
+    "venue": "Domaine de Ouézy",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "No Google Doc found"
+  },
+  {
+    "venue": "Chateau de Miremont",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "No Google Doc found"
+  },
+  {
+    "venue": "Chateau de Cassis",
+    "status": "OK",
+    "chars": 7800,
+    "doc_name": "Chateau de Cassis"
+  },
+  {
+    "venue": "Château de Canisy",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "No Google Doc found"
+  },
+  {
+    "venue": "Chateau de la Croix",
+    "status": "OK",
+    "chars": 18168,
+    "doc_name": "Le château de la croix"
+  },
+  {
+    "venue": "Chateau de Beguin",
+    "status": "OK",
+    "chars": 5639,
+    "doc_name": "Chateau de Beguin"
+  },
+  {
+    "venue": "Domaine Finili",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "No Google Doc found"
+  },
+  {
+    "venue": "Maison Claudie",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "No Google Doc found"
+  },
+  {
+    "venue": "Hôtel Misincu",
+    "status": "OK",
+    "chars": 31839,
+    "doc_name": "Hotel Misincu"
+  },
+  {
+    "venue": "Chateau Lacanaud",
+    "status": "OK",
+    "chars": 5265,
+    "doc_name": "Chateau Lacanaud"
+  },
+  {
+    "venue": "Chateau du Puits es Pratx",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "Empty doc"
+  },
+  {
+    "venue": "Château de Clerans Saint-Léon-sur-Vézère",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "No Google Doc found"
+  },
+  {
+    "venue": "Abbaye de la Ferte",
+    "status": "OK",
+    "chars": 4609,
+    "doc_name": "Abbaye de la Ferte"
+  },
+  {
+    "venue": "Chateau de Glairans",
+    "status": "OK",
+    "chars": 3236,
+    "doc_name": "250823 - Chateau de Glairans - Labricole"
+  },
+  {
+    "venue": "Jardin du Vert Bois",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "No Google Doc found"
+  },
+  {
+    "venue": "Manoir des Reves Sauvages",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "No Google Doc found"
+  },
+  {
+    "venue": "Chateau de Mirambeau",
+    "status": "OK",
+    "chars": 4627,
+    "doc_name": "30/09/2025 01:30:33| Château de Mirambeau | Vera Schulz"
+  },
+  {
+    "venue": "Mas de Chabran",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "No Google Doc found"
+  },
+  {
+    "venue": "Hotel Particulier Montmartre",
+    "status": "OK",
+    "chars": 15802,
+    "doc_name": "Hôtel Particulier Montmartre"
+  },
+  {
+    "venue": "Chateau de Castel Novel",
+    "status": "OK",
+    "chars": 8275,
+    "doc_name": "Chateau de Castel Novel"
+  },
+  {
+    "venue": "Chateau St Michel",
+    "status": "OK",
+    "chars": 2016,
+    "doc_name": "Chateau St Michel"
+  },
+  {
+    "venue": "Hotel de Bouillon (Chateau de Versailles)",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "No Google Doc found"
+  },
+  {
+    "venue": "Chateau de Vallery",
+    "status": "OK",
+    "chars": 86112,
+    "doc_name": "Chateau de Vallery"
+  },
+  {
+    "venue": "Chateau Bagen",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "No Google Doc found"
+  },
+  {
+    "venue": "Clos du Tuilier",
+    "status": "OK",
+    "chars": 13417,
+    "doc_name": "250912 - Wedding Venue - Clos du Tuilier"
+  },
+  {
+    "venue": "Chateau de Chambly",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "No Google Doc found"
+  },
+  {
+    "venue": "Château de Droupt-Saint-Basle",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "No Google Doc found"
+  },
+  {
+    "venue": "Manoir de Gerville",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "No Google Doc found"
+  },
+  {
+    "venue": "Domaine Madrona",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "No Google Doc found"
+  }
+]

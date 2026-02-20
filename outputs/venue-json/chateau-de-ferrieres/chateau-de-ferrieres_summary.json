@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "description": "Venue Reduced Record — 20 core fields for high-level filtering and bride-facing comparison.",
+    "schema_version": "v1.1.0",
+    "field_count": 20,
+    "golden_record_ref": "chateau-de-ferrieres_full.json"
+  },
+
+  "venue_name": "Chateau de Ferrieres",
+  "venue_type": "chateau",
+  "short_description": "A 19th-century neo-renaissance masterpiece built for Baron James de Rothschild, set within a 135-hectare English park just 25 km from Paris, offering prestigious wedding receptions for 20 to 450 guests with bespoke high-end catering by MOF-titled chefs.",
+  "region": "Ile-de-France",
+  "department": "Seine-et-Marne",
+  "nearest_city": "Paris (25 km)",
+  "max_guests": 450,
+  "min_guests": 20,
+  "max_sleeping_guests": null,
+  "total_bedrooms": null,
+  "starting_price_eur": 180,
+  "exclusivity_model": "shared_venue",
+  "catering_model": "in_house_exclusive",
+  "on_site_accommodation": false,
+  "swimming_pool": false,
+  "chapel_on_site": false,
+  "curfew": "Midnight (dinner events)",
+  "child_friendly": true,
+  "google_rating": null,
+  "website_url": "https://www.chateaudeferrieres.com"
+}

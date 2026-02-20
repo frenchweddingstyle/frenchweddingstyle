@@ -122,7 +122,7 @@ Example: `/implement plans/2026-01-28-competitor-analysis-command.md`
 
 **Purpose:** Scrape venue websites from Airtable and write Markdown content back.
 
-Reads venue URLs from Airtable, scrapes each using the Firecrawl API, cleans the Markdown content, and writes it to the `venue_url_scraped` field. Processes in batches of 5 with user confirmation between batches. Error states are marked with `MANUAL_CHECK` markers.
+Reads venue URLs from Airtable, scrapes each using the Firecrawl API, cleans the Markdown content, and writes it to the `venue_url_scraped` field. Also geocodes `venue_address` to GPS coordinates via OpenStreetMap Nominatim and writes to the `gps_coordinates` field. Processes in batches of 5 with user confirmation between batches. Error states are marked with `MANUAL_CHECK` markers.
 
 Workflow files: `workflows/scrape-venue-site/`
 
@@ -133,6 +133,29 @@ Workflow files: `workflows/scrape-venue-site/`
 Reads `brochure_link` URLs from Airtable (Google Drive files/folders, Google Docs, Calameo flipbooks, Canva designs, etc.), extracts text content, and writes consolidated Markdown to the `brochure_text` field. Processes in batches of 5 with user confirmation between batches. Handles multiple file types via MCP tools (Google Drive MCP for folder listing + doc reading, Firecrawl for web/PDF scraping). Error states are written as `[ERROR]: ...` markers.
 
 Workflow files: `workflows/extract-brochures/`
+
+### /generate-venue-json
+
+**Purpose:** Generate structured JSON records from scraped venue content and brochure text.
+
+Reads `venue_url_scraped` and `brochure_text` from Airtable, validates both refer to the same venue, extracts structured data into a full JSON record (~320 fields) and a 20-field summary, saves locally to `outputs/venue-json/{venue-slug}/`, and writes both to Airtable `full_venue_json` and `summary_venue_json` fields. Uses Task agent delegation for context management. Processes in batches of 5.
+
+Templates: `outputs/venue-json-templates/`
+
+### /location-page
+
+**Purpose:** Generate bride-facing informative blog posts as single static HTML files with Tailwind CSS for any target wedding location in France.
+
+Interactive 4-step pipeline:
+1. **Intelligence** — Firecrawl research + AI synthesis for the target location (sub-regions, expert tips, FAQs, costs)
+2. **Venue Lookup** — Query Airtable for FWS member venues, parse `full_venue_json`, derive tags, group by sub-region, calculate cost tiers
+3. **Link Assembly** — Resolve CTA links (FWS listing, Review, Real Wedding) for each venue
+4. **Compilation** — Jinja2 template rendering with tone enforcement + SEO meta tags
+
+Pauses after each step for user review. Uses Firecrawl MCP for research and Airtable MCP for venue data. All generated text is scanned against the forbidden word list from `context/tone-of-voice.md`.
+
+Workflow files: `workflows/location-page-gen/`
+Dependencies: Python Jinja2 (`pip install jinja2`), Firecrawl MCP, Airtable MCP
 
 ---
 

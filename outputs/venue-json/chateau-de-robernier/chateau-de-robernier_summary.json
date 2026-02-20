@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "description": "Venue Reduced Record — 20 core fields for high-level filtering and bride-facing comparison.",
+    "schema_version": "v1.1.0",
+    "field_count": 20,
+    "golden_record_ref": "chateau-de-robernier_full.json"
+  },
+
+  "venue_name": "Chateau de Robernier",
+  "venue_type": "chateau",
+  "short_description": "A truly unique fairytale 16th-century castle in Provence, set among vineyards and centuries-old olive groves, offering exclusive privatisation for weddings of up to 300 guests with 26 sleeping on-site.",
+  "region": "Provence-Alpes-C\u00f4te d'Azur",
+  "department": "Var",
+  "nearest_city": "Toulon (1 hour)",
+  "max_guests": 300,
+  "min_guests": null,
+  "max_sleeping_guests": 26,
+  "total_bedrooms": 12,
+  "starting_price_eur": 11550,
+  "exclusivity_model": "full_exclusivity",
+  "catering_model": "free_choice_or_package",
+  "on_site_accommodation": true,
+  "swimming_pool": true,
+  "chapel_on_site": true,
+  "curfew": "4:00 AM",
+  "child_friendly": null,
+  "google_rating": null,
+  "website_url": "http://www.chateauderobernier.com"
+}

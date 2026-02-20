@@ -1,0 +1,68 @@
+[
+  {
+    "venue": "Chateau les Carrasses",
+    "status": "OK",
+    "chars": 10041,
+    "doc_name": "Chateau les Carrasses"
+  },
+  {
+    "venue": "Chateau de Courcelles",
+    "status": "OK",
+    "chars": 2746,
+    "doc_name": "Chateau de Courcelles"
+  },
+  {
+    "venue": "Chateau Couffins",
+    "status": "OK",
+    "chars": 8516,
+    "doc_name": "Chateau Couffins"
+  },
+  {
+    "venue": "Chateau Isabeau de Naujan",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "No Google Doc found"
+  },
+  {
+    "venue": "Chateau du Parc Saint Lambert",
+    "status": "OK",
+    "chars": 10045,
+    "doc_name": "Château du Parc Saint Lambert"
+  },
+  {
+    "venue": "La Manufacture Royale de Lectoure",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "Empty doc"
+  },
+  {
+    "venue": "La Deme de Giverny",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "No Google Doc found"
+  },
+  {
+    "venue": "Chateau Mareuil",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "No Google Doc found"
+  },
+  {
+    "venue": "Domaine des Etangs",
+    "status": "OK",
+    "chars": 22597,
+    "doc_name": "Domaine des Etangs"
+  },
+  {
+    "venue": "Chateau de Champlatreux",
+    "status": "OK",
+    "chars": 18514,
+    "doc_name": "Chateau de Champlatreux"
+  },
+  {
+    "venue": "Domaine de Primard",
+    "status": "OK",
+    "chars": 9379,
+    "doc_name": "Domaine de Primard"
+  }
+]

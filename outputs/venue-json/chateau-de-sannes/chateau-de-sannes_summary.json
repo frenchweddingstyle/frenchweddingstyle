@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "description": "Venue Reduced Record \u2014 20 core fields for high-level filtering and bride-facing comparison.",
+    "schema_version": "v1.1.0",
+    "field_count": 20,
+    "golden_record_ref": "chateau-de-sannes_full.json"
+  },
+
+  "venue_name": "Chateau de Sannes",
+  "venue_type": "chateau",
+  "short_description": "A majestic 70-hectare wine estate in the heart of the Luberon Natural Reserve in Provence, featuring formal gardens, vineyards, 3 swimming pools, and accommodation for 32 guests across 15 bedrooms.",
+  "region": "Provence-Alpes-C\u00f4te d'Azur",
+  "department": "Vaucluse",
+  "nearest_city": null,
+  "max_guests": 220,
+  "min_guests": null,
+  "max_sleeping_guests": 32,
+  "total_bedrooms": 15,
+  "starting_price_eur": 20000,
+  "exclusivity_model": "full_exclusivity",
+  "catering_model": "imposed_caterer",
+  "on_site_accommodation": true,
+  "swimming_pool": true,
+  "chapel_on_site": null,
+  "curfew": "11:30 PM outdoors (obligatory indoor dance party from 11:30 PM)",
+  "child_friendly": true,
+  "google_rating": null,
+  "website_url": "https://www.chateaudesannes.fr/en"
+}

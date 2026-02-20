@@ -1,0 +1,502 @@
+{
+  "overview": {
+    "min_price_eur": 10000,
+    "max_guests": 100,
+    "min_guests": null,
+    "max_sleeping_guests": 42,
+    "total_bedrooms": 16,
+    "estate_size_hectares": null
+  },
+
+  "identity": {
+    "venue_name": "Chateau de Sanse",
+    "venue_type": "chateau",
+    "venue_subtype": "chateau-hotel",
+    "tagline": null,
+    "short_description": "A 16th-century chateau-hotel nestled in the Gironde vineyards near Saint-Emilion, offering exclusive wedding packages with in-house catering for up to 100 guests, with 16 ensuite bedrooms sleeping 42.",
+    "exclusivity_model": "full_exclusivity",
+    "owner_names": null,
+    "management_company": null,
+    "network_membership": null,
+    "media_features": null,
+    "filming_credits": null,
+    "certifications": ["3-star hotel"],
+    "google_rating": null,
+    "google_review_count": null,
+    "languages_spoken": null
+  },
+
+  "location": {
+    "address": {
+      "street": "1 lieu dit Sanse",
+      "city": "Sainte-Radegonde",
+      "postal_code": "33350",
+      "department": "Gironde",
+      "country": "France"
+    },
+    "gps_coordinates": {
+      "latitude": null,
+      "longitude": null
+    },
+    "region": "Nouvelle-Aquitaine",
+    "sub_region": "Gironde vineyards / Saint-Emilion area",
+    "natural_park": null,
+    "nearest_city": {
+      "name": "Bordeaux",
+      "distance_text": "1 hour by car"
+    },
+    "nearest_cities": [
+      { "name": "Saint-Emilion", "distance_text": "20 km" },
+      { "name": "Bergerac", "distance_text": "45 km" },
+      { "name": "Bordeaux", "distance_text": "75 km" }
+    ],
+    "nearest_airports": [
+      { "name": "Bergerac airport", "distance_text": "40 minutes" },
+      { "name": "Bordeaux airport", "distance_text": "1 hour" }
+    ],
+    "nearest_train_stations": [
+      { "name": "Velines", "distance_text": "8.5 km" }
+    ],
+    "motorway_access": null,
+    "distance_to_paris": null,
+    "distance_to_coast": null,
+    "nearby_villages": ["Saint-Emilion", "Gensac", "Pujols", "Castillon-la-Bataille"],
+    "nearby_attractions": null,
+    "landscape_description": "Nestled amidst vineyards and forests in the heart of the Gironde wine region, with cypress-lined pathways and lush hillsides",
+    "shuttle_service_available": null
+  },
+
+  "history": {
+    "construction_period": "16th century",
+    "construction_year": null,
+    "architectural_style": "Golden stone chateau with Tuscan-influenced atmosphere",
+    "architect": null,
+    "listed_monument_status": null,
+    "historical_families": null,
+    "notable_historical_guests": null,
+    "historical_narrative": "Chateau de Sanse is a 16th-century chateau built of beautiful blond stone, standing majestically amidst vineyards and forests in the village of Sainte-Radegonde. The property has been transformed into a 3-star boutique hotel operating from March to November.",
+    "notable_architectural_features": ["golden stone architecture", "cypress-lined pathways"],
+    "renovation_history": null,
+    "literary_cultural_associations": null
+  },
+
+  "spaces": [
+    {
+      "name": "Reception Room",
+      "setting": "indoor",
+      "area_sqm": null,
+      "capacity_seated": 80,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dinner", "reception"],
+      "notable_features": null,
+      "description": "Indoor reception room that can accommodate up to 80 guests for the wedding dinner.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Garden",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": 100,
+      "capacity_ceremony": 100,
+      "rental_fee_eur": null,
+      "suitable_for": ["ceremony", "cocktail", "photos"],
+      "notable_features": ["beautifully landscaped", "sweeping countryside vistas"],
+      "description": "Beautifully landscaped garden suitable for outdoor ceremonies, followed by cocktail receptions on the terrace with sweeping countryside vistas.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Panoramic Terrace",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["cocktail", "dinner"],
+      "notable_features": ["panoramic views", "attached to bistronomic restaurant"],
+      "description": "The restaurant terrace offering panoramic views over the countryside, used for cocktail receptions and dining.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Pool Terrace",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["brunch", "pool_party", "cocktail"],
+      "notable_features": ["heated swimming pool", "sun loungers"],
+      "description": "The poolside area ideal for next-day pool parties and leisurely gatherings. The bar team is available all day to craft cocktails.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Seminar Room",
+      "setting": "indoor",
+      "area_sqm": null,
+      "capacity_seated": 70,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["seminar", "meeting"],
+      "notable_features": ["equipped with flipchart and screen"],
+      "description": "Equipped meeting room for professional events and seminars, accommodating up to 70 people. Video projector available for rental.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": ["flipchart", "screen", "video projector (rental)"]
+    }
+  ],
+
+  "accommodation": {
+    "on_site_accommodation": true,
+    "total_bedrooms": 16,
+    "total_sleeping_capacity": 42,
+    "mandatory_accommodation_purchase": null,
+    "mandatory_accommodation_details": null,
+    "bridal_suite": null,
+    "bridal_suite_description": null,
+    "preparation_rooms": null,
+    "buildings": [
+      {
+        "name": "Le Chateau",
+        "building_type": "chateau",
+        "bedrooms": 16,
+        "sleeping_capacity": 42,
+        "price_per_night_eur": null,
+        "description": "The chateau offers eleven rooms and five suites. All accommodations are unique, dating back to the 16th century. Sixteen ensuite bedrooms combine luxury with modern amenities, with two rooms designed for easy access by individuals with reduced mobility.",
+        "has_kitchen": false,
+        "has_living_area": null,
+        "has_private_garden": false,
+        "rooms": [
+          {
+            "name": "Standard Room",
+            "room_type": "standard",
+            "capacity_persons": 2,
+            "bed_configuration": null,
+            "area_sqm": null,
+            "en_suite": true,
+            "bathroom_type": null,
+            "view": null,
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": null,
+            "price_per_night_eur": null
+          },
+          {
+            "name": "Character Room",
+            "room_type": "character",
+            "capacity_persons": 2,
+            "bed_configuration": null,
+            "area_sqm": null,
+            "en_suite": true,
+            "bathroom_type": null,
+            "view": "magnificent views",
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": null,
+            "price_per_night_eur": null
+          },
+          {
+            "name": "Character Room with Terrace or Balcony",
+            "room_type": "character",
+            "capacity_persons": 2,
+            "bed_configuration": null,
+            "area_sqm": null,
+            "en_suite": true,
+            "bathroom_type": null,
+            "view": null,
+            "has_terrace": true,
+            "air_conditioned": null,
+            "accessible": null,
+            "price_per_night_eur": null
+          },
+          {
+            "name": "Luxury Suite (Suite 17)",
+            "room_type": "luxury_suite",
+            "capacity_persons": 4,
+            "bed_configuration": "1 King bed (180x200) + 1 sofa bed",
+            "area_sqm": 66,
+            "en_suite": true,
+            "bathroom_type": "en-suite shower and bathtub",
+            "view": null,
+            "has_terrace": false,
+            "air_conditioned": null,
+            "accessible": null,
+            "price_per_night_eur": 225
+          },
+          {
+            "name": "Suite with Terrace or Balcony",
+            "room_type": "suite",
+            "capacity_persons": 5,
+            "bed_configuration": null,
+            "area_sqm": null,
+            "en_suite": true,
+            "bathroom_type": null,
+            "view": null,
+            "has_terrace": true,
+            "air_conditioned": null,
+            "accessible": null,
+            "price_per_night_eur": null
+          }
+        ]
+      }
+    ],
+    "room_amenities_common": ["private bathroom", "hairdryer", "television", "safe", "desk", "storage"],
+    "air_conditioning": null,
+    "breakfast_included": true,
+    "breakfast_details": null,
+    "breakfast_price_per_person_eur": null,
+    "dormitory_available": false,
+    "dormitory_beds": null,
+    "nearby_accommodation": null,
+    "partner_hotel": null
+  },
+
+  "pricing": {
+    "pricing_model": "package",
+    "starting_price_eur": 10000,
+    "starting_price_description": "From 10,000 EUR for 3 nights (weekend rate), comprehensive package including catering on all days.",
+    "prices_include_tax": null,
+    "vat_rate_percentage": null,
+    "tourist_tax_note": null,
+    "pricing_year": null,
+    "seasonal_pricing": null,
+    "packages": [
+      {
+        "name": "Weekend Wedding Package",
+        "price_eur": 10000,
+        "price_per_person_eur": null,
+        "min_guests": null,
+        "max_guests": 100,
+        "includes": [
+          "3-night weekend venue rental",
+          "Catering on all days",
+          "Accommodation",
+          "All dishes made with seasonal and local products"
+        ],
+        "excludes": null,
+        "seasonal_validity": null,
+        "tiered_pricing": null
+      }
+    ],
+    "catering_cost_per_person_eur": null,
+    "children_catering_price_eur": null,
+    "children_pricing_age_range": null,
+    "drinks_cost_per_person_eur": null,
+    "brunch_cost_per_person_eur": null,
+    "brunch_venue_fee_eur": null,
+    "welcome_dinner_cost_eur": null,
+    "minimum_nights": 3,
+    "additional_night_rate_eur": null,
+    "extended_hour_rate_eur": null,
+    "rental_period_description": "3-night weekend rate",
+    "deposit_percentage": null,
+    "deposit_amount_eur": null,
+    "deposit_refundable": null,
+    "security_deposit_eur": null,
+    "security_deposit_return_days": null,
+    "payment_schedule": null,
+    "payment_methods": null,
+    "cancellation_policy": null,
+    "cleaning_fee_eur": null,
+    "security_guard_cost_eur": null,
+    "coordinator_cost_eur": null,
+    "price_includes": null,
+    "price_excludes": null,
+    "price_extras": null
+  },
+
+  "catering": {
+    "catering_model": "in_house",
+    "in_house_chef": true,
+    "recommended_caterers": null,
+    "cuisine_style": "Bistronomic cuisine with local and seasonal ingredients from the Gironde region",
+    "dietary_accommodations": null,
+    "professional_kitchen": true,
+    "kitchen_size_sqm": null,
+    "on_site_restaurant": "Bistronomic restaurant with panoramic terrace",
+    "brunch_available": null,
+    "brunch_description": null,
+    "late_night_food_available": null,
+    "pre_wedding_dinner": null,
+    "tasting_meal_included": null,
+    "wedding_cake": null
+  },
+
+  "drinks": {
+    "corkage_fee": null,
+    "corkage_fee_amount_eur": null,
+    "byo_wine_allowed": null,
+    "mandatory_venue_drinks": null,
+    "venue_wine_requirement": null,
+    "on_site_wine_production": false,
+    "wine_appellation": null,
+    "bar_service_description": "Bar team available all day to craft cocktails. Outdoor lounge and cocktail bar on site. Refined wine selection available.",
+    "wine_cellar": null
+  },
+
+  "vendor_rules": {
+    "vendor_freedom": null,
+    "preferred_vendor_list_available": null,
+    "vendor_categories_recommended": null,
+    "in_house_services": ["in-house chef", "bar service", "day-of coordination"],
+    "wedding_planner_available": null,
+    "wedding_planner_mandatory": null,
+    "wedding_planner_name": null,
+    "non_approved_vendor_fee": null,
+    "day_of_coordinator_provided": null,
+    "dedicated_project_manager": null
+  },
+
+  "ceremony": {
+    "ceremony_types": null,
+    "licensed_for_civil_marriage": null,
+    "chapel_on_site": false,
+    "chapel_details": null,
+    "nearby_church": null,
+    "outdoor_ceremony_locations": ["beautifully landscaped garden"],
+    "rain_backup_plan": null,
+    "celebrant_available": null,
+    "elopement_option": null
+  },
+
+  "amenities": {
+    "swimming_pool": true,
+    "pool_count": 1,
+    "pool_details": "Heated swimming pool",
+    "hot_tub_jacuzzi": null,
+    "spa": null,
+    "spa_details": null,
+    "tennis_court": null,
+    "petanque_court": true,
+    "gym_fitness": null,
+    "games_room": null,
+    "library": null,
+    "cinema_room": null,
+    "grand_piano": null,
+    "children_playground": true,
+    "helipad": true,
+    "gardens_description": "Cypress-lined pathways, lush hillsides, beautifully landscaped garden with sweeping countryside vistas, and golden stone architecture carrying the ambiance of a Tuscan haven.",
+    "garden_style": null,
+    "vineyard_on_site": false,
+    "olive_groves": null,
+    "lake_pond": true,
+    "forest_woodland": true,
+    "notable_trees": ["Cypress trees"],
+    "fountain_water_feature": null,
+    "orangery": null,
+    "dovecote": null,
+    "greenhouse": null
+  },
+
+  "activities": {
+    "on_site_activities": ["swimming", "fishing lake", "petanque", "kids playground", "lounge bar", "private forest"],
+    "nearby_activities": ["wine tastings in the vineyards", "exploring villages of Gironde and Dordogne", "canoeing", "cycling", "fishing", "archery", "treasure hunt", "French cooking courses"],
+    "wine_tasting_on_site": null,
+    "cooking_workshops": true,
+    "excursions_organized": null,
+    "excursion_destinations": null,
+    "fireworks_available": null,
+    "fireworks_details": null
+  },
+
+  "technical": {
+    "wifi_available": true,
+    "sound_system_provided": null,
+    "av_equipment": ["flipchart", "screen", "video projector (rental at 50 EUR half day, 95 EUR full day)"],
+    "furniture_provided": null,
+    "furniture_details": null,
+    "decoration_services": null,
+    "marquee_tent_available": null,
+    "marquee_size_sqm": null,
+    "backup_generator": null,
+    "ev_charging_stations": null,
+    "climate_control": null
+  },
+
+  "accessibility": {
+    "wheelchair_accessible": true,
+    "accessible_rooms_count": 2,
+    "elevator": null,
+    "pmr_parking": null,
+    "accessibility_details": "Wheelchair access available. Two rooms designed for easy access by individuals with reduced mobility."
+  },
+
+  "sustainability": {
+    "eco_certifications": null,
+    "eco_practices": null
+  },
+
+  "parking": {
+    "parking_available": true,
+    "parking_spaces": null,
+    "parking_type": "On-site parking with free bicycle storage",
+    "vendor_parking_separate": null
+  },
+
+  "policies": {
+    "curfew_time": "2:00 AM",
+    "outdoor_music_curfew": null,
+    "indoor_music_curfew": null,
+    "no_curfew": false,
+    "noise_restrictions": null,
+    "setup_access_time": null,
+    "teardown_deadline": null,
+    "tent_marquee_policy": null,
+    "confetti_policy": null,
+    "candle_policy": null,
+    "event_insurance_required": null,
+    "event_insurance_cost_eur": null,
+    "portable_toilets_policy": null,
+    "lifeguard_required": null,
+    "babysitter_mandatory": null,
+    "pet_policy": "allowed_on_request",
+    "child_friendly": true,
+    "baby_facilities": null,
+    "children_area": true,
+    "babysitter_available": null,
+    "lgbtq_friendly": true,
+    "all_faiths_welcome": null,
+    "security_guard_policy": null,
+    "events_per_year_limit": null,
+    "check_in_time": null,
+    "check_out_time": null
+  },
+
+  "contact": {
+    "phone_primary": "0607696048",
+    "phone_secondary": null,
+    "email_primary": "contact@chateaudesanse.com",
+    "email_secondary": null,
+    "website_url": "https://www.chateaudesanse.com",
+    "instagram": null,
+    "facebook": null,
+    "other_social_media": null,
+    "whatsapp": null,
+    "contact_person": null,
+    "phone_hours": null,
+    "brochure_url": null,
+    "virtual_tour_url": null
+  },
+
+  "event_types": ["weddings", "birthdays", "baptisms", "family reunions", "seminars", "corporate events"],
+
+  "wedding_day_details": {
+    "typical_timeline": "Ceremony in the beautifully landscaped garden, followed by cocktail reception on the terrace with sweeping countryside vistas. Wedding dinner held outdoors or indoors in the reception room for up to 80 guests. Next day, guests gather by the pool for a leisurely day in the sun with cocktails.",
+    "typical_weekend_flow": null,
+    "multi_day_event": true,
+    "cultural_ceremony_experience": null,
+    "destination_wedding_speciality": null
+  }
+}

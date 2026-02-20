@@ -1,0 +1,531 @@
+{
+  "overview": {
+    "min_price_eur": 3500,
+    "max_guests": 150,
+    "min_guests": null,
+    "max_sleeping_guests": 40,
+    "total_bedrooms": null,
+    "estate_size_hectares": 4
+  },
+
+  "identity": {
+    "venue_name": "Les Collines de Manon",
+    "venue_type": "estate",
+    "venue_subtype": "provencal-estate",
+    "tagline": "Colors of Provence \u2014 Authentic Wedding \u2014 Bohemian",
+    "short_description": "An exceptional Provencal estate on the edge of the Luberon Park near Forcalquier, offering exclusive privatisation for weddings of up to 150 guests with 40 sleeping on-site across 6 independent cottages, set within a 4-hectare award-winning landscaped park.",
+    "exclusivity_model": "full_exclusivity",
+    "owner_names": null,
+    "management_company": "Home Sweet Event",
+    "network_membership": "Home Sweet Event",
+    "media_features": ["La mari\u00e9e aux pieds nus", "Blog de Madame C.", "Zankyou"],
+    "filming_credits": null,
+    "certifications": ["Ensemble arbor\u00e9 remarquable", "Meilleur prestataire 2020 \u2014 Lieux de R\u00e9ception en PACA"],
+    "google_rating": null,
+    "google_review_count": null,
+    "languages_spoken": ["French", "English"]
+  },
+
+  "location": {
+    "address": {
+      "street": "Ancienne route de Dauphin",
+      "city": "Forcalquier",
+      "postal_code": "04300",
+      "department": "Alpes-de-Haute-Provence",
+      "country": "France"
+    },
+    "gps_coordinates": {
+      "latitude": null,
+      "longitude": null
+    },
+    "region": "Provence-Alpes-C\u00f4te d'Azur",
+    "sub_region": "Luberon / Pays de Forcalquier",
+    "natural_park": "Parc Naturel R\u00e9gional du Luberon",
+    "nearest_city": {
+      "name": "Manosque",
+      "distance_text": "20 minutes by car"
+    },
+    "nearest_cities": [
+      { "name": "Manosque", "distance_text": "20 minutes" },
+      { "name": "Aix-en-Provence", "distance_text": "1 hour" }
+    ],
+    "nearest_airports": [
+      { "name": "Marseille Airport", "distance_text": "1 hour 10 minutes" }
+    ],
+    "nearest_train_stations": [
+      { "name": "Gare TGV Aix-en-Provence", "distance_text": "1 hour" },
+      { "name": "Gare TGV Avignon", "distance_text": "1 hour 30 minutes" }
+    ],
+    "motorway_access": null,
+    "distance_to_paris": null,
+    "distance_to_coast": null,
+    "nearby_villages": ["Lurs", "Mane", "Banon", "Saint-Michel-l'Observatoire"],
+    "nearby_attractions": ["Valensole plateau (lavender fields, 40 minutes)", "Parc Naturel R\u00e9gional du Luberon"],
+    "landscape_description": "On the edge of the Luberon Park, surrounded by wooded hills, lavender fields and rivers in the heart of the Pays de Forcalquier",
+    "shuttle_service_available": null
+  },
+
+  "history": {
+    "construction_period": null,
+    "construction_year": null,
+    "architectural_style": "Proven\u00e7al estate",
+    "architect": null,
+    "listed_monument_status": null,
+    "historical_families": null,
+    "notable_historical_guests": null,
+    "historical_narrative": "The region is magnified through the works of Marcel Pagnol and Jean Giono, among the greatest French authors of the 20th century. The estate is located in an unspoilt region classified as the Parc Naturel R\u00e9gional du Luberon.",
+    "notable_architectural_features": ["stone reception room with fireplace", "grand staircase", "panoramic viewpoint", "pond with cascade"],
+    "renovation_history": null,
+    "literary_cultural_associations": ["Marcel Pagnol", "Jean Giono"]
+  },
+
+  "spaces": [
+    {
+      "name": "Meadow",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["ceremony", "picnic", "welcome", "brunch"],
+      "notable_features": null,
+      "description": "Outdoor meadow area suitable for ceremonies, picnics, welcome parties and brunch.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Pond / Cascade",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["ceremony", "cocktail", "lunch"],
+      "notable_features": ["pond", "cascade"],
+      "description": "Scenic pond and cascade area for symbolic ceremonies overlooking the water, cocktail receptions and lunch.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Panorama",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["ceremony", "photos"],
+      "notable_features": ["grand staircase", "panoramic viewpoint"],
+      "description": "Panoramic photo spot with grand staircase, also suitable for ceremonies.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "House (Dining Area)",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dinner"],
+      "notable_features": ["guinguette lighting", "dining under the trees"],
+      "description": "Outdoor dining area by the house with guinguette garland lighting for dinner under the trees.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Swimming Pool Area",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["cocktail", "brunch", "pool_party"],
+      "notable_features": ["fully equipped pool house"],
+      "description": "Swimming pool area with fully equipped pool house, suitable for cocktails, brunch and pool parties.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Terrace",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dinner"],
+      "notable_features": ["dinner under the stars"],
+      "description": "Open terrace for dinner under the stars and a bright sky.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Citadel View (Nomad Tent)",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dinner"],
+      "notable_features": ["Nomad Tent", "view of the Citadel of Forcalquier"],
+      "description": "Outdoor dining area facing the Citadel of Forcalquier, covered by a Nomad Tent.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "P\u00e9tanque Zone",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["welcome", "brunch", "dance"],
+      "notable_features": ["natural shade", "garland lighting at nightfall"],
+      "description": "Relaxation area with natural shade during the day and garland lighting at nightfall, evoking the convivial atmosphere of a Proven\u00e7al village on a summer evening. Suitable for welcome parties, brunch and dancing.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Dance Hall (La Bergerie)",
+      "setting": "indoor",
+      "area_sqm": 120,
+      "capacity_seated": 150,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dancing", "evening_party"],
+      "notable_features": ["bar", "fireplace"],
+      "description": "120 m\u00b2 indoor dance hall with bar and fireplace. The stone reception room can accommodate up to 150 guests for an evening.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Stone Reception Room (La Bergerie)",
+      "setting": "indoor",
+      "area_sqm": 100,
+      "capacity_seated": 150,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dinner", "dancing", "rain_backup"],
+      "notable_features": ["stone walls", "fireplace"],
+      "description": "100 m\u00b2 stone reception room that can accommodate up to 150 guests for an evening. Features a beautiful fireplace, especially used in winter.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    }
+  ],
+
+  "accommodation": {
+    "on_site_accommodation": true,
+    "total_bedrooms": null,
+    "total_sleeping_capacity": 40,
+    "mandatory_accommodation_purchase": null,
+    "mandatory_accommodation_details": null,
+    "bridal_suite": null,
+    "bridal_suite_description": null,
+    "preparation_rooms": null,
+    "buildings": [
+      {
+        "name": "6 Independent Cottages",
+        "building_type": "cottage",
+        "bedrooms": null,
+        "sleeping_capacity": 40,
+        "price_per_night_eur": null,
+        "description": "6 independent cottages with sofa beds and 6 bathrooms, designed so guests feel at home in an idyllic setting with an exceptional panorama.",
+        "has_kitchen": null,
+        "has_living_area": null,
+        "has_private_garden": null,
+        "rooms": null
+      }
+    ],
+    "room_amenities_common": null,
+    "air_conditioning": null,
+    "breakfast_included": null,
+    "breakfast_details": null,
+    "breakfast_price_per_person_eur": null,
+    "dormitory_available": null,
+    "dormitory_beds": null,
+    "nearby_accommodation": ["Various accommodation options around Forcalquier within a radius of 3 km"],
+    "partner_hotel": null
+  },
+
+  "pricing": {
+    "pricing_model": "seasonal",
+    "starting_price_eur": 3500,
+    "starting_price_description": "Starting price for venue rental including exclusive use for minimum 2 days / 1 night, 6 cottages, stage manager on D-day, tables and chairs, festoon lights, and database of 100 providers.",
+    "prices_include_tax": null,
+    "vat_rate_percentage": null,
+    "tourist_tax_note": null,
+    "pricing_year": null,
+    "seasonal_pricing": [
+      {
+        "season_name": "low",
+        "months": "November to March",
+        "day_of_week": null,
+        "price_eur": null,
+        "price_description": null
+      },
+      {
+        "season_name": "shoulder_spring",
+        "months": "April",
+        "day_of_week": null,
+        "price_eur": null,
+        "price_description": null
+      },
+      {
+        "season_name": "shoulder",
+        "months": "May & October",
+        "day_of_week": null,
+        "price_eur": null,
+        "price_description": null
+      },
+      {
+        "season_name": "high",
+        "months": "June to September",
+        "day_of_week": null,
+        "price_eur": null,
+        "price_description": null
+      }
+    ],
+    "packages": null,
+    "catering_cost_per_person_eur": null,
+    "children_catering_price_eur": null,
+    "children_pricing_age_range": null,
+    "drinks_cost_per_person_eur": null,
+    "brunch_cost_per_person_eur": null,
+    "brunch_venue_fee_eur": null,
+    "welcome_dinner_cost_eur": null,
+    "minimum_nights": 1,
+    "additional_night_rate_eur": null,
+    "extended_hour_rate_eur": null,
+    "rental_period_description": "Minimum 2 days / 1 night. Options available for 1 to 2 extra nights.",
+    "deposit_percentage": null,
+    "deposit_amount_eur": null,
+    "deposit_refundable": null,
+    "security_deposit_eur": null,
+    "security_deposit_return_days": null,
+    "payment_schedule": null,
+    "payment_methods": null,
+    "cancellation_policy": null,
+    "cleaning_fee_eur": null,
+    "security_guard_cost_eur": null,
+    "coordinator_cost_eur": null,
+    "price_includes": [
+      "Exclusive use of the property for minimum 2 days / 1 night",
+      "6 cottages for guest accommodation",
+      "Stage manager on D-day",
+      "Tables and chairs",
+      "Festoon lights (guinguette lighting)",
+      "Nomad tent in case of rain",
+      "Cleaning service",
+      "Database of 100 local providers"
+    ],
+    "price_excludes": null,
+    "price_extras": [
+      "1 to 2 extra nights",
+      "Access to SPA"
+    ]
+  },
+
+  "catering": {
+    "catering_model": "external_caterers",
+    "in_house_chef": null,
+    "recommended_caterers": null,
+    "cuisine_style": null,
+    "dietary_accommodations": null,
+    "professional_kitchen": null,
+    "kitchen_size_sqm": null,
+    "on_site_restaurant": null,
+    "brunch_available": true,
+    "brunch_description": "Brunch available as part of the 3-day wedding experience, typically held on the final day.",
+    "late_night_food_available": null,
+    "pre_wedding_dinner": true,
+    "tasting_meal_included": null,
+    "wedding_cake": null
+  },
+
+  "drinks": {
+    "corkage_fee": null,
+    "corkage_fee_amount_eur": null,
+    "byo_wine_allowed": null,
+    "mandatory_venue_drinks": null,
+    "venue_wine_requirement": null,
+    "on_site_wine_production": null,
+    "wine_appellation": null,
+    "bar_service_description": null,
+    "wine_cellar": null
+  },
+
+  "vendor_rules": {
+    "vendor_freedom": "recommended_list",
+    "preferred_vendor_list_available": true,
+    "vendor_categories_recommended": ["caterers", "wine providers", "DJs", "photographers", "florists", "decorators"],
+    "in_house_services": ["day-of stage manager"],
+    "wedding_planner_available": null,
+    "wedding_planner_mandatory": null,
+    "wedding_planner_name": null,
+    "non_approved_vendor_fee": null,
+    "day_of_coordinator_provided": true,
+    "dedicated_project_manager": null
+  },
+
+  "ceremony": {
+    "ceremony_types": ["symbolic"],
+    "licensed_for_civil_marriage": null,
+    "chapel_on_site": false,
+    "chapel_details": null,
+    "nearby_church": null,
+    "outdoor_ceremony_locations": ["Meadow", "Pond / Cascade overlooking the water", "Panorama with grand staircase", "In front of the lavender field"],
+    "rain_backup_plan": "Nomad tent available in case of rain",
+    "celebrant_available": null,
+    "elopement_option": null
+  },
+
+  "amenities": {
+    "swimming_pool": true,
+    "pool_count": 1,
+    "pool_details": "Swimming pool with fully equipped pool house and terrace",
+    "hot_tub_jacuzzi": true,
+    "spa": true,
+    "spa_details": "90 m\u00b2 spa nestled in the middle of the park, featuring a country-style swim spa, salt stone sauna, jacuzzi, solarium, and treatment/relaxation area. Available as an option, exclusively for the bride, groom and their guests.",
+    "tennis_court": null,
+    "petanque_court": true,
+    "gym_fitness": null,
+    "games_room": null,
+    "library": null,
+    "cinema_room": null,
+    "grand_piano": null,
+    "children_playground": null,
+    "helipad": null,
+    "gardens_description": "Over 4 hectares of landscaped green park awarded the 'Ensemble arbor\u00e9 remarquable' label, featuring wooded hills, lavender fields, and the beauty and diversity of the land of Provence.",
+    "garden_style": "Proven\u00e7al landscaped",
+    "vineyard_on_site": null,
+    "olive_groves": null,
+    "lake_pond": true,
+    "forest_woodland": null,
+    "notable_trees": ["Award-winning arboreal ensemble (Ensemble arbor\u00e9 remarquable)"],
+    "fountain_water_feature": true,
+    "orangery": null,
+    "dovecote": null,
+    "greenhouse": null
+  },
+
+  "activities": {
+    "on_site_activities": ["swimming", "p\u00e9tanque", "spa treatments", "garden walks", "pool party"],
+    "nearby_activities": ["Visit to Valensole plateau lavender fields (40 minutes)", "Exploring nearby Proven\u00e7al villages (Lurs, Mane, Banon, Saint-Michel-l'Observatoire)"],
+    "wine_tasting_on_site": null,
+    "cooking_workshops": null,
+    "excursions_organized": null,
+    "excursion_destinations": ["Manosque (20 minutes)", "Aix-en-Provence (1 hour)", "Avignon", "Marseille", "Valensole plateau"],
+    "fireworks_available": null,
+    "fireworks_details": null
+  },
+
+  "technical": {
+    "wifi_available": null,
+    "sound_system_provided": null,
+    "av_equipment": null,
+    "furniture_provided": true,
+    "furniture_details": "Reception furniture for up to 100 guests included (tables and chairs). Festoon/guinguette lighting included.",
+    "decoration_services": null,
+    "marquee_tent_available": true,
+    "marquee_size_sqm": null,
+    "backup_generator": null,
+    "ev_charging_stations": null,
+    "climate_control": null
+  },
+
+  "accessibility": {
+    "wheelchair_accessible": null,
+    "accessible_rooms_count": null,
+    "elevator": null,
+    "pmr_parking": null,
+    "accessibility_details": null
+  },
+
+  "sustainability": {
+    "eco_certifications": null,
+    "eco_practices": null
+  },
+
+  "parking": {
+    "parking_available": null,
+    "parking_spaces": null,
+    "parking_type": null,
+    "vendor_parking_separate": null
+  },
+
+  "policies": {
+    "curfew_time": null,
+    "outdoor_music_curfew": null,
+    "indoor_music_curfew": null,
+    "no_curfew": null,
+    "noise_restrictions": null,
+    "setup_access_time": null,
+    "teardown_deadline": null,
+    "tent_marquee_policy": null,
+    "confetti_policy": null,
+    "candle_policy": null,
+    "event_insurance_required": null,
+    "event_insurance_cost_eur": null,
+    "portable_toilets_policy": null,
+    "lifeguard_required": null,
+    "babysitter_mandatory": null,
+    "pet_policy": null,
+    "child_friendly": null,
+    "baby_facilities": null,
+    "children_area": null,
+    "babysitter_available": null,
+    "lgbtq_friendly": null,
+    "all_faiths_welcome": null,
+    "security_guard_policy": null,
+    "events_per_year_limit": null,
+    "check_in_time": null,
+    "check_out_time": null
+  },
+
+  "contact": {
+    "phone_primary": "+33 644 644 255",
+    "phone_secondary": null,
+    "email_primary": "sales@homesweetevent.com",
+    "email_secondary": null,
+    "website_url": "https://www.collinesdemanon.com/en/",
+    "instagram": "@collinesdemanon",
+    "facebook": "collinesdemanon",
+    "other_social_media": [
+      { "platform": "YouTube", "handle_or_url": "https://www.youtube.com/watch?v=-qjpExVDFGs" }
+    ],
+    "whatsapp": null,
+    "contact_person": "Val\u00e9rie Rodi, Director",
+    "phone_hours": null,
+    "brochure_url": null,
+    "virtual_tour_url": null
+  },
+
+  "event_types": ["weddings", "private events", "professional events", "birthdays", "holidays"],
+
+  "wedding_day_details": {
+    "typical_timeline": null,
+    "typical_weekend_flow": "Day 1: Welcome party with p\u00e9tanque tournament and stroll by the pond. Day 2: Ceremony (by the pond, in front of lavender field, or panorama), cocktail hour by the pool at sunset, dinner under the trees with guinguette lighting, evening party in the stone reception room/dance hall. Day 3: Brunch and last intimate dinner.",
+    "multi_day_event": true,
+    "cultural_ceremony_experience": ["symbolic"],
+    "destination_wedding_speciality": true
+  }
+}

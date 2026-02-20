@@ -122,7 +122,7 @@ apis:
       params:
         # Eligible = venue_url is populated AND target field is empty
         filterByFormula: "AND(NOT({venue_url}=''),{venue_url_scraped}='')"
-        fields: ["venue_url", "chateaubee_url", "wedinspire_url", "fwv_url"]
+        fields: ["venue_url", "venue_address", "gps_coordinates", "chateaubee_url", "wedinspire_url", "fwv_url"]
         pageSize: 100
 
     update_record:
@@ -132,16 +132,28 @@ apis:
         fields:
           venue_url_scraped: "{combined_markdown}"
 
+    update_gps:
+      method: PATCH
+      url: "{base_url}/{AIRTABLE_BASE_ID}/Venues/{record_id}"
+      body:
+        fields:
+          gps_coordinates: "{lat}, {lon}"
+
 # ─── Airtable Schema ────────────────────────────────────────────
 schema:
   table_name: Venues
   source_fields:
     primary: venue_url                 # Read-only — never modify. MUST have a URL.
+    address: venue_address             # Read-only — used for geocoding.
     listing_sites:                     # Read-only — never modify. Scraped only if populated.
       - chateaubee_url
       - wedinspire_url
       - fwv_url
-  target: venue_url_scraped            # Write target — only write if empty
+  targets:
+    scraped_content: venue_url_scraped # Write target — only write if empty
+    gps: gps_coordinates               # Write target — "lat, lon" string from geocoding
+    full_json: full_venue_json         # Write target — full venue JSON record (~320 fields)
+    summary_json: summary_venue_json   # Write target — reduced venue JSON record (20 core fields)
 
 # ─── File References ─────────────────────────────────────────────
 files:
@@ -167,45 +179,36 @@ execution:
         - "Read .env from workspace root — extract API credentials"
         - "curl Airtable list endpoint with filterByFormula to find eligible records"
         - "Handle pagination: if response contains 'offset', fetch next page"
-        - "Build array of {record_id, venue_url, chateaubee_url, wedinspire_url, fwv_url} tuples"
-        - "Report total eligible records to user (and how many have listing-site URLs)"
+        - "Build array of {record_id, venue_url, venue_address, gps_coordinates, chateaubee_url, wedinspire_url, fwv_url} tuples"
+        - "Report total eligible records to user (and how many have listing-site URLs, how many need geocoding)"
         - "Create/append session header to working/workings_temp.md"
 
-    - name: "Phase B: Scrape Loop (batch of 5)"
+    - name: "Phase B: Process Venues (Each in Own Task Agent)"
+      # CONTEXT ISOLATION: Each venue's full pipeline (scrape → structure → write)
+      # runs in its own Task agent. The orchestrator never touches raw content —
+      # it only sees one-line status summaries. This prevents memory/context
+      # accumulation that caused STATUS_STACK_BUFFER_OVERRUN on Windows.
       steps:
         - "Select next batch_size records from eligible list"
-        - "For each record, run:"
-        - '  python scripts/process_venue.py --scrape-only "{record_id}" "{venue_url}" "{chateaubee_url}" "{wedinspire_url}" "{fwv_url}" "{FIRECRAWL_KEY}" "{AIRTABLE_KEY}" "{BASE_ID}"'
-        - "  Pass empty string for any unpopulated listing-site URL"
-        - "  Script handles: map → filter → scrape pages (onlyMainContent:false, waitFor:8000) → basic clean → save to working/"
-        - "  Script stdout (one line): SCRAPED|venue_chars|pages+listings|sources|listing_chars  or  MANUAL_CHECK|reason|0"
-        - "  Parse stdout and log result to working/workings_temp.md"
-        - "  Track consecutive failures — if >= threshold, AskUserQuestion"
-
-    - name: "Phase B.5: Intelligent Structuring (Delegated Task Agents)"
-      # CONTEXT MANAGEMENT: Each venue's raw content is 50-150k chars.
-      # Delegating to Task agents keeps full content out of the orchestrator's
-      # context window, allowing batches of 5-10 venues per session.
-      steps:
-        - "For each SCRAPED record from Phase B, launch a Task agent (subagent_type: general-purpose)"
-        - "  Up to 2 agents may run in parallel"
-        - "  Agent reads working/raw_{record_id}.md and any working/listing_{record_id}_*.md files"
-        - "  Agent strips remaining noise semantically (related venues, cookie tables, duplicate reviews, language duplicates)"
-        - "  Agent organizes venue content into 5 sections: Overview & History, Event Logistics, Accommodation Breakdown, Amenities & Facilities, Travel & Contact"
-        - "  No-deletion policy: ALL factual venue info retained, moved to correct section"
-        - "  Listing site content: clean noise but keep original structure"
-        - "  Agent assembles final document under bold source headings (**Venue Website**, **ChateauBee**, etc.)"
-        - "  Agent truncates if >95,000 chars"
-        - "  Agent saves to working/structured_{record_id}.md and returns ONLY a one-line summary"
-        - "After agent returns, orchestrator runs:"
-        - '  python scripts/process_venue.py --write-file "{record_id}" "working/structured_{record_id}.md" "{AIRTABLE_KEY}" "{BASE_ID}"'
-        - "  Script reads file, PATCHes to Airtable, deletes all temp files"
-        - "  Script stdout: WRITTEN|{chars} or AIRTABLE_ERROR|reason|{chars}"
-        - "  Log result to working/workings_temp.md"
+        - "For each record, launch a Task agent (subagent_type: general-purpose)"
+        - "  Process ONE venue at a time (sequentially) to keep memory low"
+        - "  Agent handles entire pipeline: scrape → structure → write to Airtable"
+        - "  Agent runs: python scripts/process_venue.py --scrape-only ..."
+        - "  Agent reads raw files, strips noise, organizes into 5 sections"
+        - "  Agent saves structured content to working/structured_{record_id}.md"
+        - "  Agent runs: python scripts/process_venue.py --write-file ..."
+        - "  Agent returns ONLY: DONE|{venue_url}|{chars} or MANUAL_CHECK|{venue_url}|{reason} or ERROR|{venue_url}|{reason}"
+        - "Orchestrator parses one-line result and logs to working/workings_temp.md"
+        - "Track consecutive failures — if >= threshold, AskUserQuestion"
+        - "After all venues in batch, geocode each record that has venue_address but no gps_coordinates:"
+        - '  python scripts/process_venue.py --geocode "{record_id}" "{venue_address}" "{AIRTABLE_KEY}" "{BASE_ID}"'
+        - "  Script calls OpenStreetMap Nominatim (free, no key), writes 'lat, lon' to gps_coordinates field"
+        - "  Script stdout: GEOCODED|lat,lon  or  GEOCODE_FAIL|reason  or  GEOCODE_SKIP|no address"
+        - "  Wait 1.1s between geocode calls (Nominatim rate limit: 1 req/sec)"
 
     - name: "Phase C: Reporting"
       steps:
-        - "Summarize batch: successful, failed, manual_check counts"
+        - "Summarize batch: successful, failed, manual_check counts, geocoded/skipped/failed counts"
         - "Save batch report to output/batch-report-{timestamp}.md"
         - "Display summary to user"
         - "Ask user: proceed with next batch of 5?"

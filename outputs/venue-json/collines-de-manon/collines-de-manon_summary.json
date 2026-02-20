@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "description": "Venue Reduced Record \u2014 20 core fields for high-level filtering and bride-facing comparison.",
+    "schema_version": "v1.1.0",
+    "field_count": 20,
+    "golden_record_ref": "collines-de-manon_full.json"
+  },
+
+  "venue_name": "Les Collines de Manon",
+  "venue_type": "estate",
+  "short_description": "An exceptional Proven\u00e7al estate on the edge of the Luberon Park near Forcalquier, offering exclusive privatisation for weddings of up to 150 guests with 40 sleeping on-site across 6 independent cottages, set within a 4-hectare award-winning landscaped park.",
+  "region": "Provence-Alpes-C\u00f4te d'Azur",
+  "department": "Alpes-de-Haute-Provence",
+  "nearest_city": "Manosque (20 minutes)",
+  "max_guests": 150,
+  "min_guests": null,
+  "max_sleeping_guests": 40,
+  "total_bedrooms": null,
+  "starting_price_eur": 3500,
+  "exclusivity_model": "full_exclusivity",
+  "catering_model": "external_caterers",
+  "on_site_accommodation": true,
+  "swimming_pool": true,
+  "chapel_on_site": false,
+  "curfew": null,
+  "child_friendly": null,
+  "google_rating": null,
+  "website_url": "https://www.collinesdemanon.com/en/"
+}

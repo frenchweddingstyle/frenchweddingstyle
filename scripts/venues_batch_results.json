@@ -1,0 +1,302 @@
+[
+  {
+    "venue": "Domaine le Galinier",
+    "status": "OK",
+    "chars": 29096,
+    "doc_name": "Domaine le Galinier"
+  },
+  {
+    "venue": "Chateau Canet",
+    "status": "OK",
+    "chars": 11040,
+    "doc_name": "Chateau Canet"
+  },
+  {
+    "venue": "Chateau du Parc Pezenas",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "No Google Doc found"
+  },
+  {
+    "venue": "Chateau Bouffemont",
+    "status": "OK",
+    "chars": 19663,
+    "doc_name": "Chateau Bouffemont"
+  },
+  {
+    "venue": "Chateau les Garennes",
+    "status": "OK",
+    "chars": 18780,
+    "doc_name": "Hôtel Les Garennes"
+  },
+  {
+    "venue": "Abbaye de Blanchelande",
+    "status": "OK",
+    "chars": 17328,
+    "doc_name": "L'Abbaye de Blanchelande"
+  },
+  {
+    "venue": "Alfred Sommier Hotel",
+    "status": "OK",
+    "chars": 3449,
+    "doc_name": "250716 - Alfred Sommier Hotel - Amarande BAUMGARTNER"
+  },
+  {
+    "venue": "Chateau du Pujolet",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "No Google Doc found"
+  },
+  {
+    "venue": "Chateau d'estoublon",
+    "status": "OK",
+    "chars": 6944,
+    "doc_name": "Chateau d'Estoublon"
+  },
+  {
+    "venue": "Chateau Comtesse Lafond",
+    "status": "OK",
+    "chars": 4217,
+    "doc_name": "11/02/2026 03:26:33| Château Comtesse Lafond | Anora Barelle"
+  },
+  {
+    "venue": "Chateau les Carrasses",
+    "status": "OK",
+    "chars": 10041,
+    "doc_name": "Chateau les Carrasses"
+  },
+  {
+    "venue": "Chateau de Courcelles",
+    "status": "OK",
+    "chars": 2746,
+    "doc_name": "Chateau de Courcelles"
+  },
+  {
+    "venue": "Chateau Couffins",
+    "status": "OK",
+    "chars": 8516,
+    "doc_name": "Chateau Couffins"
+  },
+  {
+    "venue": "Chateau Isabeau de Naujan",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "No Google Doc found"
+  },
+  {
+    "venue": "Chateau du Parc Saint Lambert",
+    "status": "OK",
+    "chars": 10045,
+    "doc_name": "Château du Parc Saint Lambert"
+  },
+  {
+    "venue": "La Manufacture Royale de Lectoure",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "Empty doc"
+  },
+  {
+    "venue": "La Deme de Giverny",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "No Google Doc found"
+  },
+  {
+    "venue": "Chateau Mareuil",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "No Google Doc found"
+  },
+  {
+    "venue": "Domaine des Etangs",
+    "status": "OK",
+    "chars": 22597,
+    "doc_name": "Domaine des Etangs"
+  },
+  {
+    "venue": "Chateau de Champlatreux",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "Empty doc"
+  },
+  {
+    "venue": "Domaine de Primard",
+    "status": "OK",
+    "chars": 9379,
+    "doc_name": "Domaine de Primard"
+  },
+  {
+    "venue": "Hotel La Coquillade",
+    "status": "OK",
+    "chars": 8388,
+    "doc_name": "Hotel La Coquillade"
+  },
+  {
+    "venue": "Chateau de Saint Cecile",
+    "status": "OK",
+    "chars": 17001,
+    "doc_name": "Chateau de Saint Cecile"
+  },
+  {
+    "venue": "Maison Belzunce",
+    "status": "OK",
+    "chars": 3735,
+    "doc_name": "26/09/2025 23:28:43| Maison Belzunce | Serafin Castillo"
+  },
+  {
+    "venue": "Chateau des Trois Fontaines",
+    "status": "OK",
+    "chars": 7520,
+    "doc_name": "Chateau des Trois Fontaines"
+  },
+  {
+    "venue": "Chateau de Farcheville",
+    "status": "OK",
+    "chars": 1400,
+    "doc_name": "Email Notes - Homanie Paris Château (Château de Farcheville)"
+  },
+  {
+    "venue": "Chateau de Chignat",
+    "status": "OK",
+    "chars": 30647,
+    "doc_name": "Chateau de Chignat"
+  },
+  {
+    "venue": "Domaine de Baldasse",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "No Google Doc found"
+  },
+  {
+    "venue": "Les Oliviers de Palombaggia",
+    "status": "OK",
+    "chars": 57029,
+    "doc_name": "Domaine Hôtelier Les Oliviers de Palombaggia"
+  },
+  {
+    "venue": "Chateau de Saint-Clair",
+    "status": "OK",
+    "chars": 16117,
+    "doc_name": "Chateau de Saint-Clair"
+  },
+  {
+    "venue": "Chateau de Fonscolombe",
+    "status": "OK",
+    "chars": 21317,
+    "doc_name": "Chateau de Fonscolombe"
+  },
+  {
+    "venue": "Chateau de la Huberdiere",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "No Google Doc found"
+  },
+  {
+    "venue": "Airelles Gordes",
+    "status": "OK",
+    "chars": 9300,
+    "doc_name": "Airelles Gordes"
+  },
+  {
+    "venue": "Chateau de Bagatelle",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "No Google Doc found"
+  },
+  {
+    "venue": "Hotel Ritz Paris",
+    "status": "OK",
+    "chars": 12823,
+    "doc_name": "Hotel Ritz Paris"
+  },
+  {
+    "venue": "Chateau d'Oche",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "No Google Doc found"
+  },
+  {
+    "venue": "Castel Bay",
+    "status": "OK",
+    "chars": 7971,
+    "doc_name": "Castel Bay"
+  },
+  {
+    "venue": "Chateau de Cognac",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "No Google Doc found"
+  },
+  {
+    "venue": "Bastide de Toursainte",
+    "status": "OK",
+    "chars": 15467,
+    "doc_name": "Bastide de Toursainte"
+  },
+  {
+    "venue": "Chateau Camiac",
+    "status": "OK",
+    "chars": 9368,
+    "doc_name": "Chateau Camiac"
+  },
+  {
+    "venue": "Le Grand Belly",
+    "status": "OK",
+    "chars": 7371,
+    "doc_name": "DOMAINE LE GRAND BELLY"
+  },
+  {
+    "venue": "Chateau de Baronville",
+    "status": "OK",
+    "chars": 2159,
+    "doc_name": "Chateau de Baronville"
+  },
+  {
+    "venue": "Chateau Engalin",
+    "status": "OK",
+    "chars": 8310,
+    "doc_name": "Chateau Engalin"
+  },
+  {
+    "venue": "Chateau de Ferrieres",
+    "status": "OK",
+    "chars": 24987,
+    "doc_name": "Chateau de Ferrieres"
+  },
+  {
+    "venue": "L'Olympe Tizzano",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "No Google Doc found"
+  },
+  {
+    "venue": "Chateau de la cote",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "No Google Doc found"
+  },
+  {
+    "venue": "Chateau de Pierry",
+    "status": "OK",
+    "chars": 10584,
+    "doc_name": "Château de Pierry"
+  },
+  {
+    "venue": "Casi di Mare",
+    "status": "OK",
+    "chars": 14914,
+    "doc_name": "Casi di Mare"
+  },
+  {
+    "venue": "Chateau d'Avelin",
+    "status": "ERROR",
+    "chars": 0,
+    "reason": "No Google Doc found"
+  },
+  {
+    "venue": "Chateau de Sept-Saulx",
+    "status": "OK",
+    "chars": 25622,
+    "doc_name": "château de sept-saulx"
+  }
+]

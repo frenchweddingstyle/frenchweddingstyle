@@ -16,12 +16,28 @@ Usage:
   # Write structured file to Airtable (used after Task agent structures content):
   python process_venue.py --write-file <record_id> <structured_file> <at_key> <base_id>
 
+  # Geocode venue address to GPS coordinates:
+  python process_venue.py --geocode <record_id> <venue_address> <at_key> <base_id>
+
+  # Write venue JSON files to Airtable (full + summary):
+  python process_venue.py --write-json <record_id> <full_json_path> <summary_json_path> <at_key> <base_id>
+
+  # Fetch venue_url_scraped + brochure_text from Airtable to temp files:
+  python process_venue.py --fetch-json-sources <record_id> <venue_name> <at_key> <base_id>
+
   Pass "" for any empty listing-site URL.
 
 Output (stdout, single line):
   SUCCESS|<chars>|<venue_pages>+<listing_count>|<sources_csv>
   SCRAPED|<chars>|<pages>+<listings>|<sources_csv>|<listing_chars>
   WRITTEN|<chars>
+  JSON_WRITTEN|<full_chars>|<summary_chars>
+  FETCHED|<scraped_chars>|<brochure_chars>
+  NO_CONTENT|<reason>
+  FETCH_ERROR|<reason>
+  GEOCODED|<lat>,<lon>
+  GEOCODE_FAIL|<reason>
+  GEOCODE_SKIP|no address
   MANUAL_CHECK|<reason>|0
   AIRTABLE_ERROR|<reason>|<chars>
 """
@@ -30,6 +46,7 @@ import re
 import sys
 import os
 import time
+import urllib.parse
 import urllib.request
 import urllib.error
 
@@ -123,6 +140,32 @@ def firecrawl_headers(key):
 
 def airtable_headers(key):
     return {'Authorization': f'Bearer {key}', 'Content-Type': 'application/json'}
+
+
+# ─── Geocoding ───────────────────────────────────────────────────
+
+NOMINATIM_URL = 'https://nominatim.openstreetmap.org/search'
+NOMINATIM_HEADERS = {'User-Agent': 'FWSVenueGeocoder/1.0'}
+
+
+def geocode_address(address):
+    """Geocode an address using OpenStreetMap Nominatim. Returns (lat, lon) or (None, None)."""
+    # Append France if not already present for better accuracy
+    addr = address.strip()
+    if 'france' not in addr.lower():
+        addr = f"{addr}, France"
+
+    params = urllib.parse.urlencode({'q': addr, 'format': 'json', 'limit': '1'})
+    url = f'{NOMINATIM_URL}?{params}'
+
+    status, resp = api_request(url, headers=NOMINATIM_HEADERS, method='GET')
+
+    if status == 200 and isinstance(resp, list) and len(resp) > 0:
+        lat = resp[0].get('lat')
+        lon = resp[0].get('lon')
+        if lat and lon:
+            return float(lat), float(lon)
+    return None, None
 
 
 # ─── Stage 1: Map & Scrape ──────────────────────────────────────
@@ -749,6 +792,140 @@ def main():
         else:
             print(f"AIRTABLE_ERROR|PATCH failed|{char_count}")
             sys.exit(1)
+        return
+
+    # ── --geocode mode: geocode venue address, write GPS to Airtable ──
+    if '--geocode' in sys.argv:
+        # Usage: python process_venue.py --geocode <record_id> <venue_address> <airtable_key> <base_id>
+        args = [a for a in sys.argv if a != '--geocode']
+        if len(args) < 5:
+            print("ERROR|Usage: python process_venue.py --geocode <record_id> <venue_address> <airtable_key> <base_id>")
+            sys.exit(1)
+        record_id = args[1]
+        venue_address = args[2]
+        at_key = args[3]
+        base_id = args[4]
+
+        if not venue_address.strip():
+            print("GEOCODE_SKIP|no address")
+            return
+
+        log(f"Geocoding: {venue_address}")
+        lat, lon = geocode_address(venue_address)
+
+        if lat is None or lon is None:
+            print(f"GEOCODE_FAIL|no results for: {venue_address}")
+            return
+
+        # Write to Airtable gps_coordinates field as "lat, lon"
+        coords = f"{lat}, {lon}"
+        url = f'https://api.airtable.com/v0/{base_id}/Venues/{record_id}'
+        status, _ = api_request(
+            url,
+            data={'fields': {'gps_coordinates': coords}},
+            headers=airtable_headers(at_key),
+            method='PATCH'
+        )
+        if status == 200:
+            print(f"GEOCODED|{lat},{lon}")
+        else:
+            print(f"GEOCODE_FAIL|Airtable PATCH failed ({status})")
+        return
+
+    # ── --write-json mode: write full + summary JSON files to Airtable ──
+    if '--write-json' in sys.argv:
+        # Usage: python process_venue.py --write-json <record_id> <full_json_path> <summary_json_path> <airtable_key> <base_id>
+        args = [a for a in sys.argv if a != '--write-json']
+        if len(args) < 6:
+            print("ERROR|Usage: python process_venue.py --write-json <record_id> <full_json_path> <summary_json_path> <airtable_key> <base_id>")
+            sys.exit(1)
+        record_id = args[1]
+        full_json_path = args[2]
+        summary_json_path = args[3]
+        at_key = args[4]
+        base_id = args[5]
+
+        # Read full JSON
+        if not os.path.exists(full_json_path):
+            print(f"ERROR|Full JSON not found: {full_json_path}|0")
+            sys.exit(1)
+        with open(full_json_path, 'r', encoding='utf-8') as f:
+            full_json = f.read()
+
+        # Read summary JSON
+        if not os.path.exists(summary_json_path):
+            print(f"ERROR|Summary JSON not found: {summary_json_path}|0")
+            sys.exit(1)
+        with open(summary_json_path, 'r', encoding='utf-8') as f:
+            summary_json = f.read()
+
+        # PATCH both fields to Airtable in a single request
+        url = f'https://api.airtable.com/v0/{base_id}/Venues/{record_id}'
+        payload = {
+            'fields': {
+                'full_venue_json': full_json,
+                'summary_venue_json': summary_json
+            }
+        }
+        status, resp = api_request(url, data=payload, headers=airtable_headers(at_key), method='PATCH')
+
+        if status == 200:
+            print(f"JSON_WRITTEN|{len(full_json)}|{len(summary_json)}")
+        else:
+            print(f"AIRTABLE_ERROR|JSON PATCH failed ({status})|{len(full_json)}+{len(summary_json)}")
+            sys.exit(1)
+        return
+
+    # ── --fetch-json-sources mode: download venue_url_scraped + brochure_text to temp files ──
+    if '--fetch-json-sources' in sys.argv:
+        # Usage: python process_venue.py --fetch-json-sources <record_id> <venue_name> <airtable_key> <base_id>
+        args = [a for a in sys.argv if a != '--fetch-json-sources']
+        if len(args) < 5:
+            print("ERROR|Usage: python process_venue.py --fetch-json-sources <record_id> <venue_name> <airtable_key> <base_id>")
+            sys.exit(1)
+        record_id = args[1]
+        venue_name = args[2]
+        at_key = args[3]
+        base_id = args[4]
+
+        log(f"Fetching JSON sources for: {venue_name} ({record_id})")
+
+        # Fetch the record from Airtable (single-record GET doesn't support fields[] filter)
+        url = f'https://api.airtable.com/v0/{base_id}/Venues/{record_id}'
+        status, resp = api_request(url, headers=airtable_headers(at_key), method='GET')
+
+        if status != 200:
+            print(f"FETCH_ERROR|Airtable GET failed ({status})")
+            sys.exit(1)
+
+        fields = resp.get('fields', {}) if isinstance(resp, dict) else {}
+        scraped = fields.get('venue_url_scraped', '')
+        brochure = fields.get('brochure_text', '')
+
+        # Validate: scraped content must exist and not be a manual-check marker
+        if not scraped or not scraped.strip():
+            print("NO_CONTENT|venue_url_scraped is empty")
+            return
+        if scraped.strip().startswith('MANUAL_CHECK'):
+            print("NO_CONTENT|venue_url_scraped contains MANUAL_CHECK marker")
+            return
+
+        os.makedirs(WORKING_DIR, exist_ok=True)
+
+        # Save scraped content
+        scraped_path = os.path.join(WORKING_DIR, f'scraped_{record_id}.md')
+        with open(scraped_path, 'w', encoding='utf-8') as f:
+            f.write(scraped)
+
+        # Save brochure content (only if non-empty and not an error marker)
+        brochure_chars = 0
+        if brochure and brochure.strip() and not brochure.strip().startswith('[ERROR]'):
+            brochure_path = os.path.join(WORKING_DIR, f'brochure_{record_id}.md')
+            with open(brochure_path, 'w', encoding='utf-8') as f:
+                f.write(brochure)
+            brochure_chars = len(brochure)
+
+        print(f"FETCHED|{len(scraped)}|{brochure_chars}")
         return
 
     # Parse optional flags

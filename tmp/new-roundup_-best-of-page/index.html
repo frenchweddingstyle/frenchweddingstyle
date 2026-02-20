@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Venues in the South of France - Chateau Bee Selection</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'fws-green': '#808254',
+                        'fws-dark': '#463728',
+                        'fws-light': '#edede6',
+                        'fws-grey': '#7a7a7a'
+                    },
+                    fontFamily: {
+                        serif: ['Cormorant', 'serif'],
+                        sans: ['Montserrat', 'sans-serif'],
+                        editorial: ['Cormorant', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #edede6;
+            color: #463728;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        
+        /* Apply ultralight italics to all H1 and H2 globally to match Editorial New style */
+        h1, h2 {
+            font-family: 'Cormorant', serif !important;
+            font-weight: 300 !important; /* Closest to ultralight for this serif */
+            font-style: italic !important; /* Italics */
+            letter-spacing: -0.02em; /* Tight letter spacing typical of high-end editorial fonts */
+            line-height: 1.05;
+            text-transform: none;
+        }
+
+        h3 {
+            font-family: 'Cormorant', serif !important;
+            font-style: italic !important;
+            font-weight: 400 !important;
+            letter-spacing: -0.01em;
+        }
+
+        .nav-link {
+            transition: color 0.3s ease;
+        }
+        .nav-link:hover {
+            color: #808254; /* Using fws-green hex */
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Optimization for thin serifs */
+        h1, h2, h3 {
+            text-rendering: optimizeLegibility;
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>

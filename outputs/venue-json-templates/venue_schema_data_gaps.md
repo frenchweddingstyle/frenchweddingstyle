@@ -4,7 +4,7 @@
 **Schema version:** v1.1.0 (320+ fields across 21 sections, 9 $defs)
 **Records Analyzed:** 23 venues with populated `venue_url_scraped`
 **Brochure Text:** 25 of 48 records now have `brochure_text` populated
-**Data sources:** Venue websites (scraped), listing sites (ChateauBee, WedInspire), brochure PDFs (extracted)
+**Data sources:** Venue websites (scraped), listing sites, brochure PDFs (extracted)
 
 ---
 
@@ -258,7 +258,7 @@ These are the fields that matter most to couples but are most commonly missing:
 1. **Continue brochure extraction** — 23 of 48 venues still lack brochure_text. Prioritize these for the next extraction batch.
 2. **Flag Domaine de La Leotardie** — Record `rec9DPDAhdWezQ2G5` has misattributed brochure_text (contains 7 other venues' data). Requires manual re-extraction.
 3. **Fix short brochure records** — Chateau de Vauchelles and Chateau des Barrenques have only 48 characters each — likely extraction errors.
-4. **Use listing sites as supplements** — ChateauBee and WedInspire provide highly structured data (capacity, pricing, features) that venue websites often omit.
+4. **Use listing sites as supplements** — Third-party listing sites provide highly structured data (capacity, pricing, features) that venue websites often omit.
 5. **Manual enrichment for top gaps** — For the top 10 gaps above, consider a manual enrichment pass for priority venues (rain backup, sqm per space, accessibility).
 6. **Schema is production-ready** — v1.1.0 captures ~320 fields including all common brochure patterns. Ready for LLM extraction pipeline testing.
 

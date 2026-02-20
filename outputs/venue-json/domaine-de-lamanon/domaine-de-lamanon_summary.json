@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "description": "Venue Reduced Record — 20 core fields for high-level filtering and bride-facing comparison.",
+    "schema_version": "v1.1.0",
+    "field_count": 20,
+    "golden_record_ref": "domaine-de-lamanon_full.json"
+  },
+
+  "venue_name": "Domaine de Lamanon",
+  "venue_type": "domaine",
+  "short_description": "An authentic 15th-century Provencal farmhouse set on a 20-hectare estate in the Alpilles region, offering full privatisation with 7 bedrooms sleeping 15 guests, a swimming pool, and landscaped gardens with centuries-old plane trees.",
+  "region": "Provence",
+  "department": "Bouches-du-Rhone",
+  "nearest_city": "Aix-en-Provence (35 minutes)",
+  "max_guests": null,
+  "min_guests": null,
+  "max_sleeping_guests": 15,
+  "total_bedrooms": 7,
+  "starting_price_eur": null,
+  "exclusivity_model": "full_exclusivity",
+  "catering_model": "external_free_choice",
+  "on_site_accommodation": true,
+  "swimming_pool": true,
+  "chapel_on_site": null,
+  "curfew": null,
+  "child_friendly": null,
+  "google_rating": null,
+  "website_url": "https://www.domainedelamanon.com"
+}

@@ -1,0 +1,520 @@
+{
+  "overview": {
+    "min_price_eur": 7500,
+    "max_guests": 200,
+    "min_guests": null,
+    "max_sleeping_guests": 55,
+    "total_bedrooms": 24,
+    "estate_size_hectares": 15
+  },
+
+  "identity": {
+    "venue_name": "Chateau de Pondres",
+    "venue_type": "chateau",
+    "venue_subtype": "chateau-hotel",
+    "tagline": null,
+    "short_description": "A 12th century castle classified as a Monument Historique, set within a 15-hectare park near Montpellier. A 4-star hotel with 24 rooms sleeping 55 guests, offering exclusive privatisation for weddings of up to 200 seated guests.",
+    "exclusivity_model": "full_exclusivity",
+    "owner_names": null,
+    "management_company": null,
+    "network_membership": null,
+    "media_features": null,
+    "filming_credits": null,
+    "certifications": ["Monument Historique"],
+    "google_rating": null,
+    "google_review_count": null,
+    "languages_spoken": ["French", "English"]
+  },
+
+  "location": {
+    "address": {
+      "street": "2, allee du Pigeonnier",
+      "city": "Villevieille",
+      "postal_code": "30250",
+      "department": "Gard",
+      "country": "France"
+    },
+    "gps_coordinates": {
+      "latitude": null,
+      "longitude": null
+    },
+    "region": "Occitanie",
+    "sub_region": null,
+    "natural_park": null,
+    "nearest_city": {
+      "name": "Montpellier",
+      "distance_text": "35 minutes"
+    },
+    "nearest_cities": [
+      { "name": "Montpellier", "distance_text": "35 minutes" },
+      { "name": "Nimes", "distance_text": "nearby" }
+    ],
+    "nearest_airports": null,
+    "nearest_train_stations": null,
+    "motorway_access": null,
+    "distance_to_paris": null,
+    "distance_to_coast": null,
+    "nearby_villages": ["Sommieres"],
+    "nearby_attractions": null,
+    "landscape_description": "Between the Mediterranean and the Cevennes, in the heart of unspoilt countryside in the Gard department",
+    "shuttle_service_available": null
+  },
+
+  "history": {
+    "construction_period": "12th century",
+    "construction_year": 1195,
+    "architectural_style": null,
+    "architect": null,
+    "listed_monument_status": "Monument Historique (classified historic monument)",
+    "historical_families": ["Seigneur d'Anduze", "families of Anduze and Ganges", "Pierre II de Crouzet", "Marquis de Montlaur", "Joseph Isidor de Montlaur", "Raymond Archambaud de Montlaur"],
+    "notable_historical_guests": null,
+    "historical_narrative": "The existence of Chateau de Pondres is attested in 1195 in the testament of the Seigneur d'Anduze. The chateau was the property of the great families of Anduze and Ganges. Its current architecture derives from a major campaign of works carried out in the mid-17th century by Pierre II de Crouzet. Like many monuments in the Gard, it was looted and set ablaze during the French Revolution. The Marquis de Montlaur was forced to flee. Joseph Isidor de Montlaur returned at the beginning of the 19th century. Raymond Archambaud de Montlaur carried out the complete reconstruction of the south wing. Acquired in 1920 by an agricultural engineer, the chateau fell into disuse throughout the 20th century. It became the property of the Conseil General du Gard in 2004 and was ceded in 2006 to the current owner for an immense campaign of works under the aegis of the Conservation des Monuments Historiques, which lasted 10 years.",
+    "notable_architectural_features": ["sculpted stone fireplace in the Salle des Etats Generaux", "French painted ceilings", "vaulted Salle des Repas (former armoury)", "restored chapel with canvas paintings and Angels of the Annunciation", "restored altar with coats of arms", "Tour du Levant", "grand portal"],
+    "renovation_history": "10-year restoration completed under the aegis of the Conservation des Monuments Historiques, harmoniously combining authenticity and modernity",
+    "literary_cultural_associations": ["Latin motto on lintel of Salle des Etats Generaux: Beatus non est esse se qui non putat"]
+  },
+
+  "spaces": [
+    {
+      "name": "Cour d'Honneur",
+      "setting": "outdoor",
+      "area_sqm": 500,
+      "capacity_seated": 200,
+      "capacity_cocktail": 300,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["ceremony", "cocktail", "dinner", "reception"],
+      "notable_features": ["overlooks 15-hectare park", "breathtaking view of basin, fountains, and French gardens", "connects to Salle des Repas, Salons du Temps, and Chapel"],
+      "description": "A majestic space of 500 m2, the Cour d'Honneur overlooks the chateau's park and offers a breathtaking view of the basin, fountains, and French gardens. In fine weather, it lends itself to outdoor receptions, weddings, christenings, and family gatherings.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Salle des Repas",
+      "setting": "indoor",
+      "area_sqm": 93,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["breakfast", "dancing", "bar", "rain_backup_ceremony", "children_room"],
+      "notable_features": ["vaulted ceiling", "former armoury (Salle d'Armes)", "three large openings with natural light", "opens onto the Cour d'Honneur"],
+      "description": "A former armoury (Salle d'Armes), this beautiful vaulted room of 93 m2 opens onto the Cour d'Honneur. Bathed in natural light through three large openings. During weddings it serves as breakfast room, dance floor and bar, and backup venue for secular ceremonies in case of rain. Can also serve as a children's room.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "La Chapelle",
+      "setting": "indoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["ceremony"],
+      "notable_features": ["canvas paintings with Angels of the Annunciation", "coats of arms", "fully restored altar"],
+      "description": "Features canvas paintings with deep symbolism carried by the Angels of the Annunciation. Coats of arms recalling the nobility of the estate's owners. Fully restored altar. Simple and intimate ceremonies can take place in the chateau's chapel.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Salle des Etats Generaux",
+      "setting": "indoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["banquet", "grand_event", "rain_backup"],
+      "notable_features": ["magnificent sculpted stone fireplace", "French painted ceilings", "sunset views over Pic Saint-Loup", "Latin motto on lintel"],
+      "description": "Adorned with a magnificent sculpted stone fireplace and French painted ceilings, the Salle des Etats Generaux is a prestigious room rich in the chateau's history. At dusk, sunsets over the Pic Saint-Loup bathe the room in golden light. Together with the adjacent Salle des Arts, it hosts banquets and grand events during cold or wet seasons.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Salle des Arts",
+      "setting": "indoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["banquet", "grand_event", "rain_backup"],
+      "notable_features": ["adjacent to Salle des Etats Generaux"],
+      "description": "Adjacent to the Salle des Etats Generaux, together they host banquets and grand events during cold or wet seasons - an excellent fallback for weddings on rainy days.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Salle de Musique",
+      "setting": "indoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["vin_d_honneur", "end_of_evening", "bridal_preparation", "children_area"],
+      "notable_features": ["period furnishings", "located in south wing"],
+      "description": "Essential witness to a storied past, the Music Room is arranged in the south wing of the chateau. A confidential and convivial space, it hosts wine receptions (vin d'honneur), end-of-evening gatherings, bridal preparations, or children's areas.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Salon de Reception",
+      "setting": "indoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["vin_d_honneur", "end_of_evening", "bridal_preparation", "children_area"],
+      "notable_features": ["period furnishings", "located in south wing"],
+      "description": "The Reception Lounge is arranged in a row with the Music Room and Library in the south wing. A confidential and convivial space for wine receptions, end-of-evening gatherings, bridal preparations, or children's areas.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Bibliotheque",
+      "setting": "indoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["vin_d_honneur", "end_of_evening", "bridal_preparation", "children_area"],
+      "notable_features": ["period library", "located in south wing"],
+      "description": "A period Library arranged in the south wing of the chateau alongside the Music Room and Reception Lounge. A confidential and convivial space for wine receptions, end-of-evening gatherings, bridal preparations, or children's areas.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Parc et Jardins",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["reception", "banquet", "vin_d_honneur", "photos"],
+      "notable_features": ["built on terraces", "benches and vine-covered shade structures", "fountains and water features", "bordered by river", "century-old trees", "restored period pathways"],
+      "description": "Built on terraces with benches and vine-covered shade structures near fountains and water features, the landscaped gardens accommodate large receptions, country banquets, or wine receptions. The chateau's park, bordered by a river with fully restored period pathways, offers beautiful walks in the shade of century-old trees - perfect for wedding photos.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    }
+  ],
+
+  "accommodation": {
+    "on_site_accommodation": true,
+    "total_bedrooms": 24,
+    "total_sleeping_capacity": 55,
+    "mandatory_accommodation_purchase": null,
+    "mandatory_accommodation_details": null,
+    "bridal_suite": null,
+    "bridal_suite_description": null,
+    "preparation_rooms": null,
+    "buildings": [
+      {
+        "name": "Le Chateau",
+        "building_type": "chateau",
+        "bedrooms": 12,
+        "sleeping_capacity": null,
+        "price_per_night_eur": null,
+        "description": "12 rooms on the second floor of the chateau.",
+        "has_kitchen": null,
+        "has_living_area": null,
+        "has_private_garden": null,
+        "rooms": null
+      },
+      {
+        "name": "Les Moulins",
+        "building_type": "annex",
+        "bedrooms": 8,
+        "sleeping_capacity": null,
+        "price_per_night_eur": null,
+        "description": "8 rooms in the Moulins (The Mills).",
+        "has_kitchen": null,
+        "has_living_area": null,
+        "has_private_garden": null,
+        "rooms": null
+      },
+      {
+        "name": "La Maison des Bois",
+        "building_type": "annex",
+        "bedrooms": 4,
+        "sleeping_capacity": null,
+        "price_per_night_eur": null,
+        "description": "4 rooms in the Maison des Bois (The Woodland House).",
+        "has_kitchen": null,
+        "has_living_area": null,
+        "has_private_garden": null,
+        "rooms": null
+      }
+    ],
+    "room_amenities_common": null,
+    "air_conditioning": null,
+    "breakfast_included": true,
+    "breakfast_details": null,
+    "breakfast_price_per_person_eur": null,
+    "dormitory_available": null,
+    "dormitory_beds": null,
+    "nearby_accommodation": null,
+    "partner_hotel": null
+  },
+
+  "pricing": {
+    "pricing_model": "seasonal",
+    "starting_price_eur": 7500,
+    "starting_price_description": "Low season privatisation including all rooms and breakfast for all residents (2024 pricing).",
+    "prices_include_tax": null,
+    "vat_rate_percentage": null,
+    "tourist_tax_note": null,
+    "pricing_year": "2024",
+    "seasonal_pricing": [
+      {
+        "season_name": "low",
+        "months": null,
+        "day_of_week": null,
+        "price_eur": 7500,
+        "price_description": "Privatisation + all rooms + breakfast for all residents"
+      },
+      {
+        "season_name": "high",
+        "months": null,
+        "day_of_week": null,
+        "price_eur": 8500,
+        "price_description": "Privatisation + all rooms + breakfast for all residents"
+      }
+    ],
+    "packages": null,
+    "catering_cost_per_person_eur": null,
+    "children_catering_price_eur": null,
+    "children_pricing_age_range": null,
+    "drinks_cost_per_person_eur": null,
+    "brunch_cost_per_person_eur": null,
+    "brunch_venue_fee_eur": null,
+    "welcome_dinner_cost_eur": null,
+    "minimum_nights": null,
+    "additional_night_rate_eur": null,
+    "extended_hour_rate_eur": null,
+    "rental_period_description": null,
+    "deposit_percentage": null,
+    "deposit_amount_eur": null,
+    "deposit_refundable": null,
+    "security_deposit_eur": null,
+    "security_deposit_return_days": null,
+    "payment_schedule": null,
+    "payment_methods": null,
+    "cancellation_policy": null,
+    "cleaning_fee_eur": null,
+    "security_guard_cost_eur": null,
+    "coordinator_cost_eur": null,
+    "price_includes": [
+      "Exclusive use of the venue",
+      "All rooms (24 bedrooms)",
+      "Breakfast for all residents"
+    ],
+    "price_excludes": [
+      "Menus",
+      "Drinks",
+      "Music",
+      "Floral decorations"
+    ],
+    "price_extras": null
+  },
+
+  "catering": {
+    "catering_model": "in_house",
+    "in_house_chef": true,
+    "recommended_caterers": null,
+    "cuisine_style": "Refined traditional cuisine based on short supply circuits and the best local Mediterranean produce",
+    "dietary_accommodations": null,
+    "professional_kitchen": null,
+    "kitchen_size_sqm": null,
+    "on_site_restaurant": "Restaurant La Canopee",
+    "brunch_available": true,
+    "brunch_description": "A sumptuous brunch on Sunday to round off the stay.",
+    "late_night_food_available": null,
+    "pre_wedding_dinner": null,
+    "tasting_meal_included": null,
+    "wedding_cake": null
+  },
+
+  "drinks": {
+    "corkage_fee": null,
+    "corkage_fee_amount_eur": null,
+    "byo_wine_allowed": null,
+    "mandatory_venue_drinks": null,
+    "venue_wine_requirement": null,
+    "on_site_wine_production": null,
+    "wine_appellation": null,
+    "bar_service_description": null,
+    "wine_cellar": null
+  },
+
+  "vendor_rules": {
+    "vendor_freedom": "recommended_list",
+    "preferred_vendor_list_available": true,
+    "vendor_categories_recommended": ["floral decorations", "activities", "photographer"],
+    "in_house_services": ["wedding planning", "day-of coordination", "catering"],
+    "wedding_planner_available": "in_house",
+    "wedding_planner_mandatory": null,
+    "wedding_planner_name": null,
+    "non_approved_vendor_fee": null,
+    "day_of_coordinator_provided": true,
+    "dedicated_project_manager": true
+  },
+
+  "ceremony": {
+    "ceremony_types": ["secular", "religious"],
+    "licensed_for_civil_marriage": null,
+    "chapel_on_site": true,
+    "chapel_details": "Restored chapel with canvas paintings featuring the Angels of the Annunciation, coats of arms, and fully restored altar. Simple and intimate ceremonies can take place here.",
+    "nearby_church": null,
+    "outdoor_ceremony_locations": ["Cour d'Honneur", "Parc et Jardins"],
+    "rain_backup_plan": "Salle des Repas serves as backup venue for secular ceremonies in case of rain. Salle des Etats Generaux and Salle des Arts serve as fallback for banquets and events during cold or wet seasons.",
+    "celebrant_available": true,
+    "elopement_option": null
+  },
+
+  "amenities": {
+    "swimming_pool": true,
+    "pool_count": null,
+    "pool_details": "Swimming pool with sunbathing area",
+    "hot_tub_jacuzzi": null,
+    "spa": true,
+    "spa_details": "Pondres Nature wellness space (Espace Bien-Etre)",
+    "tennis_court": null,
+    "petanque_court": null,
+    "gym_fitness": true,
+    "games_room": null,
+    "library": true,
+    "cinema_room": null,
+    "grand_piano": null,
+    "children_playground": null,
+    "helipad": null,
+    "gardens_description": "15-hectare park several centuries old, bordered by the river Aygalade, with French gardens, fountains, water features, terraces, benches, vine-covered shade structures, and restored period pathways in the shade of century-old trees.",
+    "garden_style": "French formal",
+    "vineyard_on_site": null,
+    "olive_groves": null,
+    "lake_pond": null,
+    "forest_woodland": null,
+    "notable_trees": ["Century-old trees"],
+    "fountain_water_feature": true,
+    "orangery": null,
+    "dovecote": null,
+    "greenhouse": null
+  },
+
+  "activities": {
+    "on_site_activities": ["swimming", "spa treatments", "garden walks", "gym"],
+    "nearby_activities": null,
+    "wine_tasting_on_site": null,
+    "cooking_workshops": null,
+    "excursions_organized": null,
+    "excursion_destinations": null,
+    "fireworks_available": null,
+    "fireworks_details": null
+  },
+
+  "technical": {
+    "wifi_available": true,
+    "sound_system_provided": null,
+    "av_equipment": ["video projector", "projection screen", "wireless microphone"],
+    "furniture_provided": true,
+    "furniture_details": "Tables and chairs provided",
+    "decoration_services": true,
+    "marquee_tent_available": true,
+    "marquee_size_sqm": null,
+    "backup_generator": null,
+    "ev_charging_stations": null,
+    "climate_control": null
+  },
+
+  "accessibility": {
+    "wheelchair_accessible": true,
+    "accessible_rooms_count": null,
+    "elevator": true,
+    "pmr_parking": true,
+    "accessibility_details": "Full PMR (disabled) accessibility throughout the chateau. Elevator/lift available. Independent disabled (PMR) parking."
+  },
+
+  "sustainability": {
+    "eco_certifications": null,
+    "eco_practices": ["Local sourcing from short supply circuits", "Olive oil from Villevieille", "Cheese from a Meilleur Ouvrier de France", "Camargue livestock", "Seafood from ports of Sete and Le Grau du Roi"]
+  },
+
+  "parking": {
+    "parking_available": true,
+    "parking_spaces": 100,
+    "parking_type": "Private parking with 100 spaces plus independent disabled (PMR) parking",
+    "vendor_parking_separate": null
+  },
+
+  "policies": {
+    "curfew_time": null,
+    "outdoor_music_curfew": null,
+    "indoor_music_curfew": null,
+    "no_curfew": null,
+    "noise_restrictions": "DJ or live band until the end of the night",
+    "setup_access_time": null,
+    "teardown_deadline": null,
+    "tent_marquee_policy": null,
+    "confetti_policy": null,
+    "candle_policy": null,
+    "event_insurance_required": null,
+    "event_insurance_cost_eur": null,
+    "portable_toilets_policy": null,
+    "lifeguard_required": null,
+    "babysitter_mandatory": null,
+    "pet_policy": null,
+    "child_friendly": true,
+    "baby_facilities": ["cots", "changing facilities"],
+    "children_area": null,
+    "babysitter_available": null,
+    "lgbtq_friendly": null,
+    "all_faiths_welcome": null,
+    "security_guard_policy": null,
+    "events_per_year_limit": null,
+    "check_in_time": null,
+    "check_out_time": null
+  },
+
+  "contact": {
+    "phone_primary": "+33 (0)4 66 35 97 20",
+    "phone_secondary": null,
+    "email_primary": "reception@chateaudepondres.com",
+    "email_secondary": null,
+    "website_url": "https://www.chateaudepondres.fr/",
+    "instagram": "@chateaudepondres",
+    "facebook": "chateaudepondres",
+    "other_social_media": [
+      { "platform": "YouTube", "handle_or_url": "Chateau de Pondres channel" },
+      { "platform": "LinkedIn", "handle_or_url": "Chateau de Pondres" },
+      { "platform": "Pinterest", "handle_or_url": "chateaudepondres" }
+    ],
+    "whatsapp": null,
+    "contact_person": null,
+    "phone_hours": null,
+    "brochure_url": null,
+    "virtual_tour_url": null
+  },
+
+  "event_types": ["weddings", "christenings", "family gatherings", "corporate events"],
+
+  "wedding_day_details": {
+    "typical_timeline": null,
+    "typical_weekend_flow": null,
+    "multi_day_event": true,
+    "cultural_ceremony_experience": null,
+    "destination_wedding_speciality": null
+  }
+}

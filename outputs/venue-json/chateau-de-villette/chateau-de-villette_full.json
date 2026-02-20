@@ -1,0 +1,576 @@
+{
+  "overview": {
+    "min_price_eur": null,
+    "max_guests": 22,
+    "min_guests": 6,
+    "max_sleeping_guests": 22,
+    "total_bedrooms": 9,
+    "estate_size_hectares": null
+  },
+
+  "identity": {
+    "venue_name": "Chateau de Villette",
+    "venue_type": "chateau",
+    "venue_subtype": "family-estate",
+    "tagline": "Best Kept Gastronomic Secret in Burgundy",
+    "short_description": "An exclusive 18th-century family chateau in the Morvan National Park, Burgundy, offering gastronomic holidays and private celebrations for groups of 6 to 22 guests with luxury accommodation.",
+    "exclusivity_model": "full_exclusivity",
+    "owner_names": ["Coen Stork", "Catherine Stork"],
+    "management_company": null,
+    "network_membership": null,
+    "media_features": null,
+    "filming_credits": null,
+    "certifications": null,
+    "google_rating": null,
+    "google_review_count": null,
+    "languages_spoken": ["English", "French"]
+  },
+
+  "location": {
+    "address": {
+      "street": null,
+      "city": "Poil",
+      "postal_code": "58170",
+      "department": "Nievre",
+      "country": "France"
+    },
+    "gps_coordinates": {
+      "latitude": null,
+      "longitude": null
+    },
+    "region": "Bourgogne-Franche-Comte",
+    "sub_region": "Morvan",
+    "natural_park": "Parc Naturel Regional du Morvan",
+    "nearest_city": {
+      "name": "Autun",
+      "distance_text": null
+    },
+    "nearest_cities": [
+      { "name": "Autun", "distance_text": null },
+      { "name": "Beaune", "distance_text": null },
+      { "name": "Chagny", "distance_text": null }
+    ],
+    "nearest_airports": null,
+    "nearest_train_stations": null,
+    "motorway_access": null,
+    "distance_to_paris": null,
+    "distance_to_coast": null,
+    "nearby_villages": null,
+    "nearby_attractions": ["Morvan National Park", "Beaune", "Autun", "Chagny"],
+    "landscape_description": "Heart of Burgundy, in the Morvan National Park surrounded by French countryside",
+    "shuttle_service_available": null
+  },
+
+  "history": {
+    "construction_period": "18th century",
+    "construction_year": null,
+    "architectural_style": "18th-century French chateau",
+    "architect": null,
+    "listed_monument_status": null,
+    "historical_families": null,
+    "notable_historical_guests": null,
+    "historical_narrative": "Chateau de Villette is an 18th-century family estate in the heart of Burgundy. Coen and Catherine Stork have been welcoming guests to their Burgundy estate in the Morvan National Park for over 20 years, making it a leading destination for gastronomic breaks and shooting parties.",
+    "notable_architectural_features": ["authentic 18th-century kitchen with AGA cooker"],
+    "renovation_history": null,
+    "literary_cultural_associations": null
+  },
+
+  "spaces": [
+    {
+      "name": "Dining Room",
+      "setting": "indoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dinner"],
+      "notable_features": ["atmospheric setting"],
+      "description": "The chateau's atmospheric dining room where carefully prepared meals are served.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Indoor Garden",
+      "setting": "indoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dinner"],
+      "notable_features": ["indoor garden setting"],
+      "description": "An indoor garden dining space where meals are served.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    },
+    {
+      "name": "Courtyard Garden",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dinner", "cocktail"],
+      "notable_features": ["candlelit dining", "serene atmosphere"],
+      "description": "The serene courtyard garden bathed in candlelight, used for elegant outdoor dining.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Terrace",
+      "setting": "outdoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["dinner", "brunch"],
+      "notable_features": ["summer dining"],
+      "description": "An outdoor terrace for long summer lunches and dinners.",
+      "soundproofed": false,
+      "air_conditioned": false,
+      "av_equipment": null
+    },
+    {
+      "name": "Kitchen",
+      "setting": "indoor",
+      "area_sqm": null,
+      "capacity_seated": null,
+      "capacity_cocktail": null,
+      "capacity_ceremony": null,
+      "rental_fee_eur": null,
+      "suitable_for": ["cooking_workshop"],
+      "notable_features": ["authentic 18th-century chateau kitchen", "AGA cooker"],
+      "description": "The authentic 18th-century chateau kitchen where Catherine hosts cooking workshops using local and seasonal ingredients.",
+      "soundproofed": null,
+      "air_conditioned": null,
+      "av_equipment": null
+    }
+  ],
+
+  "accommodation": {
+    "on_site_accommodation": true,
+    "total_bedrooms": 9,
+    "total_sleeping_capacity": 22,
+    "mandatory_accommodation_purchase": null,
+    "mandatory_accommodation_details": null,
+    "bridal_suite": false,
+    "bridal_suite_description": null,
+    "preparation_rooms": null,
+    "buildings": [
+      {
+        "name": "Le Chateau",
+        "building_type": "chateau",
+        "bedrooms": 6,
+        "sleeping_capacity": 16,
+        "price_per_night_eur": null,
+        "description": "The main chateau offers six beautifully appointed guest rooms, each with an en-suite bathroom with both bath and shower. Rooms are individually decorated in classic and contemporary French style with rich soft furnishings, carefully chosen furniture, and stunning views of the surrounding countryside. Also includes a large suite with two adjoining bedrooms sharing a bathroom.",
+        "has_kitchen": false,
+        "has_living_area": true,
+        "has_private_garden": false,
+        "rooms": [
+          {
+            "name": "Guest Room 1",
+            "room_type": "double",
+            "capacity_persons": 2,
+            "bed_configuration": null,
+            "area_sqm": null,
+            "en_suite": true,
+            "bathroom_type": "en-suite bath and shower",
+            "view": "Terraces, park and surroundings",
+            "has_terrace": null,
+            "air_conditioned": null,
+            "accessible": null,
+            "price_per_night_eur": null
+          },
+          {
+            "name": "Guest Room 2",
+            "room_type": "double",
+            "capacity_persons": 2,
+            "bed_configuration": null,
+            "area_sqm": null,
+            "en_suite": true,
+            "bathroom_type": "en-suite bath and shower",
+            "view": "Terraces, park and surroundings",
+            "has_terrace": null,
+            "air_conditioned": null,
+            "accessible": null,
+            "price_per_night_eur": null
+          },
+          {
+            "name": "Guest Room 3",
+            "room_type": "double",
+            "capacity_persons": 2,
+            "bed_configuration": null,
+            "area_sqm": null,
+            "en_suite": true,
+            "bathroom_type": "en-suite bath and shower",
+            "view": "Terraces, park and surroundings",
+            "has_terrace": null,
+            "air_conditioned": null,
+            "accessible": null,
+            "price_per_night_eur": null
+          },
+          {
+            "name": "Guest Room 4",
+            "room_type": "double",
+            "capacity_persons": 2,
+            "bed_configuration": null,
+            "area_sqm": null,
+            "en_suite": true,
+            "bathroom_type": "en-suite bath and shower",
+            "view": "Terraces, park and surroundings",
+            "has_terrace": null,
+            "air_conditioned": null,
+            "accessible": null,
+            "price_per_night_eur": null
+          },
+          {
+            "name": "Guest Room 5",
+            "room_type": "double",
+            "capacity_persons": 2,
+            "bed_configuration": null,
+            "area_sqm": null,
+            "en_suite": true,
+            "bathroom_type": "en-suite bath and shower",
+            "view": "Terraces, park and surroundings",
+            "has_terrace": null,
+            "air_conditioned": null,
+            "accessible": null,
+            "price_per_night_eur": null
+          },
+          {
+            "name": "Guest Room 6",
+            "room_type": "double",
+            "capacity_persons": 2,
+            "bed_configuration": null,
+            "area_sqm": null,
+            "en_suite": true,
+            "bathroom_type": "en-suite bath and shower",
+            "view": "Terraces, park and surroundings",
+            "has_terrace": null,
+            "air_conditioned": null,
+            "accessible": null,
+            "price_per_night_eur": null
+          },
+          {
+            "name": "Beautiful Suite",
+            "room_type": "family_suite",
+            "capacity_persons": 4,
+            "bed_configuration": "Two adjoining bedrooms",
+            "area_sqm": null,
+            "en_suite": true,
+            "bathroom_type": "shared bath and shower",
+            "view": null,
+            "has_terrace": null,
+            "air_conditioned": null,
+            "accessible": null,
+            "price_per_night_eur": null
+          }
+        ]
+      },
+      {
+        "name": "La Grenouillere (Cottage)",
+        "building_type": "cottage",
+        "bedrooms": 3,
+        "sleeping_capacity": 6,
+        "price_per_night_eur": null,
+        "description": "A charming cottage on the estate grounds with three luxury bedrooms for up to six people. Features a large shared bathroom with bath and shower. The cottage is 100 sqm and can be rented separately as a self-catering unit with a minimum 7-night stay.",
+        "has_kitchen": true,
+        "has_living_area": null,
+        "has_private_garden": null,
+        "rooms": [
+          {
+            "name": "Cottage Bedroom 1",
+            "room_type": "double",
+            "capacity_persons": 2,
+            "bed_configuration": null,
+            "area_sqm": null,
+            "en_suite": false,
+            "bathroom_type": "shared bath and shower",
+            "view": null,
+            "has_terrace": null,
+            "air_conditioned": null,
+            "accessible": null,
+            "price_per_night_eur": null
+          },
+          {
+            "name": "Cottage Bedroom 2",
+            "room_type": "double",
+            "capacity_persons": 2,
+            "bed_configuration": null,
+            "area_sqm": null,
+            "en_suite": false,
+            "bathroom_type": "shared bath and shower",
+            "view": null,
+            "has_terrace": null,
+            "air_conditioned": null,
+            "accessible": null,
+            "price_per_night_eur": null
+          },
+          {
+            "name": "Cottage Bedroom 3",
+            "room_type": "double",
+            "capacity_persons": 2,
+            "bed_configuration": null,
+            "area_sqm": null,
+            "en_suite": false,
+            "bathroom_type": "shared bath and shower",
+            "view": null,
+            "has_terrace": null,
+            "air_conditioned": null,
+            "accessible": null,
+            "price_per_night_eur": null
+          }
+        ]
+      }
+    ],
+    "room_amenities_common": null,
+    "air_conditioning": null,
+    "breakfast_included": null,
+    "breakfast_details": null,
+    "breakfast_price_per_person_eur": null,
+    "dormitory_available": false,
+    "dormitory_beds": null,
+    "nearby_accommodation": null,
+    "partner_hotel": null
+  },
+
+  "pricing": {
+    "pricing_model": null,
+    "starting_price_eur": 25000,
+    "starting_price_description": "Starting price for 2026-2027",
+    "prices_include_tax": null,
+    "vat_rate_percentage": null,
+    "tourist_tax_note": null,
+    "pricing_year": "2026-2027",
+    "seasonal_pricing": null,
+    "packages": null,
+    "catering_cost_per_person_eur": 300,
+    "children_catering_price_eur": null,
+    "children_pricing_age_range": null,
+    "drinks_cost_per_person_eur": 150,
+    "brunch_cost_per_person_eur": null,
+    "brunch_venue_fee_eur": null,
+    "welcome_dinner_cost_eur": null,
+    "minimum_nights": 1,
+    "additional_night_rate_eur": null,
+    "extended_hour_rate_eur": null,
+    "rental_period_description": null,
+    "deposit_percentage": 50,
+    "deposit_amount_eur": null,
+    "deposit_refundable": false,
+    "security_deposit_eur": null,
+    "security_deposit_return_days": null,
+    "payment_schedule": [
+      {
+        "stage": "deposit",
+        "percentage": 50,
+        "amount_eur": null,
+        "timing": "at booking confirmation"
+      },
+      {
+        "stage": "final balance",
+        "percentage": 50,
+        "amount_eur": null,
+        "timing": "9 weeks before arrival"
+      }
+    ],
+    "payment_methods": ["credit card", "bank transfer"],
+    "cancellation_policy": "50% deposit non-refundable. Remaining balance due 9 weeks before arrival. Cancellation within 6 weeks of arrival: total amount charged.",
+    "cleaning_fee_eur": null,
+    "security_guard_cost_eur": null,
+    "coordinator_cost_eur": null,
+    "price_includes": null,
+    "price_excludes": null,
+    "price_extras": null
+  },
+
+  "catering": {
+    "catering_model": "recommended_list",
+    "in_house_chef": "Catherine Stork — highly accomplished cook and host who prepares gastronomic meals using local and seasonal ingredients on her AGA cooker",
+    "recommended_caterers": null,
+    "cuisine_style": "Traditional Burgundian gastronomy with local and seasonal ingredients — Coq au vin, Boeuf Bourguignon, escargots, regional cheeses",
+    "dietary_accommodations": null,
+    "professional_kitchen": true,
+    "kitchen_size_sqm": null,
+    "on_site_restaurant": null,
+    "brunch_available": null,
+    "brunch_description": null,
+    "late_night_food_available": null,
+    "pre_wedding_dinner": null,
+    "tasting_meal_included": null,
+    "wedding_cake": null
+  },
+
+  "drinks": {
+    "corkage_fee": null,
+    "corkage_fee_amount_eur": null,
+    "byo_wine_allowed": null,
+    "mandatory_venue_drinks": null,
+    "venue_wine_requirement": null,
+    "on_site_wine_production": false,
+    "wine_appellation": null,
+    "bar_service_description": null,
+    "wine_cellar": true
+  },
+
+  "vendor_rules": {
+    "vendor_freedom": "recommended_list",
+    "preferred_vendor_list_available": null,
+    "vendor_categories_recommended": null,
+    "in_house_services": null,
+    "wedding_planner_available": null,
+    "wedding_planner_mandatory": null,
+    "wedding_planner_name": null,
+    "non_approved_vendor_fee": null,
+    "day_of_coordinator_provided": null,
+    "dedicated_project_manager": null
+  },
+
+  "ceremony": {
+    "ceremony_types": null,
+    "licensed_for_civil_marriage": true,
+    "chapel_on_site": null,
+    "chapel_details": null,
+    "nearby_church": null,
+    "outdoor_ceremony_locations": null,
+    "rain_backup_plan": null,
+    "celebrant_available": null,
+    "elopement_option": null
+  },
+
+  "amenities": {
+    "swimming_pool": true,
+    "pool_count": 1,
+    "pool_details": "Saltwater swimming pool",
+    "hot_tub_jacuzzi": null,
+    "spa": false,
+    "spa_details": null,
+    "tennis_court": true,
+    "petanque_court": null,
+    "gym_fitness": false,
+    "games_room": null,
+    "library": null,
+    "cinema_room": null,
+    "grand_piano": null,
+    "children_playground": null,
+    "helipad": null,
+    "gardens_description": "Park and gardens for walking within the Morvan National Park, with terraces and a courtyard garden.",
+    "garden_style": null,
+    "vineyard_on_site": false,
+    "olive_groves": false,
+    "lake_pond": null,
+    "forest_woodland": null,
+    "notable_trees": null,
+    "fountain_water_feature": null,
+    "orangery": null,
+    "dovecote": null,
+    "greenhouse": null
+  },
+
+  "activities": {
+    "on_site_activities": ["swimming", "tennis", "cooking workshops", "wine tasting", "garden walks", "cycling"],
+    "nearby_activities": ["local market visits (Autun, Beaune, Chagny)", "vineyard visits", "game hunting (seasonal, 21 September to 28 February)", "flea markets and brocantes"],
+    "wine_tasting_on_site": true,
+    "cooking_workshops": true,
+    "excursions_organized": true,
+    "excursion_destinations": ["Autun", "Beaune", "Chagny", "local vineyards", "local cheese makers", "local markets"],
+    "fireworks_available": true,
+    "fireworks_details": null
+  },
+
+  "technical": {
+    "wifi_available": null,
+    "sound_system_provided": null,
+    "av_equipment": null,
+    "furniture_provided": null,
+    "furniture_details": null,
+    "decoration_services": null,
+    "marquee_tent_available": null,
+    "marquee_size_sqm": null,
+    "backup_generator": null,
+    "ev_charging_stations": null,
+    "climate_control": null
+  },
+
+  "accessibility": {
+    "wheelchair_accessible": null,
+    "accessible_rooms_count": null,
+    "elevator": null,
+    "pmr_parking": null,
+    "accessibility_details": null
+  },
+
+  "sustainability": {
+    "eco_certifications": null,
+    "eco_practices": null
+  },
+
+  "parking": {
+    "parking_available": true,
+    "parking_spaces": null,
+    "parking_type": null,
+    "vendor_parking_separate": null
+  },
+
+  "policies": {
+    "curfew_time": null,
+    "outdoor_music_curfew": null,
+    "indoor_music_curfew": null,
+    "no_curfew": null,
+    "noise_restrictions": null,
+    "setup_access_time": null,
+    "teardown_deadline": null,
+    "tent_marquee_policy": null,
+    "confetti_policy": null,
+    "candle_policy": null,
+    "event_insurance_required": null,
+    "event_insurance_cost_eur": null,
+    "portable_toilets_policy": null,
+    "lifeguard_required": null,
+    "babysitter_mandatory": null,
+    "pet_policy": "not_allowed",
+    "child_friendly": null,
+    "baby_facilities": null,
+    "children_area": null,
+    "babysitter_available": null,
+    "lgbtq_friendly": null,
+    "all_faiths_welcome": null,
+    "security_guard_policy": null,
+    "events_per_year_limit": null,
+    "check_in_time": null,
+    "check_out_time": null
+  },
+
+  "contact": {
+    "phone_primary": "+33 6 31 52 13 18",
+    "phone_secondary": null,
+    "email_primary": "info@chateaudevillette.eu",
+    "email_secondary": null,
+    "website_url": "https://www.chateaudevillette.com",
+    "instagram": null,
+    "facebook": null,
+    "other_social_media": null,
+    "whatsapp": null,
+    "contact_person": "Coen & Catherine Stork",
+    "phone_hours": null,
+    "brochure_url": null,
+    "virtual_tour_url": null
+  },
+
+  "event_types": ["private celebrations", "family celebrations", "gastronomic breaks", "shooting parties", "group getaways"],
+
+  "wedding_day_details": {
+    "typical_timeline": null,
+    "typical_weekend_flow": null,
+    "multi_day_event": true,
+    "cultural_ceremony_experience": null,
+    "destination_wedding_speciality": null
+  }
+}
