@@ -1,5 +1,7 @@
 # Plan
 
+> **Model: opus** — This command requires deep design thinking and architectural reasoning. Keep on Opus.
+
 Create a detailed implementation plan for changes to this workspace. Plans are thorough documents that capture the full context, rationale, and step-by-step tasks needed to execute a change with complete alignment across the project.
 
 ## Variables

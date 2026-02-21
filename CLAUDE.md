@@ -50,12 +50,14 @@ Claude should always orient itself through `/prime` at session start, then act w
 
 | Directory         | Purpose                                                                        |
 | ----------------- | ------------------------------------------------------------------------------ |
-| `context/`        | Who the user is, their role, current priorities, strategies. Read by `/prime`. |
+| `context/`        | Who the user is, their role, current priorities, strategies. Read by `/prime`. Includes `airtable-schema.md` (north star for database structure) and `ai-appearance-criteria.md` (governing reference for AI search appearance — must be consulted for all content templates and page specs). |
 | `workflows/`      | Parent for all automated workflows. Each gets its own isolated subfolder.      |
 | `best-practices/` | Hidden reference vault. Only access when explicitly asked.                     |
 | `plans/`          | Detailed implementation plans, executed by `/implement`.                       |
 | `outputs/`        | General deliverables, analyses, reports.                                       |
 | `reference/`      | Research data and competitive intelligence (hidden via `.claudeignore`).       |
+| `.strategy/`      | Strategic planning documents and Instagram plan.                               |
+| `.strategy/fws-new/` | All new website rebuild files — see `INDEX.md` for the full file map. Contains: content strategy, rebuild gameplan, keyword analysis, setup guide, and repo scaffold. |
 | `scripts/`        | Automation and tooling scripts.                                                |
 
 ---
@@ -95,6 +97,39 @@ All project workflows follow the **Hermetic Source of Truth** strategy:
     1. **Global:** `.claudeignore` (Filters visibility)
     2. **System:** `CLAUDE.md` (Defines the strategy)
     3. **Local:** `workflow.yml` (Defines the specific task)
+
+---
+
+## Airtable Database
+
+**Base**: French Wedding Style | **ID**: `appFQYNRTuooIRZZz` | **Plan**: Team (Plus)
+
+The full schema reference lives at `context/airtable-schema.md` — the north star document for database structure. It tracks:
+- **Live state**: Every table, field, type, and ID
+- **Target state**: Proposed changes from the website rebuild gameplan
+- **Delta tracker**: Done / Pending / Blocked status per change
+
+**Update rule**: Every time Claude reads from or writes to Airtable, check whether `context/airtable-schema.md` needs updating (new fields, renamed tables, record counts, etc.).
+
+---
+
+## Model Assignments
+
+Each command specifies a recommended model to balance cost and quality. Switch models before running a command (`/model haiku`, `/model sonnet`, or stay on Opus).
+
+| Command | Orchestrator | Task Agents | Rationale |
+|---|---|---|---|
+| `/prime` | **Haiku** | — | File reading + summary only |
+| `/implement` | **Sonnet** | — | Follows a pre-written plan |
+| `/create-plan` | **Opus** | — | Design thinking, architecture |
+| `/scrape-venues` | **Sonnet** | **Sonnet** | Rule-based semantic cleaning |
+| `/extract-brochures` | **Sonnet** | — | Format classification + extraction |
+| `/generate-venue-json` | **Sonnet** | **Opus** | Orchestrator is I/O; agents need 320-field schema accuracy |
+| `/venue-listing` | **Opus** | — | Creative writing + tone compliance |
+| `/location-page` | **Opus** | — | Multi-source synthesis + editorial |
+| `/map-content` | **Opus** | — | Strategic planning + competitive analysis |
+
+**Task agent models are enforced in the command files** — the `model` parameter is specified in the Task agent spawn instructions. Orchestrator models are documented as directives at the top of each command file.
 
 ---
 

@@ -1,5 +1,7 @@
 # Prime
 
+> **Model: haiku** — This command is lightweight. Switch to Haiku before running (`/model haiku`).
+
 > Execute the following sections to understand the workspace then summarize your understanding.
 
 ## Run

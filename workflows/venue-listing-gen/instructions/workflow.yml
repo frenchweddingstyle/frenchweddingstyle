@@ -14,7 +14,7 @@ name: venue-listing-gen
 description: >
   Transforms raw venue brochure text dumps into structured, on-brand
   venue listing pages for French Wedding Style. One venue per run.
-  Applies the Supplier/Venue Listing Pages tone of voice, fills data
+  Applies the Vendor/Venue Listing Pages tone of voice, fills data
   gaps with web research (flagged for review), and inserts optimized
   internal links to FWS location pages.
 root_path: ./
@@ -69,7 +69,7 @@ standalone: true
 # ═════════════════════════════════════════════════════════════════
 
 # ─── Tone of Voice ──────────────────────────────────────────────
-# All content must follow the Supplier/Venue Listing Pages tone
+# All content must follow the Vendor/Venue Listing Pages tone
 # from tone-of-voice.md:
 #
 #   - Professional, informative, credible, decision-focused

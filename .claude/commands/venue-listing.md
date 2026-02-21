@@ -1,5 +1,7 @@
 # Venue Listing Generator
 
+> **Model: opus** — This command requires creative writing with strict tone compliance. Keep on Opus.
+
 Generate a structured venue listing from a raw brochure text dump.
 
 ## Instructions
@@ -10,7 +12,7 @@ Read the following files in order before doing anything else:
 
 1. `workflows/venue-listing-gen/instructions/workflow.yml` — workflow config and processing steps
 2. `workflows/venue-listing-gen/instructions/template.md` — output structure
-3. `context/tone-of-voice.md` — brand voice (focus on **Supplier/Venue Listing Pages** section)
+3. `context/tone-of-voice.md` — brand voice (focus on **Vendor/Venue Listing Pages** section)
 4. `reference/location-pages.json` — internal linking URL data
 
 ### Phase 2: Get Input
@@ -23,7 +25,7 @@ Follow Steps 1–8 from `workflow.yml` exactly:
 
 1. **Parse** the pasted text — map data to template sections
 2. **Categorize** — select French region tag and location hierarchy
-3. **Write content** — populate all template sections using the Supplier/Venue Listing tone
+3. **Write content** — populate all template sections using the Vendor/Venue Listing tone
 4. **Extract business details** — contact info, specs, facilities checklist
 5. **Generate SEO & FAQs** — pricing, 6 FAQs, reviews, Yoast SEO
 6. **Insert 2 internal links** — 1 in About the Venue, 1 in Additional Offerings, using `location-pages.json`

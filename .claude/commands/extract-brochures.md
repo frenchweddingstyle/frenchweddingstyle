@@ -1,5 +1,7 @@
 # Extract Brochures
 
+> **Model: sonnet** — This command follows rule-based extraction patterns. Switch to Sonnet before running (`/model sonnet`).
+
 Extract text from brochure links in Airtable (Google Drive files/folders, Google Docs, Calameo, Canva, etc.), convert to Markdown, and write back to the `brochure_text` column.
 
 Claude orchestrates directly via MCP tools — no Python script needed. **Do NOT read workflow.yml or instructions.md during execution.**

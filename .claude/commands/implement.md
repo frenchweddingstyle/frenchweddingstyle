@@ -1,5 +1,7 @@
 # Implement
 
+> **Model: sonnet** — This command follows a pre-written plan. Switch to Sonnet before running (`/model sonnet`).
+
 Execute an implementation plan created by `/create-plan`. Read the plan thoroughly, execute each step in order, and report on the completed work.
 
 ## Variables

@@ -252,7 +252,7 @@ These are the foundational attributes that define how French Wedding Style commu
 - Use their name and reference specific work when possible
 - Balance professionalism with genuine warmth
 
-### Supplier/Venue Listing Pages
+### Vendor/Venue Listing Pages
 
 **Tone:** Warm, evocative, story-driven — with substance underneath
 

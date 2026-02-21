@@ -19,6 +19,12 @@ context/business-info.md
 # Workflow working directories (drafts, intermediate files)
 workflows/*/working/
 
+# Private strategy documents
+.strategy/
+
+# Temporary files
+tmp/
+
 # OS files
 Thumbs.db
 desktop.ini

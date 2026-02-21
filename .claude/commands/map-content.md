@@ -1,5 +1,7 @@
 # Map Content
 
+> **Model: opus** — This command requires strategic reasoning, competitive analysis, and content architecture design. Keep on Opus.
+
 Create a comprehensive Hub/Spoke content architecture for the French wedding market with authority flow optimization.
 
 ## Usage

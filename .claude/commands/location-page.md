@@ -1,5 +1,7 @@
 # Location Page Generator
 
+> **Model: opus** — This command requires multi-source research synthesis, editorial writing, and complex pipeline logic. Keep on Opus.
+
 Generate a bride-facing informative blog post as a single static HTML file with Tailwind CSS for a target wedding location in France.
 
 ## Setup

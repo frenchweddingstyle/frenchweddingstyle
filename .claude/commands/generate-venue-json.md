@@ -1,5 +1,7 @@
 # Generate Venue JSON
 
+> **Model: sonnet** — The orchestrator handles batching and I/O. Switch to Sonnet before running (`/model sonnet`). Task agents are spawned on **Opus** for schema accuracy.
+
 Extract structured JSON records from scraped venue content and brochure text in Airtable, save locally, and write back to Airtable.
 
 The pipeline reads `venue_url_scraped` and `brochure_text`, validates they refer to the same venue, extracts structured data into a full JSON record (~320 fields) and a summary JSON record (20 fields), saves both locally to `outputs/venue-json/{venue-slug}/`, and writes them to `full_venue_json` and `summary_venue_json` fields in Airtable. **Do NOT read workflow.yml or instructions.md during execution.**
@@ -40,7 +42,7 @@ python "workflows/scrape-venue-site/scripts/process_venue.py" --fetch-json-sourc
 
 #### Step 2: Extract JSON (Delegated to Task Agent)
 
-**CONTEXT MANAGEMENT:** Each venue's content can be 190k+ chars combined. Delegate the full extraction to a **Task agent** (subagent_type: `general-purpose`). You may run up to 2 agents in parallel if multiple venues are ready.
+**CONTEXT MANAGEMENT:** Each venue's content can be 190k+ chars combined. Delegate the full extraction to a **Task agent** (subagent_type: `general-purpose`, model: `opus`). You may run up to 2 agents in parallel if multiple venues are ready. The Opus model is required here for 320-field schema accuracy — do not downgrade.
 
 **Compute the venue slug** from the venue_name before launching the agent:
 - Lowercase, replace spaces with hyphens, remove accents, strip non-alphanumeric characters except hyphens

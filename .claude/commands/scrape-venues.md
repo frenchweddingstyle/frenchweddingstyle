@@ -1,5 +1,7 @@
 # Scrape Venue Sites
 
+> **Model: sonnet** — This command handles rule-based orchestration and semantic cleaning. Switch to Sonnet before running (`/model sonnet`).
+
 Scrape venue websites from Airtable, convert to Markdown, intelligently structure with Claude, and write back to Airtable.
 
 The pipeline has two stages: (1) `process_venue.py --scrape-only` handles map/scrape/basic-clean and saves raw files to `working/`, (2) Claude reads the raw files, strips remaining noise semantically, organizes into structured sections, and writes to Airtable via MCP. **Do NOT read workflow.yml or instructions.md during execution.**
@@ -25,7 +27,7 @@ Read `.env` and extract: `AIRTABLE_API_KEY`, `AIRTABLE_BASE_ID`, `FIRECRAWL_API_
 
 **CONTEXT ISOLATION:** Each venue is processed in its own Task agent to prevent context/memory accumulation in the main orchestrator. The orchestrator never touches raw content — it only sees one-line status summaries.
 
-Process the next 5 eligible records. For each record, launch a **Task agent** (subagent_type: `general-purpose`). Process **one venue at a time** (sequentially, not in parallel) to keep memory low.
+Process the next 5 eligible records. For each record, launch a **Task agent** (subagent_type: `general-purpose`, model: `sonnet`). Process **one venue at a time** (sequentially, not in parallel) to keep memory low.
 
 **The Task agent prompt must include:**
 - The record_id, venue_url, listing-site URLs (chateaubee_url, wedinspire_url, fwv_url — pass empty string if absent)
